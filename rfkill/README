@@ -1,0 +1,4 @@
+#
+# no configure util in mdadm source, just run "make" with
+# "CC=xxx-xxx-gcc"
+#

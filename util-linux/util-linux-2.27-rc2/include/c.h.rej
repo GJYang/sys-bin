@@ -1,0 +1,19 @@
+--- include/c.h	2016-04-22 12:59:24.814108386 +0900
++++ include/c.h.patch	2016-04-22 12:59:45.450108330 +0900
+@@ -320,6 +320,16 @@
+ # define SEEK_HOLE	4
+ #endif
+ 
++#ifndef HAVE_MKOSTEMP
++static inline int mkostemp(char *template, int flags)
++{
++	int fd;
++	fd = mkstemp(template);
++	if (flags & O_CLOEXEC && fd >= 0)
++		fcntl(fd, F_SETFD, FD_CLOEXEC);
++	return fd;
++}
++#endif
+ 
+ /*
+  * Macros to convert #define'itions to strings, for example

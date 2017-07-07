@@ -1,0 +1,5624 @@
+# translation of initscripts.HEAD.mk.po to Macedonian
+# Macedonian translations for mk package.
+# Copyright (C) 2004 THE mk'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mk package.
+#
+#
+# Automatically generated, 2004.
+# Tomislav Markovski <herrera@users.sourceforge.net>, 2004.
+# Arangel Angov <arangel@linux.net.mk>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: initscripts.HEAD.mk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: (null)\n"
+"PO-Revision-Date: 2007-07-14 12:00+0200\n"
+"Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: /etc/rc.d/init.d/openais:30
+#, fuzzy
+msgid "Stopping OpenAIS ($prog): "
+msgstr "Стопирам даемон за OpenAIS ($prog): "
+
+#: /etc/rc.d/init.d/ez-ipupdate:76
+msgid "Reloading $prog for $ez_name: "
+msgstr "Вчитувам $prog за $ez_name: "
+
+#: /etc/rc.d/init.d/incrond:29
+msgid "Stopping incrond: "
+msgstr "Стопирам incrond: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1157
+msgid "No parameters given to setup a default route"
+msgstr "Нема параметри за поставување на стандардна рута"
+
+#: /etc/rc.d/init.d/dhcpd:138 /etc/rc.d/init.d/dhcrelay:116
+msgid "Usage: $0 {start|stop|restart|condrestart|configtest|status}"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|configtest|status}"
+
+#: /etc/rc.d/init.d/ups:59
+msgid "Starting UPS monitor (slave): "
+msgstr "Подигнувам UPS надгледувач (slave)"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:119
+msgid "CRITICAL "
+msgstr "КРИТИЧНО"
+
+#: /etc/rc.d/init.d/lirc:83
+msgid "Stopping infrared remote control mouse daemon ($prog2): "
+msgstr ""
+"Стопирам даемон за контрола на глувчето преку инфра-црвено далечинско "
+"($prog2): "
+
+#: /etc/rc.d/init.d/cyrus-imapd:116
+msgid "$BASENAME exporting databases"
+msgstr "$BASENAME извезувам бази со податоци"
+
+#: /etc/ppp/ip-up.ipv6to4:123 /etc/sysconfig/network-scripts/ifup-ipv6:233
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"Предупредување: конфигурираниот MTU '$IPV6TO4_MTU' за 6to4 ја преминува "
+"границата од максимални '$tunnelmtu', игнорирам"
+
+#: /etc/rc.d/init.d/tclhttpd:51
+msgid "$base dead but pid file exists"
+msgstr "$base умре но pid-от сеуште постои"
+
+#: /etc/sysconfig/network-scripts/ifup:95
+msgid "Could not set 802.1Q VLAN parameters."
+msgstr "Не можам да поставам параметри за 802.1Q VLAN."
+
+#: /etc/sysconfig/network-scripts/ifup:100
+#: /etc/sysconfig/network-scripts/ifup-eth:79
+#: /etc/sysconfig/network-scripts/ifup-ib:52
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "$alias уредот ${DEVICE} не е присутен, ја одложувам иницијализацијата."
+
+#: /etc/rc.d/init.d/amd:97 /etc/rc.d/init.d/bgpd:64 /etc/rc.d/init.d/btseed:70
+#: /etc/rc.d/init.d/bttrack:71 /etc/rc.d/init.d/dropbear:122
+#: /etc/rc.d/init.d/irda:71 /etc/rc.d/init.d/mldonkey:71
+#: /etc/rc.d/init.d/mon:78 /etc/rc.d/init.d/monit:81
+#: /etc/rc.d/init.d/partimaged:88 /etc/rc.d/init.d/ripd:63
+#: /etc/rc.d/init.d/ripngd:63 /etc/rc.d/init.d/tcsd:136
+#: /etc/rc.d/init.d/vblade:91 /etc/rc.d/init.d/zebra:63
+msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+msgstr "Употреба: $0 {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/pcscd:55
+msgid "Stopping PC/SC smart card daemon ($prog): "
+msgstr "Стопирам PC/SC smart card daemon ($prog): "
+
+#: /etc/rc.d/init.d/gpm:47
+msgid "Starting console mouse services: "
+msgstr "Подигнувам сервиси за глушец во конзола: "
+
+#: /etc/rc.d/init.d/rdisc:46
+msgid "Shutting down router discovery services: "
+msgstr "Исклучувам сервиси за откривање на рутер: "
+
+#: /etc/rc.d/init.d/crossfire:33 /etc/rc.d/init.d/liquidwar-server:34
+#: /etc/rc.d/init.d/wesnothd:45 /etc/rc.d/init.d/xpilot-ng-server:33
+msgid "$prog already running"
+msgstr "$prog е веќе подигнат"
+
+#: /etc/rc.d/init.d/ser2net:41
+msgid "Reloading ser2net"
+msgstr "Го освежувам ser2net"
+
+#: /etc/rc.d/init.d/dictd:39
+msgid "no dictionaries installed"
+msgstr "нема инсталирано речници"
+
+#: /etc/rc.d/init.d/syslog-ng:115
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|reload|condrestart|checkconfig}"
+msgstr "Употреба: $0 {start|stop|restart|reload|condrestart}"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} не постои"
+
+#: /etc/rc.d/init.d/monotone:73
+msgid "to"
+msgstr ""
+
+#: /etc/rc.d/init.d/maradns-zoneserver:80
+#, fuzzy
+msgid "Stopping MaraDNS-Zoneserver: "
+msgstr "Стопирам Wesnoth game server: "
+
+#: /etc/rc.d/init.d/iptables:277
+#, fuzzy
+msgid "${IPTABLES}: Firewall is not running."
+msgstr "Заштитниот ѕид не е конфигуриран. "
+
+#: /etc/rc.d/init.d/iptables:291
+#, fuzzy
+msgid "${IPTABLES}: Firewall is not configured. "
+msgstr "Заштитниот ѕид не е конфигуриран. "
+
+#: /etc/rc.d/init.d/util-vserver:60
+msgid "Setting path to vshelper"
+msgstr ""
+
+#: /etc/rc.d/init.d/netfs:113
+msgid "Unmounting CIFS filesystems: "
+msgstr "Демонтирам датотечни системи за CIFS: "
+
+#: /etc/rc.d/init.d/functions:352
+msgid "Usage: pidfileofproc {program}"
+msgstr "Употреба: pidfileproc {program}"
+
+#: /etc/rc.d/init.d/yum-updatesd:42
+msgid "Stopping yum-updatesd: "
+msgstr "Стопирам yum-updatesd: "
+
+#: /etc/rc.d/init.d/vncserver:64
+msgid "vncserver start"
+msgstr "vncserver е подигнат"
+
+#: /etc/rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr ""
+
+#: /etc/rc.d/init.d/atop:74 /etc/rc.d/init.d/audio-entropyd:52
+#: /etc/rc.d/init.d/krb5kdc:86 /etc/rc.d/init.d/newscache:80
+#: /etc/rc.d/init.d/squidGuard:171
+msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+msgstr "Употреба: $0 {start|stop|status|reload|restart|condrestart}"
+
+#: /etc/rc.d/init.d/rpcsvcgssd:50
+msgid "Starting RPC svcgssd: "
+msgstr "Подигнувам RPC svcgssd: "
+
+#: /etc/rc.d/init.d/systemtap:605
+msgid "$s compilation failed "
+msgstr ""
+
+#: /etc/rc.d/init.d/ajaxterm:27 /etc/rc.d/init.d/amd:36
+#: /etc/rc.d/init.d/amtu:50 /etc/rc.d/init.d/aprsd:32
+#: /etc/rc.d/init.d/arpwatch:38 /etc/rc.d/init.d/atd:36
+#: /etc/rc.d/init.d/athcool:19 /etc/rc.d/init.d/atop:19
+#: /etc/rc.d/init.d/auditd:53 /etc/rc.d/init.d/auth2:26
+#: /etc/rc.d/init.d/autofs:88 /etc/rc.d/init.d/autogroup:38
+#: /etc/rc.d/init.d/autohome:36 /etc/rc.d/init.d/beanstalkd:33
+#: /etc/rc.d/init.d/boa:36 /etc/rc.d/init.d/boinc-client:114
+#: /etc/rc.d/init.d/bootparamd:38 /etc/rc.d/init.d/bro:86
+#: /etc/rc.d/init.d/canna:37 /etc/rc.d/init.d/cfexecd:22
+#: /etc/rc.d/init.d/cfservd:26 /etc/rc.d/init.d/chronyd:84
+#: /etc/rc.d/init.d/chunkd:33 /etc/rc.d/init.d/clamav-milter:23
+#: /etc/rc.d/init.d/clamd-wrapper:43 /etc/rc.d/init.d/cld:34
+#: /etc/rc.d/init.d/coda-client:25 /etc/rc.d/init.d/codasrv:21
+#: /etc/rc.d/init.d/collectd:25 /etc/rc.d/init.d/collectl:32
+#: /etc/rc.d/init.d/couchdb:37 /etc/rc.d/init.d/cpuspeed:91
+#: /etc/rc.d/init.d/crond:46 /etc/rc.d/init.d/ctrlproxy:41
+#: /etc/rc.d/init.d/cups:53 /etc/rc.d/init.d/cwdaemon:32
+#: /etc/rc.d/init.d/dbmail-imapd:36 /etc/rc.d/init.d/dbmail-lmtpd:37
+#: /etc/rc.d/init.d/dbmail-pop3d:37 /etc/rc.d/init.d/dbmail-timsieved:38
+#: /etc/rc.d/init.d/dc_client:33 /etc/rc.d/init.d/dc_server:29
+#: /etc/rc.d/init.d/ddclient:28 /etc/rc.d/init.d/dhcp-fwd:40
+#: /etc/rc.d/init.d/dhcp6r:44 /etc/rc.d/init.d/dhcp6s:56
+#: /etc/rc.d/init.d/dhcpd:81 /etc/rc.d/init.d/dhcrelay:54
+#: /etc/rc.d/init.d/dictd:34 /etc/rc.d/init.d/distccd:42
+#: /etc/rc.d/init.d/dovecot:46 /etc/rc.d/init.d/dropbear:69
+#: /etc/rc.d/init.d/fcron_watch_config:32 /etc/rc.d/init.d/flow-capture:42
+#: /etc/rc.d/init.d/fnfxd:26 /etc/rc.d/init.d/freenx-server:40
+#: /etc/rc.d/init.d/freenx-server:42 /etc/rc.d/init.d/fyre-cluster:31
+#: /etc/rc.d/init.d/gearmand:37 /etc/rc.d/init.d/globus-rls-server:28
+#: /etc/rc.d/init.d/glusterfsd:37 /etc/rc.d/init.d/gmediaserver:59
+#: /etc/rc.d/init.d/gpsd:44 /etc/rc.d/init.d/haproxy:40
+#: /etc/rc.d/init.d/honeyd:38 /etc/rc.d/init.d/httpd:54
+#: /etc/rc.d/init.d/i8k:39 /etc/rc.d/init.d/ibmasm:19
+#: /etc/rc.d/init.d/inadyn:42 /etc/rc.d/init.d/ip-sentinel:27
+#: /etc/rc.d/init.d/ircd:26 /etc/rc.d/init.d/irda:23
+#: /etc/rc.d/init.d/irqbalance:45 /etc/rc.d/init.d/iscsi:50
+#: /etc/rc.d/init.d/iscsid:37 /etc/rc.d/init.d/jetty:59
+#: /etc/rc.d/init.d/kadmin:55 /etc/rc.d/init.d/keepalived:36
+#: /etc/rc.d/init.d/kojid:32 /etc/rc.d/init.d/kojira:32
+#: /etc/rc.d/init.d/kprop:37 /etc/rc.d/init.d/krb5kdc:40
+#: /etc/rc.d/init.d/ldap:181 /etc/rc.d/init.d/lighttpd:40
+#: /etc/rc.d/init.d/mailgraph:39 /etc/rc.d/init.d/mailman:86
+#: /etc/rc.d/init.d/mcstrans:44 /etc/rc.d/init.d/mdmonitor:50
+#: /etc/rc.d/init.d/memcached:37 /etc/rc.d/init.d/milter-greylist:25
+#: /etc/rc.d/init.d/milter-regex:30 /etc/rc.d/init.d/miredo-client:46
+#: /etc/rc.d/init.d/miredo-server:48 /etc/rc.d/init.d/monit:29
+#: /etc/rc.d/init.d/mrepo:27 /etc/rc.d/init.d/mydns:24
+#: /etc/rc.d/init.d/mysql-proxy:35 /etc/rc.d/init.d/mysqld:87
+#: /etc/rc.d/init.d/mysqld:90 /etc/rc.d/init.d/mysqld:93
+#: /etc/rc.d/init.d/ndb_mgmd:58 /etc/rc.d/init.d/ndb_mgmd:60
+#: /etc/rc.d/init.d/ndbd:53 /etc/rc.d/init.d/ndbd:55
+#: /etc/rc.d/init.d/ndo2db:41 /etc/rc.d/init.d/nessusd:38
+#: /etc/rc.d/init.d/nginx:34 /etc/rc.d/init.d/ngircd:25
+#: /etc/rc.d/init.d/noip:35 /etc/rc.d/init.d/npcd:34 /etc/rc.d/init.d/nscd:41
+#: /etc/rc.d/init.d/nslcd:29 /etc/rc.d/init.d/ntop:33 /etc/rc.d/init.d/ntpd:44
+#: /etc/rc.d/init.d/nuauth:64 /etc/rc.d/init.d/nufw:62
+#: /etc/rc.d/init.d/nxtvepgd:34 /etc/rc.d/init.d/odccm:25
+#: /etc/rc.d/init.d/oddjobd:35 /etc/rc.d/init.d/oidentd:41
+#: /etc/rc.d/init.d/openhpid:101 /etc/rc.d/init.d/openhpid:106
+#: /etc/rc.d/init.d/openhpid:111 /etc/rc.d/init.d/openhpid:121
+#: /etc/rc.d/init.d/openser:22 /etc/rc.d/init.d/pads:35
+#: /etc/rc.d/init.d/pads:39 /etc/rc.d/init.d/pathfinderd:38
+#: /etc/rc.d/init.d/plague-builder:32 /etc/rc.d/init.d/plague-server:33
+#: /etc/rc.d/init.d/poker-bot:34 /etc/rc.d/init.d/poker-server:34
+#: /etc/rc.d/init.d/portreserve:48 /etc/rc.d/init.d/postgrey:39
+#: /etc/rc.d/init.d/prelude-correlator:32
+#: /etc/rc.d/init.d/prelude-correlator:36 /etc/rc.d/init.d/prelude-manager:17
+#: /etc/rc.d/init.d/prelude-manager:21 /etc/rc.d/init.d/proftpd:52
+#: /etc/rc.d/init.d/psad:50 /etc/rc.d/init.d/pure-ftpd:32
+#: /etc/rc.d/init.d/racoon:21 /etc/rc.d/init.d/rarpd:42
+#: /etc/rc.d/init.d/ratbox-services:25 /etc/rc.d/init.d/rbldnsd:84
+#: /etc/rc.d/init.d/rinetd:25 /etc/rc.d/init.d/ris-linuxd:44
+#: /etc/rc.d/init.d/roundup:27 /etc/rc.d/init.d/rpcbind:45
+#: /etc/rc.d/init.d/rtpproxy:21 /etc/rc.d/init.d/rwalld:39
+#: /etc/rc.d/init.d/saslauthd:40 /etc/rc.d/init.d/scanbuttond:32
+#: /etc/rc.d/init.d/searchd:33 /etc/rc.d/init.d/sems:23
+#: /etc/rc.d/init.d/sendmail:60 /etc/rc.d/init.d/sensord:22
+#: /etc/rc.d/init.d/ser:36 /etc/rc.d/init.d/sge_execd:53
+#: /etc/rc.d/init.d/sigul_bridge:13 /etc/rc.d/init.d/sigul_server:14
+#: /etc/rc.d/init.d/sip-redirect:31 /etc/rc.d/init.d/smartd:52
+#: /etc/rc.d/init.d/smsd:21 /etc/rc.d/init.d/snmpd:40
+#: /etc/rc.d/init.d/snmptrapd:42 /etc/rc.d/init.d/spamassassin:41
+#: /etc/rc.d/init.d/spampd:39 /etc/rc.d/init.d/squid:65
+#: /etc/rc.d/init.d/squid:77 /etc/rc.d/init.d/squidGuard:71
+#: /etc/rc.d/init.d/ssbd:30 /etc/rc.d/init.d/sshd:127 /etc/rc.d/init.d/sssd:40
+#: /etc/rc.d/init.d/systemtap:482 /etc/rc.d/init.d/tabled:34
+#: /etc/rc.d/init.d/tclhttpd:143 /etc/rc.d/init.d/tcsd:90
+#: /etc/rc.d/init.d/thebridge:28 /etc/rc.d/init.d/thttpd:36
+#: /etc/rc.d/init.d/tinyerp-server:47 /etc/rc.d/init.d/tinyproxy:36
+#: /etc/rc.d/init.d/tor:31 /etc/rc.d/init.d/trytond:48
+#: /etc/rc.d/init.d/tuned:34 /etc/rc.d/init.d/ulogd:34
+#: /etc/rc.d/init.d/update:28 /etc/rc.d/init.d/update:36
+#: /etc/rc.d/init.d/upnpd:35 /etc/rc.d/init.d/ups:45
+#: /etc/rc.d/init.d/ushare:28 /etc/rc.d/init.d/vdradmind:27
+#: /etc/rc.d/init.d/vncserver:36 /etc/rc.d/init.d/vtund:36
+#: /etc/rc.d/init.d/watchdog:26 /etc/rc.d/init.d/xfs:57
+#: /etc/rc.d/init.d/xinetd:56 /etc/rc.d/init.d/xrdp:34
+#: /etc/rc.d/init.d/xrdp:58 /etc/rc.d/init.d/zfs-fuse:58
+#: /etc/rc.d/init.d/zoneminder:47
+msgid "Starting $prog: "
+msgstr "Подигнувам $prog: "
+
+#: /etc/rc.d/init.d/ypbind:56 /etc/rc.d/init.d/ypbind:61
+#, fuzzy
+msgid "domain is '$NISDOMAIN' "
+msgstr "Поставувам NIS име во доменот $NISDOMAIN: "
+
+#: /etc/rc.d/init.d/cgred:73
+#, fuzzy
+msgid "Starting CGroup Rules Engine Daemon..."
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/shorewall:36 /etc/rc.d/init.d/shorewall-lite:36
+#: /etc/rc.d/init.d/shorewall6:36 /etc/rc.d/init.d/shorewall6-lite:36
+#, fuzzy
+msgid "Starting Shorewall: "
+msgstr "Подигнувам fail2ban: "
+
+#: /etc/rc.d/init.d/codeanalyst:175
+#, fuzzy
+msgid "Check Oprofile filesystem mounted ... "
+msgstr "Проверувам квоти на локалниот датотечен систем: "
+
+#: /etc/rc.d/init.d/ebtables:87
+msgid "Saving $desc ($prog): "
+msgstr "Зачувувам $desc ($prog): "
+
+#: /etc/sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr ""
+"Недостасува далечинската адреса за Ipv4 на тунелот, конфигурацијата е "
+"невалидна"
+
+#: /etc/rc.d/init.d/systemtap:518
+#, fuzzy
+msgid "$prog startup"
+msgstr "$prog подигнување"
+
+#: /etc/rc.d/init.d/preload:57
+#, fuzzy
+msgid "Starting preload daemon: "
+msgstr "Подигнувам даемон за $prog: "
+
+#: /etc/rc.d/init.d/denyhosts:60
+#, fuzzy
+msgid "Disabling denyhosts cron service: "
+msgstr "Го исклучувам denyhosts: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1246
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr "Неподдржан механизам '$mechanism' за праќање сигнал до radvd"
+
+#: /etc/ppp/ip-up.ipv6to4:189 /etc/sysconfig/network-scripts/ifup-ipv6:299
+msgid "radvd control enabled, but config is not complete"
+msgstr "radvd контролата е овозможена, но конфигурацијата е некомплетна"
+
+#: /etc/rc.d/init.d/named:238
+#, fuzzy
+msgid "Reloading "
+msgstr "Освежувам мапи"
+
+#: /etc/rc.d/init.d/messagebus:48
+msgid "Stopping system message bus: "
+msgstr "Стопирам системска магистрала за пораки: "
+
+#: /etc/rc.d/init.d/privoxy:134
+msgid "Usage: $PRIVOXY_PRG {start|stop|reload|restart|condrestart|status|top}"
+msgstr ""
+"Употреба: $PRIVOXY_PRG {start|stop|reload|restart|condrestart|status|top}"
+
+#: /etc/rc.d/init.d/nsca:55
+#, fuzzy
+msgid "Reloading nsca: "
+msgstr "Го освежувам $named: "
+
+#: /etc/rc.d/init.d/radvd:43
+msgid "Insufficient privilege"
+msgstr ""
+
+#: /etc/rc.d/init.d/yum-cron:29
+#, fuzzy
+msgid "Disabling nightly yum update: "
+msgstr "Оневозможувам дневни ажурирање преку apt: "
+
+#: /etc/rc.d/init.d/i8k:71
+msgid "Module $module is loaded."
+msgstr ""
+
+#: /etc/rc.d/init.d/arptables_jf:192
+msgid "Usage: $0 {start|stop|restart|condrestart|status|panic|save}"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|status|panic|save}"
+
+#: /etc/rc.d/init.d/ups:68
+msgid "Stopping UPS monitor: "
+msgstr "Стопирам надгледувач на UPS: "
+
+#: /etc/rc.d/init.d/smokeping:71
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+"restart}"
+msgstr "Употреба: $0 {start|stop|status|restart|condrestart|try-restart"
+
+#: /etc/rc.d/init.d/nginx:131
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|restart}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/smolt:22
+#, fuzzy
+msgid "Enabling monthly Smolt checkin: "
+msgstr "Вклучувам дневно ажурирање преку apt: "
+
+#: /etc/rc.d/rc.sysinit:83
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr ""
+"*** Предупредување -- Потребно е реозначување на полисата за SELinux "
+"${SELINUXTYPE}."
+
+#: /etc/rc.d/init.d/arptables_jf:117
+msgid "Removing user defined chains:"
+msgstr "Отстранувам кориснички дефинирани правила:"
+
+#: /etc/rc.d/init.d/sec:34
+msgid "Starting $prog instance "
+msgstr "Подигнувам инстанца на $prog "
+
+#: /etc/rc.d/init.d/yum-cron:60
+#, fuzzy
+msgid "Nightly yum update is disabled."
+msgstr "Дневното ажурирање преку apt е исклучено."
+
+#: /etc/rc.d/init.d/udev-post:26
+msgid "Retrigger failed udev events"
+msgstr ""
+
+#: /etc/rc.d/init.d/rwhod:52
+msgid "Stopping rwho services: "
+msgstr "Стопирам сервис за rwho: "
+
+#: /etc/rc.d/init.d/ypbind:121
+#, fuzzy
+msgid "Shutting down NIS service: "
+msgstr "Исклучувам сервиси за NIS: "
+
+#: /etc/rc.d/init.d/vncserver:22
+msgid "VNC server"
+msgstr "VNS сервер"
+
+#: /etc/rc.d/init.d/arptables_jf:65
+msgid "Flushing all current rules and user defined chains:"
+msgstr "Ги празнам сите правила на заштитниот ѕид:"
+
+#: /etc/rc.d/init.d/bwbar:67 /etc/rc.d/init.d/fail2ban:87
+#: /etc/rc.d/init.d/netplugd:56
+msgid "Usage: $0 {start|stop|status|restart}"
+msgstr "Употреба: $0 {start|stop|status|restart}"
+
+#: /etc/rc.d/init.d/tgtd:51
+msgid "Targets still in use. Cannot shutdown service."
+msgstr ""
+
+#: /etc/rc.d/init.d/icecast:45
+msgid "Reloading icecast: "
+msgstr "Го освежувам icecast: "
+
+#: /etc/rc.d/init.d/openvpn:179
+msgid "Shutting down openvpn: "
+msgstr "Исклучувам openvpn: "
+
+#: /etc/rc.d/init.d/puppetmaster:131
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+"genconfig}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart|once}"
+
+#: /etc/rc.d/rc.sysinit:260
+msgid "\t\tWelcome to "
+msgstr "\t\tДобродојдовте во "
+
+#: /etc/rc.d/init.d/dansguardian:37 /etc/rc.d/init.d/mon:35
+#: /etc/rc.d/init.d/partimaged:45
+msgid "Shutting down $desc ($prog): "
+msgstr "Исклучувам $desc ($prog): "
+
+#: /etc/rc.d/init.d/pmud:25
+#, fuzzy
+msgid "Starting pmud daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/syslog-ng:84
+#, fuzzy
+msgid "Reloading syslog-ng: "
+msgstr "Освежувам датотека syslog-ng.conf: "
+
+#: /etc/rc.d/init.d/rsyslog:45 /etc/rc.d/init.d/sysklogd:54
+msgid "Shutting down system logger: "
+msgstr "Исклучувам запис за системот: "
+
+#: /etc/rc.d/init.d/maradns:75
+#, fuzzy
+msgid "Starting all MaraDNS processes: "
+msgstr "Подигнувам сервиси за NFS: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:217
+#: /etc/sysconfig/network-scripts/ifup-ib:179
+msgid " done."
+msgstr " завршено."
+
+#: /etc/rc.d/init.d/NetworkManager:101 /etc/rc.d/init.d/amavisd-snmp:62
+#: /etc/rc.d/init.d/avahi-daemon:102 /etc/rc.d/init.d/avahi-dnsconfd:99
+#: /etc/rc.d/init.d/gadget:86 /etc/rc.d/init.d/haldaemon:71
+#: /etc/rc.d/init.d/ibmasm:95 /etc/rc.d/init.d/innd:135
+#: /etc/rc.d/init.d/ipa_kpasswd:79 /etc/rc.d/init.d/ipa_webgui:75
+#: /etc/rc.d/init.d/kprop:75 /etc/rc.d/init.d/milter-greylist:83
+#: /etc/rc.d/init.d/nasd:83 /etc/rc.d/init.d/ndo2db:96
+#: /etc/rc.d/init.d/netconsole:36 /etc/rc.d/init.d/ohmd:86
+#: /etc/rc.d/init.d/pkcsslotd:83 /etc/rc.d/init.d/sqlgrey:65
+#: /etc/rc.d/init.d/sysklogd:118 /etc/rc.d/init.d/tinyerp-server:122
+#: /etc/rc.d/init.d/xenner:163 /etc/rc.d/init.d/zvbid:62
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "Употреба: $0 {start|stop|status|restart|condrestart}"
+
+#: /etc/rc.d/init.d/ohmd:48
+#, fuzzy
+msgid "Stopping Open Hardware Manager: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/ldap:144 /etc/rc.d/init.d/ldap:150
+msgid "Checking configuration files for $prog: "
+msgstr "Проверувам конфигурациски датотеки за $prog: "
+
+#: /etc/rc.d/init.d/halt:44
+msgid "$0: call me as 'halt' or 'reboot' please!"
+msgstr "$0: викај ме како 'halt' или 'reboot' !"
+
+#: /etc/rc.d/init.d/ypbind:54
+#, fuzzy
+msgid "Setting NIS domain: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/isdn:252
+msgid "$NAME is attached to $DEVICE"
+msgstr "$NAME е прикачен за $DEVICE"
+
+#: /etc/rc.d/init.d/ypbind:185
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+"status}"
+msgstr ""
+"Употреба: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+
+#: /etc/rc.d/init.d/corosync:20
+#, fuzzy
+msgid "Starting Corosync Cluster Engine ($prog): "
+msgstr "Подигнувам $desc ($prog): "
+
+#: /etc/rc.d/init.d/clement:103
+msgid "Start freshclam"
+msgstr ""
+
+#: /etc/rc.d/init.d/aprsd:45 /etc/rc.d/init.d/cwdaemon:42
+#: /etc/rc.d/init.d/dhcp6r:53 /etc/rc.d/init.d/dhcp6s:65
+#: /etc/rc.d/init.d/dhcpd:96 /etc/rc.d/init.d/dhcrelay:69
+#: /etc/rc.d/init.d/dictd:55 /etc/rc.d/init.d/fnfxd:37
+#: /etc/rc.d/init.d/inadyn:51 /etc/rc.d/init.d/irda:34
+#: /etc/rc.d/init.d/mailman:101 /etc/rc.d/init.d/monit:38
+#: /etc/rc.d/init.d/ntpd:53 /etc/rc.d/init.d/odccm:33
+#: /etc/rc.d/init.d/oddjobd:54 /etc/rc.d/init.d/proftpd:60
+#: /etc/rc.d/init.d/sendmail:111 /etc/rc.d/init.d/sigul_bridge:23
+#: /etc/rc.d/init.d/sigul_server:24 /etc/rc.d/init.d/smartd:62
+#: /etc/rc.d/init.d/ssbd:40 /etc/rc.d/init.d/thebridge:38
+#: /etc/rc.d/init.d/vblade:51 /etc/rc.d/init.d/vncserver:72
+#: /etc/rc.d/init.d/vsftpd:57 /etc/rc.d/init.d/xfs:76
+msgid "Shutting down $prog: "
+msgstr "Исклучувам $prog: "
+
+#: /etc/rc.d/init.d/acpid:79
+#, fuzzy
+msgid "Reloading acpi daemon:"
+msgstr "Освежувам oki4daemon: "
+
+#: /etc/rc.d/init.d/cyrus-imapd:87
+msgid "$BASENAME importing databases"
+msgstr "$BASENAME увезување на базите со податоци"
+
+#: /etc/rc.d/init.d/greylistd:20
+msgid "Starting greylistd: "
+msgstr "Подигнувам greylistd: "
+
+#: /etc/rc.d/init.d/NetworkManager:68
+msgid "Stopping NetworkManager daemon: "
+msgstr "Стопирам даемон за мрежен менаџер: "
+
+#: /etc/rc.d/init.d/capi:79 /etc/rc.d/init.d/fb-server:76
+#: /etc/rc.d/init.d/greylistd:69 /etc/rc.d/init.d/isdn:281
+#: /etc/rc.d/init.d/isnsd:74 /etc/rc.d/init.d/tgtd:86
+#: /etc/rc.d/init.d/watchdog:84
+msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+msgstr "Употреба: $0 {start|stop|restart|status|condrestart}"
+
+#: /etc/rc.d/init.d/smokeping:33
+#, fuzzy
+msgid "Starting smokeping: "
+msgstr "Подигнувам openvpn: "
+
+#: /etc/rc.d/init.d/mldonkey:40
+#, fuzzy
+msgid "Stopping Mldonkey (mlnet): "
+msgstr "Стопирам oki4daemon: "
+
+#: /etc/rc.d/init.d/puppet:36
+msgid "Starting puppet: "
+msgstr "Подигнувам puppet: "
+
+#: /etc/rc.d/init.d/cyphesis:37
+#, fuzzy
+msgid "PostgreSQL server is not running."
+msgstr "CIM серверот не работи"
+
+#: /etc/rc.d/init.d/halt:60
+msgid "Sending all processes the TERM signal..."
+msgstr "Испраќам TERM сигнал до сите процеси..."
+
+#: /etc/rc.d/init.d/auditd:112
+msgid "Rotating logs: "
+msgstr "Ротирачки логови: "
+
+#: /etc/rc.d/init.d/clamd-wrapper:10
+msgid "*** the clamav-server can be configured"
+msgstr "*** clamav-серверот може да биде конфигуриран"
+
+#: /etc/rc.d/init.d/restorecond:41
+msgid "Starting restorecond: "
+msgstr "Подигнувам restorecond: "
+
+#: /etc/rc.d/init.d/xenstored:43
+#, fuzzy
+msgid "Starting xenstored daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/gvrpcd:63
+#, fuzzy
+msgid "Starting ${ifprog}: "
+msgstr "Подигнувам ${prog}: "
+
+#: /etc/rc.d/init.d/sqlgrey:25
+#, fuzzy
+msgid "Shutting down SQLgrey: "
+msgstr "Исклучувам greylistd: "
+
+#: /etc/rc.d/init.d/vprocunhide:53
+msgid "/proc entries are not fixed"
+msgstr "записите во /proc не се фиксни"
+
+#: /etc/rc.d/init.d/ipmi:229 /etc/rc.d/init.d/ipmi:235
+msgid "Starting ipmi_watchdog driver: "
+msgstr "Подигнувам драјвер за ipmi_watchdog: "
+
+#: /etc/rc.d/init.d/ktune:106
+msgid "Applying ktune sysctl settings:"
+msgstr ""
+
+#: /etc/rc.d/init.d/libvirt-qpid:46 /etc/rc.d/init.d/libvirtd:69
+#: /etc/rc.d/init.d/matahari:30
+#, fuzzy
+msgid "Stopping $SERVICE daemon: "
+msgstr "Стопирам даемон за $prog: "
+
+#: /etc/rc.d/init.d/named:135
+#, fuzzy
+msgid "Starting named: "
+msgstr "Подигнувам $named: "
+
+#: /etc/rc.d/init.d/nfs:134
+msgid "Shutting down NFS daemon: "
+msgstr "Исклучувам даемон за NFS: "
+
+#: /etc/rc.d/init.d/netfs:114
+msgid "Unmounting NCP filesystems: "
+msgstr "Одмонтирам датотечни системи за NCP: "
+
+#: /etc/rc.d/init.d/codeanalyst:323
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+"reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/tclhttpd:46
+msgid "$base (pid $pid) is running..."
+msgstr "$base (pid $pid) веќе работи..."
+
+#: /etc/rc.d/init.d/postfix:84
+msgid "Shutting down postfix: "
+msgstr "Исклучувам postfix: "
+
+#: /etc/rc.d/init.d/innd:99
+msgid "Reloading INN Service: "
+msgstr "Повторно го вчитувам сервисот INN: "
+
+#: /etc/rc.d/init.d/condor:49
+#, fuzzy
+msgid "Stopping Condor daemons: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/arptables_jf:106
+msgid "Flushing all chains:"
+msgstr "Празнам правила за заштитен ѕид:"
+
+#: /etc/rc.d/init.d/mysqld:58
+msgid "Initializing MySQL database: "
+msgstr "Иницијализирам база на податоци MySQL: "
+
+#: /etc/rc.d/init.d/ip6tables:179
+msgid "${IP6TABLES}: ${_IPV} is disabled."
+msgstr ""
+
+#: /etc/rc.d/init.d/incrond:21
+msgid "Starting incrond: "
+msgstr "Подигнувам incrond: "
+
+#: /etc/rc.d/init.d/capi:26
+msgid "Starting capi4linux:"
+msgstr "Подигнувам capi4linux:"
+
+#: /etc/rc.d/init.d/aiccu:117 /etc/rc.d/init.d/exim:124
+#: /etc/rc.d/init.d/nmb:110 /etc/rc.d/init.d/smb:110
+#: /etc/rc.d/init.d/winbind:98
+msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+msgstr "Употреба: $0 {start|stop|restart|reload|status|condrestart}"
+
+#: /etc/rc.d/init.d/halt:23
+#, fuzzy
+msgid "Stopping disk encryption for $dst"
+msgstr "Го стопирам кодирањето на дискот: "
+
+#: /etc/rc.d/init.d/rfcomm:32
+#, fuzzy
+msgid "Shutting down rfcomm: "
+msgstr "Исклучувам $prog: "
+
+#: /etc/rc.d/init.d/functions:131
+msgid "Detaching loopback device $dev: "
+msgstr "Откачувам уред за повратна врска $dev: "
+
+#: /etc/rc.d/init.d/spamass-milter:109
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+msgstr ""
+"Употреба: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+
+#: /etc/sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "употреба: $0 <net-device>"
+
+#: /etc/rc.d/init.d/greylistd:35
+msgid "Shutting down greylistd: "
+msgstr "Исклучувам greylistd: "
+
+#: /etc/rc.d/init.d/openscadad:47
+#, fuzzy
+msgid "Stopping OpenSCADA daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/perlbal:29
+#, fuzzy
+msgid "Stopping Perlbal: "
+msgstr "Стопирам fail2ban: "
+
+#: /etc/rc.d/init.d/bluetooth:40 /etc/rc.d/init.d/dkms_autoinstaller:206
+#: /etc/rc.d/init.d/firstboot:78 /etc/rc.d/init.d/xguest:57
+msgid "Usage: $0 {start|stop}"
+msgstr "Употреба: $0 {start|stop}"
+
+#: /etc/rc.d/init.d/dansguardian:28 /etc/rc.d/init.d/ebtables:42
+#: /etc/rc.d/init.d/mon:26 /etc/rc.d/init.d/partimaged:36
+msgid "Starting $desc ($prog): "
+msgstr "Подигнувам $desc ($prog): "
+
+#: /etc/rc.d/init.d/shorewall:50 /etc/rc.d/init.d/shorewall-lite:50
+#: /etc/rc.d/init.d/shorewall6:50 /etc/rc.d/init.d/shorewall6-lite:50
+#, fuzzy
+msgid "Stopping Shorewall: "
+msgstr "Стопирам fail2ban: "
+
+#: /etc/rc.d/init.d/iptables:131
+#, fuzzy
+msgid "${IPTABLES}: Setting chains to policy $policy: "
+msgstr "Поставувам синџири на полисата $policy: "
+
+#: /etc/rc.d/init.d/fsniper:49 /etc/rc.d/init.d/radvd:69
+#, fuzzy
+msgid "Reloading $PROG: "
+msgstr "Повторно вчитувам $prog: "
+
+#: /etc/rc.d/init.d/microcode_ctl:40
+msgid "$0: CPU microcode data file not present ($DATAFILE)"
+msgstr "$0: датотеката со податоци за CPU microcode не е присутна ($DATAFILE)"
+
+#: /etc/sysconfig/network-scripts/ifup:81
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "PHYSDEV треба да е поставен за уредот ${DEVICE}"
+
+#: /etc/rc.d/init.d/condor:200
+#, fuzzy
+msgid "$0: error: $prog is not running"
+msgstr "$prog не работи"
+
+#: /etc/rc.d/init.d/systemtap:66
+msgid "\t-y \t\t: answer yes for all questions."
+msgstr ""
+
+#: /etc/rc.d/init.d/puppet:75
+#, fuzzy
+msgid "Generate configuration puppet: "
+msgstr "Повторно вчитувам конфигурација: "
+
+#: /etc/rc.d/init.d/ctdb:231
+#, fuzzy
+msgid "Checking for ctdbd service: "
+msgstr "Проверувам уреди за SMART: "
+
+#: /etc/rc.d/init.d/ulogd:77
+#, fuzzy
+msgid "restarting $prog..."
+msgstr "Повторно вчитувам $prog:"
+
+#: /etc/rc.d/init.d/psacct:22
+msgid "Starting process accounting: "
+msgstr "Подигнувам процес accounting: "
+
+#: /etc/rc.d/init.d/ypxfrd:22
+msgid "Starting YP map server: "
+msgstr "Подигнувам сервер за YP map: "
+
+#: /etc/rc.d/init.d/ulogd:53
+#, fuzzy
+msgid "$prog is already stopped."
+msgstr "$prog е стопиран"
+
+#: /etc/rc.d/init.d/monotone:205 /etc/rc.d/init.d/monotone:206
+msgid "database check"
+msgstr ""
+
+#: /etc/rc.d/init.d/vdr:81
+#, fuzzy
+msgid "Restarting Video Disk Recorder ($prog): "
+msgstr "Подигнувам Video Disk Recorder ($prog): "
+
+#: /etc/rc.d/init.d/cfenvd:27
+msgid "Starting GNU cfengine environmental history daemon: "
+msgstr "Подигнувам даемон за историја на околината на GNU cfengine : "
+
+#: /etc/rc.d/init.d/glacier2router:71 /etc/rc.d/init.d/icegridnode:72
+#: /etc/rc.d/init.d/icegridregistry:72
+#, fuzzy
+msgid "Shutting down $progbase: "
+msgstr "Исклучувам ${prog_base}:"
+
+#: /etc/sysconfig/network-scripts/ifup-ippp:374
+#: /etc/sysconfig/network-scripts/ifup-isdn:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+"Предупредување: ipppd (кернел 2.4.x и постар) не поддржува IPv6 користејќи "
+"изолирање со 'syncppp'"
+
+#: /etc/rc.d/init.d/gpm:58
+msgid "(no mouse is configured)"
+msgstr "(глушецот не е конфигуриран)"
+
+#: /etc/rc.d/rc.sysinit:84
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr ""
+"*** Во зависност од датотеката, реознечувањето може да трае многу долго време"
+
+#: /etc/rc.d/init.d/honeyd:46
+#, fuzzy
+msgid "Starting $prog2: "
+msgstr "Подигнувам $prog: "
+
+#: /etc/rc.d/init.d/pgpool:120
+msgid "Sending switchover request to $NAME "
+msgstr ""
+
+#: /etc/rc.d/init.d/gkrellmd:70 /etc/rc.d/init.d/gpsd:85
+#: /etc/rc.d/init.d/hddtemp:79 /etc/rc.d/init.d/vdr:96
+msgid "Service $prog does not support the reload action: "
+msgstr ""
+
+#: /etc/rc.d/init.d/ypbind:34
+msgid "Turning on allow_ypbind SELinux boolean"
+msgstr "Вклучувам дозвола за _ypbind SELinux boolean"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr "pppd е подигнат за ${DEVNAME} на ${MODEMPORT} со ${LINESPEED}"
+
+#: /etc/rc.d/init.d/dcbd:246
+#, fuzzy
+msgid "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+msgstr "Употреба: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#: /etc/rc.d/init.d/apmd:59
+#, fuzzy
+msgid "Shutting down APM daemon: "
+msgstr "Исклучувам Avahi даемон: "
+
+#: /etc/rc.d/init.d/athcool:68 /etc/rc.d/init.d/crossfire:98
+#: /etc/rc.d/init.d/ctrlproxy:108 /etc/rc.d/init.d/ddclient:77
+#: /etc/rc.d/init.d/distccd:108 /etc/rc.d/init.d/flow-capture:109
+#: /etc/rc.d/init.d/gnokii-smsd:73 /etc/rc.d/init.d/haproxy:107
+#: /etc/rc.d/init.d/icecc-scheduler:110 /etc/rc.d/init.d/iceccd:126
+#: /etc/rc.d/init.d/liquidwar-server:93 /etc/rc.d/init.d/lirc:131
+#: /etc/rc.d/init.d/named:279 /etc/rc.d/init.d/nessusd:86
+#: /etc/rc.d/init.d/openct:85 /etc/rc.d/init.d/pathfinderd:105
+#: /etc/rc.d/init.d/pcscd:82 /etc/rc.d/init.d/plague-builder:98
+#: /etc/rc.d/init.d/plague-server:99 /etc/rc.d/init.d/rinetd:81
+#: /etc/rc.d/init.d/sgemaster:386 /etc/rc.d/init.d/tetrinetx:100
+#: /etc/rc.d/init.d/wesnothd:104 /etc/rc.d/init.d/wpa_supplicant:87
+#: /etc/rc.d/init.d/xpilot-ng-server:100
+msgid "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/systemtap:65
+msgid "\t-R \t\t: recursively dependency checking"
+msgstr ""
+
+#: /etc/rc.d/init.d/avahi-daemon:35
+msgid "Starting Avahi daemon... "
+msgstr "Подигнувам Avahi даемон... "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:651
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr "Дадената адреса '$addr' не е валидна IPv4 адреса (арг 1)"
+
+#: /etc/rc.d/init.d/cyrus-imapd:105
+msgid "Shutting down $BASENAME: "
+msgstr "Исклучувам $BASENAME: "
+
+#: /etc/rc.d/init.d/pound:29
+msgid "Stopping Pound: "
+msgstr "Стопирам Pound: "
+
+#: /etc/rc.d/init.d/netfs:120
+msgid "Configured NFS mountpoints: "
+msgstr "Конфигурирани NFS патеки: "
+
+#: /etc/rc.d/init.d/pound:21
+msgid "Starting Pound: "
+msgstr "Подигнувам Pound: "
+
+#: /etc/rc.d/init.d/halt:107
+msgid "Unmounting pipe file systems: "
+msgstr "Демонтирам pipe датотечен систем: "
+
+#: /etc/rc.d/rc:40
+msgid "Entering interactive startup"
+msgstr "Влегувам во интерактивно подигнување"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:823
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr "Недостасува параметарот 'IPv4-tunnel address' (arg 2)"
+
+#: /etc/rc.d/init.d/mcstrans:108
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|rotate}"
+msgstr "Употреба: $0 {start|stop|status|restart|condrestart|reload|rotate}"
+
+#: /etc/rc.d/init.d/xfs:143
+msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+msgstr "Употреба: $prog {start|stop|status|restart|reload|condrestart}"
+
+#: /etc/rc.d/init.d/icecc-scheduler:32
+#, fuzzy
+msgid "Starting distributed compiler scheduler: "
+msgstr "Подигнувам сервиси за пронаоѓање на рутери: "
+
+#: /etc/rc.d/init.d/ktune:200
+msgid "Current elevator settings:"
+msgstr ""
+
+#: /etc/rc.d/init.d/systemtap:160
+msgid "parse error"
+msgstr ""
+
+#: /etc/rc.d/init.d/microcode_ctl:58
+msgid "$0: $DEVICE not a character device?"
+msgstr "$0: $DEVICE не е карактер уред?"
+
+#: /etc/rc.d/init.d/modclusterd:99 /etc/rc.d/init.d/ricci:179
+msgid "Starting $ID: "
+msgstr "Подигнувам $ID: "
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:340
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "грешка во $FILE: IPADDR_START и IPADDR_END не се согласуваат"
+
+#: /etc/rc.d/init.d/nfs:207
+msgid "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+msgstr "Употреба: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+
+#: /etc/rc.d/init.d/restorecond:85
+msgid "Usage: $0 {start|stop|restart|reload|condrestart}"
+msgstr "Употреба: $0 {start|stop|restart|reload|condrestart}"
+
+#: /etc/rc.d/init.d/netfs:148
+msgid "Active network block devices: "
+msgstr "Активни мрежни уреди: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1151
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr "Дадениот IPv6 основен уред '$device' не постои или не е подигнат"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "adsl-start не постои или не е извршливо за уредот ${DEVICE}"
+
+#: /etc/rc.d/init.d/isdn:189
+msgid "Shutting down $prog"
+msgstr "Исклучувам $prog"
+
+#: /etc/rc.d/init.d/rsyslog:37 /etc/rc.d/init.d/sysklogd:40
+msgid "Starting system logger: "
+msgstr "Подигнувам системски запис (logger): "
+
+#: /etc/rc.d/init.d/tofmipd:88
+msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+msgstr "Употреба: $progname {start|stop|restart|condrestart|status}"
+
+#: /etc/rc.d/init.d/pkcsslotd:50
+#, fuzzy
+msgid "Shutting down pkcsslotd:"
+msgstr "Исклучувам postfix: "
+
+#: /etc/rc.d/init.d/cachefilesd:82
+msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+msgstr "Употреба: $0 {start|stop|restart|condstart|condrestart|status}"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:259
+#: /etc/sysconfig/network-scripts/ifup-aliases:270
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "грешка во ifcfg-${parent_device}: датотека"
+
+#: /etc/rc.d/init.d/honeyd:94
+#, fuzzy
+msgid "Reloading $prog2: "
+msgstr "Повторно вчитувам $prog: "
+
+#: /etc/rc.d/init.d/chronyd:158
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+"reload|cyclelogs|online|offline|command}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+"reload|initdb}"
+
+#: /etc/rc.d/init.d/netconsole:100
+#, fuzzy
+msgid "Disabling netconsole"
+msgstr "Исклучувам cron работа за Moodle: "
+
+#: /etc/rc.d/init.d/httpd:76
+msgid "not reloading due to configuration syntax error"
+msgstr "не ја вчитувам конфигурацијата поради синтаксна грешка"
+
+#: /etc/rc.d/init.d/vblade:29
+msgid "$4 (e$2.$3@$1) [pid $pid]"
+msgstr ""
+
+#: /etc/rc.d/init.d/auditd:120
+#, fuzzy
+msgid "Resuming logging: "
+msgstr "Повторно вчитувам $prog:"
+
+#: /etc/rc.d/init.d/systemtap:556
+#, fuzzy
+msgid "Failed to stop \"$s\". "
+msgstr "Не можам да подигнам ${DEVICE}."
+
+#: /etc/rc.d/init.d/network:262
+msgid "Shutting down loopback interface: "
+msgstr "Исклучувам интерфејс за повратна врска: "
+
+#: /etc/rc.d/init.d/icecast:22
+msgid "Starting icecast streaming daemon: "
+msgstr "Подигнувам даемон за icecast: "
+
+#: /etc/rc.d/init.d/certmaster:91
+#, fuzzy
+msgid "Stopping certmaster daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/gkrellmd:41
+#, fuzzy
+msgid "Stopping GNU Krell Monitors server ($prog): "
+msgstr "Стопирам Video Disk Recorder ($prog): "
+
+#: /etc/rc.d/init.d/wine:78
+#, fuzzy
+msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+msgstr "Употреба: $prog {start|stop|status|restart|condrestart}"
+
+#: /etc/rc.d/rc.sysinit:85
+msgid "*** system size and speed of hard drives."
+msgstr "*** системска големина и брзината на тврдите дискови."
+
+#: /etc/rc.d/init.d/sysklogd:44
+msgid "Starting kernel logger: "
+msgstr "Подигнувам запис за кернелот: "
+
+#: /etc/rc.d/init.d/util-vserver:77
+msgid "Killing all running contexts"
+msgstr ""
+
+#: /etc/event.d/rc1:27 /etc/event.d/rc1.rpmnew:27
+msgid "Telling INIT to go to single user mode."
+msgstr "Советувам INIT да премине во еднократен кориснички режим."
+
+#: /etc/rc.d/init.d/sagator:39
+#, fuzzy
+msgid "Starting $name: "
+msgstr "Подигнувам $named: "
+
+#: /etc/rc.d/init.d/systemtap:507 /etc/rc.d/init.d/systemtap:547
+msgid "Failed to sort dependency"
+msgstr ""
+
+#: /etc/sysconfig/network-scripts/ifup:30
+#: /etc/sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <device name>"
+msgstr "Употреба: ifup <име на уред>"
+
+#: /etc/rc.d/init.d/bcfg2:118
+msgid "1"
+msgstr ""
+
+#: /etc/rc.d/init.d/ebtables:141
+msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+msgstr "Употреба $0 {start|stop|restart|condrestart|save|status}"
+
+#: /etc/rc.d/init.d/pcscd:47
+msgid "Starting PC/SC smart card daemon ($prog): "
+msgstr "Подигнувам даемон за PC/SC ($prog): "
+
+#: /etc/rc.d/init.d/ip6tables:351
+#, fuzzy
+msgid "Usage: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|status|panic|save}"
+
+#: /etc/rc.d/init.d/mongrel_cluster:73
+#, fuzzy
+msgid "Stopping $prog for $file: "
+msgstr "Подигнувам $prog за $site: "
+
+#: /etc/rc.d/init.d/ipa_kpasswd:46 /etc/rc.d/init.d/ipa_webgui:42
+#, fuzzy
+msgid "Shutting down $NAME: "
+msgstr "Исклучувам $BASENAME: "
+
+#: /etc/rc.d/init.d/radvd:39
+#, fuzzy
+msgid "Configuration file /etc/radvd.conf missing"
+msgstr "Датотеката за конфигурација е невалидна"
+
+#: /etc/rc.d/init.d/functions:126
+msgid "Unmounting loopback filesystems (retry):"
+msgstr "Демонтирам датотечен систем за повратна врска (повторно):"
+
+#: /etc/sysconfig/network-scripts/ifdown:15
+#: /etc/sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <device name>"
+msgstr "употреба: ifdown <device name>"
+
+#: /etc/rc.d/init.d/smokeping:40
+#, fuzzy
+msgid "Stopping smokeping: "
+msgstr "Стопирам заклучување за NFS: "
+
+#: /etc/rc.d/init.d/ctdb:143
+#, fuzzy
+msgid "CTDB is already running"
+msgstr "$prog е веќе подигнат"
+
+#: /etc/rc.d/init.d/i8k:26
+#, fuzzy
+msgid "Loading $module kernel module: "
+msgstr "Вчитувам стандардна мапа на карактери (keymap): "
+
+#: /etc/rc.d/init.d/openvpn:112
+msgid "Starting openvpn: "
+msgstr "Подигнувам openvpn: "
+
+#: /etc/rc.d/init.d/postfix:96
+msgid "$prog reload"
+msgstr "$prog reload"
+
+#: /etc/rc.d/init.d/mogilefsd:28 /etc/rc.d/init.d/mogstored:28
+#, fuzzy
+msgid "Stopping MogileFS tracker daemon: "
+msgstr "Стопирам даемон за acpi: "
+
+#: /etc/rc.d/init.d/unbound:66
+#, fuzzy
+msgid "Starting unbound: "
+msgstr "Подигнувам Pound: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:69
+#, fuzzy
+msgid "Tap support not available: tunctl not found"
+msgstr "Поддршката за премостување е недостапна: brctl не е пронајден"
+
+#: /etc/rc.d/init.d/ypbind:70
+#, fuzzy
+msgid "Starting NIS service: "
+msgstr "Подигнувам сервиси за NFS: "
+
+#: /etc/rc.d/init.d/systemtap:515
+msgid "Failed to run \"$s\". ($ret)"
+msgstr ""
+
+#: /etc/rc.d/init.d/dropbear:36 /etc/rc.d/init.d/dropbear:39
+#: /etc/rc.d/init.d/sshd:77 /etc/rc.d/init.d/sshd:80
+msgid "RSA key generation"
+msgstr "RSA генератор на клучеви"
+
+#: /etc/rc.d/init.d/pure-ftpd:81
+msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+msgstr "Употреба: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/xenner:100
+#, fuzzy
+msgid "Stopping xenner daemons"
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/halt:98
+msgid "Turning off quotas: "
+msgstr "Исклучувам квоти: "
+
+#: /etc/rc.d/init.d/nginx:92
+msgid "Graceful shutdown of old $prog: "
+msgstr ""
+
+#: /etc/rc.d/init.d/iptables:183
+#, fuzzy
+msgid "${IPTABLES}: Applying firewall rules: "
+msgstr "Применувам $IPTABLES правила за заштитен ѕид: "
+
+#: /etc/rc.d/init.d/named:137
+#, fuzzy
+msgid "named: already running"
+msgstr "$named: веќе работи"
+
+#: /etc/rc.d/init.d/netfs:39
+msgid "Mounting NFS filesystems: "
+msgstr "Монтирам NFS датотечен систем: "
+
+#: /etc/rc.d/init.d/NetworkManager:51
+msgid "Starting NetworkManager daemon: "
+msgstr "Подигнувам даемон за мрежен менаџер: "
+
+#: /etc/rc.d/rc.sysinit:68
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr ""
+"*** Предупредување -- Потребно е реозначување на полисата за SELinux "
+"${SELINUXTYPE}. "
+
+#: /etc/rc.d/init.d/fb-server:42
+msgid "Stopping Frozen Bubble server(s): "
+msgstr "Стопирам сервери(и) за Frozen Bubble: "
+
+#: /etc/rc.d/init.d/rebootmgr:11 /etc/rc.d/init.d/util-vserver:10
+#: /etc/rc.d/init.d/vprocunhide:10 /etc/rc.d/init.d/vservers-legacy:8
+msgid ""
+"Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' would "
+"be expected); aborting..."
+msgstr ""
+"Не можам да ја најдам инсталацијата на vserver (ќе се очекува датотеката "
+"'$UTIL_VSERVER_VARS'); прекинувам..."
+
+#: /etc/rc.d/init.d/puppet:107
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+"genconfig}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart|once}"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:296
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr "Имаше грешка при одредување на префиксот на IPv6to4"
+
+#: /etc/rc.d/init.d/arptables_jf:186 /etc/rc.d/init.d/arptables_jf:187
+msgid "Saving current rules to $ARPTABLES_CONFIG"
+msgstr "Ги снимам правилата во $ARPTABLES_CONFIG"
+
+#: /etc/rc.d/init.d/ktune:192
+msgid "Current ktune sysctl settings:"
+msgstr ""
+
+#: /etc/rc.d/init.d/tgtd:42
+#, fuzzy
+msgid "Stopping SCSI target daemon: "
+msgstr "Стопирам даемон за acpi: "
+
+#: /etc/rc.d/init.d/named:245
+#, fuzzy
+msgid "$named reload"
+msgstr "$named освежување"
+
+#: /etc/rc.d/init.d/maradns-zoneserver:69
+#, fuzzy
+msgid "Starting all MaraDNS-Zoneserver processes: "
+msgstr "Подигнувам сервиси за YP сервер: "
+
+#: /etc/rc.d/rc:42
+msgid "Entering non-interactive startup"
+msgstr "Влегувам во неинтерактивното подигнување"
+
+#: /etc/rc.d/init.d/network:87
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "Нема 802.1Q VLAN поддршка во кернелот."
+
+#: /etc/rc.d/init.d/snake-server:32
+#, fuzzy
+msgid "Starting snake-server:"
+msgstr "Подигнувам Wesnoth game server: "
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "употреба: ifup-aliases <мрежен-уред> [<parent-config>]\n"
+
+#: /etc/rc.d/init.d/xenconsoled:83
+#, fuzzy
+msgid "Reloading xenconsoled daemon: "
+msgstr "Освежувам oki4daemon: "
+
+#: /etc/rc.d/init.d/bttrack:33
+msgid "Starting BitTorrent tracker: "
+msgstr "Подигнувам BitTorrent тракер: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:150
+msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+msgstr "ГРЕШКА: [ipv6_log] Не можам да запишам во каналот '$channel'"
+
+#: /etc/rc.d/init.d/abrt:52
+#, fuzzy
+msgid "Stopping abrt daemon: "
+msgstr "Стопирам даемон за acpi: "
+
+#: /etc/rc.d/init.d/kadmin:69 /etc/rc.d/init.d/krb5kdc:54
+msgid "Reopening $prog log file: "
+msgstr "Повторно ја отворам датотеката $prog log: "
+
+#: /etc/rc.d/init.d/iptables:351
+#, fuzzy
+msgid "Usage: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|status|panic|save}"
+
+#: /etc/rc.d/init.d/atop:47
+#, fuzzy
+msgid "Reloading atop daemon configuration: "
+msgstr "Повторно вчитувам конфигурација на cron даемонот"
+
+#: /etc/rc.d/init.d/callweaver:22
+#, fuzzy
+msgid "Stopping CallWeaver: "
+msgstr "Стопирам сервер за YP map: "
+
+#: /etc/rc.d/init.d/nmb:66 /etc/rc.d/init.d/smb:66 /etc/rc.d/init.d/winbind:57
+msgid "Reloading smb.conf file: "
+msgstr "Повторно вчитување на датотеката smb.conf: "
+
+#: /etc/rc.d/init.d/capi:36
+msgid "Stopping capi4linux:"
+msgstr "Стопирам capi4linux:"
+
+#: /etc/rc.d/init.d/ups:79
+#, fuzzy
+msgid "Shutting down upsdrvctl: "
+msgstr "Исклучувам pand: "
+
+#: /etc/sysconfig/network-scripts/ifup-tunnel:49
+msgid "Invalid tunnel type $TYPE"
+msgstr "Невалиден тип на тунел $TYPE"
+
+#: /etc/rc.d/init.d/zabbix-agent:30
+#, fuzzy
+msgid "Starting ZABBIX agent: "
+msgstr "Подигнувам HAL даемон: "
+
+#: /etc/rc.d/init.d/halt:145
+msgid "$message"
+msgstr "$message"
+
+#: /etc/rc.d/init.d/innd:82
+msgid "Stopping INNFeed service: "
+msgstr "Стопирам сервис за INNFeed: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:48
+#: /etc/sysconfig/network-scripts/ifup-ib:42
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr "Уредот ${DEVICE} има различна MAC адреса од очекуваната, игнорирам."
+
+#: /etc/rc.d/init.d/psacct:56
+msgid "Process accounting is enabled."
+msgstr "Процесот accounting е овозможен."
+
+#: /etc/sysconfig/network-scripts/ifup-eth:205
+#: /etc/sysconfig/network-scripts/ifup-ib:167
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "Determining IP information for ${DEVICE}..."
+
+#: /etc/rc.d/init.d/pgbouncer:85 /etc/rc.d/init.d/pgpool:105
+#: /etc/rc.d/init.d/postgresql:197 /etc/rc.d/init.d/sepostgresql:99
+msgid "Stopping ${NAME} service: "
+msgstr "Исклучувам сервис за ${NAME}: "
+
+#: /etc/rc.d/init.d/monotone:73
+msgid "Moving"
+msgstr ""
+
+#: /etc/rc.d/init.d/cyrus-imapd:89
+msgid ""
+"$BASENAME error importing databases, check ${CONFIGDIRECTORY}/rpm/db_import."
+"log"
+msgstr ""
+"$BASENAME грешка при внесување на базите, проверете во ${CONFIGDIRECTORY}/"
+"rpm/db_import.log"
+
+#: /etc/rc.d/init.d/xenconsoled:58
+#, fuzzy
+msgid "Starting xenconsoled daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/avahi-daemon:43 /etc/rc.d/init.d/avahi-daemon:45
+#: /etc/rc.d/init.d/avahi-dnsconfd:40 /etc/rc.d/init.d/avahi-dnsconfd:42
+#: /etc/rc.d/init.d/avahi-dnsconfd:62 /etc/rc.d/init.d/functions:266
+#: /etc/rc.d/init.d/greylistd:28
+msgid "$base startup"
+msgstr "$base startup"
+
+#: /etc/rc.d/init.d/sshd:58 /etc/rc.d/init.d/sshd:61
+msgid "RSA1 key generation"
+msgstr "RSA1 генерирање на клучеви"
+
+#: /etc/rc.d/init.d/iptables:179
+msgid "${IPTABLES}: ${_IPV} is disabled."
+msgstr ""
+
+#: /etc/rc.d/init.d/systemtap:630
+msgid "failed to clean cache $s.ko"
+msgstr ""
+
+#: /etc/rc.d/init.d/cyphesis:90
+#, fuzzy
+msgid "Starting cyphesis: "
+msgstr "Подигнувам hpssd: "
+
+#: /etc/rc.d/init.d/isdn:246
+msgid "$0: Link is down"
+msgstr "$0: Врската е прекината"
+
+#: /etc/rc.d/init.d/psacct:58
+msgid "Process accounting is disabled."
+msgstr "Процесот accounting е оневозможен: "
+
+#: /etc/rc.d/init.d/ratbox-services:79
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|condrestart|reload|rehash|status}"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|reload|status}"
+
+#: /etc/rc.d/init.d/xend:43
+#, fuzzy
+msgid "Stopping xend daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/ejabberd:31
+msgid "Starting ejabberd: "
+msgstr "Подигнувам ejabberd: "
+
+#: /etc/sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0: конфигурацијата за ${1} не е пронајдена."
+
+#: /etc/rc.d/init.d/syslog-ng:54
+#, fuzzy
+msgid "Starting syslog-ng: "
+msgstr "Подигнувам системски запис (logger): "
+
+#: /etc/rc.d/init.d/auditd:104 /etc/rc.d/init.d/mcstrans:72
+#: /etc/rc.d/init.d/sec:53 /etc/rc.d/init.d/xinetd:96
+msgid "Reloading configuration: "
+msgstr "Повторно вчитувам конфигурација: "
+
+#: /etc/rc.d/init.d/codasrv:27 /etc/rc.d/init.d/codasrv:28
+msgid "found CRASH file, srv not started"
+msgstr ""
+
+#: /etc/rc.d/init.d/clement:68
+#, fuzzy
+msgid "Preparing $PROG certificate: "
+msgstr "Подигнувам $PROG: "
+
+#: /etc/rc.d/init.d/netfs:124
+msgid "Configured CIFS mountpoints: "
+msgstr "Конфигурирани CIFS патеки: "
+
+#: /etc/rc.d/init.d/innd:40
+msgid "Please run makehistory and/or makedbz before starting innd."
+msgstr "Ве молам изврешете makehistory и/или makedbz пред да подигнете innd."
+
+#: /etc/rc.d/rc.sysinit:683
+msgid "Enabling local filesystem quotas: "
+msgstr "Овозможувам локални квоти на датотечниот систем: "
+
+#: /etc/rc.d/init.d/netfs:144
+msgid "Active NCP mountpoints: "
+msgstr "Активни NCP патеки: "
+
+#: /etc/rc.d/init.d/openscadad:90
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+msgstr "Употреба: $0 {start|stop|restart|condstart|condrestart|status}"
+
+#: /etc/rc.d/init.d/exim:87
+msgid "Shutting down exim: "
+msgstr "Исклучувам exim: "
+
+#: /etc/rc.d/init.d/condor:169
+msgid "$0: error: program not installed"
+msgstr ""
+
+#: /etc/rc.d/init.d/iptables:220
+#, fuzzy
+msgid "${IPTABLES}: Unloading modules: "
+msgstr "Unloading ISDN modules"
+
+#: /etc/rc.d/init.d/pdns-recursor:29
+msgid "Stopping pdns-recursor: "
+msgstr "Стопирам pdns-recursor: "
+
+#: /etc/rc.d/init.d/ypbind:64 /etc/rc.d/init.d/ypbind:65
+msgid "domain not found"
+msgstr ""
+
+#: /etc/rc.d/init.d/qpidd:74
+#, fuzzy
+msgid "$0: reload not supported"
+msgstr "Присилно освежување не е подржано."
+
+#: /etc/rc.d/init.d/named:191
+#, fuzzy
+msgid "Stopping named: "
+msgstr "Стопирам $named: "
+
+#: /etc/rc.d/init.d/atd:50 /etc/rc.d/init.d/chunkd:47 /etc/rc.d/init.d/cld:48
+#: /etc/rc.d/init.d/crond:60 /etc/rc.d/init.d/dropbear:82
+#: /etc/rc.d/init.d/globus-rls-server:41 /etc/rc.d/init.d/iscsi:74
+#: /etc/rc.d/init.d/iscsi:79 /etc/rc.d/init.d/speech-dispatcherd:32
+#: /etc/rc.d/init.d/sshd:141 /etc/rc.d/init.d/tabled:48
+#: /etc/rc.d/init.d/tcsd:105
+msgid "Stopping $prog"
+msgstr "Стопирам $prog"
+
+#: /etc/rc.d/init.d/ez-ipupdate:50
+msgid "Starting $prog for $ez_name: "
+msgstr "Подигнувам $prog за $ez_name: "
+
+#: /etc/rc.d/init.d/functions:537
+msgid "yY"
+msgstr "yY"
+
+#: /etc/rc.d/init.d/puppet:53
+msgid "Restarting puppet: "
+msgstr "Рестартирам puppet: "
+
+#: /etc/rc.d/init.d/qemu:54
+msgid "Unregistering binary handler for qemu applications"
+msgstr "Нерегистрирани бинарни справувачи за qemu апликациите"
+
+#: /etc/rc.d/init.d/avahi-daemon:88
+msgid "Avahi daemon is not running"
+msgstr "Avahi даемонот не работи"
+
+#: /etc/rc.d/init.d/nfs:138
+msgid "Shutting down NFS quotas: "
+msgstr "Исклучувам квоти за NFS: "
+
+#: /etc/rc.d/init.d/functions:188 /etc/rc.d/init.d/functions:224
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0: Употреба: даемон [+/-nicelevel] {програма}"
+
+#: /etc/rc.d/init.d/functions:425
+msgid "${base} dead but subsys locked"
+msgstr "${base} е мртов, но subsys е заклучен"
+
+#: /etc/rc.d/init.d/zabbix-agent:70 /etc/rc.d/init.d/zabbix-proxy:76
+#: /etc/rc.d/init.d/zabbix-server:75
+msgid "Service ${0##*/} does not support the reload action: "
+msgstr ""
+
+#: /etc/rc.d/init.d/ibmasm:21 /etc/rc.d/init.d/mcstrans:46
+#: /etc/rc.d/init.d/watchdog:28
+msgid "$prog: already running"
+msgstr "$prog: веќе работи"
+
+#: /etc/rc.d/init.d/rstatd:37
+msgid "Starting rstat services: "
+msgstr "Подигнувам сервиси за rstat: "
+
+#: /etc/rc.d/init.d/lcdproc:99
+#, fuzzy
+msgid "Reloading ${prog} config file: "
+msgstr "Повторно ја вчитувам $prog конфигурацијата: "
+
+#: /etc/rc.d/init.d/atd:108 /etc/rc.d/init.d/auth2:92
+#: /etc/rc.d/init.d/autogroup:111 /etc/rc.d/init.d/autohome:109
+#: /etc/rc.d/init.d/beanstalkd:106 /etc/rc.d/init.d/boa:107
+#: /etc/rc.d/init.d/boinc-client:188 /etc/rc.d/init.d/bro:184
+#: /etc/rc.d/init.d/chunkd:105 /etc/rc.d/init.d/clamav-milter:90
+#: /etc/rc.d/init.d/cld:106 /etc/rc.d/init.d/coda-client:86
+#: /etc/rc.d/init.d/codasrv:93 /etc/rc.d/init.d/collectl:98
+#: /etc/rc.d/init.d/couchdb:104 /etc/rc.d/init.d/crond:126
+#: /etc/rc.d/init.d/fcron_watch_config:99 /etc/rc.d/init.d/fsniper:94
+#: /etc/rc.d/init.d/glusterfsd:103 /etc/rc.d/init.d/gmediaserver:121
+#: /etc/rc.d/init.d/imapproxy:101 /etc/rc.d/init.d/keepalived:106
+#: /etc/rc.d/init.d/kojid:81 /etc/rc.d/init.d/kojira:81
+#: /etc/rc.d/init.d/lighttpd:110 /etc/rc.d/init.d/miredo-client:115
+#: /etc/rc.d/init.d/miredo-server:117 /etc/rc.d/init.d/mrepo:94
+#: /etc/rc.d/init.d/noip:102 /etc/rc.d/init.d/npcd:100
+#: /etc/rc.d/init.d/nuauth:133 /etc/rc.d/init.d/nufw:129
+#: /etc/rc.d/init.d/nxtvepgd:101 /etc/rc.d/init.d/oidentd:107
+#: /etc/rc.d/init.d/poker-bot:102 /etc/rc.d/init.d/poker-server:105
+#: /etc/rc.d/init.d/postgrey:109 /etc/rc.d/init.d/saslauthd:106
+#: /etc/rc.d/init.d/searchd:102 /etc/rc.d/init.d/sigul_bridge:67
+#: /etc/rc.d/init.d/sigul_server:68 /etc/rc.d/init.d/spampd:105
+#: /etc/rc.d/init.d/speech-dispatcherd:90 /etc/rc.d/init.d/sssd:116
+#: /etc/rc.d/init.d/tabled:106 /etc/rc.d/init.d/thttpd:103
+#: /etc/rc.d/init.d/tinyproxy:102 /etc/rc.d/init.d/trytond:113
+#: /etc/rc.d/init.d/tuned:98 /etc/rc.d/init.d/unbound:130
+#: /etc/rc.d/init.d/update:127 /etc/rc.d/init.d/vtund:107
+#: /etc/rc.d/init.d/xrdp:140 /etc/rc.d/init.d/zfs-fuse:197
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+"reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/openais:20
+#, fuzzy
+msgid "Starting OpenAIS ($prog): "
+msgstr "Подигнувам OpenAIS даемон ($prog): "
+
+#: /etc/rc.d/init.d/unbound:49
+msgid "Generating unbound control key and certificate: "
+msgstr ""
+
+#: /etc/rc.d/init.d/vncserver:61
+msgid "vncserver startup"
+msgstr "подигнувам vncserver"
+
+#: /etc/sysconfig/network-scripts/init.ipv6-global:180
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "Употреба: $0 {start|stop|reload|restart|showsysctl}"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:128
+msgid "Missing config file $PARENTCONFIG."
+msgstr "Недостасува датотеката $PARENTCONFIG."
+
+#: /etc/rc.d/init.d/ircd:74 /etc/rc.d/init.d/ushare:76
+msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+msgstr "Употреба: $prog {start|stop|restart|condrestart|reload|status"
+
+#: /etc/rc.d/init.d/innd:62
+msgid "Stopping INND service (the hard way): "
+msgstr "Стопирам INND сервис (на потешкиот начин): "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1094
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr "За стандардниот IPv6 премин '$address' не е во валиден формат"
+
+#: /etc/rc.d/init.d/tclhttpd:57
+msgid "$base dead but subsys locked"
+msgstr "$base умре но subsys е заклучен"
+
+#: /etc/sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr "Уредот '$DEVICE' е веќе подигнат, ве молам прво исклучете го"
+
+#: /etc/rc.d/init.d/argus:38
+msgid "Shutting down argus: "
+msgstr "Го исклучувам argus: "
+
+#: /etc/rc.d/init.d/cgred:87
+#, fuzzy
+msgid "Stopping CGroup Rules Engine Daemon..."
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/haldaemon:35
+msgid "Stopping HAL daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/asterisk:80
+#, fuzzy
+msgid "Starting asterisk: "
+msgstr "Подигнувам argus: "
+
+#: /etc/rc.d/rc.sysinit:70
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr "*** проблеми. Ве исфрлувам во школка; системот ќе се рестартира"
+
+#: /etc/rc.d/init.d/arptables_jf:59
+#, fuzzy
+msgid "Starting arptables_jf"
+msgstr "Подигнувам argus: "
+
+#: /etc/rc.d/init.d/rpcgssd:54
+msgid "Starting RPC gssd: "
+msgstr "Подигнувам RPC gssd: "
+
+#: /etc/rc.d/init.d/nfs:188
+msgid "reload"
+msgstr "reload"
+
+#: /etc/rc.d/init.d/mldonkey:32
+#, fuzzy
+msgid "Starting Mldonkey (mlnet): "
+msgstr "Подигнувам oki4daemon: "
+
+#: /etc/rc.d/init.d/netfs:57 /etc/rc.d/rc.sysinit:375
+msgid "Setting up Logical Volume Management:"
+msgstr "Поставувам менаџмент за Logical Volume"
+
+#: /etc/rc.d/init.d/uuidd:41
+#, fuzzy
+msgid "Stopping uuidd: "
+msgstr "Стопирам Pound: "
+
+#: /etc/rc.d/init.d/ladvd:47
+#, fuzzy
+msgid "Starting ladvd: "
+msgstr "Подигнувам dund: "
+
+#: /etc/sysconfig/network-scripts/ifup:115
+#: /etc/sysconfig/network-scripts/ifup:116
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr ""
+"ГРЕШКА: не можам да додадам vlan ${VID} како ${DEVICE} на dev ${PHYSDEV}"
+
+#: /etc/rc.d/init.d/rpcidmapd:53
+msgid "Starting RPC idmapd: "
+msgstr "Подигнувам RPC idmapd: "
+
+#: /etc/rc.d/init.d/wine:24
+msgid "Binary handler for Windows applications already registered"
+msgstr "Бинарниот справувач за Windows апликациите е веќе регистриран"
+
+#: /etc/rc.d/init.d/systemtap:578
+#, fuzzy
+msgid "$s$pid is running..."
+msgstr "($pid) веќе работи..."
+
+#: /etc/rc.d/init.d/privoxy:72
+msgid "Starting $PRIVOXY_PRG: "
+msgstr "Подигнувам $PRIVOXY_PRG: "
+
+#: /etc/rc.d/init.d/vprocunhide:23
+#, fuzzy
+msgid "Fixing /proc entries visibility"
+msgstr "Ја поправам видливоста на записите во /proc..."
+
+#: /etc/rc.d/init.d/innd:89
+msgid "Stopping INN actived service: "
+msgstr "Стопирам сервис за INN actived: "
+
+#: /etc/rc.d/init.d/ipmi:445
+msgid "Stopping all ${MODULE_NAME} drivers: "
+msgstr "Ги стопирам сите драјвери поврзнаи со ${MODULE_NAME}: "
+
+#: /etc/rc.d/init.d/ktune:110
+msgid "$file: "
+msgstr ""
+
+#: /etc/rc.d/init.d/tor:88
+msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+msgstr "Употреба: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#: /etc/rc.d/init.d/ktune:19
+#, fuzzy
+msgid "$0: /etc/sysconfig/ktune does not exist."
+msgstr "/etc/sysconfig/network-scripts/dip-$DEVICE не постои"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:187
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr "грешка во $FILE: веќе виден уред $parent_device:$DEVNUM во $devseen"
+
+#: /etc/rc.d/init.d/sysklogd:51
+msgid "Shutting down kernel logger: "
+msgstr "Исклучувам запис за кернелот: "
+
+#: /etc/rc.d/init.d/tor:67
+#, fuzzy
+msgid "program is not running"
+msgstr "$prog не работи"
+
+#: /etc/rc.d/rc.sysinit:142
+msgid "Key file for $dst not found, skipping"
+msgstr "Датотеката со клучот за $dst не е пронајдена, прескокнувам"
+
+#: /etc/rc.d/init.d/ups:52
+msgid "Starting UPS monitor (master): "
+msgstr "Подигнувам надгледувач на UPS (главен): "
+
+#: /etc/rc.d/init.d/btseed:47
+msgid "Shutting down BitTorrent seed client: "
+msgstr "Исклучувам BitTorrent клиент: "
+
+#: /etc/rc.d/init.d/xend:59
+#, fuzzy
+msgid "Reloading xend daemon: "
+msgstr "Освежувам oki4daemon: "
+
+#: /etc/rc.d/init.d/halt:35
+msgid "Halting system..."
+msgstr "Го исклучувам системот..."
+
+#: /etc/rc.d/init.d/avahi-daemon:62
+msgid "Reloading Avahi daemon... "
+msgstr "Освежувам Avahi даемон... "
+
+#: /etc/rc.d/init.d/iptables:31
+#, fuzzy
+msgid "${IPTABLES}: /sbin/$IPTABLES does not exist."
+msgstr "/sbin/$IPTABLES не постои."
+
+#: /etc/rc.d/init.d/lirc:65
+msgid "Starting infrared remote control daemon ($prog): "
+msgstr "Подигнувам даемон за контрола на инфра-црвено далечинско ($prog): "
+
+#: /etc/rc.d/init.d/condor:212
+#, fuzzy
+msgid "$prog status is unknown"
+msgstr "$prog веќе работи"
+
+#: /etc/rc.d/init.d/ip6tables:291
+#, fuzzy
+msgid "${IP6TABLES}: Firewall is not configured. "
+msgstr "Заштитниот ѕид не е конфигуриран. "
+
+#: /etc/rc.d/init.d/canna:89 /etc/rc.d/init.d/condor:224
+#: /etc/rc.d/init.d/dhcp6r:89 /etc/rc.d/init.d/dhcp6s:101
+#: /etc/rc.d/init.d/fnfxd:67 /etc/rc.d/init.d/odccm:63
+#: /etc/rc.d/init.d/rbldnsd:191 /etc/rc.d/init.d/ups:136
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+msgstr ""
+"Употреба: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+
+#: /etc/rc.d/init.d/smolt:68
+#, fuzzy
+msgid "Monthly smolt check-in is disabled."
+msgstr "Cron работата за Moodle е исклучена."
+
+#: /etc/rc.d/init.d/systemtap:64
+msgid "\t-r kernelrelease: specify kernel release version"
+msgstr ""
+
+#: /etc/rc.d/init.d/postfix:116
+msgid "$prog check"
+msgstr "$prog проверка"
+
+#: /etc/rc.d/init.d/corosync:56 /etc/rc.d/init.d/dictd:94
+#: /etc/rc.d/init.d/openais:57
+msgid ""
+"Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+msgstr ""
+"Употреба: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+
+#: /etc/rc.d/init.d/tclhttpd:37
+msgid "Usage: status {program}"
+msgstr "Употреба: status {program}"
+
+#: /etc/rc.d/init.d/amd:94
+msgid "Reloading $prog:"
+msgstr "Повторно вчитувам $prog:"
+
+#: /etc/rc.d/init.d/ypbind:80
+#, fuzzy
+msgid "Binding NIS service: "
+msgstr "Исклучувам сервиси за NIS: "
+
+#: /etc/rc.d/init.d/pyicq-t:12
+msgid "Starting ICQ transport: "
+msgstr "Подигнувам ICQ transport: "
+
+#: /etc/rc.d/init.d/kdump:391
+msgid "Usage: $0 {start|stop|status|restart|propagate}"
+msgstr "Употреба: $0 {start|stop|status|restart|propagate}"
+
+#: /etc/rc.d/init.d/multipathd:78
+msgid "Stopping $prog daemon: "
+msgstr "Стопирам даемон за $prog: "
+
+#: /etc/rc.d/init.d/ypbind:142
+#, fuzzy
+msgid "Reloading NIS service: "
+msgstr "Повторно го вчитувам сервисот INN: "
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:283
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+
+#: /etc/rc.d/init.d/libvirt-qpid:38 /etc/rc.d/init.d/libvirtd:59
+#: /etc/rc.d/init.d/matahari:22
+#, fuzzy
+msgid "Starting $SERVICE daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/amd:65
+msgid "amd shutdown"
+msgstr "amd исклучување"
+
+#: /etc/rc.d/init.d/blktapctrl:48
+#, fuzzy
+msgid "Stoping xen blktapctrl daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/rusersd:53
+msgid "Stopping rusers services: "
+msgstr "Стопирам сервис за rusers: "
+
+#: /etc/rc.d/init.d/glacier2router:46 /etc/rc.d/init.d/glacier2router:49
+#: /etc/rc.d/init.d/icegridnode:47 /etc/rc.d/init.d/icegridnode:50
+#: /etc/rc.d/init.d/icegridregistry:47 /etc/rc.d/init.d/icegridregistry:50
+#, fuzzy
+msgid "Starting $progbase: "
+msgstr "Подигнувам ${prog_base}:"
+
+#: /etc/rc.d/init.d/moodle:39
+#, fuzzy
+msgid "Disabling Moodle cron job: "
+msgstr "Вклучувам cron работа за Moodle: "
+
+#: /etc/rc.d/init.d/dund:26
+#, fuzzy
+msgid "Starting dund: "
+msgstr "Подигнувам Pound: "
+
+#: /etc/rc.d/init.d/vtund:59
+#, fuzzy
+msgid "Reloading config for $prog: "
+msgstr "Повторно вчитувам $prog: "
+
+#: /etc/rc.d/init.d/messagebus:36
+msgid "Starting system message bus: "
+msgstr "Подигнувам системска магистрала за пораки"
+
+#: /etc/rc.d/init.d/ladvd:57
+#, fuzzy
+msgid "Shutting down ladvd: "
+msgstr "Исклучувам pand: "
+
+#: /etc/rc.d/init.d/drbdlinksclean:72
+#, fuzzy
+msgid "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+msgstr "Употреба: $0 {start|stop|status|restart|reload}"
+
+#: /etc/rc.d/init.d/privoxy:87
+msgid "Stopping $PRIVOXY_PRG: "
+msgstr "Стопирам $PRIVOXY_PRG: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:843
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+
+#: /etc/rc.d/init.d/iceccd:32
+#, fuzzy
+msgid "Starting distributed compiler daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/openscadad:33
+#, fuzzy
+msgid "Starting OpenSCADA daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/clement:183
+#, fuzzy
+msgid "Stopping $PROG:"
+msgstr "Стопирам $PROG: "
+
+#: /etc/rc.d/init.d/supervisord:30
+#, fuzzy
+msgid "Stopping supervisord: "
+msgstr "Стопирам hpiod: "
+
+#: /etc/rc.d/init.d/squid:174
+#, fuzzy
+msgid "Usage: $0 {start|stop|status|reload|restart|condrestart|probe}"
+msgstr "Употреба: $0 {start|stop|status|reload|restart|condrestart}"
+
+#: /etc/rc.d/init.d/zvbid:23
+msgid "Starting vbi proxy daemon: "
+msgstr "Подигнувам даемон за vbi proxy: "
+
+#: /etc/sysconfig/network-scripts/ifdown-sit:40
+#: /etc/sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"Уредот '$DEVICE' не е поддржан, користете IPV6_AUTOTUNNEL поставувања и "
+"повторно подигнете ја мрежата (IPv6)"
+
+#: /etc/rc.d/init.d/yum-cron:22
+#, fuzzy
+msgid "Enabling nightly yum update: "
+msgstr "Вклучувам дневно ажурирање преку apt: "
+
+#: /etc/rc.d/init.d/apt:75 /etc/rc.d/init.d/denyhosts:173
+#: /etc/rc.d/init.d/incrond:58 /etc/rc.d/init.d/memcached:83
+#: /etc/rc.d/init.d/mogilefsd:57 /etc/rc.d/init.d/mogstored:57
+#: /etc/rc.d/init.d/pdns-recursor:58 /etc/rc.d/init.d/perlbal:58
+#: /etc/rc.d/init.d/pound:58 /etc/rc.d/init.d/rwalld:90
+#: /etc/rc.d/init.d/rwhod:90 /etc/rc.d/init.d/smolt:73
+#: /etc/rc.d/init.d/supervisord:59 /etc/rc.d/init.d/uuidd:70
+#: /etc/rc.d/init.d/yum-cron:65 /etc/rc.d/init.d/yum-updatesd:71
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/postfix:94
+msgid "Reloading postfix: "
+msgstr "Повторно вчитувам postfix: "
+
+#: /etc/rc.d/init.d/autofs:137
+msgid "Reloading maps"
+msgstr "Освежувам мапи"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:596
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "Недостасува параметарот 'IPv4 address' (arg 1)"
+
+#: /etc/rc.d/init.d/zabbix-agent:40
+#, fuzzy
+msgid "Shutting down ZABBIX agent: "
+msgstr "Исклучувам Avahi даемон: "
+
+#: /etc/rc.d/init.d/openct:34
+msgid "Initializing OpenCT smart card terminals: "
+msgstr "Иницијализирам OpenCT smart card терминали: "
+
+#: /etc/rc.d/init.d/hddtemp:36
+msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+msgstr ""
+
+#: /etc/rc.d/init.d/netplugd:30
+msgid "Starting network plug daemon: "
+msgstr "Подигнувам даемон за мрежен приклучок: "
+
+#: /etc/rc.d/init.d/iptables:246
+#, fuzzy
+msgid "${IPTABLES}: Saving firewall rules to $IPTABLES_DATA: "
+msgstr "Снимам правила за заштитниот ѕид во $IPTABLES_DATA: "
+
+#: /etc/rc.d/init.d/network:288
+msgid "Currently active devices:"
+msgstr "Моментално активни уреди:"
+
+#: /etc/rc.d/init.d/network:248
+msgid "Shutting down interface $i: "
+msgstr "Исклучувам интерфејс $i: "
+
+#: /etc/rc.d/init.d/iceccd:66
+#, fuzzy
+msgid "Stopping distributed compiler daemon: "
+msgstr "Стопирам даемон за acpi: "
+
+#: /etc/rc.d/init.d/condor:40
+#, fuzzy
+msgid "Starting Condor daemons: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/util-vserver:99
+msgid "Path to vshelper has been set"
+msgstr ""
+
+#: /etc/rc.d/init.d/oddjobd:102
+msgid "Usage: $0 {start|stop|restart|condrestart|reload|status}"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|reload|status}"
+
+#: /etc/rc.d/init.d/sec:85
+msgid "Usage: $0 {start|stop|reload|restart|dump|status}"
+msgstr "Употреба: $0 {start|stop|reload|restart|dump|status}"
+
+#: /etc/rc.d/init.d/wesnothd:65
+msgid "Stopping Wesnoth game server: "
+msgstr "Стопирам Wesnoth game server: "
+
+#: /etc/rc.d/init.d/xenstored:57
+#, fuzzy
+msgid "Stopping xenstored daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/rpcsvcgssd:96
+msgid "Shutting down RPC svcgssd: "
+msgstr "Исклучувам RPC svcgssd: "
+
+#: /etc/rc.d/init.d/smartd:81
+msgid "Checking SMART devices now: "
+msgstr "Проверувам уреди за SMART: "
+
+#: /etc/rc.d/init.d/monotone:216
+msgid "Importing packets to monotone database: "
+msgstr ""
+
+#: /etc/rc.d/init.d/tinyerp-server:86
+msgid "$prog is running..."
+msgstr "$prog веќе работи..."
+
+#: /etc/sysconfig/network-scripts/ifup-ippp:55
+#: /etc/sysconfig/network-scripts/ifup-isdn:55
+msgid "$*"
+msgstr "$*"
+
+#: /etc/rc.d/init.d/puppetmaster:56
+msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+msgstr "Манифестот не постои: $PUPPETMASTER_MANIFEST"
+
+#: /etc/rc.d/init.d/mldonkey:64
+msgid "Mldonkey (mlnet) is stopped"
+msgstr ""
+
+#: /etc/rc.d/init.d/bgpd:34 /etc/rc.d/init.d/cachefilesd:43
+#: /etc/rc.d/init.d/fsniper:28 /etc/rc.d/init.d/ospf6d:33
+#: /etc/rc.d/init.d/ospfd:33 /etc/rc.d/init.d/radvd:46
+#: /etc/rc.d/init.d/remotetrx:26 /etc/rc.d/init.d/ripd:33
+#: /etc/rc.d/init.d/ripngd:33 /etc/rc.d/init.d/svxlink:26
+#: /etc/rc.d/init.d/xttpd:27 /etc/rc.d/init.d/zebra:30
+msgid "Starting $PROG: "
+msgstr "Подигнувам $PROG: "
+
+#: /etc/rc.d/init.d/dc_client:74 /etc/rc.d/init.d/dc_server:70
+#: /etc/rc.d/init.d/openser:62 /etc/rc.d/init.d/rtpproxy:67
+#: /etc/rc.d/init.d/sems:67 /etc/rc.d/init.d/ser:93
+msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+msgstr "Употреба: $prog {start|stop|restart|condrestart|status|help}"
+
+#: /etc/rc.d/init.d/icecast:30
+msgid "Shutting down icecast streaming daemon: "
+msgstr "Исклучувам icecast даемон: "
+
+#: /etc/rc.d/init.d/wine:47
+msgid "Wine binary format handlers are registered."
+msgstr "Бинарните справувачи за формати за Wine не се регистрирани."
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:344
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "грепка во $FILE: IPADDR_START е поголемо од IPADDR_END"
+
+#: /etc/rc.d/init.d/netfs:86 /etc/rc.d/rc.sysinit:604
+msgid "(Repair filesystem)"
+msgstr "(поправи го датотечниот систем)"
+
+#: /etc/rc.d/init.d/httpd:77
+msgid "not reloading $httpd due to configuration syntax error"
+msgstr ""
+"не го вчитувам повторно $httpd поради синтаксна грешка во конфигурацијата"
+
+#: /etc/rc.d/init.d/netbsd-iscsi:57 /etc/rc.d/init.d/nighthttpd:49
+#, fuzzy
+msgid "Stopping $SERVICE:"
+msgstr "Стопирам даемон за $prog: "
+
+#: /etc/rc.d/init.d/lirc:71
+msgid "Starting infrared remote control mouse daemon ($prog2): "
+msgstr ""
+"Подигнувам даемон за контрола на глувчето преку инфра-црвено далечинско "
+"($prog2): "
+
+#: /etc/rc.d/init.d/ypserv:30
+msgid "Setting NIS domain name $NISDOMAIN: "
+msgstr "Поставувам NIS име во доменот $NISDOMAIN: "
+
+#: /etc/rc.d/init.d/fb-server:25
+msgid "Starting Frozen Bubble server(s): "
+msgstr "Подигнувам сервер(и) за Frozen Bubble: "
+
+#: /etc/rc.d/init.d/and:36
+#, fuzzy
+msgid "Starting auto nice daemon:"
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/monotone:200
+#, fuzzy
+msgid "Checking database format in"
+msgstr "Чистам база на податоци"
+
+#: /etc/rc.d/init.d/cyrus-imapd:82
+msgid "Importing $BASENAME databases: "
+msgstr "Подигнувам бази на податоци на $BASENAME: "
+
+#: /etc/rc.d/init.d/imapproxy:43
+#, fuzzy
+msgid "Shutting down up-imapproxy daemon: "
+msgstr "Исклучувам imapproxyd: "
+
+#: /etc/rc.d/init.d/i8k:73
+msgid "Module $module isn't loaded."
+msgstr ""
+
+#: /etc/rc.d/init.d/tcsd:88
+#, fuzzy
+msgid "Loading drivers"
+msgstr "Вчитувам фирмвер"
+
+#: /etc/rc.d/init.d/sshd:222
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+"status}"
+msgstr "Употреба: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#: /etc/rc.d/init.d/systemtap:62
+msgid "Options:"
+msgstr ""
+
+#: /etc/rc.d/init.d/monotone:219 /etc/rc.d/init.d/monotone:220
+msgid "packet import"
+msgstr ""
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:85
+msgid "Avahi DNS daemon is not running"
+msgstr "Avahi DNS даемонот не работи"
+
+#: /etc/rc.d/init.d/cyphesis:106
+#, fuzzy
+msgid "Populating cyphesis world: "
+msgstr "Подигнувам hpssd: "
+
+#: /etc/rc.d/init.d/monotone:156
+msgid "To lose old key remove file"
+msgstr ""
+
+#: /etc/rc.d/init.d/tor:65
+#, fuzzy
+msgid "program is dead and /var/run pid file exists"
+msgstr "$prog умре но pid датотеката во /var/run сеуште постои"
+
+#: /etc/rc.d/init.d/iscsid:65 /etc/rc.d/init.d/iscsid:66
+msgid "Not stopping $prog: iscsi sessions still active"
+msgstr ""
+
+#: /etc/rc.d/init.d/clamd-wrapper:9
+msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+msgstr "*** Проверете го /usr/share/doc/clamav-server-*/README how"
+
+#: /etc/rc.d/init.d/systemtap:63
+msgid "\t-c configfile\t: specify config file"
+msgstr ""
+
+#: /etc/rc.d/init.d/btseed:34
+msgid "Starting BitTorrent seed client: "
+msgstr "Подигнувам BitTorrent клиент за споделување: "
+
+#: /etc/rc.d/init.d/pand:37
+#, fuzzy
+msgid "Shutting down pand: "
+msgstr "Исклучувам dund: "
+
+#: /etc/rc.d/init.d/rsyslog:96
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|reload|force-reload|condrestart}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/ajaxterm:71 /etc/rc.d/init.d/qemu:98
+msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+msgstr "Употреба: $prog {start|stop|status|restart|condrestart}"
+
+#: /etc/rc.d/init.d/i8k:98 /etc/rc.d/init.d/kannel:118
+#: /etc/rc.d/init.d/olpc-configure:330
+msgid "Usage: $0 {start|stop|restart|status}"
+msgstr "Употреба: $0 {start|stop|restart|status}"
+
+#: /etc/rc.d/init.d/innd:55
+msgid "Stopping INND service (gently): "
+msgstr "Стопирам сервис INND (нежно): "
+
+#: /etc/rc.d/init.d/rpcidmapd:82
+#, fuzzy
+msgid "Stopping RPC idmapd: "
+msgstr "Подигнувам RPC idmapd: "
+
+#: /etc/rc.d/init.d/ldap:128 /etc/rc.d/init.d/ldap:134
+msgid "$file is not readable by \"$user\""
+msgstr "\"$user\" не може да ја прочита $file"
+
+#: /etc/rc.d/init.d/icecc-scheduler:50
+#, fuzzy
+msgid "Stopping distributed compiler scheduler: "
+msgstr "Стопирам liquidwar game server: "
+
+#: /etc/rc.d/init.d/avahi-daemon:55 /etc/rc.d/init.d/avahi-dnsconfd:52
+#: /etc/rc.d/init.d/functions:318 /etc/rc.d/init.d/functions:334
+#: /etc/rc.d/init.d/tclhttpd:116 /etc/rc.d/init.d/tclhttpd:127
+msgid "$base shutdown"
+msgstr "исклучувам $base"
+
+#: /etc/rc.d/init.d/honeyd:70
+#, fuzzy
+msgid "Stopping $prog2: "
+msgstr "Стопирам $prog:"
+
+#: /etc/rc.d/init.d/postgresql:163
+msgid "An old version of the database format was found."
+msgstr "Беше пронајдена стара верзија на форматот за базата на податоци."
+
+#: /etc/rc.d/init.d/nginx:98
+msgid "Something bad happened, manual intervention required, maybe restart?"
+msgstr ""
+
+#: /etc/rc.d/init.d/gearmand:76 /etc/rc.d/init.d/ngircd:74
+#, fuzzy
+msgid "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+msgstr "Употреба: $prog {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/netconsole:112
+msgid "netconsole module not loaded"
+msgstr ""
+
+#: /etc/rc.d/init.d/qpidd:66
+#, fuzzy
+msgid "Stopping Qpid AMQP daemon: "
+msgstr "Стопирам даемон за acpi: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:113
+msgid "ERROR    "
+msgstr "ГРЕШКА    "
+
+#: /etc/rc.d/init.d/ip6tables:31
+#, fuzzy
+msgid "${IP6TABLES}: /sbin/$IP6TABLES does not exist."
+msgstr "/sbin/$IP6TABLES не постои."
+
+#: /etc/rc.d/init.d/nfslock:142
+msgid "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+msgstr "Употреба: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+
+#: /etc/rc.d/init.d/mt-daapd:19
+#, fuzzy
+msgid "Starting DAAP server: "
+msgstr "Подигнувам сервер за YP map: "
+
+#: /etc/rc.d/init.d/mogilefsd:20 /etc/rc.d/init.d/mogstored:20
+#, fuzzy
+msgid "Starting MogileFS tracker daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1212
+msgid "No reason given for sending trigger to radvd"
+msgstr "Нема причина за испраќање сигнал до radvd"
+
+#: /etc/rc.d/init.d/apt:70
+msgid "Nightly apt update is disabled."
+msgstr "Дневното ажурирање преку apt е исклучено."
+
+#: /etc/rc.d/init.d/openct:44
+msgid "Stopping OpenCT smart card terminals: "
+msgstr "Стопирам OpenCT smart card терминали: "
+
+#: /etc/rc.d/init.d/funcd:77
+#, fuzzy
+msgid "Starting func daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/arptables_jf:90
+msgid "Applying arptables firewall rules: "
+msgstr "Применувам arptables правила за заштитен ѕид: "
+
+#: /etc/rc.d/init.d/freenx-server:82
+#, fuzzy
+msgid "Usage: $prog {start|stop|restart}"
+msgstr "Употреба: $0 {start|stop|restart}"
+
+#: /etc/sysconfig/network-scripts/ifdown-tunnel:36
+#: /etc/sysconfig/network-scripts/ifup-tunnel:56
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr "Уредот '$DEVICE' не е подржан како валидно име на GRE уред."
+
+#: /etc/rc.d/init.d/microcode_ctl:96
+msgid "Usage: $0 {start|stop|restart}"
+msgstr "Употреба: $0 {start|stop|restart}"
+
+#: /etc/rc.d/init.d/cyrus-imapd:111
+msgid "Exporting $BASENAME databases: "
+msgstr "Извезувам бази на податоци од $BASENAME: "
+
+#: /etc/rc.d/init.d/rwhod:39
+msgid "Starting rwho services: "
+msgstr "Подигнувам сервиси за rwho: "
+
+#: /etc/rc.d/init.d/acpid:60
+msgid "Stopping acpi daemon: "
+msgstr "Стопирам даемон за acpi: "
+
+#: /etc/rc.d/init.d/functions:123
+msgid "Unmounting loopback filesystems: "
+msgstr "Демонтирам датотечни системи за повратна врска"
+
+#: /etc/rc.d/init.d/ipmi:548
+msgid "          stop-all|status-all}"
+msgstr "          stop-all|status-all}"
+
+#: /etc/rc.d/init.d/ip6tables:98
+#, fuzzy
+msgid "${IP6TABLES}: Flushing firewall rules: "
+msgstr "Празнам правила за заштитен ѕид: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1108
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+
+#: /etc/rc.d/init.d/util-vserver:64
+#, fuzzy
+msgid "Loading default device map"
+msgstr "Вчитувам стандардна keymap (мапа на карактери)"
+
+#: /etc/rc.d/init.d/condor:209
+#, fuzzy
+msgid "$prog dead but pid file exists"
+msgstr "умре но pid датотеката постои"
+
+#: /etc/rc.d/init.d/tclhttpd:60
+msgid "$base is stopped"
+msgstr "$base e запрен"
+
+#: /etc/rc.d/init.d/dund:36
+msgid "Shutting down dund: "
+msgstr "Исклучувам dund: "
+
+#: /etc/rc.d/init.d/shorewall:66 /etc/rc.d/init.d/shorewall-lite:66
+#: /etc/rc.d/init.d/shorewall6:66 /etc/rc.d/init.d/shorewall6-lite:66
+#, fuzzy
+msgid "Restarting Shorewall: "
+msgstr "Повторно вчитувам $prog:"
+
+#: /etc/rc.d/init.d/gpm:91
+msgid "Shutting down console mouse services: "
+msgstr "Исклучувам сервис за глушец во конзола: "
+
+#: /etc/rc.d/init.d/util-vserver:102
+msgid "Path to vshelper has not been set"
+msgstr ""
+
+#: /etc/rc.d/init.d/ser2net:37
+msgid "Reloading ser2net: "
+msgstr "Го освежувам ser2net: "
+
+#: /etc/rc.d/init.d/tog-pegasus:80
+msgid "Shutting down CIM server: "
+msgstr "Исклучувам CIM сервер: "
+
+#: /etc/rc.d/init.d/gkrellmd:28
+#, fuzzy
+msgid "Starting GNU Krell Monitors server ($prog): "
+msgstr "Подигнувам Video Disk Recorder ($prog): "
+
+#: /etc/rc.d/init.d/nfslock:94
+msgid "Stopping NFS statd: "
+msgstr "Стопирам NFS statd: "
+
+#: /etc/rc.d/init.d/monotone:159
+msgid "Generating RSA key for server $MONOTONE_KEYID"
+msgstr ""
+
+#: /etc/rc.d/init.d/spamass-milter:53
+#, fuzzy
+msgid "Starting ${desc} (${prog}): "
+msgstr "Подигнувам $desc ($prog): "
+
+#: /etc/rc.d/init.d/tog-pegasus:97
+msgid "CIM server ($pid) is running"
+msgstr "CIM серверот ($pid) работи"
+
+#: /etc/rc.d/init.d/cobblerd:66
+#, fuzzy
+msgid "Stopping cobbler daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:178
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr "Уредот 'tun6to4' (од '$DEVICE') е веќе подигнат, прво исклучете го"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1100
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+
+#: /etc/rc.d/init.d/crossfire:31
+msgid "Starting Crossfire game server: "
+msgstr "Подигнувам Crossfire game server: "
+
+#: /etc/rc.d/init.d/zabbix-server:45
+#, fuzzy
+msgid "Shutting down ZABBIX server: "
+msgstr "Исклучувам CIM сервер: "
+
+#: /etc/rc.d/init.d/wine:37
+#, fuzzy
+msgid "Unregistering binary handler for Windows applications: "
+msgstr "Дерегистрирам бинарен справувач за Windows апликации"
+
+#: /etc/rc.d/init.d/telescoped:38
+#, fuzzy
+msgid "Shutting down telescope daemon: "
+msgstr "Исклучувам Avahi даемон: "
+
+#: /etc/rc.d/rc.sysinit:214
+msgid "$dst: LUKS requires non-random key, skipping"
+msgstr "$dst: LUKS бара неслучаен клуч, прескокнувам"
+
+#: /usr/sbin/sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "Употреба: sys-unconfig"
+
+#: /etc/rc.d/init.d/smolt:65
+#, fuzzy
+msgid "Monthly smolt check-in is enabled."
+msgstr "Cron работата за Moodle е вклучена."
+
+#: /etc/ppp/ip-up.ipv6to4:87 /etc/sysconfig/network-scripts/ifup-ipv6:205
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr "Дадената IPv4 адреса '$ipv4addr' не е глобално употреблива"
+
+#: /etc/rc.d/init.d/monotone:192 /etc/rc.d/init.d/monotone:193
+msgid "move passphrase file"
+msgstr ""
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:863
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "Тунел уредот '$device' подигнувањето беше неуспешно"
+
+#: /etc/rc.d/init.d/mongrel_cluster:48
+#, fuzzy
+msgid "Starting $prog for $file: "
+msgstr "Подигнувам $prog за $site: "
+
+#: /etc/rc.d/init.d/sgemaster:298
+#, fuzzy
+msgid "Starting sge_shadowd: "
+msgstr "Подигнувам hidd: "
+
+#: /etc/rc.d/init.d/monotone:138
+#, fuzzy
+msgid "Initializing database"
+msgstr "Иницијализирам база на податоци: "
+
+#: /etc/rc.d/init.d/aiccu:75 /etc/rc.d/init.d/nmb:52 /etc/rc.d/init.d/smb:52
+#: /etc/rc.d/init.d/winbind:43
+msgid "Shutting down $KIND services: "
+msgstr "Исклучувам сервис за $KIND: "
+
+#: /etc/rc.d/init.d/ocspd:64
+#, fuzzy
+msgid "Shutting down ${prog}: "
+msgstr "Исклучувам $prog: "
+
+#: /etc/rc.d/init.d/rarpd:91
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:181
+msgid "Kernel is not compiled with IPv6 support"
+msgstr "Кернелот не е компајлиран со поддршка за IPv6"
+
+#: /etc/rc.d/init.d/fsniper:36 /etc/rc.d/init.d/radvd:53
+#: /etc/rc.d/init.d/xttpd:56
+msgid "Stopping $PROG: "
+msgstr "Стопирам $PROG: "
+
+#: /etc/rc.d/init.d/arptables_jf:127
+msgid "Resetting built-in chains to the default ACCEPT policy:"
+msgstr "Ги ресетирам вградените правила кон стандардната полиса ACCEPT:"
+
+#: /etc/rc.d/init.d/systemtap:579
+#, fuzzy
+msgid "$s is stopped"
+msgstr "$1 е стопиран"
+
+#: /etc/rc.d/init.d/vdr:63
+msgid "Stopping Video Disk Recorder ($prog): "
+msgstr "Стопирам Video Disk Recorder ($prog): "
+
+#: /etc/rc.d/init.d/functions:535
+msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+msgstr "Подигнете го сервисот $1 (Y)es/(N)o/(C)ontinue? [Y] "
+
+#: /etc/rc.d/init.d/radiusd:56
+msgid "Reloading RADIUS server: "
+msgstr "Повторно вчитувам RADIUS сервер: "
+
+#: /etc/rc.d/init.d/ulogd:39
+#, fuzzy
+msgid "$prog is already running."
+msgstr "$prog е веќе подигнат"
+
+#: /etc/rc.d/init.d/bttrack:47
+msgid "Shutting down BitTorrent tracker: "
+msgstr "Го исклучувам BitTorrent тракерот: "
+
+#: /etc/rc.d/rc.sysinit:574
+msgid "Checking filesystems"
+msgstr "Проверувам датотечен систем"
+
+#: /etc/rc.d/init.d/netconsole:91
+#, fuzzy
+msgid "Initializing netconsole"
+msgstr "Иницијализирам база на податоци: "
+
+#: /etc/rc.d/init.d/functions:276
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "Употреба: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+
+#: /etc/rc.d/init.d/nsd:47
+#, fuzzy
+msgid "Starting nsd:"
+msgstr "Подигнувам dund: "
+
+#: /etc/rc.d/init.d/zabbix-proxy:46
+#, fuzzy
+msgid "Shutting down ZABBIX proxy: "
+msgstr "Исклучувам $prog: "
+
+#: /etc/rc.d/init.d/multipathd:65
+msgid "Starting $prog daemon: "
+msgstr "Подигнувам даемон за $prog: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:963
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "Unsupported selection '$selection' specified (arg 2)"
+
+#: /etc/rc.d/init.d/radiusd:37
+msgid "Starting RADIUS server: "
+msgstr "Подигнувам RADIUS сервер: "
+
+#: /etc/rc.d/init.d/netfs:83 /etc/rc.d/rc.sysinit:601
+msgid "*** Dropping you to a shell; the system will reboot"
+msgstr "*** Ве исфрлувам во школка; системот ќе се рестартира"
+
+#: /etc/rc.d/init.d/supervisord:22
+#, fuzzy
+msgid "Starting supervisord: "
+msgstr "Подигнувам hpiod: "
+
+#: /etc/rc.d/init.d/condor:211 /etc/rc.d/init.d/tinyerp-server:88
+#: /etc/rc.d/init.d/tinyerp-server:91
+msgid "$prog is stopped"
+msgstr "$prog е стопиран"
+
+#: /etc/rc.d/init.d/httpd:115
+msgid ""
+"Usage: $prog {start|stop|restart|condrestart|reload|status|fullstatus|"
+"graceful|help|configtest}"
+msgstr ""
+"Употреба: $prog {start|stop|restart|condrestart|reload|status|fullstatus|"
+"graceful|help|configtest}"
+
+#: /etc/rc.d/init.d/pgbouncer:44 /etc/rc.d/init.d/pgpool:84
+#: /etc/rc.d/init.d/postgresql:127 /etc/rc.d/init.d/sepostgresql:46
+msgid "Starting ${NAME} service: "
+msgstr "Подигнувам ${NAME} сервис: "
+
+#: /etc/rc.d/init.d/maradns:86
+#, fuzzy
+msgid "Stopping MaraDNS: "
+msgstr "Стопирам fail2ban: "
+
+#: /etc/rc.d/rc.sysinit:187
+msgid "$dst: no value for size option, skipping"
+msgstr "$dst: нема вредност за опцијата за големина, прескокнувам"
+
+#: /etc/ppp/ip-down.ipv6to4:35 /etc/ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr ""
+"Аргументот 1 е празен но треба да содржи име на интерфејс - прескокнувам "
+"иницијализација на IPv6to4"
+
+#: /etc/rc.d/init.d/vdr:43
+msgid "Use \"scandvb -o vdr\" from the dvb-apps package to create one."
+msgstr "Користете \"scandvb -o vdr\" од пакетот dvb-apps за да креирате."
+
+#: /etc/rc.d/init.d/ktune:169
+msgid "Reverting to ${KERNEL_ELEVATOR} elevator: "
+msgstr ""
+
+#: /etc/rc.d/init.d/netfs:140
+msgid "Active CIFS mountpoints: "
+msgstr "Активни CIFS патеки: "
+
+#: /etc/rc.d/init.d/dropbear:51 /etc/rc.d/init.d/dropbear:54
+#, fuzzy
+msgid "DSS key generation"
+msgstr "Генерирање на DSA клучеви"
+
+#: /etc/rc.d/init.d/nscd:59 /etc/rc.d/init.d/nscd:61
+msgid "$prog shutdown"
+msgstr "$prog исклучен"
+
+#: /etc/rc.d/init.d/sshd:70
+msgid "Generating SSH2 RSA host key: "
+msgstr "Генерирам SSH2 RSA host клуч: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:269
+#: /etc/sysconfig/network-scripts/ifup-ib:235
+msgid "Error adding address ${IPADDR} for ${DEVICE}."
+msgstr "Грешка при додавање на адресата ${IPADDR} за ${DEVICE}."
+
+#: /etc/rc.d/init.d/ipmi:245
+msgid "Stopping ipmi_watchdog driver: "
+msgstr "Стопирам драјвер за ipmi_watchdog: "
+
+#: /etc/rc.d/init.d/innd:43
+msgid "Starting INND system: "
+msgstr "Подигнувам INND систем: "
+
+#: /etc/rc.d/init.d/rbldnsd:143
+msgid "is stopped"
+msgstr "е стопирано"
+
+#: /etc/rc.d/rc.sysinit:51
+msgid "*** Warning -- SELinux is active"
+msgstr "*** Предупредување -- SELinux е активен"
+
+#: /etc/rc.d/init.d/arptables_jf:159 /etc/rc.d/init.d/ip6tables:303
+#: /etc/rc.d/init.d/iptables:303
+msgid "Table: $table"
+msgstr "Табела: $table"
+
+#: /etc/rc.d/init.d/util-vserver:57
+msgid "Creating required directories"
+msgstr ""
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:59
+msgid "Reloading Avahi DNS daemon... "
+msgstr "Го освежувам Avahi DNS даемонот... "
+
+#: /etc/rc.d/init.d/ctdb:140
+#, fuzzy
+msgid "Starting ctdbd service: "
+msgstr "Подигнувам сервиси за NFS: "
+
+#: /etc/rc.d/init.d/apt:67
+msgid "Nightly apt update is enabled."
+msgstr "Дневното ажурирање преку apt е вклучено."
+
+#: /etc/rc.d/init.d/cfenvd:35
+msgid "Stopping GNU cfengine environmental history daemon: "
+msgstr "Стопирам даемон за историјата на околината на GNU cfengine:"
+
+#: /etc/rc.d/init.d/postgresql:237 /etc/rc.d/init.d/sepostgresql:151
+msgid "Initializing database: "
+msgstr "Иницијализирам база на податоци: "
+
+#: /etc/rc.d/init.d/abrt:39
+#, fuzzy
+msgid "Starting abrt daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/nginx:86
+#, fuzzy
+msgid "Staring new master $prog: "
+msgstr "Подигнувам $prog: "
+
+#: /etc/rc.d/init.d/cyphesis:49
+#, fuzzy
+msgid "Creating PostgreSQL account: "
+msgstr "Подигнувам процес accounting: "
+
+#: /etc/rc.d/init.d/mongrel_cluster:136
+#, fuzzy
+msgid ""
+"Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|try-"
+"restart} [<configfile.{yml|conf}>]"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/nfs:185 /etc/rc.d/init.d/nfslock:125
+msgid "restart"
+msgstr "restart"
+
+#: /etc/rc.d/init.d/exim:77
+msgid "Starting exim: "
+msgstr "Подигнувам exim: "
+
+#: /etc/rc.d/init.d/network:85
+msgid "Setting 802.1Q VLAN parameters: "
+msgstr "Поставувам параметри за 802.1Q VLAN : "
+
+#: /etc/rc.d/init.d/pgpool:186
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+"force-reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+"reload|initdb}"
+
+#: /etc/rc.d/init.d/systemtap:580
+msgid "$s is dead, but another script is running."
+msgstr ""
+
+#: /etc/sysconfig/network-scripts/ifup-eth:264
+#: /etc/sysconfig/network-scripts/ifup-ib:230
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "Грешка, некоја друга машина ја користи адресата ${IPADDR}."
+
+#: /etc/rc.d/init.d/nfs:154 /etc/rc.d/init.d/nfs:156
+msgid "Shutting down NFS services: "
+msgstr "Исклучувам сервис за NFS: "
+
+#: /etc/rc.d/init.d/monotone:119
+#, fuzzy
+msgid "Stopping monotone server: "
+msgstr "Стопирам Wesnoth game server: "
+
+#: /etc/rc.d/init.d/netfs:128
+msgid "Configured NCP mountpoints: "
+msgstr "Конфигурирани NCP патеки: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:497
+msgid "Cannot delete IPv6 address '$address' on dev '$device'"
+msgstr "Не можам да избришам IPv6 адреса '$address' за уредот '$device'"
+
+#: /etc/rc.d/init.d/ups:39
+#, fuzzy
+msgid "Starting UPS driver controller: "
+msgstr "Подигнувам UPS надгледувач (slave)"
+
+#: /etc/rc.d/init.d/puppetmaster:88
+#, fuzzy
+msgid "Generate configuration puppetmaster: "
+msgstr "Подигнувам puppetmaster: "
+
+#: /etc/sysconfig/network-scripts/ifdown-eth:42
+#: /etc/sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"Уредот ${DEVICE} има MAC адреса ${FOUNDMACADDR}, наместо конфигурираната "
+"адреса ${HWADDR}. Игнорирам."
+
+#: /etc/rc.d/init.d/functions:447
+msgid "FAILED"
+msgstr "Неуспешно"
+
+#: /etc/rc.d/rc.sysinit:180
+msgid "$dst: no value for cipher option, skipping"
+msgstr "$dst: нема вредност за опцијата cipher, прескокнувам"
+
+#: /etc/rc.d/init.d/avahi-daemon:52
+msgid "Shutting down Avahi daemon: "
+msgstr "Исклучувам Avahi даемон: "
+
+#: /etc/rc.d/init.d/aiccu:65 /etc/rc.d/init.d/nmb:41 /etc/rc.d/init.d/smb:41
+#: /etc/rc.d/init.d/winbind:32
+msgid "Starting $KIND services: "
+msgstr "Подигнувам $KIND сервиси: "
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:172
+msgid "error in $FILE: invalid alias number"
+msgstr "грешка во $FILE: невалиден број на алијас"
+
+#: /etc/rc.d/init.d/cyrus-imapd:118
+msgid ""
+"$BASENAME error exporting databases, check ${CONFIGDIRECTORY}/rpm/db_export."
+"log"
+msgstr ""
+"$BASENAME грешка при извезување на базите, проверете во ${CONFIGDIRECTORY}/"
+"rpm/db_export.log"
+
+#: /etc/rc.d/init.d/tor:64
+msgid "$prog is running"
+msgstr "$prog веќе работи"
+
+#: /etc/rc.d/init.d/vblade:35
+#, fuzzy
+msgid "Starting up $prog: "
+msgstr "Подигнувам $prog: "
+
+#: /etc/rc.d/init.d/libvirt-qpid:63 /etc/rc.d/init.d/libvirtd:87
+#: /etc/rc.d/init.d/matahari:47
+#, fuzzy
+msgid "Reloading $SERVICE configuration: "
+msgstr "Повторно вчитувам конфигурација: "
+
+#: /etc/rc.d/init.d/iptables:98
+#, fuzzy
+msgid "${IPTABLES}: Flushing firewall rules: "
+msgstr "Празнам правила за заштитен ѕид: "
+
+#: /etc/rc.d/init.d/amtu:87 /etc/rc.d/init.d/certmaster:124
+#: /etc/rc.d/init.d/cgred:135 /etc/rc.d/init.d/cobblerd:109
+#: /etc/rc.d/init.d/funcd:127 /etc/rc.d/init.d/libvirt-qpid:87
+#: /etc/rc.d/init.d/libvirtd:111 /etc/rc.d/init.d/matahari:71
+#: /etc/rc.d/init.d/messagebus:89 /etc/rc.d/init.d/multipathd:121
+#: /etc/rc.d/init.d/mydns:71 /etc/rc.d/init.d/nslcd:69
+#: /etc/rc.d/init.d/preload:108 /etc/rc.d/init.d/smsd:88
+#: /etc/rc.d/init.d/snmpd:111 /etc/rc.d/init.d/snmptrapd:100
+#: /etc/rc.d/init.d/xinetd:146
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+msgstr "Употреба: $0 {start|stop|status|restart|condrestart|reload}"
+
+#: /etc/rc.d/init.d/clamd-wrapper:8
+msgid "*** $0 can not be called in this way"
+msgstr "*** $0 не може да се вика вака"
+
+#: /etc/rc.d/init.d/netconsole:109
+msgid "netconsole module loaded"
+msgstr ""
+
+#: /etc/rc.d/init.d/denyhosts:93
+#, fuzzy
+msgid "Denyhosts already running."
+msgstr "$prog е веќе подигнат"
+
+#: /etc/rc.d/init.d/tor:69
+msgid "status $rc of $prog"
+msgstr ""
+
+#: /etc/rc.d/init.d/gadget:56
+#, fuzzy
+msgid "Stoping Gadget daemon: "
+msgstr "Стопирам даемон за acpi: "
+
+#: /etc/ppp/ip-up.ipv6to4:138 /etc/sysconfig/network-scripts/ifup-ipv6:247
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr ""
+"Предупредување: интерфејсот 'tun6to4' не поддржува 'IPV6_DEFAULTGW', "
+"игнорирам"
+
+#: /etc/sysconfig/network-scripts/ifup-eth:81
+#: /etc/sysconfig/network-scripts/ifup-ib:54
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "Уредот ${DEVICE} не е присутен, ја одложувам иницијализацијата."
+
+#: /etc/rc.d/init.d/moodle:32
+msgid "Enabling Moodle cron job: "
+msgstr "Вклучувам cron работа за Moodle: "
+
+#: /etc/rc.d/init.d/cyrus-imapd:94
+msgid "Starting $BASENAME: "
+msgstr "Подигнувам $BASENAME: "
+
+#: /etc/rc.d/init.d/NetworkManager:57
+msgid "Waiting for network..."
+msgstr ""
+
+#: /etc/rc.d/init.d/network:272
+msgid "Disabling IPv4 automatic defragmentation: "
+msgstr "Оневозможувам автоматска дефрагментација за IPv4: "
+
+#: /etc/rc.d/init.d/xttpd:29
+msgid "$DAEMON is not set."
+msgstr "$DAEMON не е поставен."
+
+#: /etc/rc.d/init.d/pkcsslotd:24
+#, fuzzy
+msgid "Starting pkcsslotd: "
+msgstr "Подигнувам pand:"
+
+#: /etc/rc.d/init.d/network:69
+msgid "Bringing up loopback interface: "
+msgstr "Подигнувам интерфејс за повратна врска: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:242
+msgid "Unknown error"
+msgstr "Непозната грешка"
+
+#: /etc/rc.d/init.d/puppetmaster:41
+msgid "Starting puppetmaster: "
+msgstr "Подигнувам puppetmaster: "
+
+#: /etc/rc.d/init.d/rbldnsd:136
+msgid "dead but pid file exists"
+msgstr "умре но pid датотеката постои"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:122
+msgid "INFO     "
+msgstr "ИНФОРМАЦИИ     "
+
+#: /etc/rc.d/init.d/lirc:108
+msgid "Reloading infrared remote control daemon ($prog): "
+msgstr "Освежувам даемон за контрола на инфра-црвено далечинско ($prog): "
+
+#: /etc/rc.d/init.d/monotone:188
+msgid "Moving old server passphrase file to new location: "
+msgstr ""
+
+#: /etc/rc.d/init.d/fail2ban:44
+msgid "Stopping fail2ban: "
+msgstr "Стопирам fail2ban: "
+
+#: /etc/rc.d/init.d/ip6tables:220
+#, fuzzy
+msgid "${IP6TABLES}: Unloading modules: "
+msgstr "Unloading $IP6TABLES modules: "
+
+#: /etc/rc.d/init.d/rbldnsd:140
+msgid "dead but subsys locked"
+msgstr "умре но subsys е заклучен"
+
+#: /etc/rc.d/init.d/postfix:104
+msgid "$prog abort"
+msgstr "$prog прекина"
+
+#: /etc/rc.d/init.d/nfs:131
+msgid "Shutting down NFS mountd: "
+msgstr "Исклучувам NFS mountd: "
+
+#: /etc/rc.d/init.d/halt:149
+msgid "On the next boot fsck will be forced."
+msgstr "На следното подигнување fsck ќе биде принудно извршен."
+
+#: /etc/rc.d/init.d/smolt:37
+#, fuzzy
+msgid "Disabling monthly Smolt update: "
+msgstr "Оневозможувам дневни ажурирање преку apt: "
+
+#: /etc/rc.d/init.d/functions:469
+msgid "WARNING"
+msgstr "ПРЕДУПРЕДУВАЊЕ"
+
+#: /etc/rc.d/init.d/denyhosts:80
+#, fuzzy
+msgid "denyhosts cron service is disabled."
+msgstr "Denyhosts е исклучено."
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1057
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "Дадениот IPv6 MTU '$ipv6_mtu' е надвор од опсегот"
+
+#: /etc/rc.d/init.d/coda-client:79 /etc/rc.d/init.d/codasrv:79
+msgid "$1 not available"
+msgstr ""
+
+#: /etc/rc.d/init.d/sendmail:104
+msgid "Shutting down sm-client: "
+msgstr "Исклучувам sm-client: "
+
+#: /etc/rc.d/init.d/certmaster:74
+#, fuzzy
+msgid "Starting certmaster daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/gnokii-smsd:45
+msgid "Stopping Gnokii SMS daemon ($prog): "
+msgstr "Стопирам Gnokii SMS даемон ($prog): "
+
+#: /etc/rc.d/init.d/amavisd:35
+msgid "Starting ${prog_base}:"
+msgstr "Подигнувам ${prog_base}:"
+
+#: /etc/rc.d/init.d/openhpi-subagent:70
+#, fuzzy
+msgid "Starting up HPI SNMP sub-agent daemon: "
+msgstr "Подигнувам HAL даемон: "
+
+#: /etc/rc.d/init.d/ctdb:272
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|status|cron|condrestart}"
+msgstr "Употреба: $0 {start|stop|restart|status|condrestart}"
+
+#: /etc/rc.d/init.d/wine:26
+#, fuzzy
+msgid "Registering binary handler for Windows applications: "
+msgstr "Го регистрирам бинарниот справувач за Windows апликации"
+
+#: /etc/rc.d/init.d/pand:27
+msgid "Starting pand: "
+msgstr "Подигнувам pand:"
+
+#: /etc/rc.d/init.d/gnokii-smsd:36
+msgid "Starting Gnokii SMS daemon ($prog): "
+msgstr "Подигнувам Gnokii SMS даемон ($prog): "
+
+#: /etc/rc.d/init.d/gadget:47
+#, fuzzy
+msgid "Starting Gadget daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/cyrus-imapd:178
+msgid ""
+"Usage: $BASENAME {start|stop|restart|reload|condrestart|status|quickstart|"
+"quickstop}"
+msgstr ""
+"Употреба: $BASENAME {start|stop|restart|reload|condrestart|status|quickstart|"
+"quickstop}"
+
+#: /etc/rc.d/init.d/functions:436
+msgid "  OK  "
+msgstr "  Во ред  "
+
+#: /etc/rc.d/init.d/network:285
+msgid "Configured devices:"
+msgstr "Конфигурирани уреди:"
+
+#: /etc/rc.d/init.d/innd:67
+#, fuzzy
+msgid "Stopping INND service (PID not found, the hard way): "
+msgstr "Стопирам INND сервис (на потешкиот начин): "
+
+#: /etc/rc.d/init.d/radiusd:45
+msgid "Stopping RADIUS server: "
+msgstr "Стопирам RADIUS сервер: "
+
+#: /etc/rc.d/init.d/preload:67
+#, fuzzy
+msgid "Stopping preload daemon: "
+msgstr "Стопирам даемон за $prog: "
+
+#: /etc/sysconfig/network-scripts/ifdown:33
+#: /etc/sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "Корисниците не можат да го контролираат овој уред."
+
+#: /etc/rc.d/init.d/rdisc:32
+msgid "Starting router discovery: "
+msgstr "Подигнувам сервиси за пронаоѓање на рутери: "
+
+#: /etc/rc.d/init.d/netfs:95
+msgid "Mounting other filesystems: "
+msgstr "Монтирам други датотечни системи: "
+
+#: /etc/rc.d/init.d/microcode_ctl:37
+msgid "Applying Intel CPU microcode update: "
+msgstr "Применувам ажурирање на Intel CPU microcode: "
+
+#: /etc/rc.d/init.d/qemu:68
+msgid "qemu binary format handlers are registered."
+msgstr "бинарните справувачи со формати за qemu се регистрирани."
+
+#: /etc/rc.d/init.d/dansguardian:51 /etc/rc.d/init.d/mon:49
+#: /etc/rc.d/init.d/partimaged:59
+#, fuzzy
+msgid "Reloading $desc ($prog): "
+msgstr "Зачувувам $desc ($prog): "
+
+#: /etc/rc.d/init.d/smartd:119
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|reload|force-reload|report|restart|try-restart|status}"
+msgstr "Употреба: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#: /etc/rc.d/init.d/auditd:163
+#, fuzzy
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|rotate|resume}"
+msgstr "Употреба: $0 {start|stop|status|restart|condrestart|reload|rotate}"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:192
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "грешка во $FILE: нема уред или адреса"
+
+#: /etc/rc.d/init.d/ktune:117
+msgid "Applying sysctl settings from $SYSCTL_POST: "
+msgstr ""
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:691
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:748
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:787
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "Дадениот уред '$device' не е поддржан (arg 1)"
+
+#: /etc/rc.d/init.d/functions:367
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "Употреба: pidofproc [-p pidfile] {program}"
+
+#: /etc/rc.d/init.d/ntpdate:85
+#, fuzzy
+msgid "Usage: $0 {start|stop|status|restart|force-reload}"
+msgstr "Употреба: $0 {start|stop|status|restart|reload}"
+
+#: /etc/rc.d/init.d/xend:34
+#, fuzzy
+msgid "Starting xend daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/irda:35
+msgid "irattach shutdown"
+msgstr "irattach исклучување"
+
+#: /etc/rc.d/init.d/nfslock:89
+msgid "Stopping NFS locking: "
+msgstr "Стопирам заклучување за NFS: "
+
+#: /etc/rc.d/init.d/ip6tables:277
+#, fuzzy
+msgid "${IP6TABLES}: Firewall is not running."
+msgstr "Заштитниот ѕид не е конфигуриран. "
+
+#: /etc/rc.d/init.d/canna:54
+#, fuzzy
+msgid "Restarting $prog: "
+msgstr "Повторно вчитувам $prog:"
+
+#: /etc/rc.d/init.d/rstatd:87 /etc/rc.d/init.d/rusersd:88
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/wpa_supplicant:38
+msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+msgstr ""
+
+#: /etc/rc.d/init.d/zabbix-proxy:36
+#, fuzzy
+msgid "Starting ZABBIX proxy: "
+msgstr "Подигнувам imapproxyd: "
+
+#: /etc/rc.d/init.d/hddtemp:49
+msgid "Stopping hard disk temperature monitor daemon ($prog): "
+msgstr "Стопирам даемон за надгледување на температурата на дискот ($prog): "
+
+#: /etc/rc.d/init.d/irda:28
+msgid "irattach startup"
+msgstr "irattach подигнување"
+
+#: /etc/rc.d/init.d/ocspd:40 /etc/rc.d/init.d/ucarp:41
+msgid "Starting ${prog}: "
+msgstr "Подигнувам ${prog}: "
+
+#: /etc/rc.d/init.d/dcbd:160
+#, fuzzy
+msgid "Starting $DCBD: "
+msgstr "Подигнувам $ID: "
+
+#: /etc/rc.d/rc.sysinit:53
+msgid "*** Run 'setenforce 1' to reenable."
+msgstr "*** Извршете 'setenforce 1' за да го овозможите."
+
+#: /etc/rc.d/init.d/kadmin:50
+msgid "Error. This appears to be a slave server, found kpropd.acl"
+msgstr "Грешка. Ова изгледа дека е секундарен сервер, најдов kpropd.aci"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:306
+msgid "6to4 configuration is not valid"
+msgstr "6to4 конфигурацијата е невалидна"
+
+#: /etc/rc.d/init.d/ibmasm:61
+#, fuzzy
+msgid "Stopping ibmasm: "
+msgstr "Стопирам $named: "
+
+#: /etc/rc.d/init.d/ipmi:295 /etc/rc.d/init.d/ipmi:301
+msgid "Starting ipmi_poweroff driver: "
+msgstr "Подигнувам драјвер за ipmi_poweroff: "
+
+#: /etc/rc.d/init.d/ez-ipupdate:63
+msgid "Shutting down $prog for $ez_name: "
+msgstr "Исклучувам $prog за $ez_name: "
+
+#: /etc/rc.d/init.d/arptables_jf:99
+#, fuzzy
+msgid "Configuration file /etc/sysconfig/arptables missing"
+msgstr "Датотеката за конфигурација е невалидна"
+
+#: /etc/rc.d/init.d/systemtap:495
+msgid "Failed to make stat directory ($STAT_PATH)"
+msgstr ""
+
+#: /etc/rc.d/init.d/bandwidthd:44
+#, fuzzy
+msgid "Shuting down Bandwidthd network traffic monitor: "
+msgstr "Исклучувам даемон за мрежен приклучок: "
+
+#: /etc/rc.d/init.d/clement:84
+#, fuzzy
+msgid "Preparing $PROG config: "
+msgstr "Подигнувам $PROG: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:116
+msgid "WARN     "
+msgstr "ПРЕДУПРЕДУВАЊЕ     "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:239
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"'Нема рута до домаќинот' додавам рута '$networkipv6' преку преминот "
+"'$gatewayipv6' низ уредот '$device'"
+
+#: /etc/rc.d/init.d/cyphesis:77
+#, fuzzy
+msgid "Loading database with rules: "
+msgstr "Вчитувам нова база на вируси: "
+
+#: /etc/rc.d/init.d/vncserver:80 /etc/rc.d/init.d/vncserver:81
+msgid "vncserver shutdown"
+msgstr "исклучувам vncserver"
+
+#: /etc/rc.d/init.d/xenconsoled:67
+#, fuzzy
+msgid "Stopping xenconsoled daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/rc.d/init.d/netfs:132
+msgid "Configured network block devices: "
+msgstr "Конфигурирани мрежни уреди: "
+
+#: /etc/rc.d/init.d/dovecot:97
+#, fuzzy
+msgid ""
+"Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+"status}"
+msgstr ""
+"Употреба: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+
+#: /etc/rc.d/init.d/cyphesis:161
+#, fuzzy
+msgid "Usage: $0 (start|stop|restart|condrestart|status)"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|status}"
+
+#: /etc/rc.d/init.d/iptables:285
+msgid "${IPTABLES}: Firewall modules are not loaded."
+msgstr ""
+
+#: /etc/rc.d/init.d/denyhosts:87
+#, fuzzy
+msgid "Starting denyhosts: "
+msgstr "Вклучувам denyhosts: "
+
+#: /etc/rc.d/init.d/functions:539
+msgid "cC"
+msgstr "cC"
+
+#: /etc/rc.d/init.d/systemtap:607
+#, fuzzy
+msgid "$prog compiled "
+msgstr "$prog е стопиран"
+
+#: /etc/rc.d/init.d/vncserver:121
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+msgstr "Употреба: $0 {start|stop|restart|status|force-reload}"
+
+#: /etc/rc.d/rc.sysinit:401
+msgid "*** Dropping you to a shell; the system will continue"
+msgstr "*** Ве исфрлам во школка; системот ќе продолжи"
+
+#: /etc/rc.d/init.d/sgemaster:323
+#, fuzzy
+msgid "Stopping $master_prog: "
+msgstr "Стопирам $prog:"
+
+#: /etc/rc.d/init.d/halt:108
+msgid "Unmounting pipe file systems (retry): "
+msgstr "Демонтирам пајп датотечни системи (повторно): "
+
+#: /etc/rc.d/init.d/cyrus-imapd:133
+msgid "Reloading cyrus.conf file: "
+msgstr "Повторно вчитувам датотека cyrus.conf: "
+
+#: /etc/rc.d/init.d/unbound:76
+#, fuzzy
+msgid "Stopping unbound: "
+msgstr "Стопирам Pound: "
+
+#: /etc/rc.d/init.d/systemtap:614
+#, fuzzy
+msgid "Cleaning up systemtap scripts: "
+msgstr "Подигнувам $prog: "
+
+#: /etc/rc.d/init.d/systemtap:500 /etc/rc.d/init.d/systemtap:591
+msgid "Failed to make cache directory ($CACHE_PATH)"
+msgstr ""
+
+#: /etc/rc.d/init.d/mongrel_cluster:118
+#, fuzzy
+msgid "Restarting $prog for $file: "
+msgstr "Подигнувам $prog за $site: "
+
+#: /etc/rc.d/init.d/autofs:127 /etc/rc.d/init.d/autofs:133
+msgid "$prog not running"
+msgstr "$prog не е подигнат"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:77
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} не постои за уредот ${DEVICE}"
+
+#: /etc/rc.d/init.d/arptables_jf:76
+msgid "Clearing all current rules and user defined chains:"
+msgstr "Ги празнам сите стандардни правила:"
+
+#: /etc/rc.d/init.d/yppasswdd:49
+msgid "Stopping YP passwd service: "
+msgstr "Стопирам сервис за YP passwd: "
+
+#: /etc/rc.d/init.d/postfix:156
+msgid ""
+"Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+msgstr ""
+"Употреба: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+
+#: /etc/rc.d/init.d/udev-post:32
+msgid "Adding udev persistent rules"
+msgstr ""
+
+#: /etc/sysconfig/network-scripts/ifup-eth:219
+#: /etc/sysconfig/network-scripts/ifup-ib:181
+msgid " failed."
+msgstr " е неуспешно."
+
+#: /etc/rc.d/init.d/monotone:145 /etc/rc.d/init.d/monotone:146
+msgid "database initialization"
+msgstr ""
+
+#: /etc/rc.d/init.d/sec:66
+msgid "Dumping state in /tmp/sec.dump: "
+msgstr "Состојба од дампот во /tmp/sec.dump: "
+
+#: /etc/rc.d/init.d/nfs:87
+msgid "Starting NFS quotas: "
+msgstr "Подигнувам квоти за NFS: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:685
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "Недостасува параметарот 'global IPv4 address' (arg 2)"
+
+#: /etc/rc.d/init.d/microcode_ctl:67
+msgid "$0: kernel does not have CPU microcode device support"
+msgstr "$0: кернелот нема подршка за CPU microcode уреди"
+
+#: /etc/rc.d/init.d/sepostgresql:138
+#, fuzzy
+msgid "Reloading ${NAME} service: "
+msgstr "Исклучувам сервис за ${NAME}: "
+
+#: /etc/rc.d/init.d/netfs:82 /etc/rc.d/rc.sysinit:600
+msgid "*** An error occurred during the file system check."
+msgstr "*** Се појави грешка при проверката на датотечниот систем."
+
+#: /etc/rc.d/init.d/pdns-recursor:21
+msgid "Starting pdns-recursor: "
+msgstr "Подигнувам pdns-recursor: "
+
+#: /etc/rc.d/init.d/arptables_jf:165
+msgid "Changing target policies to DROP: "
+msgstr "Ги менувам целните полиси во DROP: "
+
+#: /etc/rc.d/init.d/udev-post:56
+msgid "Generating udev makedev cache file"
+msgstr ""
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:85
+msgid "Avahi DNS daemon is running"
+msgstr "Avahi DNS даемонот веќе работи"
+
+#: /etc/sysconfig/network-scripts/ifup-eth:56
+msgid "Bridge support not available: brctl not found"
+msgstr "Поддршката за премостување е недостапна: brctl не е пронајден"
+
+#: /etc/rc.d/init.d/functions:393
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "Употреба: status [-p pidfile] {program}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:636
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "Недостасува параметарот 'address' (арг 1)"
+
+#: /etc/rc.d/init.d/amavisd:60
+msgid "Reloading ${prog_base}:"
+msgstr "Освежувам ${prog_base}:"
+
+#: /etc/rc.d/init.d/condor:65
+#, fuzzy
+msgid "Reloading Condor daemons: "
+msgstr "Освежувам oki4daemon: "
+
+#: /etc/rc.d/init.d/codeanalyst:179
+msgid "Check Oprofile filesystem group/permission... "
+msgstr ""
+
+#: /etc/rc.d/init.d/dropbear:48
+#, fuzzy
+msgid "Generating dropbear DSS host key: "
+msgstr "Генерирам SSH2 DSA host клуч: "
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "Поставувам нова конфигурациска датотека ${PEERCONF}"
+
+#: /etc/rc.d/init.d/proftpd:90
+msgid "Re-reading $prog configuration: "
+msgstr "Повторно ја вчитувам $prog конфигурацијата: "
+
+#: /etc/rc.d/init.d/systemtap:412
+msgid "Dependency loop detected on $s"
+msgstr ""
+
+#: /etc/rc.d/rc.sysinit:228
+#, c-format
+msgid "%s is password protected"
+msgstr ""
+
+#: /etc/rc.d/rc.sysinit:139
+msgid "INSECURE OWNER FOR $key"
+msgstr "НЕБЕЗБЕДЕН СОПСТВЕНИК НА $key"
+
+#: /etc/sysconfig/network-scripts/ifup-eth:207
+#: /etc/sysconfig/network-scripts/ifup-ib:169
+msgid " failed; no link present.  Check cable?"
+msgstr " е неуспешно; нема врска.  Ги проверивте каблите?"
+
+#: /etc/rc.d/init.d/isdn:149 /etc/rc.d/init.d/isdn:151
+msgid "Loading Firmware"
+msgstr "Вчитувам фирмвер"
+
+#: /etc/rc.d/init.d/liquidwar-server:32
+msgid "Starting liquidwar game server: "
+msgstr "Подигнувам liquidwar game server: "
+
+#: /etc/rc.d/init.d/and:44
+#, fuzzy
+msgid "Shutting down auto nice daemon:"
+msgstr "Исклучувам Avahi даемон: "
+
+#: /etc/rc.d/init.d/util-vserver:74
+msgid "Stopping all running guests"
+msgstr ""
+
+#: /etc/rc.d/init.d/dropbear:33
+#, fuzzy
+msgid "Generating dropbear RSA host key: "
+msgstr "Генерирам SSH2 RSA host клуч: "
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:117
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr ""
+"Глобалните поставувања за IPv6 пренасочување се оневозможени, но не и во "
+"кернелот"
+
+#: /etc/rc.d/init.d/crond:78 /etc/rc.d/init.d/sshd:161
+msgid "Reloading $prog"
+msgstr "Повторно вчитувам $prog"
+
+#: /etc/rc.d/rc.sysinit:400
+msgid "*** Warning -- the system did not shut down cleanly. "
+msgstr "*** Предупредување -- Системот не беше исклучен како што треба. "
+
+#: /etc/rc.d/init.d/ebtables:61
+msgid "Stopping $desc ($prog): "
+msgstr "Стопирам $desc ($prog): "
+
+#: /etc/rc.d/init.d/halt:62
+msgid "Sending all processes the KILL signal..."
+msgstr "Испраќам KILL сигнал до сите процеси..."
+
+#: /etc/rc.d/init.d/functions:325 /etc/rc.d/init.d/tclhttpd:123
+msgid "$base $killlevel"
+msgstr "$base $killlevel"
+
+#: /etc/sysconfig/network-scripts/ifdown-routes:5
+#: /etc/sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "употреба: ifup-routes <net-device> [<nickname>]"
+
+#: /etc/rc.d/init.d/opensm:107
+#, fuzzy
+msgid "Rescanning IB Subnet:"
+msgstr "Рестартирам puppet: "
+
+#: /etc/rc.d/init.d/arptables_jf:182
+msgid "Saving current rules to $ARPTABLES_CONFIG: "
+msgstr "Снимам правила за заштитниот ѕид во $ARPTABLES_CONFIG: "
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:35
+msgid "Starting Avahi DNS daemon... "
+msgstr "Подигнувам Avahi DNS даемон... "
+
+#: /etc/rc.d/init.d/aprsd:78 /etc/rc.d/init.d/cpuspeed:334
+#: /etc/rc.d/init.d/cwdaemon:75 /etc/rc.d/init.d/dansguardian:80
+#: /etc/rc.d/init.d/glacier2router:105 /etc/rc.d/init.d/globus-rls-server:76
+#: /etc/rc.d/init.d/icegridnode:106 /etc/rc.d/init.d/icegridregistry:106
+#: /etc/rc.d/init.d/iprdump:90 /etc/rc.d/init.d/iprinit:88
+#: /etc/rc.d/init.d/iprupdate:89 /etc/rc.d/init.d/ktune:240
+#: /etc/rc.d/init.d/mt-daapd:52 /etc/rc.d/init.d/netlabel:114
+#: /etc/rc.d/init.d/pads:84 /etc/rc.d/init.d/prelude-correlator:81
+#: /etc/rc.d/init.d/prelude-manager:66 /etc/rc.d/init.d/psad:120
+#: /etc/rc.d/init.d/qpidd:99 /etc/rc.d/init.d/remotetrx:72
+#: /etc/rc.d/init.d/roundup:78 /etc/rc.d/init.d/sendmail:157
+#: /etc/rc.d/init.d/ssbd:73 /etc/rc.d/init.d/svxlink:72
+#: /etc/rc.d/init.d/telescoped:70 /etc/rc.d/init.d/thebridge:71
+#: /etc/rc.d/init.d/trackpad:59 /etc/rc.d/init.d/ucarp:151
+#: /etc/rc.d/init.d/upnpd:89 /etc/rc.d/init.d/vsftpd:90
+msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+msgstr "Употреба: $0 {start|stop|restart|condrestart|status}"
+
+#: /etc/rc.d/init.d/ypxfrd:31
+msgid "Stopping YP map server: "
+msgstr "Стопирам сервер за YP map: "
+
+#: /etc/rc.d/init.d/bandwidthd:34
+#, fuzzy
+msgid "Starting Bandwidthd network traffic monitor: "
+msgstr "Подигнувам даемон за мрежен приклучок: "
+
+#: /etc/rc.d/init.d/portreserve:84
+msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+msgstr "Употреба: $prog {start|stop|restart|condrestart|status}"
+
+#: /etc/rc.d/init.d/tor:68
+msgid "program or service status is unknown"
+msgstr ""
+
+#: /etc/rc.d/init.d/ktune:188
+msgid "ktune stettings are not applied."
+msgstr ""
+
+#: /etc/rc.d/init.d/kadmin:45
+msgid "Error. Default principal database does not exist."
+msgstr "Грешка. Базата со стандардниот принцип не постои."
+
+#: /etc/rc.d/init.d/ntpdate:47
+msgid "$prog: Synchronizing with time server: "
+msgstr "$prog: Синхронизирам со серверот за време: "
+
+#: /etc/rc.d/init.d/ohmd:39
+#, fuzzy
+msgid "Starting Open Hardware Manager: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/denyhosts:98
+#, fuzzy
+msgid "Stray lockfile present; removing it."
+msgstr "stale lock files may be present in $directory"
+
+#: /etc/rc.d/init.d/ldap:115
+msgid "$file is not owned by \"$user\""
+msgstr "\"$user\" не го поседува $file"
+
+#: /etc/rc.d/init.d/vsftpd:43
+msgid "Starting $prog for $site: "
+msgstr "Подигнувам $prog за $site: "
+
+#: /etc/rc.d/init.d/flumotion:66
+msgid "Starting $type $name: "
+msgstr "Подигнувам $type $name: "
+
+#: /etc/rc.d/init.d/pgpool:144
+#, fuzzy
+msgid "Reloading ${NAME}"
+msgstr "Повторно вчитувам $prog"
+
+#: /etc/rc.d/init.d/vdr:53
+msgid "Starting Video Disk Recorder ($prog): "
+msgstr "Подигнувам Video Disk Recorder ($prog): "
+
+#: /etc/rc.d/init.d/functions:428
+msgid "${base} is stopped"
+msgstr "${base} е запрено"
+
+#: /etc/rc.d/init.d/systemtap:558
+#, fuzzy
+msgid "$prog stopping "
+msgstr "$prog стопирање"
+
+#: /etc/rc.d/init.d/tetrinetx:34
+#, fuzzy
+msgid "Starting $display_name: "
+msgstr "Подигнувам $progname: "
+
+#: /etc/rc.d/init.d/puppetmaster:66
+msgid "Stopping puppetmaster: "
+msgstr "Стопирам puppetmaster: "
+
+#: /etc/rc.d/init.d/perlbal:21
+#, fuzzy
+msgid "Starting Perlbal: "
+msgstr "Подигнувам fail2ban: "
+
+#: /etc/rc.d/init.d/sshd:96 /etc/rc.d/init.d/sshd:99
+msgid "DSA key generation"
+msgstr "Генерирање на DSA клучеви"
+
+#: /etc/rc.d/init.d/pgbouncer:161
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+"condrestart|condstop}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart|once}"
+
+#: /etc/rc.d/init.d/blktapctrl:39
+#, fuzzy
+msgid "Starting xen blktapctrl daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/wesnothd:43
+msgid "Starting Wesnoth game server: "
+msgstr "Подигнувам Wesnoth game server: "
+
+#: /etc/rc.d/init.d/postfix:85
+msgid "$prog stop"
+msgstr "$prog стопирање"
+
+#: /etc/rc.d/init.d/ypserv:44
+msgid "Stopping YP server services: "
+msgstr "Стопирам сервис за YP сервер: "
+
+#: /etc/rc.d/init.d/monotone:155
+msgid "Server key already installed"
+msgstr ""
+
+#: /etc/rc.d/init.d/bluetooth:18
+#, fuzzy
+msgid "Enabling Bluetooth devices:"
+msgstr "Подигнувам сервиси за Bluetooth:"
+
+#: /etc/rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr ""
+
+#: /etc/rc.d/init.d/halt:147
+msgid "On the next boot fsck will be skipped."
+msgstr "При следното подигнување fsck нема да се изврши."
+
+#: /etc/rc.d/init.d/systemtap:67
+msgid "\tscript(s)\t: specify systemtap scripts"
+msgstr ""
+
+#: /etc/rc.d/rc.sysinit:798
+msgid "Enabling local swap partitions: "
+msgstr "Ги вклучувам локалните swap партиции: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:239
+#: /etc/sysconfig/network-scripts/ifup-ib:206
+msgid "Failed to bring up ${DEVICE}."
+msgstr "Не можам да подигнам ${DEVICE}."
+
+#: /etc/rc.d/init.d/xenner:57
+#, fuzzy
+msgid "Starting xenner daemons"
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/halt:69
+msgid "Saving mixer settings"
+msgstr "Зачувувам поставувања за миксерот"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:319
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "Tunnel device 'sit0' enabling didn't work"
+
+#: /etc/rc.d/init.d/rfcomm:22
+#, fuzzy
+msgid "Starting rfcomm: "
+msgstr "Подигнувам $prog: "
+
+#: /etc/rc.d/init.d/udev-post:91
+#, fuzzy
+msgid "Usage: $0 {start|stop|reload}"
+msgstr "Употреба: $0 {start|stop|restart}"
+
+#: /etc/rc.d/init.d/condor:58
+msgid "Warning: $prog may not have exited, start/restart may fail"
+msgstr ""
+
+#: /etc/rc.d/rc.sysinit:279
+msgid "\t\tPress 'I' to enter interactive startup."
+msgstr "\t\tПритиснете 'I' за да влезете во интерактивното подигнување."
+
+#: /etc/rc.d/init.d/clement:189 /etc/rc.d/init.d/clement:192
+msgid "clement stop"
+msgstr ""
+
+#: /etc/rc.d/init.d/sshd:89
+msgid "Generating SSH2 DSA host key: "
+msgstr "Генерирам SSH2 DSA host клуч: "
+
+#: /etc/sysconfig/network-scripts/ifup:88
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+
+#: /etc/rc.d/init.d/tetrinetx:43
+#, fuzzy
+msgid "Stopping $display_name: "
+msgstr "Стопирам $progname: "
+
+#: /etc/rc.d/init.d/codeanalyst:171
+msgid "Check Oprofile driver loaded ... "
+msgstr ""
+
+#: /etc/rc.d/rc.sysinit:742
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "Ресетирам hostname ${HOSTNAME}: "
+
+#: /etc/rc.d/init.d/netfs:60
+msgid "Checking network-attached filesystems"
+msgstr "Проверувам мрежно-поврзани датотечни системи"
+
+#: /etc/rc.d/init.d/rpcgssd:98
+#, fuzzy
+msgid "Stopping RPC gssd: "
+msgstr "Подигнувам RPC gssd: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:473
+msgid "Missing parameter 'IPv6 address' (arg 2)"
+msgstr "Недостасува параметарот 'IPv6 address' (arg 2)"
+
+#: /etc/rc.d/init.d/xpilot-ng-server:31
+msgid "Starting Xpilot game server: "
+msgstr "Подигнувам Xpilot game server: "
+
+#: /etc/rc.d/init.d/argus:29
+msgid "Starting argus: "
+msgstr "Подигнувам argus: "
+
+#: /etc/rc.d/init.d/mailman:154
+#, fuzzy
+msgid "Usage: $prog {start|stop|restart|force-reload|condrestart|status}"
+msgstr "Употреба: $prog {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/moodle:75
+#, fuzzy
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/tclhttpd:69
+msgid "Usage: killproc {program} [signal]"
+msgstr "Употреба: killproc {program} [signal]"
+
+#: /etc/rc.d/rc.sysinit:338
+msgid "Setting hostname ${HOSTNAME}: "
+msgstr "Поставувам hostname ${HOSTNAME}: "
+
+#: /etc/rc.d/init.d/yppasswdd:40
+msgid "Starting YP passwd service: "
+msgstr "Подигнувам сервис за YP passwd: "
+
+#: /etc/rc.d/init.d/modclusterd:153
+#, fuzzy
+msgid "Usage: $0 {start|stop|reload|restart|status}"
+msgstr "Употреба: $0 {start|stop|reload|restart|dump|status}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:30
+msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+msgstr "ГРЕШКА: [ipv6_log] Не постои 'message' (arg 1)"
+
+#: /etc/rc.d/init.d/clement:102
+msgid "freshclam daemon NOT up and running (please check this)"
+msgstr ""
+
+#: /etc/rc.d/init.d/cyrus-imapd:77
+msgid "$BASENAME already running."
+msgstr "$BASENAME е веќе подигнат."
+
+#: /etc/rc.d/init.d/condor:210
+#, fuzzy
+msgid "$prog dead but subsys locked"
+msgstr "умре но subsys е заклучен"
+
+#: /etc/rc.d/init.d/halt:75
+msgid "Saving random seed: "
+msgstr "Снимам случаен распоред: "
+
+#: /etc/rc.d/init.d/isdn:122 /etc/rc.d/init.d/isdn:125
+msgid "Loading ISDN modules"
+msgstr "Вчитувам ISDN модул"
+
+#: /etc/rc.d/init.d/ldap:230
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|status|condrestart|configtest}"
+msgstr "Употреба: $0 {start|stop|restart|status|condrestart}"
+
+#: /etc/rc.d/init.d/microcode_ctl:55
+msgid "$0: microcode device $DEVICE doesn't exist?"
+msgstr "$0: микрокод уредот $DEVICE не постои?"
+
+#: /etc/rc.d/init.d/ctdb:204
+msgid "killing ctdbd "
+msgstr ""
+
+#: /etc/rc.d/init.d/uuidd:33
+#, fuzzy
+msgid "Starting uuidd: "
+msgstr "Подигнувам hidd: "
+
+#: /etc/rc.d/rc.sysinit:672 /etc/rc.d/rc.sysinit:674
+msgid "Mounting local filesystems: "
+msgstr "Монтирам локални датотечни системи: "
+
+#: /etc/rc.d/init.d/monotone:177 /etc/rc.d/init.d/monotone:179
+#, fuzzy
+msgid "key generation"
+msgstr "RSA генератор на клучеви"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:214
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:269
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "Недостасува параметарот 'IPv6-gateway' (arg 2)"
+
+#: /etc/rc.d/init.d/milter-regex:85
+#, fuzzy
+msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+msgstr "Употреба: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:101
+#: /etc/sysconfig/network-scripts/ifup-ipv6:118
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr ""
+"Ве молам повторно вчитајте ја мрежата со '/sbin/service network restart'"
+
+#: /etc/rc.d/init.d/systemtap:61
+#, fuzzy
+msgid "Usage: $prog {start|stop|restart|status|compile|cleanup} [option]"
+msgstr "Употреба: $prog {start|stop|restart|status|condrestart}"
+
+#: /etc/rc.d/init.d/cyphesis:65
+#, fuzzy
+msgid "Creating PostgreSQL database: "
+msgstr "Иницијализирам база на податоци MySQL: "
+
+#: /etc/rc.d/init.d/ucarp:31
+msgid "common address redundancy protocol daemon"
+msgstr "common address redundancy protocol daemon"
+
+#: /etc/rc.d/init.d/clement:72
+#, fuzzy
+msgid "certs generation"
+msgstr "RSA генератор на клучеви"
+
+#: /etc/rc.d/init.d/netfs:84 /etc/rc.d/rc.sysinit:71 /etc/rc.d/rc.sysinit:402
+#: /etc/rc.d/rc.sysinit:602
+msgid "*** when you leave the shell."
+msgstr "*** кога ја напуштате школката."
+
+#: /etc/rc.d/init.d/openhpid:242
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|restart|condrestart|try-restart|status|force-reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/sendmail:69
+msgid "Starting sm-client: "
+msgstr "Подигнувам sm-client: "
+
+#: /etc/rc.d/init.d/ipa_kpasswd:36 /etc/rc.d/init.d/ipa_webgui:32
+#, fuzzy
+msgid "Starting $NAME: "
+msgstr "Подигнувам $BASENAME: "
+
+#: /etc/rc.d/init.d/monotone:87
+msgid "Pre-0.26 monotone database must be migrated by hand: "
+msgstr ""
+
+#: /etc/rc.d/init.d/iptables:197
+#, fuzzy
+msgid "${IPTABLES}: Loading additional modules: "
+msgstr "Вчитувам дополнителни модули за $IPTABLES: "
+
+#: /etc/rc.d/init.d/openhpi-subagent:78
+#, fuzzy
+msgid "Shutting down HPI SNMP sub-agent daemon: "
+msgstr "Исклучувам Avahi даемон: "
+
+#: /etc/rc.d/init.d/scanbuttond:84
+msgid "Usage: $prog {start|stop|restart|status|condrestart}"
+msgstr "Употреба: $prog {start|stop|restart|status|condrestart}"
+
+#: /etc/rc.d/init.d/syslog-ng:48
+#, fuzzy
+msgid "Checking Configuration: "
+msgstr "Повторно вчитувам конфигурација: "
+
+#: /etc/rc.d/init.d/sqlgrey:15
+#, fuzzy
+msgid "Starting SQLgrey: "
+msgstr "Подигнувам greylistd: "
+
+#: /etc/rc.d/init.d/oddjobd:85
+#, fuzzy
+msgid "Reloading $prog configuration: "
+msgstr "Повторно ја вчитувам $prog конфигурацијата: "
+
+#: /etc/rc.d/init.d/netfs:41
+msgid "Mounting CIFS filesystems: "
+msgstr "Монтирам CIFS датотечен систем: "
+
+#: /etc/rc.d/init.d/exim:38
+#, fuzzy
+msgid "Generating exim certificate: "
+msgstr "Генерирам SSH2 DSA host клуч: "
+
+#: /etc/rc.d/init.d/bootparamd:78 /etc/rc.d/init.d/clamd-wrapper:88
+#: /etc/rc.d/init.d/collectd:60 /etc/rc.d/init.d/dhcp-fwd:73
+#: /etc/rc.d/init.d/dund:66 /etc/rc.d/init.d/ip-sentinel:77
+#: /etc/rc.d/init.d/irqbalance:89 /etc/rc.d/init.d/ladvd:87
+#: /etc/rc.d/init.d/maradns:115 /etc/rc.d/init.d/maradns-zoneserver:109
+#: /etc/rc.d/init.d/nscd:104 /etc/rc.d/init.d/pand:69
+#: /etc/rc.d/init.d/radiusd:76 /etc/rc.d/init.d/radvd:82
+#: /etc/rc.d/init.d/rfcomm:61 /etc/rc.d/init.d/rpcbind:88
+#: /etc/rc.d/init.d/snake-server:67 /etc/rc.d/init.d/yppasswdd:80
+#: /etc/rc.d/init.d/ypserv:75 /etc/rc.d/init.d/ypxfrd:62
+msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+msgstr "Употреба: $0 {start|stop|status|restart|reload|condrestart}"
+
+#: /etc/rc.d/init.d/rusersd:40
+msgid "Starting rusers services: "
+msgstr "Подигнувам сервиси за rusers: "
+
+#: /etc/rc.d/init.d/systemtap:588
+#, fuzzy
+msgid "Compiling systemtap scripts: "
+msgstr "Стопирам $prog:"
+
+#: /etc/rc.d/init.d/netfs:136
+msgid "Active NFS mountpoints: "
+msgstr "Активни NFS патеки: "
+
+#: /etc/rc.d/init.d/nfs:95
+msgid "Starting NFS daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:647
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr "Дадената адреса '$addr' не е глобална IPv4 адреса (arg 1)"
+
+#: /etc/rc.d/init.d/telescoped:29
+#, fuzzy
+msgid "Starting telescope daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/sge_execd:130
+#, fuzzy
+msgid ""
+"Usage: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+"reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:959
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "Недостасува параметарот 'selection' (arg 2)"
+
+#: /etc/ppp/ip-up.ipv6to4:91 /etc/sysconfig/network-scripts/ifup-ipv6:218
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+
+#: /etc/rc.d/init.d/apt:39
+msgid "Disabling nightly apt update: "
+msgstr "Оневозможувам дневни ажурирање преку apt: "
+
+#: /etc/rc.d/init.d/ospf6d:63 /etc/rc.d/init.d/ospfd:63
+#, fuzzy
+msgid "Usage: $PROG {start|stop|restart|reload|condrestart|status}"
+msgstr "Употреба: $0 {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/nfs:84
+msgid "Starting NFS services: "
+msgstr "Подигнувам сервиси за NFS: "
+
+#: /etc/rc.d/init.d/nsd:106
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|rebuild|"
+"running|update}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|stats|notify|reload|"
+"rebuild|running|update}"
+
+#: /etc/rc.d/init.d/xpilot-ng-server:57
+msgid "Stopping Xpilot game server: "
+msgstr "Стопирам Xpilot game server: "
+
+#: /etc/rc.d/init.d/haldaemon:27
+msgid "Starting HAL daemon: "
+msgstr "Подигнувам HAL даемон: "
+
+#: /etc/rc.d/rc.sysinit:69
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr ""
+"*** /etc/selinux/config индицира дека сакате рачно да го поправите "
+"означувањето"
+
+#: /etc/rc.d/init.d/tgtd:25
+#, fuzzy
+msgid "Starting SCSI target daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/systemtap:489
+msgid "No scripts exist."
+msgstr ""
+
+#: /etc/rc.d/init.d/vprocunhide:50
+msgid "/proc entries were fixed"
+msgstr "записите во /proc се поправени"
+
+#: /etc/rc.d/init.d/postgresql:295 /etc/rc.d/init.d/sepostgresql:208
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+"reload|initdb}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+"reload|initdb}"
+
+#: /etc/rc.d/init.d/halt:52 /etc/rc.d/init.d/killall:10
+#: /etc/rc.d/init.d/stinit:18
+msgid "Usage: $0 {start}"
+msgstr "Употреба: $0 {start}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:856
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "Tunnel device '$device' creation didn't work"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:350
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "Недостасува параметарот 'IPv6-address' (arg 2)"
+
+#: /etc/rc.d/rc.sysinit:75 /etc/rc.d/rc.sysinit:586 /etc/rc.d/rc.sysinit:609
+msgid "Unmounting file systems"
+msgstr "Демонтирам датотечни системи"
+
+#: /etc/rc.d/init.d/ntpdate:43
+msgid "NTP server not specified in $ntpstep or $ntpconf"
+msgstr ""
+
+#: /etc/rc.d/init.d/portreserve:54
+#, fuzzy
+msgid "(not starting, no services registered)"
+msgstr "Подигнувам сервиси за rwho: "
+
+#: /etc/rc.d/init.d/bgpd:41 /etc/rc.d/init.d/cachefilesd:60
+#: /etc/rc.d/init.d/ospf6d:40 /etc/rc.d/init.d/ospfd:40
+#: /etc/rc.d/init.d/remotetrx:38 /etc/rc.d/init.d/ripd:40
+#: /etc/rc.d/init.d/ripngd:40 /etc/rc.d/init.d/svxlink:38
+#: /etc/rc.d/init.d/zebra:40
+#, fuzzy
+msgid "Shutting down $PROG: "
+msgstr "Исклучувам RPC $PROG: "
+
+#: /etc/rc.d/init.d/netlabel:71
+msgid "Netlabel is stopped."
+msgstr "Netlabel е стопиран."
+
+#: /sbin/service:64
+msgid "${SERVICE}: unrecognized service"
+msgstr "${SERVICE}: непрепознаен сервис"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:364
+msgid "Device '$device' doesn't exist"
+msgstr "Уредот '$device' не постои"
+
+#: /etc/rc.d/init.d/flumotion:99
+msgid "Stopping $type $name: "
+msgstr "Стопирам $type $name: "
+
+#: /etc/rc.d/init.d/postgresql:165
+msgid ""
+"See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+msgstr ""
+"За повеќе информации проверете $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-"
+"dist."
+
+#: /etc/rc.d/init.d/netbsd-iscsi:45 /etc/rc.d/init.d/nighthttpd:41
+#, fuzzy
+msgid "Starting $SERVICE: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/rc.d/init.d/zfs-fuse:88
+#, fuzzy
+msgid "Mounting zfs partitions: "
+msgstr "Ги вклучувам локалните swap партиции: "
+
+#: /etc/rc.d/init.d/network:143 /etc/rc.d/init.d/network:155
+msgid "Bringing up interface $i: "
+msgstr "Подигнувам интерфејс $i: "
+
+#: /etc/rc.d/rc.sysinit:135
+msgid "INSECURE MODE FOR $key"
+msgstr "НЕБЕЗБЕДЕН РЕЖИМ ЗА $key"
+
+#: /etc/rc.d/init.d/clamd-wrapper:67
+msgid "Loading new virus-database: "
+msgstr "Вчитувам нова база на вируси: "
+
+#: /etc/rc.d/init.d/cyphesis:124
+#, fuzzy
+msgid "Shutting down cyphesis: "
+msgstr "Исклучувам hidd: "
+
+#: /etc/rc.d/init.d/crossfire:56
+msgid "Stopping Crossfire game server: "
+msgstr "Стопирам Crossfire game server: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:391
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr "Не можам да додадам IPv6 адреса '$address' на уредот '$device'"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:345
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:408
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:437
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:468
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:565
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:680
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:742
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:776
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:818
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:896
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:954
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1007
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1046
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1174
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "Недостасува параметарот 'device' (arg 1)"
+
+#: /etc/rc.d/init.d/psacct:36
+msgid "Shutting down process accounting: "
+msgstr "Исклучувам процес accounging: "
+
+#: /etc/rc.d/init.d/honeyd:120 /etc/rc.d/init.d/icecast:54
+#: /etc/rc.d/init.d/psacct:69 /etc/rc.d/init.d/rdisc:87
+#: /etc/rc.d/init.d/ulogd:95
+msgid "Usage: $0 {start|stop|status|restart|reload}"
+msgstr "Употреба: $0 {start|stop|status|restart|reload}"
+
+#: /etc/rc.d/init.d/privoxy:66
+msgid "Can't find $PRIVOXY_CONF, exit."
+msgstr "Не можам да најдам $PRIVOXY_CONF, излегувам."
+
+#: /etc/rc.d/init.d/ajaxterm:42 /etc/rc.d/init.d/boa:60
+#: /etc/rc.d/init.d/clamd-wrapper:64 /etc/rc.d/init.d/crond:74
+#: /etc/rc.d/init.d/cups:102 /etc/rc.d/init.d/cups:108
+#: /etc/rc.d/init.d/dbmail-imapd:51 /etc/rc.d/init.d/dbmail-lmtpd:52
+#: /etc/rc.d/init.d/dbmail-pop3d:52 /etc/rc.d/init.d/dbmail-timsieved:53
+#: /etc/rc.d/init.d/dovecot:62 /etc/rc.d/init.d/haproxy:75
+#: /etc/rc.d/init.d/honeyd:91 /etc/rc.d/init.d/httpd:73
+#: /etc/rc.d/init.d/ircd:42 /etc/rc.d/init.d/keepalived:59
+#: /etc/rc.d/init.d/lighttpd:63 /etc/rc.d/init.d/mailgraph:57
+#: /etc/rc.d/init.d/monit:52 /etc/rc.d/init.d/nginx:59
+#: /etc/rc.d/init.d/ngircd:42 /etc/rc.d/init.d/nscd:95
+#: /etc/rc.d/init.d/ntop:57 /etc/rc.d/init.d/postgrey:62
+#: /etc/rc.d/init.d/pure-ftpd:60 /etc/rc.d/init.d/ratbox-services:47
+#: /etc/rc.d/init.d/rbldnsd:116 /etc/rc.d/init.d/rinetd:49
+#: /etc/rc.d/init.d/rtpproxy:38 /etc/rc.d/init.d/scanbuttond:58
+#: /etc/rc.d/init.d/sendmail:88 /etc/rc.d/init.d/ser:53
+#: /etc/rc.d/init.d/smsd:50 /etc/rc.d/init.d/snmpd:68
+#: /etc/rc.d/init.d/sshd:157 /etc/rc.d/init.d/sssd:58 /etc/rc.d/init.d/tor:56
+#: /etc/rc.d/init.d/ulogd:60 /etc/rc.d/init.d/ushare:44
+#: /etc/rc.d/init.d/xfs:90
+msgid "Reloading $prog: "
+msgstr "Повторно вчитувам $prog: "
+
+#: /etc/rc.d/init.d/cobblerd:52
+#, fuzzy
+msgid "Starting cobbler daemon: "
+msgstr "Подигнувам NFS даемон: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1258
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr ""
+"Зададениот pidfile '$pidfile' не постои, не можам да пратам сигнал до radvd"
+
+#: /etc/sysconfig/network-scripts/ifup-ippp:376
+#: /etc/sysconfig/network-scripts/ifup-isdn:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr "Предупредување: врската не поддржува IPv6 користејќи изолиран 'rawip'"
+
+#: /etc/rc.d/init.d/halt:39
+msgid "Please stand by while rebooting the system..."
+msgstr "Ве молам почекајте додека системот се рестартира..."
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:49
+msgid "Shutting down Avahi DNS daemon: "
+msgstr "Исклучувам Avahi DNS даемон: "
+
+#: /etc/rc.d/init.d/syslog-ng:68
+#, fuzzy
+msgid "Stopping syslog-ng: "
+msgstr "Стопирам заклучување за NFS: "
+
+#: /etc/rc.d/init.d/mt-daapd:27
+#, fuzzy
+msgid "Shutting down DAAP server: "
+msgstr "Исклучувам CIM сервер: "
+
+#: /etc/rc.d/init.d/openct:66
+msgid "Waiting for reader attach/detach events..."
+msgstr "Чекам читачот да додаде/отстрани настани..."
+
+#: /etc/rc.d/init.d/apmd:100
+#, fuzzy
+msgid "Usage: apmd {start|stop|status|restart|reload|force-reload|condrestart}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/postfix:110
+msgid "$prog flush"
+msgstr "$prog испуштање"
+
+#: /etc/rc.d/init.d/avahi-daemon:65
+msgid "$base reload"
+msgstr "$prog освежување"
+
+#: /etc/rc.d/init.d/amavisd-snmp:23
+#, fuzzy
+msgid "Shutting down amavisd-snmp-subagent: "
+msgstr "Исклучувам sm-client: "
+
+#: /etc/rc.d/init.d/tog-pegasus:67
+msgid "Starting up CIM server: "
+msgstr "Подигнување на CIM серверот: "
+
+#: /etc/rc.d/init.d/callweaver:15
+#, fuzzy
+msgid "Starting CallWeaver: "
+msgstr "Подигнувам ejabberd: "
+
+#: /etc/rc.d/init.d/rstatd:51
+msgid "Stopping rstat services: "
+msgstr "Стопирам сервис за rstat: "
+
+#: /etc/rc.d/init.d/functions:458
+msgid "PASSED"
+msgstr "ПОМИНА"
+
+#: /etc/rc.d/init.d/cyphesis:31
+#, fuzzy
+msgid "Could not check for running PostgreSQL database."
+msgstr "Иницијализирам база на податоци MySQL: "
+
+#: /etc/rc.d/init.d/freenx-server:66 /etc/rc.d/init.d/xfs:103
+msgid "Restarting $prog:"
+msgstr "Повторно вчитувам $prog:"
+
+#: /etc/rc.d/init.d/liquidwar-server:54
+msgid "Stopping liquidwar game server: "
+msgstr "Стопирам liquidwar game server: "
+
+#: /etc/rc.d/init.d/cyphesis:43
+msgid "Cannot find user $CYPHESISUSER to run cyphesis service."
+msgstr ""
+
+#: /etc/rc.d/init.d/ipmi:311
+msgid "Stopping ipmi_poweroff driver: "
+msgstr "Стопирам драјвер за ipmi_poweroff: "
+
+#: /etc/rc.d/init.d/qemu:71
+msgid "qemu binary format handlers are not registered."
+msgstr "qemu справувачи за бинарните формати не се инсталирани."
+
+#: /etc/rc.d/init.d/sshd:51
+msgid "Generating SSH1 RSA host key: "
+msgstr "Генерирам SSH1 RSA host клуч: "
+
+#: /etc/rc.d/init.d/cherokee:35
+#, fuzzy
+msgid "$NAME: already running"
+msgstr "$BASENAME е веќе подигнат."
+
+#: /etc/rc.d/init.d/ocspd:75
+#, fuzzy
+msgid "Reloading CRLs: "
+msgstr "Го освежувам $named: "
+
+#: /etc/rc.d/init.d/ipmi:545
+msgid "Usage: $0 {start|stop|status|restart|condrestart|try-restart"
+msgstr "Употреба: $0 {start|stop|status|restart|condrestart|try-restart"
+
+#: /etc/rc.d/init.d/maradns:77 /etc/rc.d/init.d/maradns-zoneserver:71
+msgid "$rcfile "
+msgstr ""
+
+#: /etc/rc.d/init.d/arpwatch:80 /etc/rc.d/init.d/gkrellmd:74
+#: /etc/rc.d/init.d/gpsd:89 /etc/rc.d/init.d/hddtemp:83
+#: /etc/rc.d/init.d/ntpd:86 /etc/rc.d/init.d/vdr:106
+#: /etc/rc.d/init.d/vdradmind:66 /etc/rc.d/init.d/zabbix-agent:74
+#: /etc/rc.d/init.d/zabbix-proxy:80 /etc/rc.d/init.d/zabbix-server:79
+msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+msgstr "Употреба: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#: /etc/rc.d/init.d/ldap:156
+msgid "stale lock files may be present in $directory"
+msgstr "stale lock files may be present in $directory"
+
+#: /etc/rc.d/init.d/ip6tables:197
+#, fuzzy
+msgid "${IP6TABLES}: Loading additional modules: "
+msgstr "Вчитувам дополнителни модули за $IPTABLES: "
+
+#: /etc/rc.d/init.d/halt:87
+msgid "Turning off swap: "
+msgstr "Исклучувам свап: "
+
+#: /etc/rc.d/init.d/privoxy:65
+msgid "Can't find $PRIVOXY_BIN, exit."
+msgstr "Не можам да пронајдам $PRIVOXY_BIN, излегувам."
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1217
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr "Неподдржана причина '$reason' за праќање сигнал до radvd"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:93
+msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+msgstr "ГРЕШКА: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:182
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "грешка во $FILE: веќе видена ipaddr $IPADDR во $ipseen"
+
+#: /etc/rc.d/init.d/ipmi:546
+msgid "          start-watchdog|stop-watchdog|status-watchdog"
+msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#: /etc/rc.d/init.d/amavisd:41
+msgid "Shutting down ${prog_base}:"
+msgstr "Исклучувам ${prog_base}:"
+
+#: /etc/rc.d/init.d/innd:75
+msgid "Stopping INNWatch service: "
+msgstr "Стопирам сервис за INNWatch: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1284
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "radvd не е (прописно) инсталирам, сигнализирањето е неуспешно"
+
+#: /etc/rc.d/init.d/asterisk:99
+#, fuzzy
+msgid "Stopping asterisk: "
+msgstr "Стопирам hpiod: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1051
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "Недостасува параметарот 'IPv6 MTU' (arg 2)"
+
+#: /etc/rc.d/init.d/blktapctrl:82 /etc/rc.d/init.d/xenstored:90
+#, fuzzy
+msgid "Usage: $0 {start|stop|status}"
+msgstr "Употреба: $0 {start|stop|restart}"
+
+#: /etc/rc.d/init.d/ypserv:35
+msgid "Starting YP server services: "
+msgstr "Подигнувам сервиси за YP сервер: "
+
+#: /etc/rc.d/init.d/kadmin:101
+msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+msgstr "Употреба: $0 {start|stop|status|condrestart|reload|restart}"
+
+#: /etc/rc.d/init.d/chronyd:72
+#, fuzzy
+msgid "Generating chrony command key: "
+msgstr "Генерирам SSH2 DSA host клуч: "
+
+#: /etc/rc.d/init.d/dcbd:241
+#, fuzzy
+msgid "Reloading $DCBD is not supported: "
+msgstr "Присилно освежување не е подржано."
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1148
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr "Дадениот IPv6 основен уред '$device' бара експлицитен nexthop"
+
+#: /etc/rc.d/rc.sysinit:679
+msgid "Checking local filesystem quotas: "
+msgstr "Проверувам квоти на локалниот датотечен систем: "
+
+#: /etc/rc.d/init.d/nfslock:67
+msgid "Starting NFS statd: "
+msgstr "Подигнувам NFS statd "
+
+#: /etc/rc.d/init.d/sgemaster:282
+#, fuzzy
+msgid "Starting $master_prog: "
+msgstr "Подигнувам $prog: "
+
+#: /etc/rc.d/init.d/xttpd:36
+msgid "PORT environment is not set."
+msgstr "PORT околината не е поставена."
+
+#: /etc/rc.d/init.d/innd:59 /etc/rc.d/init.d/innd:61
+msgid "innd shutdown"
+msgstr "исклучување на innd"
+
+#: /etc/rc.d/init.d/corosync:29
+#, fuzzy
+msgid "Stopping Corosync Cluster Engine ($prog): "
+msgstr "Стопирам $desc ($prog): "
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "pppd не постои или не е извршливо за ${DEVICE}"
+
+#: /etc/rc.d/init.d/denyhosts:77
+#, fuzzy
+msgid "denyhosts cron service is enabled."
+msgstr "Denyhosts е вклучено."
+
+#: /etc/rc.d/init.d/pgpool:139
+#, fuzzy
+msgid "Reloading ${NAME}: "
+msgstr "Повторно вчитувам $prog: "
+
+#: /etc/rc.d/init.d/exim:112
+msgid "Reloading exim:"
+msgstr "Освежувам exim:"
+
+#: /etc/rc.d/init.d/functions:419
+msgid "${base} dead but pid file exists"
+msgstr "${base} мртов, но pid датотеката постои"
+
+#: /etc/rc.d/init.d/sendmail:49
+msgid "Package sendmail-cf is required to update configuration."
+msgstr ""
+
+#: /etc/rc.d/init.d/restorecond:52
+msgid "Shutting down restorecond: "
+msgstr "Исклучувам restorecond: "
+
+#: /etc/rc.d/init.d/tor:66
+#, fuzzy
+msgid "program is dead and /var/lock lock file exists"
+msgstr "$prog умре /var/lock lock датотеката сеуште постои"
+
+#: /etc/rc.d/init.d/mysqld:157 /etc/rc.d/init.d/ndb_mgmd:112
+#: /etc/rc.d/init.d/ndbd:107
+msgid "Usage: $0 {start|stop|status|condrestart|restart}"
+msgstr "Употреба: $0 {start|stop|status|condrestart|restart}"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "ifup-ppp е напуштено за уредот ${DEVICE}"
+
+#: /etc/rc.d/init.d/cups:125 /etc/rc.d/init.d/dbmail-imapd:85
+#: /etc/rc.d/init.d/dbmail-lmtpd:86 /etc/rc.d/init.d/dbmail-pop3d:86
+#: /etc/rc.d/init.d/dbmail-timsieved:87 /etc/rc.d/init.d/mailgraph:91
+#: /etc/rc.d/init.d/ntop:90 /etc/rc.d/init.d/ris-linuxd:102
+#: /etc/rc.d/init.d/sip-redirect:73
+msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+msgstr "Употреба: $prog {start|stop|restart|condrestart|reload|status}"
+
+#: /etc/rc.d/init.d/ip6tables:246
+#, fuzzy
+msgid "${IP6TABLES}: Saving firewall rules to $IP6TABLES_DATA: "
+msgstr "Снимам правила за заштитниот ѕид во $IP6TABLES_DATA: "
+
+#: /etc/rc.d/init.d/rbldnsd:132
+msgid "($pid) is running..."
+msgstr "($pid) веќе работи..."
+
+#: /etc/rc.d/init.d/smartd:72
+msgid "Reloading $prog daemon configuration: "
+msgstr "Повторно вчитувам конфигурација на $prog даемонот: "
+
+#: /etc/rc.d/init.d/LCDd:99
+#, fuzzy
+msgid "Reloading ${prog} conig file: "
+msgstr "Повторно ја вчитувам $prog конфигурацијата: "
+
+#: /etc/rc.d/init.d/qpidd:52
+#, fuzzy
+msgid "Starting Qpid AMQP daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/tofmipd:48
+msgid "Starting $progname: "
+msgstr "Подигнувам $progname: "
+
+#: /etc/rc.d/init.d/moodle:70
+#, fuzzy
+msgid "Moodle cron job is disabled."
+msgstr "Denyhosts е исклучено."
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:209
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:264
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "Недостасува параметарот 'IPv6-network' (arg 1)"
+
+#: /etc/rc.d/init.d/wine:50
+msgid "Wine binary format handlers are not registered."
+msgstr "Бинарните справувачи за формати за Wine не се регистрирани."
+
+#: /etc/rc.d/init.d/nfs:180 /etc/rc.d/init.d/nfslock:121
+msgid "start"
+msgstr "старт"
+
+#: /etc/rc.d/init.d/NetworkManager:46
+msgid "Setting network parameters... "
+msgstr "Поставувам мрежни параметри... "
+
+#: /etc/rc.d/init.d/yum-updateonboot:68
+msgid "Updating RPMS in group $group: "
+msgstr "Ажурирам RPMS во групата $group: "
+
+#: /etc/sysconfig/network-scripts/ifup:132
+msgid "WARNING: vconfig not able to disable REORDER_HDR on ${DEVICE}"
+msgstr "ПРЕДУПРЕДУВАЊЕ: vconfig не може да оневозможи REORDER_HDR на ${DEVICE}"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:147
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr ""
+"Не можам да вклучам метод за приватност на IPv6 '$IPV6_PRIVACY', не е "
+"поддржано од кернелот"
+
+#: /etc/rc.d/init.d/spamass-milter:69
+#, fuzzy
+msgid "Shutting down ${desc} (${prog}): "
+msgstr "Исклучувам $desc ($prog): "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:781
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "Недостасува параметарот 'local IPv4 address' (arg 2)"
+
+#: /etc/ppp/ip-up.ipv6to4:186
+msgid "Error occured while calculating the IPv6to4 prefix"
+msgstr "Се појави грешка при одредување на префиксот за IPv6to4"
+
+#: /etc/rc.d/init.d/iscsi:56 /etc/rc.d/init.d/iscsi:61
+#: /etc/rc.d/init.d/isdn:178 /etc/rc.d/init.d/isdn:181
+#: /etc/rc.d/init.d/speech-dispatcherd:23
+msgid "Starting $prog"
+msgstr "Подигнувам $prog"
+
+#: /etc/rc.d/init.d/lirc:89
+msgid "Stopping infrared remote control daemon ($prog): "
+msgstr "Стопирам даемон за контрола на инфра-црвено далечинско ($prog): "
+
+#: /etc/rc.d/init.d/gkrellmd:33
+msgid "Unconfigured: $prog, /etc/gkrellmd.conf not found"
+msgstr ""
+
+#: /etc/rc.d/init.d/denyhosts:108
+#, fuzzy
+msgid "Stopping denyhosts: "
+msgstr "Стопирам hpssd: "
+
+#: /etc/rc.d/init.d/condor:173
+msgid "$0: error: insufficient privileges"
+msgstr ""
+
+#: /etc/rc.d/rc.sysinit:790
+msgid "Enabling /etc/fstab swaps: "
+msgstr "Вклучувам /etc/fstab swaps: "
+
+#: /etc/rc.d/rc.sysinit:52
+msgid "*** Disabling security enforcement for system recovery."
+msgstr "*** Исклучувам проверка на безбедноста поради враќање на системот."
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "ifup-ppp за ${DEVNAME} е напуштено"
+
+#: /etc/rc.d/init.d/network:267
+msgid "Disabling IPv4 packet forwarding: "
+msgstr "Оневозможувам IPv4 пренасочување на пакети: "
+
+#: /etc/rc.d/init.d/autofs:175
+#, fuzzy
+msgid ""
+"Usage: $0 {start|forcestart|stop|status|restart|orcerestart|reload|"
+"condrestart}"
+msgstr "Употреба: $0 {start|stop|status|restart|reload|condrestart}"
+
+#: /etc/rc.d/init.d/tofmipd:56
+msgid "Stopping $progname: "
+msgstr "Стопирам $progname: "
+
+#: /etc/rc.d/init.d/netplugd:38
+msgid "Shutting down network plug daemon: "
+msgstr "Исклучувам даемон за мрежен приклучок: "
+
+#: /etc/rc.d/init.d/postfix:71
+msgid "Starting postfix: "
+msgstr "Подигнувам postfix: "
+
+#: /etc/rc.d/init.d/zvbid:32
+msgid "Stopping vbi proxy daemon: "
+msgstr "Стопирам даемон за vbi proxy: "
+
+#: /etc/rc.d/init.d/apmd:49
+#, fuzzy
+msgid "Starting up APM daemon: "
+msgstr "Подигнувам HAL даемон: "
+
+#: /etc/rc.d/init.d/isdn:138
+msgid "Unloading ISDN modules"
+msgstr "Unloading ISDN modules"
+
+#: /etc/rc.d/rc.sysinit:194
+msgid "$dst: no value for hash option, skipping"
+msgstr "$dst: нема вредност за hash опцијата, прескокнувам"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:100
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr ""
+"Глобално пренасочување со IPv6 е веќе конфигурирано, но во кернелот е "
+"оневозможено"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:140
+msgid ""
+"ERROR: [ipv6_log] Syslog is chosen, but binary 'logger' doesn't exist or "
+"isn't executable"
+msgstr ""
+"ГРЕШКА: [ipv6_log] Syslog е одбран, но бинарниот 'logger' не постои или не е "
+"извршлив"
+
+#: /etc/rc.d/init.d/flumotion:166
+msgid "Usage: $service {start|stop|restart|list|status|clean}"
+msgstr "Употреба: $service {start|stop|restart|list|status|clean}"
+
+#: /etc/rc.d/init.d/imapproxy:34
+#, fuzzy
+msgid "Starting up-imapproxy daemon: "
+msgstr "Подигнувам даемон за vbi proxy: "
+
+#: /etc/rc.d/init.d/abrt:97 /etc/rc.d/init.d/acpid:111
+#: /etc/rc.d/init.d/cfenvd:74 /etc/rc.d/init.d/cfexecd:71
+#: /etc/rc.d/init.d/cfservd:74 /etc/rc.d/init.d/gpm:131
+#: /etc/rc.d/init.d/xenconsoled:116 /etc/rc.d/init.d/xend:92
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+msgstr ""
+"Употреба: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/sagator:58
+#, fuzzy
+msgid "Stopping $name: "
+msgstr "Стопирам $named: "
+
+#: /etc/rc.d/init.d/zabbix-server:35
+#, fuzzy
+msgid "Starting ZABBIX server: "
+msgstr "Подигнувам RADIUS сервер: "
+
+#: /etc/rc.d/init.d/ktune:139
+msgid "Applying ${ELEVATOR} elevator: "
+msgstr ""
+
+#: /etc/rc.d/init.d/amavisd-snmp:15
+#, fuzzy
+msgid "Starting amavisd-snmp-subagent: "
+msgstr "Подигнувам sm-client: "
+
+#: /etc/rc.d/init.d/tog-pegasus:100
+msgid "CIM server is not running"
+msgstr "CIM серверот не работи"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:370
+msgid "Device '$device' enabling didn't work"
+msgstr "Овозможувањето на '$device' е неуспешно"
+
+#: /etc/rc.d/init.d/puppet:45
+msgid "Stopping puppet: "
+msgstr "Стопирам puppet: "
+
+#: /etc/rc.d/init.d/functions:543
+msgid "nN"
+msgstr "nN"
+
+#: /etc/rc.d/init.d/ipmi:547
+msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#: /etc/rc.d/init.d/fail2ban:27
+msgid "Starting fail2ban: "
+msgstr "Подигнувам fail2ban: "
+
+#: /etc/rc.d/init.d/postgresql:164
+msgid "You need to upgrade the data format before using PostgreSQL."
+msgstr ""
+"Треба да направите надградба на форматот за датумот пред да користите "
+"PostgreSQL."
+
+#: /etc/rc.d/init.d/audio-entropyd:27
+#, fuzzy
+msgid "Starting Audio Entropy daemon... "
+msgstr "Подигнувам Avahi даемон... "
+
+#: /etc/rc.d/rc.sysinit:638
+msgid "Remounting root filesystem in read-write mode: "
+msgstr "Ремонтирам root датотечен систем во r/w режим: "
+
+#: /etc/rc.d/init.d/postfix:74
+msgid "$prog start"
+msgstr "$prog подигнување"
+
+#: /etc/rc.d/init.d/coda-client:47
+#, fuzzy
+msgid "Unmounting $mountpoint:"
+msgstr "Конфигурирани NFS патеки: "
+
+#: /etc/rc.d/init.d/yum-cron:57
+#, fuzzy
+msgid "Nightly yum update is enabled."
+msgstr "Дневното ажурирање преку apt е вклучено."
+
+#: /etc/rc.d/init.d/halt:77 /etc/rc.d/init.d/ntpdate:55
+msgid "Syncing hardware clock to system time"
+msgstr "Синхронизирам хардверски часовник со системско време"
+
+#: /etc/rc.d/init.d/sshd:111
+msgid "Configuration file or keys are invalid"
+msgstr "Датотеката за конфигурација е невалидна"
+
+#: /etc/rc.d/init.d/openhpid:169
+msgid "Checking for $prog daemon: "
+msgstr "Проверувам даемон за $prog: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:125
+msgid "NOTICE   "
+msgstr "ИЗВЕСТУВАЊЕ   "
+
+#: /etc/rc.d/init.d/ktune:125
+msgid "Reverting to saved sysctl settings: "
+msgstr ""
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:110
+msgid "DEBUG    "
+msgstr "ДЕБАГ"
+
+#: /etc/rc.d/init.d/bandwidthd:72 /etc/rc.d/init.d/clvmd:168
+#: /etc/rc.d/init.d/gfs:144 /etc/rc.d/init.d/gfs2:144
+#: /etc/rc.d/init.d/netbsd-iscsi:95 /etc/rc.d/init.d/netfs:164
+#: /etc/rc.d/init.d/network:297 /etc/rc.d/init.d/nighthttpd:86
+#: /etc/rc.d/init.d/yum-updateonboot:96
+msgid "Usage: $0 {start|stop|restart|reload|status}"
+msgstr "Употреба: $0 {start|stop|restart|reload|status}"
+
+#: /etc/rc.d/init.d/monotone:101
+#, fuzzy
+msgid "Starting monotone server: "
+msgstr "Подигнувам Wesnoth game server: "
+
+#: /etc/rc.d/init.d/avahi-daemon:88
+msgid "Avahi daemon is running"
+msgstr "Avahi даемонот веќе работи"
+
+#: /etc/rc.d/init.d/acpid:47
+msgid "Starting acpi daemon: "
+msgstr "Подигнувам acpi даемон: "
+
+#: /etc/rc.d/init.d/hddtemp:39
+msgid "Starting hard disk temperature monitor daemon ($prog): "
+msgstr "Подигнувам даемон за надгледување на температура на дискот ($prog): "
+
+#: /etc/rc.d/init.d/ip6tables:131
+#, fuzzy
+msgid "${IP6TABLES}: Setting chains to policy $policy: "
+msgstr "Поставувам синџири на полисата $policy: "
+
+#: /etc/rc.d/init.d/dcbd:166
+#, fuzzy
+msgid "Shutting down $DCBD: "
+msgstr "Исклучувам $MODEL: "
+
+#: /etc/rc.d/rc.sysinit:78 /etc/rc.d/rc.sysinit:91 /etc/rc.d/rc.sysinit:589
+#: /etc/rc.d/rc.sysinit:612
+msgid "Automatic reboot in progress."
+msgstr "Автоматското рестартирање е во тек."
+
+#: /etc/rc.d/init.d/ypbind:46
+msgid "Turning off allow_ypbind SELinux boolean"
+msgstr "Исклучувам дозвола за _ypbind·SELinux·boolean"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "pppd не постои или не е извршливо"
+
+#: /etc/rc.d/init.d/functions:519
+msgid "$STRING"
+msgstr "$STRING"
+
+#: /etc/rc.d/init.d/ip6tables:285
+msgid "${IP6TABLES}: Firewall modules are not loaded."
+msgstr ""
+
+#: /etc/rc.d/init.d/gvrpcd:90
+#, fuzzy
+msgid "Stopping ${ifprog}: "
+msgstr "Стопирам $prog:"
+
+#: /etc/rc.d/init.d/apt:32
+msgid "Enabling nightly apt update: "
+msgstr "Вклучувам дневно ажурирање преку apt: "
+
+#: /etc/rc.d/init.d/ctdb:184
+#, fuzzy
+msgid "Shutting down ctdbd service: "
+msgstr "Исклучувам nsd сервиси: "
+
+#: /etc/rc.d/init.d/clement:87
+msgid "conf addition"
+msgstr ""
+
+#: /etc/rc.d/init.d/cgred:122
+#, fuzzy
+msgid "Reloading rules configuration..."
+msgstr "Повторно вчитувам конфигурација: "
+
+#: /etc/rc.d/init.d/sendmail:93
+msgid "reloading sm-client: "
+msgstr "повторно вчитувам sm-client: "
+
+#: /etc/rc.d/init.d/qemu:31
+msgid "Registering binary handler for qemu applications"
+msgstr "Регистрирам бинарни справувачи за qemu апликации"
+
+#: /etc/rc.d/init.d/nsd:61
+#, fuzzy
+msgid "Stopping nsd: "
+msgstr "Стопирам Pound: "
+
+#: /etc/rc.d/init.d/netfs:152
+msgid "/proc filesystem unavailable"
+msgstr "датотечниот систем /proc е недостапен"
+
+#: /etc/rc.d/init.d/nfs:119
+msgid "Starting NFS mountd: "
+msgstr "Подигнувам NFS mountd: "
+
+#: /etc/rc.d/init.d/vdr:42
+msgid "Error: no valid $cfg found."
+msgstr "Грешка не е пронајден валиден $cfg."
+
+#: /etc/rc.d/init.d/functions:409 /etc/rc.d/init.d/functions:415
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} (pid $pid) е веќе активен..."
+
+#: /etc/rc.d/init.d/denyhosts:53
+#, fuzzy
+msgid "Enabling denyhosts cron service: "
+msgstr "Вклучувам denyhosts: "
+
+#: /etc/rc.d/init.d/clement:172
+#, fuzzy
+msgid "Starting $PROG:"
+msgstr "Подигнувам $PROG: "
+
+#: /etc/rc.d/init.d/funcd:94
+#, fuzzy
+msgid "Stopping func daemon: "
+msgstr "Стопирам даемон за HAL: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1267
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr "Pidfile '$pidfile' е празен, не можам да пратам сигнал до radvd"
+
+#: /etc/rc.d/init.d/smokeping:51
+#, fuzzy
+msgid "Reloading smokeping: "
+msgstr "Го освежувам ser2net: "
+
+#: /etc/rc.d/init.d/rpcgssd:126 /etc/rc.d/init.d/rpcidmapd:110
+#: /etc/rc.d/init.d/rpcsvcgssd:124
+#, fuzzy
+msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+msgstr "Употреба: $0 {start|stop|restart|condstart|condrestart|status}"
+
+#: /etc/rc.d/init.d/moodle:67
+#, fuzzy
+msgid "Moodle cron job is enabled."
+msgstr "Denyhosts е вклучено."
+
+#: /etc/rc.d/init.d/yum-updatesd:34
+msgid "Starting yum-updatesd: "
+msgstr "Подигнувам yum-updatesd: "
+
+#: /etc/rc.d/init.d/ip6tables:183
+#, fuzzy
+msgid "${IP6TABLES}: Applying firewall rules: "
+msgstr "Применувам $IP6TABLES правила за заштитен ѕид: "
+
+#: /etc/rc.d/init.d/netfs:42
+msgid "Mounting NCP filesystems: "
+msgstr "Монтирам NCP датотечни системи: "
+
+#: /etc/rc.d/init.d/ajaxterm:35 /etc/rc.d/init.d/amd:45
+#: /etc/rc.d/init.d/arpwatch:47 /etc/rc.d/init.d/atd:45
+#: /etc/rc.d/init.d/athcool:28 /etc/rc.d/init.d/atop:29
+#: /etc/rc.d/init.d/auditd:81 /etc/rc.d/init.d/auth2:35
+#: /etc/rc.d/init.d/autofs:102 /etc/rc.d/init.d/autogroup:54
+#: /etc/rc.d/init.d/autohome:52 /etc/rc.d/init.d/beanstalkd:47
+#: /etc/rc.d/init.d/boa:46 /etc/rc.d/init.d/boinc-client:147
+#: /etc/rc.d/init.d/bootparamd:47 /etc/rc.d/init.d/bro:127
+#: /etc/rc.d/init.d/cfexecd:31 /etc/rc.d/init.d/cfservd:35
+#: /etc/rc.d/init.d/chronyd:93 /etc/rc.d/init.d/chunkd:42
+#: /etc/rc.d/init.d/clamav-milter:32 /etc/rc.d/init.d/clamd-wrapper:54
+#: /etc/rc.d/init.d/cld:43 /etc/rc.d/init.d/coda-client:42
+#: /etc/rc.d/init.d/codasrv:38 /etc/rc.d/init.d/collectd:35
+#: /etc/rc.d/init.d/collectl:41 /etc/rc.d/init.d/couchdb:46
+#: /etc/rc.d/init.d/cpuspeed:125 /etc/rc.d/init.d/crond:55
+#: /etc/rc.d/init.d/ctrlproxy:50 /etc/rc.d/init.d/cups:75
+#: /etc/rc.d/init.d/dbmail-imapd:44 /etc/rc.d/init.d/dbmail-lmtpd:45
+#: /etc/rc.d/init.d/dbmail-pop3d:45 /etc/rc.d/init.d/dbmail-timsieved:46
+#: /etc/rc.d/init.d/dc_client:41 /etc/rc.d/init.d/dc_server:37
+#: /etc/rc.d/init.d/ddclient:39 /etc/rc.d/init.d/dhcp-fwd:49
+#: /etc/rc.d/init.d/distccd:51 /etc/rc.d/init.d/dovecot:54
+#: /etc/rc.d/init.d/dropbear:78 /etc/rc.d/init.d/fcron_watch_config:41
+#: /etc/rc.d/init.d/flow-capture:52 /etc/rc.d/init.d/freenx-server:57
+#: /etc/rc.d/init.d/freenx-server:59 /etc/rc.d/init.d/fyre-cluster:39
+#: /etc/rc.d/init.d/gearmand:46 /etc/rc.d/init.d/globus-rls-server:37
+#: /etc/rc.d/init.d/glusterfsd:46 /etc/rc.d/init.d/gmediaserver:69
+#: /etc/rc.d/init.d/gpsd:53 /etc/rc.d/init.d/haproxy:50
+#: /etc/rc.d/init.d/honeyd:61 /etc/rc.d/init.d/httpd:66
+#: /etc/rc.d/init.d/i8k:60 /etc/rc.d/init.d/ip-sentinel:51
+#: /etc/rc.d/init.d/ircd:34 /etc/rc.d/init.d/irqbalance:58
+#: /etc/rc.d/init.d/iscsi:68 /etc/rc.d/init.d/iscsid:71
+#: /etc/rc.d/init.d/jetty:90 /etc/rc.d/init.d/kadmin:62
+#: /etc/rc.d/init.d/keepalived:45 /etc/rc.d/init.d/kojid:50
+#: /etc/rc.d/init.d/kojira:50 /etc/rc.d/init.d/kprop:44
+#: /etc/rc.d/init.d/krb5kdc:47 /etc/rc.d/init.d/ldap:192
+#: /etc/rc.d/init.d/lighttpd:49 /etc/rc.d/init.d/mailgraph:50
+#: /etc/rc.d/init.d/mcstrans:63 /etc/rc.d/init.d/memcached:49
+#: /etc/rc.d/init.d/milter-greylist:40 /etc/rc.d/init.d/milter-regex:44
+#: /etc/rc.d/init.d/miredo-client:56 /etc/rc.d/init.d/miredo-server:58
+#: /etc/rc.d/init.d/mrepo:36 /etc/rc.d/init.d/mydns:33
+#: /etc/rc.d/init.d/mysql-proxy:45 /etc/rc.d/init.d/mysqld:114
+#: /etc/rc.d/init.d/mysqld:118 /etc/rc.d/init.d/mysqld:121
+#: /etc/rc.d/init.d/mysqld:125 /etc/rc.d/init.d/ndb_mgmd:74
+#: /etc/rc.d/init.d/ndb_mgmd:76 /etc/rc.d/init.d/ndb_mgmd:80
+#: /etc/rc.d/init.d/ndbd:69 /etc/rc.d/init.d/ndbd:71 /etc/rc.d/init.d/ndbd:75
+#: /etc/rc.d/init.d/ndo2db:56 /etc/rc.d/init.d/nessusd:47
+#: /etc/rc.d/init.d/nginx:43 /etc/rc.d/init.d/ngircd:34
+#: /etc/rc.d/init.d/noip:44 /etc/rc.d/init.d/npcd:43 /etc/rc.d/init.d/nscd:50
+#: /etc/rc.d/init.d/nslcd:38 /etc/rc.d/init.d/ntop:50
+#: /etc/rc.d/init.d/nuauth:74 /etc/rc.d/init.d/nufw:71
+#: /etc/rc.d/init.d/nxtvepgd:43 /etc/rc.d/init.d/oidentd:50
+#: /etc/rc.d/init.d/openhpid:138 /etc/rc.d/init.d/openhpid:150
+#: /etc/rc.d/init.d/openser:32 /etc/rc.d/init.d/pads:53
+#: /etc/rc.d/init.d/pathfinderd:47 /etc/rc.d/init.d/plague-builder:41
+#: /etc/rc.d/init.d/plague-server:42 /etc/rc.d/init.d/poker-bot:45
+#: /etc/rc.d/init.d/poker-server:48 /etc/rc.d/init.d/portreserve:60
+#: /etc/rc.d/init.d/postgrey:48 /etc/rc.d/init.d/prelude-correlator:50
+#: /etc/rc.d/init.d/prelude-manager:32 /etc/rc.d/init.d/psad:81
+#: /etc/rc.d/init.d/pure-ftpd:40 /etc/rc.d/init.d/racoon:30
+#: /etc/rc.d/init.d/rarpd:52 /etc/rc.d/init.d/ratbox-services:38
+#: /etc/rc.d/init.d/rbldnsd:96 /etc/rc.d/init.d/rinetd:34
+#: /etc/rc.d/init.d/ris-linuxd:57 /etc/rc.d/init.d/roundup:37
+#: /etc/rc.d/init.d/rpcbind:55 /etc/rc.d/init.d/rtpproxy:30
+#: /etc/rc.d/init.d/rwalld:52 /etc/rc.d/init.d/saslauthd:49
+#: /etc/rc.d/init.d/scanbuttond:45 /etc/rc.d/init.d/searchd:43
+#: /etc/rc.d/init.d/sec:44 /etc/rc.d/init.d/sems:32
+#: /etc/rc.d/init.d/sensord:44 /etc/rc.d/init.d/ser:45
+#: /etc/rc.d/init.d/sge_execd:62 /etc/rc.d/init.d/sgemaster:315
+#: /etc/rc.d/init.d/sip-redirect:40 /etc/rc.d/init.d/smsd:36
+#: /etc/rc.d/init.d/snmpd:54 /etc/rc.d/init.d/snmptrapd:51
+#: /etc/rc.d/init.d/spamassassin:51 /etc/rc.d/init.d/spampd:48
+#: /etc/rc.d/init.d/squid:100 /etc/rc.d/init.d/squidGuard:94
+#: /etc/rc.d/init.d/sshd:137 /etc/rc.d/init.d/sssd:49
+#: /etc/rc.d/init.d/systemtap:542 /etc/rc.d/init.d/tabled:43
+#: /etc/rc.d/init.d/tclhttpd:151 /etc/rc.d/init.d/tcsd:101
+#: /etc/rc.d/init.d/thttpd:45 /etc/rc.d/init.d/tinyerp-server:57
+#: /etc/rc.d/init.d/tinyproxy:45 /etc/rc.d/init.d/tor:45
+#: /etc/rc.d/init.d/trytond:57 /etc/rc.d/init.d/tuned:42
+#: /etc/rc.d/init.d/ucarp:110 /etc/rc.d/init.d/ulogd:48
+#: /etc/rc.d/init.d/update:50 /etc/rc.d/init.d/update:57
+#: /etc/rc.d/init.d/upnpd:46 /etc/rc.d/init.d/ups:74
+#: /etc/rc.d/init.d/ushare:36 /etc/rc.d/init.d/vdradmind:36
+#: /etc/rc.d/init.d/vtund:45 /etc/rc.d/init.d/wpa_supplicant:47
+#: /etc/rc.d/init.d/xinetd:83 /etc/rc.d/init.d/xrdp:45
+#: /etc/rc.d/init.d/xrdp:69 /etc/rc.d/init.d/zfs-fuse:142
+#: /etc/rc.d/init.d/zoneminder:58
+msgid "Stopping $prog: "
+msgstr "Стопирам $prog:"
+
+#: /etc/rc.d/init.d/audio-entropyd:34
+#, fuzzy
+msgid "Shutting down Audio Entropy daemon: "
+msgstr "Исклучувам Avahi даемон: "
+
+#~ msgid "Forwarding control parameter isn't valid '$fw_control' (arg 1)"
+#~ msgstr "Forwarding control parameter isn't valid '$fw_control' (arg 1)"
+
+#~ msgid ""
+#~ "/etc/sysconfig/network-scripts/dip-$DEVICE does not exist for $DEVICE"
+#~ msgstr "/etc/sysconfig/network-scripts/dip-$DEVICE не постои за $DEVICE"
+
+#, fuzzy
+#~ msgid "Loading uinput module: "
+#~ msgstr "Вчитувам стандардна мапа на карактери (keymap): "
+
+#~ msgid ""
+#~ "IPv6 forwarding per device cannot be controlled via sysctl - use "
+#~ "netfilter6 instead"
+#~ msgstr ""
+#~ "IPv6 пренасочувањето по уред не може да се контролира преку sysctl - "
+#~ "користете netfilter6"
+
+#~ msgid "Configured SMB mountpoints: "
+#~ msgstr "Конфигурирани SMB пакети: "
+
+#, fuzzy
+#~ msgid "Usage: $prog {start|stop|restart|condrestart}"
+#~ msgstr "Употреба: $prog {start|stop|status|restart|condrestart}"
+
+#~ msgid "Active SMB mountpoints: "
+#~ msgstr "Активни SMB патеки: "
+
+#~ msgid "Stopping $prog gracefully: "
+#~ msgstr "Стопирам $prog gracefully: "
+
+#~ msgid "Reloading oki4daemon: "
+#~ msgstr "Освежувам oki4daemon: "
+
+#~ msgid "Parameter '$modequiet' for 'quiet' mode is not valid (arg 2)"
+#~ msgstr "Параметарот '$modequiet' за 'quiet' не е валиден (arg 2)"
+
+#~ msgid "Usage: thttpd {start|stop|status|restart|condrestart|nicestop}"
+#~ msgstr "Употреба: thttpd {start|stop|status|restart|condrestart|nicestop}"
+
+#~ msgid "/usr/sbin/dip does not exist or is not executable"
+#~ msgstr "/usr/sbin/dip does не постои или не е извршливо"
+
+#~ msgid "/usr/sbin/dip does not exist or is not executable for $DEVICE"
+#~ msgstr "/usr/sbin/dip не постои или не е извршлив за уредот $DEVICE"
+
+#, fuzzy
+#~ msgid "Service $prog not running."
+#~ msgstr "$prog не е подигнат"
+
+#, fuzzy
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+#~ "reload|configtest}"
+#~ msgstr ""
+#~ "Употреба: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+#~ "reload|initdb}"
+
+#~ msgid "Given IPv4 address '$testipv4addr_valid' has no proper format"
+#~ msgstr "Дадената IPv4 адреса '$testipv4addr_valid' има неправилен формат"
+
+#~ msgid "Tunnel device 'sit0' is still up"
+#~ msgstr "Тунел уредот 'sit0' е се уште подигнат"
+
+#~ msgid ""
+#~ "Utility 'ip' (package: iproute) doesn't exist or isn't executable - stop"
+#~ msgstr "Алатката 'ip' (пакет: iproute) не постои или не е извршлива - стоп"
+
+#~ msgid "Given IPv6 address '$testipv6addr_valid' is not valid"
+#~ msgstr "Дадената IPv6 адреса '$testipv6addr_valid' не е валидна"
+
+#~ msgid "Usage: $prog {start|stop|restart|reload|condrestart|status}"
+#~ msgstr "Употреба: $prog {start|stop|restart|reload|condrestart|status}"
+
+#~ msgid "Stopping moomps: "
+#~ msgstr "Стопирам moomps: "
+
+#~ msgid "Missing parameter 'forwarding control' (arg 1)"
+#~ msgstr "Недостасува параметарот 'forwarding control' (arg 1)"
+
+#~ msgid "ifup-sl for $DEVICE exiting"
+#~ msgstr "ifup-sl за $DEVICE е напуштено"
+
+#~ msgid "Usage: boa {start|stop|status|reload|restart|condrestart}"
+#~ msgstr "Употреба: boa {start|stop|status|reload|restart|condrestart}"
+
+#~ msgid "Starting moomps: "
+#~ msgstr "Подигнувам moomps: "
+
+#~ msgid ""
+#~ "On given address '$testipv6addr_valid' the prefix length is out of range "
+#~ "(valid: 0-128)"
+#~ msgstr ""
+#~ "On given address '$testipv6addr_valid' the prefix length is out of range "
+#~ "(valid: 0-128)"
+
+#~ msgid "Stopping oki4daemon: "
+#~ msgstr "Стопирам oki4daemon: "
+
+#~ msgid "Unmounting SMB filesystems: "
+#~ msgstr "Демонтирам датотечни системи за SMB: "
+
+#, fuzzy
+#~ msgid "$servicename is not running."
+#~ msgstr "CIM серверот не работи"
+
+#~ msgid ""
+#~ "Utility 'sysctl' (package: procps) doesn't exist or isn't executable - "
+#~ "stop"
+#~ msgstr ""
+#~ "Алатката 'sysctl' (пакет: procps) не постои или не е извршлива - стопирам"
+
+#~ msgid "Missing prefix length for given address '$testipv6addr_valid'"
+#~ msgstr "Missing prefix length for given address '$testipv6addr_valid'"
+
+#~ msgid "Force-reload not supported."
+#~ msgstr "Присилно освежување не е подржано."
+
+#~ msgid "Part $c of given IPv4 address '$testipv4addr_valid' is out of range"
+#~ msgstr ""
+#~ "Делот $c за дадената IPv4 адреса '$testipv4addr_valid' е надвор од опсег"
+
+#~ msgid "Mounting SMB filesystems: "
+#~ msgstr "Монитрам SMB датотечни системи: "
+
+#~ msgid "Starting oki4daemon: "
+#~ msgstr "Подигнувам oki4daemon: "
+
+#~ msgid "dip started for $DEVICE on $MODEMPORT at $LINESPEED"
+#~ msgstr "dip е подигнат за $DEVICE на $MODEMPORT со $LINESPEED"
+
+#~ msgid "Reloading Resource Configuration: "
+#~ msgstr "Ја освежувам конфигурацијата: "
+
+#, fuzzy
+#~ msgid "Starting $schedd_prog: "
+#~ msgstr "Подигнувам $prog: "
+
+#, fuzzy
+#~ msgid "Stopping iSCSI daemon: "
+#~ msgstr "Стопирам даемон за acpi: "
+
+#~ msgid "Active GFS2 mountpoints: "
+#~ msgstr "Активни GFS2 точки на монтирање: "
+
+#~ msgid "Clearing database"
+#~ msgstr "Чистам база на податоци"
+
+#~ msgid "Starting disk encryption:"
+#~ msgstr "Подигнувам кодирање на диск:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Usage: $0 {start|stop|status|restart|try-restart|condrestart|reload|force-"
+#~ "reload|cleardb [test][verbose]}"
+#~ msgstr ""
+#~ "Употреба: $0 {start|stop|restart|try-restart|condrestart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Starting disk encryption using the RNG:"
+#~ msgstr "Подигнувам кодирање на дискот со помош на RNG:"
+
+#, fuzzy
+#~ msgid "Stopping $DESC $NAME :"
+#~ msgstr "Исклучувам сервис за ${NAME}: "
+
+#, fuzzy
+#~ msgid "Unmounting GFS filesystems (lazy): "
+#~ msgstr "Демонтирам GFS2 датотечни системи (мрзливо): "
+
+#~ msgid "Unmounting GFS2 filesystems: "
+#~ msgstr "Демонтирам GFS2 датотечни системи: "
+
+#~ msgid "Starting nsd... "
+#~ msgstr "Подигнувам nsd... "
+
+#, fuzzy
+#~ msgid "Active GFS mountpoints: "
+#~ msgstr "Активни GFS2 точки на монтирање: "
+
+#~ msgid "Shutting down RPC $PROG: "
+#~ msgstr "Исклучувам RPC $PROG: "
+
+#, fuzzy
+#~ msgid "Starting $DESC $NAME :"
+#~ msgstr "Подигнувам $BASENAME: "
+
+#, fuzzy
+#~ msgid "Unmounting GFS filesystems: "
+#~ msgstr "Демонтирам GFS2 датотечни системи: "
+
+#, fuzzy
+#~ msgid "Configured GFS mountpoints: "
+#~ msgstr "Конфигурирани GFS2 точки на монтирање: "
+
+#~ msgid "Waiting for services to stop: "
+#~ msgstr "Чекам да прекинат сервисите: "
+
+#, fuzzy
+#~ msgid "Mounting GFS filesystems: "
+#~ msgstr "Монтирам GFS2 датотечни системи: "
+
+#, fuzzy
+#~ msgid "Stopping $schedd_prog: "
+#~ msgstr "Стопирам $prog:"
+
+#, fuzzy
+#~ msgid "Starting ltsp-$prog: "
+#~ msgstr "Подигнувам $prog: "
+
+#~ msgid "Services are stopped."
+#~ msgstr "Сервисите се стопирани."
+
+#~ msgid "Configured GFS2 mountpoints: "
+#~ msgstr "Конфигурирани GFS2 точки на монтирање: "
+
+#, fuzzy
+#~ msgid "Shutting down ltsp-$prog: "
+#~ msgstr "Исклучувам $prog: "
+
+#~ msgid "Starting $prog:"
+#~ msgstr "Подигнувам $prog:"
+
+#~ msgid "Mounting GFS2 filesystems: "
+#~ msgstr "Монтирам GFS2 датотечни системи: "
+
+#, fuzzy
+#~ msgid "Starting iSCSI daemon: "
+#~ msgstr "Подигнувам NFS даемон: "
+
+#, fuzzy
+#~ msgid "Usage: $0 {start|stop|restart|reload|force-reload}"
+#~ msgstr ""
+#~ "Употреба: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#~ msgid "Unmounting GFS2 filesystems (lazy): "
+#~ msgstr "Демонтирам GFS2 датотечни системи (мрзливо): "
+
+#~ msgid "Starting NetworkManagerDispatcher daemon: "
+#~ msgstr "Подигнувам даемон за NetworkManagerDispatcher: "
+
+#~ msgid "Failed to load firmware."
+#~ msgstr "Не можам да вчитам фирмвер."
+
+#~ msgid "Setting up iSCSI targets: "
+#~ msgstr "Поставувам iSCSI цели: "
+
+#~ msgid "Stopping NetworkManagerDispatcher daemon: "
+#~ msgstr "Стопирам даемон NetworkManagerDispatcher: "
+
+#~ msgid "Usage: $0 {condrestart|start|stop|restart|reload|status}"
+#~ msgstr "Употреба: $0 {condrestart|start|stop|restart|reload|status}"
+
+#~ msgid "Stopping $servicename: "
+#~ msgstr "Стопирам $servicename: "
+
+#, fuzzy
+#~ msgid "X is now configured.  Starting firstboot."
+#~ msgstr "X-от е конфигуриран.  Подигнувам Агент за поставување"
+
+#, fuzzy
+#~ msgid "Usage: nfs {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Употреба: $0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Extracting kadm5 Service Keys: "
+#~ msgstr "Отпакувам клучеви за kadm5 сервисот: "
+
+#~ msgid "Usage: $0 {start|stop|restart|status|force-reload}"
+#~ msgstr "Употреба: $0 {start|stop|restart|status|force-reload}"
+
+#, fuzzy
+#~ msgid "X is not configured.  Running system-config-display."
+#~ msgstr "X не е конфигуриран.  Извршувам system-config-display"
+
+#~ msgid "Usage: ${0##*/} {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Употреба: ${0##*/} {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Disabling PLX devices... "
+#~ msgstr "Оневозможувам PLX уреди... "
+
+#~ msgid "$prog stopped but subsys locked..."
+#~ msgstr "$prog е стопиран но subsys e заклучен..."
+
+#~ msgid "Loading isicom firmware... "
+#~ msgstr "Вчитувам isicom фирмвер... "
+
+#, fuzzy
+#~ msgid "Starting background readahead ($LTYPE, "
+#~ msgstr "Подигнувам readahead во позадина: "
+
+#~ msgid "Shut down poker-bot first!"
+#~ msgstr "Прво исклучете го ботот за покер!"
+
+#~ msgid "Bridge support not available in this kernel"
+#~ msgstr "Нема поддршка за премостување во овој кернел"
+
+#~ msgid "Loading PLX (isicom) modules... "
+#~ msgstr "Вчитувам PLX (isicom) модул... "
+
+#~ msgid "cannot find ipsec command"
+#~ msgstr "не можам да ја најдам командата ipsec"
+
+#~ msgid "Starting NFS locking: "
+#~ msgstr "Подигнувам заклучување за NFS: "
+
+#, fuzzy
+#~ msgid "Usage: $0 {start|stop|status|restart|probe|condrestart}"
+#~ msgstr "Употреба: $0 {start|stop|status|restart|condrestart}"
+
+#~ msgid "poker-server must be running"
+#~ msgstr "poker-server мора да работи"
+
+#, fuzzy
+#~ msgid ""
+#~ "Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-"
+#~ "reloadstatus}"
+#~ msgstr ""
+#~ "Употреба: $0 {start|stop|restart|try-restart|condrestart|reload|force-"
+#~ "reload|status}"
+
+#~ msgid "Starting $servicename: "
+#~ msgstr "Подигнувам $servicename: "
+
+#~ msgid "Failed to load module: isicom"
+#~ msgstr "Не можам да вчитам модул: isicom"
+
+#~ msgid "$prog stopped but pid file exists..."
+#~ msgstr "$prog не работи но pid датотеката постои..."
+
+#, fuzzy
+#~ msgid "Turning off network shutdown. "
+#~ msgstr "Исклучувам исклучување на мрежата."
+
+#~ msgid "Checking for hardware changes"
+#~ msgstr "Проверка за промена на хардверот"
+
+#~ msgid "OK"
+#~ msgstr "УСПЕШНО"
+
+#~ msgid "Starting $subsys: "
+#~ msgstr "Подигнувам $subsys: "
+
+#~ msgid "no response, killing with -TERM "
+#~ msgstr "нема одговор, убивам со - TERM"
+
+#~ msgid "no virtual addresses are configured in ${CONFDIR}:"
+#~ msgstr "не се конфигурирани виртуелни адреси во ${CONFDIR}:"
+
+#, fuzzy
+#~ msgid "Usage: apmd {start|stop|status|restart|reload|condrestart}"
+#~ msgstr "Употреба: $0 {start|stop|status|restart|reload|condrestart}"
+
+#~ msgid "Loading default keymap ($KEYTABLE): "
+#~ msgstr "Вчитувам стандардна мапа на карактери ($KEYTABLE): "
+
+#~ msgid "Usage: $0 {start|stop|reload|report|restart|status}"
+#~ msgstr "Употреба: $0 {start|stop|reload|report|restart|status}"
+
+#~ msgid "Loading additional $IP6TABLES modules: "
+#~ msgstr "Вчитувам дополнителни модули за $IP6TABLES: "
+
+#~ msgid "all ucarp daemons stopped and IP addresses unassigned:"
+#~ msgstr "сите ucarp даемони стопирани и IP адресите недоделени:"
+
+#~ msgid "no VIP_ADDRESS found in ${FILE}, skipped VIP ID ${ID}:"
+#~ msgstr "не е пронајдена VIP_ADDRESS во ${FILE}, прескокнувам VIP ID ${ID}:"
+
+#~ msgid "all ucarp configurations were applied successfully:"
+#~ msgstr "сите конфигурации на ucarp беа применети успешно:"
+
+#~ msgid "error running one or more of the ucarp daemon instances:"
+#~ msgstr ""
+#~ "грешка при извршување на една или повеќе инстанци од даемонот за ucarp:"
+
+#~ msgid "error in one or more of the ucarp configurations:"
+#~ msgstr "грешка во една или повеќе конфигурации на ucarp:"
+
+#~ msgid "Loading default keymap"
+#~ msgstr "Вчитувам стандардна keymap (мапа на карактери)"
+
+#~ msgid "Stopping $subsys: "
+#~ msgstr "Стопирам $subsys:"
+
+#~ msgid "${base} has run"
+#~ msgstr "${base} е извршено"
+
+#~ msgid "no PASSWORD found in ${FILE}, skipped VIP ID ${ID}:"
+#~ msgstr "не пронајдов ЛОЗИНКА во ${FILE}, прескокнувам VIP ID ${ID}:"
+
+#~ msgid "Running system reconfiguration tool"
+#~ msgstr "Пуштам алатка за реконфигурација"
+
+#~ msgid "Setting clock $CLOCKDEF: `date`"
+#~ msgstr "Поставувам часовник $CLOCKDEF: `date`"
+
+#~ msgid "no BIND_ADDRESS found in ${FILE}, skipped VIP ID ${ID}:"
+#~ msgstr ""
+#~ "не е пронајдена BIND_ADDRESS во ${FILE}, го прескокнав VIP ID ${ID}:"
+
+#~ msgid "it seems like no ucarp daemon were running:"
+#~ msgstr "изгледа дека нема ucarp даемон кој што работи:"
+
+#~ msgid "Stopping ConsoleKit: "
+#~ msgstr "Стопирам ConsoleKit: "
+
+#~ msgid "Unloading $IPTABLES modules: "
+#~ msgstr "Unloading $IPTABLES modules: "
+
+#~ msgid "Stopping $prog:"
+#~ msgstr "Стопирам $prog:"
+
+#~ msgid "Loading default keymap: "
+#~ msgstr "Вчитувам стандардна мапа на карактери (keymap): "
+
+#~ msgid "ID out of range (1-255) for ${FILE}, skipped VIP ID ${ID}:"
+#~ msgstr ""
+#~ "ID е надвор од опсегот (1-255) за ${FILE}, прескоконувам VIP ID ${ID}:"
+
+#~ msgid "Starting ConsoleKit: "
+#~ msgstr "Подигнувам ConsoleKit: "
+
+#~ msgid "Networking not configured - exiting"
+#~ msgstr "Мрежата не е конфигурирана - излегувам"
+
+#~ msgid "Firewall is stopped."
+#~ msgstr "Заштитниот ѕид е стопиран."
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|cleardb}"
+#~ msgstr "Употреба: $0 {start|stop|status|restart|condrestart|reload|cleardb}"
+
+#~ msgid "Starting $OTRS_PROG.."
+#~ msgstr "Подигнувам $OTRS_PROG.."
+
+#~ msgid "reloading $prog: "
+#~ msgstr "повторно вчитувам $prog: "
+
+#~ msgid "cannot stop crond: crond is not running."
+#~ msgstr "не можам да го стопирам crond: crond е веќе стопиран."
+
+#~ msgid "Stopping OpenPBX: "
+#~ msgstr "Стопирам OpenPBX: "
+
+#~ msgid "Starting OpenPBX: "
+#~ msgstr "Подигнувам OpenPBX: "
+
+#~ msgid "Stopping iSCSI initiator service: "
+#~ msgstr "Стопирам сервис за иницијација на iSCSI: "
+
+#~ msgid "$prog: Usage: < start | stop | restart | reload | status >"
+#~ msgstr "$prog: Употреба: < start | stop | restart | reload | status >"
+
+#~ msgid "$1 (pid $pid) is running..."
+#~ msgstr "$1 (pid $pid) веќе работи..."
+
+#~ msgid "or install caching-nameserver."
+#~ msgstr "или инсталирајте кешинг сервер за имиња."
+
+#~ msgid "cannot start crond: crond already running."
+#~ msgstr "не можам да го подигнам crond: crond е веќе подигнат."
+
+#~ msgid "cannot start crond: crond is already running."
+#~ msgstr "не можам да го подигнам crond: crond е веќе подигнат."
+
+#~ msgid "Listening for an NIS domain server."
+#~ msgstr "Слушам за NIS домен сервер."
+
+#~ msgid "$prog ( $pid ) listening on $sender"
+#~ msgstr "$prog ( $pid ) слуша на $sender"
+
+#~ msgid "ipchains and $IP6TABLES can not be used together."
+#~ msgstr "ipchains и $IP6TABLES не можат да се користат заедно."
+
+#~ msgid "Starting $MODEL: "
+#~ msgstr "Подигнувам $MODEL: "
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart} [instance-name]"
+#~ msgstr ""
+#~ "Употреба: $0 {start|stop|status|restart|condrestart} [instance-name]"
+
+#~ msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|probe}"
+#~ msgstr "Употреба: $0 {start|stop|status|restart|condrestart|reload|probe}"
+
+#~ msgid "Converting old group quota files: "
+#~ msgstr "Претворам стари датотеки за групни квоти: "
+
+#~ msgid "Starting iSCSI initiator service: "
+#~ msgstr "Подигнувам iSCSI сервис за иницијација: "
+
+#~ msgid "  $TYPE tables: "
+#~ msgstr "  $TYPE табели: "
+
+#~ msgid "Usage: $0 {start|stop|restart|condstart|condrestart|condstop|status}"
+#~ msgstr ""
+#~ "Употреба: $0 {start|stop|restart|condstart|condrestart|condstop|status}"
+
+#~ msgid "Error in named configuration"
+#~ msgstr "Грешка во конфигурацијата на named"
+
+#~ msgid "Converting old user quota files: "
+#~ msgstr "Претворам стари датотеки за квота на корисниците: "
+
+#~ msgid "Shutting down RPC gssd: "
+#~ msgstr "Исклучувам RPC gssd: "
+
+#~ msgid "Final start of $OTRS_PROG.. done"
+#~ msgstr "Последен старт на $OTRS_PROG.. завршено"
+
+#~ msgid ""
+#~ "I can't find any configuration file. You can create it by system-config-"
+#~ "bind"
+#~ msgstr ""
+#~ "Не можам да најдам конфигурациска датотека. Можете да ја креирате со "
+#~ "system-config-bind"
+
+#~ msgid "Shutting down RPC idmapd: "
+#~ msgstr "Исклучувам RPC idmapd: "
+
+#~ msgid "ipchains and $IPTABLES can not be used together."
+#~ msgstr "ipchains и $IPTABLES не можат да се користат заедно."
+
+#~ msgid "Final shutdown of $OTRS_PROG.. done"
+#~ msgstr "Последно исклучување на $OTRS_PROG.. завршено"
+
+#~ msgid "Binding to the NIS domain: "
+#~ msgstr "Врзувам за NIS домен: "

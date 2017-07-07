@@ -1,0 +1,51 @@
+basename.lo: basename.c \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h \
+ config.h dirname.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdbool.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h \
+ dosname.h string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h \
+ xalloc.h xalloc-oversized.h xstrndup.h
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h:
+
+config.h:
+
+dirname.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdbool.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h:
+
+dosname.h:
+
+string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h:
+
+xalloc.h:
+
+xalloc-oversized.h:
+
+xstrndup.h:

@@ -1,0 +1,86 @@
+rpmatch.lo: rpmatch.c config.h stdlib.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/stdlib.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/features.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_config.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/cdefs.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stddef.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitflags.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitstatus.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/endian.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/endian.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/byteswap.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap-common.h \
+ sys/types.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/types.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/types.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/wordsize.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/typesizes.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/pthreadtypes.h \
+ time.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/time.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/select.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/select.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/sigset.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/time.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/sysmacros.h \
+ alloca.h \
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stdbool.h
+
+config.h:
+
+stdlib.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/stdlib.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/features.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/uClibc_config.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/cdefs.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stddef.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitflags.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/waitstatus.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/endian.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/endian.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/byteswap.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/byteswap-common.h:
+
+sys/types.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/types.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/types.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/wordsize.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/typesizes.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/pthreadtypes.h:
+
+time.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/time.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/select.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/select.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/sigset.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/bits/time.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/include/sys/sysmacros.h:
+
+alloca.h:
+
+/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/include/stdbool.h:

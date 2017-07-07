@@ -1,0 +1,4718 @@
+# translation of initscripts.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ankit Patel <ankit@redhat.com>, 2004, 2005, 2006, 2007, 2008.
+# Sweta Kothari <swkothar@redhat.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: initscripts\n"
+"PO-Revision-Date: 2009-09-01 11:58+0530\n"
+"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
+"Language-Team: Gujarati\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: /etc/rc.d/init.d/openais:30
+msgid "Stopping OpenAIS ($prog): "
+msgstr "OpenAIS ($prog) ને બંધ કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/ez-ipupdate:76
+msgid "Reloading $prog for $ez_name: "
+msgstr "$prog ને $ez_name માટે પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/incrond:29
+msgid "Stopping incrond: "
+msgstr "incrond અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1157
+msgid "No parameters given to setup a default route"
+msgstr "મૂળભૂત માર્ગ સુયોજિત કરવા માટે કોઈ પરિમાણો આપેલા નથી"
+
+#: /etc/rc.d/init.d/dhcpd:138 /etc/rc.d/init.d/dhcrelay:116
+msgid "Usage: $0 {start|stop|restart|condrestart|configtest|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|condrestart|configtest|status}"
+
+#: /etc/rc.d/init.d/ups:59
+msgid "Starting UPS monitor (slave): "
+msgstr "UPS મોનિટર શરુ કરી રહ્યા છીએ (સ્લેવ): "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:119
+msgid "CRITICAL "
+msgstr "વિચિત્ર "
+
+#: /etc/rc.d/init.d/lirc:83
+msgid "Stopping infrared remote control mouse daemon ($prog2): "
+msgstr "ઈન્ફ્રારેડ દૂરસ્થ નિયંત્રણ માઉસ ડિમન ($prog2) અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cyrus-imapd:116
+msgid "$BASENAME exporting databases"
+msgstr "$BASENAME ડેટાબેઝો નિકાસ કરી રહ્યું છે"
+
+#: /etc/ppp/ip-up.ipv6to4:123 /etc/sysconfig/network-scripts/ifup-ipv6:233
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+"ચેતવણી: MTU '$IPV6TO4_MTU' એ 6to4 માટે રુપરેખાંકિત થયેલ છે જે '$tunnelmtu' ની મહત્તમ "
+"મર્યાદા કરતાં વધી ગયું છે, અવગણાયેલ છે"
+
+#: /etc/rc.d/init.d/tclhttpd:51
+msgid "$base dead but pid file exists"
+msgstr "$base મૃત છે પરંતુ pid ફાઈલ અસ્તિત્વમાં છે"
+
+#: /etc/sysconfig/network-scripts/ifup:95
+msgid "Could not set 802.1Q VLAN parameters."
+msgstr "802.1Q VLAN પરિમાણો સુયોજિત કરી રહ્યા નથી."
+
+#: /etc/sysconfig/network-scripts/ifup:100
+#: /etc/sysconfig/network-scripts/ifup-eth:79
+#: /etc/sysconfig/network-scripts/ifup-ib:52
+msgid "$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "$alias ઉપકરણ ${DEVICE} અસ્તિત્વમાં હોય એમ લાગતું નથી, પ્રારંભ કરવામાં વિલંબ છે."
+
+#: /etc/rc.d/init.d/amd:97 /etc/rc.d/init.d/bgpd:64 /etc/rc.d/init.d/btseed:70
+#: /etc/rc.d/init.d/bttrack:71 /etc/rc.d/init.d/dropbear:122
+#: /etc/rc.d/init.d/irda:71 /etc/rc.d/init.d/mldonkey:71
+#: /etc/rc.d/init.d/mon:78 /etc/rc.d/init.d/monit:81
+#: /etc/rc.d/init.d/partimaged:88 /etc/rc.d/init.d/ripd:63
+#: /etc/rc.d/init.d/ripngd:63 /etc/rc.d/init.d/tcsd:136
+#: /etc/rc.d/init.d/vblade:91 /etc/rc.d/init.d/zebra:63
+msgid "Usage: $0 {start|stop|restart|reload|condrestart|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/pcscd:55
+msgid "Stopping PC/SC smart card daemon ($prog): "
+msgstr "PC/SC સ્માર્ટ કાર્ડ ડિમન અટકાવી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/gpm:47
+msgid "Starting console mouse services: "
+msgstr "કન્સોલ માઉસ સેવાઓ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rdisc:46
+msgid "Shutting down router discovery services: "
+msgstr "રાઉટર શોધખોળ સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/crossfire:33 /etc/rc.d/init.d/liquidwar-server:34
+#: /etc/rc.d/init.d/wesnothd:45 /etc/rc.d/init.d/xpilot-ng-server:33
+msgid "$prog already running"
+msgstr "$prog પહેલાથી ચાલી રહ્યું છે"
+
+#: /etc/rc.d/init.d/ser2net:41
+msgid "Reloading ser2net"
+msgstr "ser2net પુનઃલાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/dictd:39
+msgid "no dictionaries installed"
+msgstr "કોઈ ડિરેક્ટરીઓ સ્થાપિત નથી"
+
+#: /etc/rc.d/init.d/syslog-ng:115
+msgid "Usage: $0 {start|stop|restart|reload|condrestart|checkconfig}"
+msgstr "વપરાશ: $0 {start|stop|restart|reload|condrestart|checkconfig}"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:74
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} અસ્તિત્વમાં નથી"
+
+#: /etc/rc.d/init.d/monotone:73
+msgid "to"
+msgstr "થી"
+
+#: /etc/rc.d/init.d/maradns-zoneserver:80
+msgid "Stopping MaraDNS-Zoneserver: "
+msgstr "MaraDNS-Zoneserver બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/iptables:277
+msgid "${IPTABLES}: Firewall is not running."
+msgstr "${IPTABLES}: ફાયરવોલ ચાલતો નથી."
+
+#: /etc/rc.d/init.d/iptables:291
+msgid "${IPTABLES}: Firewall is not configured. "
+msgstr "${IPTABLES}: ફાયરવોલ રૂપરેખાંકિત નથી. "
+
+#: /etc/rc.d/init.d/util-vserver:60
+msgid "Setting path to vshelper"
+msgstr "vshelper નો પાથ સુયોજીત કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/netfs:113
+msgid "Unmounting CIFS filesystems: "
+msgstr "CIFS ફાઈલ સિસ્ટમોનું માઉન્ટ દૂર કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:352
+msgid "Usage: pidfileofproc {program}"
+msgstr "વપરાશ: pidfileofproc {program}"
+
+#: /etc/rc.d/init.d/yum-updatesd:42
+msgid "Stopping yum-updatesd: "
+msgstr "yum-updatesd અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/vncserver:64
+msgid "vncserver start"
+msgstr "vncserver શરુ થયું"
+
+#: /etc/rc.d/init.d/netconsole:76
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr "/etc/sysconfig/netconsole માં સર્વર સરનામું સ્પષ્ટ થયેલ નથી"
+
+#: /etc/rc.d/init.d/atop:74 /etc/rc.d/init.d/audio-entropyd:52
+#: /etc/rc.d/init.d/krb5kdc:86 /etc/rc.d/init.d/newscache:80
+#: /etc/rc.d/init.d/squidGuard:171
+msgid "Usage: $0 {start|stop|status|reload|restart|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|status|reload|restart|condrestart}"
+
+#: /etc/rc.d/init.d/rpcsvcgssd:50
+msgid "Starting RPC svcgssd: "
+msgstr "RPC svcgssd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:605
+msgid "$s compilation failed "
+msgstr "$s કમ્પાઇલેશન નિષ્ફળ"
+
+#: /etc/rc.d/init.d/ajaxterm:27 /etc/rc.d/init.d/amd:36
+#: /etc/rc.d/init.d/amtu:50 /etc/rc.d/init.d/aprsd:32
+#: /etc/rc.d/init.d/arpwatch:38 /etc/rc.d/init.d/atd:36
+#: /etc/rc.d/init.d/athcool:19 /etc/rc.d/init.d/atop:19
+#: /etc/rc.d/init.d/auditd:53 /etc/rc.d/init.d/auth2:26
+#: /etc/rc.d/init.d/autofs:88 /etc/rc.d/init.d/autogroup:38
+#: /etc/rc.d/init.d/autohome:36 /etc/rc.d/init.d/beanstalkd:33
+#: /etc/rc.d/init.d/boa:36 /etc/rc.d/init.d/boinc-client:114
+#: /etc/rc.d/init.d/bootparamd:38 /etc/rc.d/init.d/bro:86
+#: /etc/rc.d/init.d/canna:37 /etc/rc.d/init.d/cfexecd:22
+#: /etc/rc.d/init.d/cfservd:26 /etc/rc.d/init.d/chronyd:84
+#: /etc/rc.d/init.d/chunkd:33 /etc/rc.d/init.d/clamav-milter:23
+#: /etc/rc.d/init.d/clamd-wrapper:43 /etc/rc.d/init.d/cld:34
+#: /etc/rc.d/init.d/coda-client:25 /etc/rc.d/init.d/codasrv:21
+#: /etc/rc.d/init.d/collectd:25 /etc/rc.d/init.d/collectl:32
+#: /etc/rc.d/init.d/couchdb:37 /etc/rc.d/init.d/cpuspeed:91
+#: /etc/rc.d/init.d/crond:46 /etc/rc.d/init.d/ctrlproxy:41
+#: /etc/rc.d/init.d/cups:53 /etc/rc.d/init.d/cwdaemon:32
+#: /etc/rc.d/init.d/dbmail-imapd:36 /etc/rc.d/init.d/dbmail-lmtpd:37
+#: /etc/rc.d/init.d/dbmail-pop3d:37 /etc/rc.d/init.d/dbmail-timsieved:38
+#: /etc/rc.d/init.d/dc_client:33 /etc/rc.d/init.d/dc_server:29
+#: /etc/rc.d/init.d/ddclient:28 /etc/rc.d/init.d/dhcp-fwd:40
+#: /etc/rc.d/init.d/dhcp6r:44 /etc/rc.d/init.d/dhcp6s:56
+#: /etc/rc.d/init.d/dhcpd:81 /etc/rc.d/init.d/dhcrelay:54
+#: /etc/rc.d/init.d/dictd:34 /etc/rc.d/init.d/distccd:42
+#: /etc/rc.d/init.d/dovecot:46 /etc/rc.d/init.d/dropbear:69
+#: /etc/rc.d/init.d/fcron_watch_config:32 /etc/rc.d/init.d/flow-capture:42
+#: /etc/rc.d/init.d/fnfxd:26 /etc/rc.d/init.d/freenx-server:40
+#: /etc/rc.d/init.d/freenx-server:42 /etc/rc.d/init.d/fyre-cluster:31
+#: /etc/rc.d/init.d/gearmand:37 /etc/rc.d/init.d/globus-rls-server:28
+#: /etc/rc.d/init.d/glusterfsd:37 /etc/rc.d/init.d/gmediaserver:59
+#: /etc/rc.d/init.d/gpsd:44 /etc/rc.d/init.d/haproxy:40
+#: /etc/rc.d/init.d/honeyd:38 /etc/rc.d/init.d/httpd:54
+#: /etc/rc.d/init.d/i8k:39 /etc/rc.d/init.d/ibmasm:19
+#: /etc/rc.d/init.d/inadyn:42 /etc/rc.d/init.d/ip-sentinel:27
+#: /etc/rc.d/init.d/ircd:26 /etc/rc.d/init.d/irda:23
+#: /etc/rc.d/init.d/irqbalance:45 /etc/rc.d/init.d/iscsi:50
+#: /etc/rc.d/init.d/iscsid:37 /etc/rc.d/init.d/jetty:59
+#: /etc/rc.d/init.d/kadmin:55 /etc/rc.d/init.d/keepalived:36
+#: /etc/rc.d/init.d/kojid:32 /etc/rc.d/init.d/kojira:32
+#: /etc/rc.d/init.d/kprop:37 /etc/rc.d/init.d/krb5kdc:40
+#: /etc/rc.d/init.d/ldap:181 /etc/rc.d/init.d/lighttpd:40
+#: /etc/rc.d/init.d/mailgraph:39 /etc/rc.d/init.d/mailman:86
+#: /etc/rc.d/init.d/mcstrans:44 /etc/rc.d/init.d/mdmonitor:50
+#: /etc/rc.d/init.d/memcached:37 /etc/rc.d/init.d/milter-greylist:25
+#: /etc/rc.d/init.d/milter-regex:30 /etc/rc.d/init.d/miredo-client:46
+#: /etc/rc.d/init.d/miredo-server:48 /etc/rc.d/init.d/monit:29
+#: /etc/rc.d/init.d/mrepo:27 /etc/rc.d/init.d/mydns:24
+#: /etc/rc.d/init.d/mysql-proxy:35 /etc/rc.d/init.d/mysqld:87
+#: /etc/rc.d/init.d/mysqld:90 /etc/rc.d/init.d/mysqld:93
+#: /etc/rc.d/init.d/ndb_mgmd:58 /etc/rc.d/init.d/ndb_mgmd:60
+#: /etc/rc.d/init.d/ndbd:53 /etc/rc.d/init.d/ndbd:55
+#: /etc/rc.d/init.d/ndo2db:41 /etc/rc.d/init.d/nessusd:38
+#: /etc/rc.d/init.d/nginx:34 /etc/rc.d/init.d/ngircd:25
+#: /etc/rc.d/init.d/noip:35 /etc/rc.d/init.d/npcd:34 /etc/rc.d/init.d/nscd:41
+#: /etc/rc.d/init.d/nslcd:29 /etc/rc.d/init.d/ntop:33 /etc/rc.d/init.d/ntpd:44
+#: /etc/rc.d/init.d/nuauth:64 /etc/rc.d/init.d/nufw:62
+#: /etc/rc.d/init.d/nxtvepgd:34 /etc/rc.d/init.d/odccm:25
+#: /etc/rc.d/init.d/oddjobd:35 /etc/rc.d/init.d/oidentd:41
+#: /etc/rc.d/init.d/openhpid:101 /etc/rc.d/init.d/openhpid:106
+#: /etc/rc.d/init.d/openhpid:111 /etc/rc.d/init.d/openhpid:121
+#: /etc/rc.d/init.d/openser:22 /etc/rc.d/init.d/pads:35
+#: /etc/rc.d/init.d/pads:39 /etc/rc.d/init.d/pathfinderd:38
+#: /etc/rc.d/init.d/plague-builder:32 /etc/rc.d/init.d/plague-server:33
+#: /etc/rc.d/init.d/poker-bot:34 /etc/rc.d/init.d/poker-server:34
+#: /etc/rc.d/init.d/portreserve:48 /etc/rc.d/init.d/postgrey:39
+#: /etc/rc.d/init.d/prelude-correlator:32
+#: /etc/rc.d/init.d/prelude-correlator:36 /etc/rc.d/init.d/prelude-manager:17
+#: /etc/rc.d/init.d/prelude-manager:21 /etc/rc.d/init.d/proftpd:52
+#: /etc/rc.d/init.d/psad:50 /etc/rc.d/init.d/pure-ftpd:32
+#: /etc/rc.d/init.d/racoon:21 /etc/rc.d/init.d/rarpd:42
+#: /etc/rc.d/init.d/ratbox-services:25 /etc/rc.d/init.d/rbldnsd:84
+#: /etc/rc.d/init.d/rinetd:25 /etc/rc.d/init.d/ris-linuxd:44
+#: /etc/rc.d/init.d/roundup:27 /etc/rc.d/init.d/rpcbind:45
+#: /etc/rc.d/init.d/rtpproxy:21 /etc/rc.d/init.d/rwalld:39
+#: /etc/rc.d/init.d/saslauthd:40 /etc/rc.d/init.d/scanbuttond:32
+#: /etc/rc.d/init.d/searchd:33 /etc/rc.d/init.d/sems:23
+#: /etc/rc.d/init.d/sendmail:60 /etc/rc.d/init.d/sensord:22
+#: /etc/rc.d/init.d/ser:36 /etc/rc.d/init.d/sge_execd:53
+#: /etc/rc.d/init.d/sigul_bridge:13 /etc/rc.d/init.d/sigul_server:14
+#: /etc/rc.d/init.d/sip-redirect:31 /etc/rc.d/init.d/smartd:52
+#: /etc/rc.d/init.d/smsd:21 /etc/rc.d/init.d/snmpd:40
+#: /etc/rc.d/init.d/snmptrapd:42 /etc/rc.d/init.d/spamassassin:41
+#: /etc/rc.d/init.d/spampd:39 /etc/rc.d/init.d/squid:65
+#: /etc/rc.d/init.d/squid:77 /etc/rc.d/init.d/squidGuard:71
+#: /etc/rc.d/init.d/ssbd:30 /etc/rc.d/init.d/sshd:127 /etc/rc.d/init.d/sssd:40
+#: /etc/rc.d/init.d/systemtap:482 /etc/rc.d/init.d/tabled:34
+#: /etc/rc.d/init.d/tclhttpd:143 /etc/rc.d/init.d/tcsd:90
+#: /etc/rc.d/init.d/thebridge:28 /etc/rc.d/init.d/thttpd:36
+#: /etc/rc.d/init.d/tinyerp-server:47 /etc/rc.d/init.d/tinyproxy:36
+#: /etc/rc.d/init.d/tor:31 /etc/rc.d/init.d/trytond:48
+#: /etc/rc.d/init.d/tuned:34 /etc/rc.d/init.d/ulogd:34
+#: /etc/rc.d/init.d/update:28 /etc/rc.d/init.d/update:36
+#: /etc/rc.d/init.d/upnpd:35 /etc/rc.d/init.d/ups:45
+#: /etc/rc.d/init.d/ushare:28 /etc/rc.d/init.d/vdradmind:27
+#: /etc/rc.d/init.d/vncserver:36 /etc/rc.d/init.d/vtund:36
+#: /etc/rc.d/init.d/watchdog:26 /etc/rc.d/init.d/xfs:57
+#: /etc/rc.d/init.d/xinetd:56 /etc/rc.d/init.d/xrdp:34
+#: /etc/rc.d/init.d/xrdp:58 /etc/rc.d/init.d/zfs-fuse:58
+#: /etc/rc.d/init.d/zoneminder:47
+msgid "Starting $prog: "
+msgstr "$prog શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ypbind:56 /etc/rc.d/init.d/ypbind:61
+msgid "domain is '$NISDOMAIN' "
+msgstr "'$NISDOMAIN' ડોમેઈન છે "
+
+#: /etc/rc.d/init.d/cgred:73
+msgid "Starting CGroup Rules Engine Daemon..."
+msgstr "CGroup Rules Engine ડિમન શરૂ કરી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/shorewall:36 /etc/rc.d/init.d/shorewall-lite:36
+#: /etc/rc.d/init.d/shorewall6:36 /etc/rc.d/init.d/shorewall6-lite:36
+msgid "Starting Shorewall: "
+msgstr "Shorewall શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/codeanalyst:175
+msgid "Check Oprofile filesystem mounted ... "
+msgstr "માઉન્ટ થયેલ Oprofile ફાઇલસિસ્ટમ ને ચકાસો ... "
+
+#: /etc/rc.d/init.d/ebtables:87
+msgid "Saving $desc ($prog): "
+msgstr "$desc ($prog) સંગ્રહી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-sit:63
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr "ટનલનું દૂરસ્થ IPv4 સરનામું ખોવાયેલ છે, રુપરેખાંકન માન્ય નથી"
+
+#: /etc/rc.d/init.d/systemtap:518
+msgid "$prog startup"
+msgstr "$prog શરૂ કરો"
+
+#: /etc/rc.d/init.d/preload:57
+msgid "Starting preload daemon: "
+msgstr "preload ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/denyhosts:60
+msgid "Disabling denyhosts cron service: "
+msgstr "denyhosts cron સેવા નિષ્ક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1246
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr "radvd ને ટ્રીગર મોકલવા માટે બિનઆધારભૂત મિકેનિઝમ '$mechanism'"
+
+#: /etc/ppp/ip-up.ipv6to4:189 /etc/sysconfig/network-scripts/ifup-ipv6:299
+msgid "radvd control enabled, but config is not complete"
+msgstr "radvd નિયંત્રક સક્રિય કરેલ છે, પરંતુ રુપરેખાંકન પૂર્ણ નથી"
+
+#: /etc/rc.d/init.d/named:238
+msgid "Reloading "
+msgstr "પુનઃલાવી રહ્યા છીએ "
+
+#: /etc/rc.d/init.d/messagebus:48
+msgid "Stopping system message bus: "
+msgstr "સિસ્ટમ સંદેશા bus બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/privoxy:134
+msgid "Usage: $PRIVOXY_PRG {start|stop|reload|restart|condrestart|status|top}"
+msgstr "વપરાશ: $PRIVOXY_PRG {start|stop|reload|restart|condrestart|status|top}"
+
+#: /etc/rc.d/init.d/nsca:55
+msgid "Reloading nsca: "
+msgstr "nsca પુનઃલોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/radvd:43
+msgid "Insufficient privilege"
+msgstr "અપૂરતા હકો"
+
+#: /etc/rc.d/init.d/yum-cron:29
+msgid "Disabling nightly yum update: "
+msgstr "રાત્રિય yum update નિષ્ક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/i8k:71
+msgid "Module $module is loaded."
+msgstr "મોડ્યુલ $module લોડ થયેલ છે."
+
+#: /etc/rc.d/init.d/arptables_jf:192
+msgid "Usage: $0 {start|stop|restart|condrestart|status|panic|save}"
+msgstr "વપરાશ: $0 {start|stop|restart|condrestart|status|panic|save}"
+
+#: /etc/rc.d/init.d/ups:68
+msgid "Stopping UPS monitor: "
+msgstr "UPS મોનિટર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/smokeping:71
+msgid ""
+"Usage: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+"restart}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|force-reload|reload|condrestart|try-"
+"restart}"
+
+#: /etc/rc.d/init.d/nginx:131
+msgid "Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|restart}"
+msgstr "વપરાશ: $0 {start|stop|reload|configtest|status|force-reload|upgrade|restart}"
+
+#: /etc/rc.d/init.d/smolt:22
+msgid "Enabling monthly Smolt checkin: "
+msgstr "માસિક Smolt ચકાસણી સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:83
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr "*** ચેતવણી -- SELinux ${SELINUXTYPE} નીતિ પુનઃલેબલ જરૂરી છે."
+
+#: /etc/rc.d/init.d/arptables_jf:117
+msgid "Removing user defined chains:"
+msgstr "વપરાશકર્તા દ્વારા વ્યાખ્યાયિત સાંકળો દૂર કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/sec:34
+msgid "Starting $prog instance "
+msgstr "$prog ઘટક શરૂ કરી રહ્યા છીએ "
+
+#: /etc/rc.d/init.d/yum-cron:60
+msgid "Nightly yum update is disabled."
+msgstr "રાત્રિય yum update નિષ્ક્રિય કરવામાં આવેલ છે."
+
+#: /etc/rc.d/init.d/udev-post:26
+msgid "Retrigger failed udev events"
+msgstr "Retrigger એ udev ઘટનાઓને નિષ્ફળ કરેલ છે"
+
+#: /etc/rc.d/init.d/rwhod:52
+msgid "Stopping rwho services: "
+msgstr "rwho સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ypbind:121
+msgid "Shutting down NIS service: "
+msgstr "NIS સેવા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/vncserver:22
+msgid "VNC server"
+msgstr "VNC સર્વર"
+
+#: /etc/rc.d/init.d/arptables_jf:65
+msgid "Flushing all current rules and user defined chains:"
+msgstr "બધા વર્તમાન નિયમો વપરાશકર્તા દ્વારા વ્યાખ્યાયિત સાંકળો સાફ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/bwbar:67 /etc/rc.d/init.d/fail2ban:87
+#: /etc/rc.d/init.d/netplugd:56
+msgid "Usage: $0 {start|stop|status|restart}"
+msgstr "વપરાશ: $0 {start|stop|status|restart}"
+
+#: /etc/rc.d/init.d/tgtd:51
+msgid "Targets still in use. Cannot shutdown service."
+msgstr "લક્ષ્યો હજુ પણ વપરાશમાં જ છે.  સેવા બંધ કરી શકતા નથી."
+
+#: /etc/rc.d/init.d/icecast:45
+msgid "Reloading icecast: "
+msgstr "icecast પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/openvpn:179
+msgid "Shutting down openvpn: "
+msgstr "openvpn બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/puppetmaster:131
+msgid ""
+"Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+"genconfig}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|reload|force-reload|condrestart|"
+"genconfig}"
+
+#: /etc/rc.d/rc.sysinit:260
+msgid "\t\tWelcome to "
+msgstr "\t\tમાં તમારું સ્વાગત છે "
+
+#: /etc/rc.d/init.d/dansguardian:37 /etc/rc.d/init.d/mon:35
+#: /etc/rc.d/init.d/partimaged:45
+msgid "Shutting down $desc ($prog): "
+msgstr "$desc બંધ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/pmud:25
+msgid "Starting pmud daemon: "
+msgstr "pmud ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/syslog-ng:84
+msgid "Reloading syslog-ng: "
+msgstr "syslog-ng પુનઃલોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rsyslog:45 /etc/rc.d/init.d/sysklogd:54
+msgid "Shutting down system logger: "
+msgstr "સિસ્ટમ લોગર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/maradns:75
+msgid "Starting all MaraDNS processes: "
+msgstr "બધી MaraDNS પ્રક્રિયાઓ શરૂ કરી રહ્યા છે: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:217
+#: /etc/sysconfig/network-scripts/ifup-ib:179
+msgid " done."
+msgstr " પૂર્ણ થયું."
+
+#: /etc/rc.d/init.d/NetworkManager:101 /etc/rc.d/init.d/amavisd-snmp:62
+#: /etc/rc.d/init.d/avahi-daemon:102 /etc/rc.d/init.d/avahi-dnsconfd:99
+#: /etc/rc.d/init.d/gadget:86 /etc/rc.d/init.d/haldaemon:71
+#: /etc/rc.d/init.d/ibmasm:95 /etc/rc.d/init.d/innd:135
+#: /etc/rc.d/init.d/ipa_kpasswd:79 /etc/rc.d/init.d/ipa_webgui:75
+#: /etc/rc.d/init.d/kprop:75 /etc/rc.d/init.d/milter-greylist:83
+#: /etc/rc.d/init.d/nasd:83 /etc/rc.d/init.d/ndo2db:96
+#: /etc/rc.d/init.d/netconsole:36 /etc/rc.d/init.d/ohmd:86
+#: /etc/rc.d/init.d/pkcsslotd:83 /etc/rc.d/init.d/sqlgrey:65
+#: /etc/rc.d/init.d/sysklogd:118 /etc/rc.d/init.d/tinyerp-server:122
+#: /etc/rc.d/init.d/xenner:163 /etc/rc.d/init.d/zvbid:62
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|condrestart}"
+
+#: /etc/rc.d/init.d/ohmd:48
+msgid "Stopping Open Hardware Manager: "
+msgstr "Open Hardware Manager ને શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ldap:144 /etc/rc.d/init.d/ldap:150
+msgid "Checking configuration files for $prog: "
+msgstr "$prog માટે રૂપરેખાંકન ફાઈલો ચકાસી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:44
+msgid "$0: call me as 'halt' or 'reboot' please!"
+msgstr "$0: મહેરબાની કરીને મને 'બંધ કરો' અથવા 'ફરીથી બુટ કરો' એ રીતે બોલાવો!"
+
+#: /etc/rc.d/init.d/ypbind:54
+msgid "Setting NIS domain: "
+msgstr "NIS ડોમેઈન સુયોજીત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/isdn:252
+msgid "$NAME is attached to $DEVICE"
+msgstr "$NAME એ $DEVICE સાથે જોડાયેલ છે"
+
+#: /etc/rc.d/init.d/ypbind:185
+msgid ""
+"Usage: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+"status}"
+msgstr ""
+"વપરાશ: $0 {start|stop|restart|condrestart|try-restart|reload|force-reload|"
+"status}"
+
+#: /etc/rc.d/init.d/corosync:20
+msgid "Starting Corosync Cluster Engine ($prog): "
+msgstr "Corosync Cluster Engine ($prog) શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/clement:103
+msgid "Start freshclam"
+msgstr "freshclam ને શરૂ કરો"
+
+#: /etc/rc.d/init.d/aprsd:45 /etc/rc.d/init.d/cwdaemon:42
+#: /etc/rc.d/init.d/dhcp6r:53 /etc/rc.d/init.d/dhcp6s:65
+#: /etc/rc.d/init.d/dhcpd:96 /etc/rc.d/init.d/dhcrelay:69
+#: /etc/rc.d/init.d/dictd:55 /etc/rc.d/init.d/fnfxd:37
+#: /etc/rc.d/init.d/inadyn:51 /etc/rc.d/init.d/irda:34
+#: /etc/rc.d/init.d/mailman:101 /etc/rc.d/init.d/monit:38
+#: /etc/rc.d/init.d/ntpd:53 /etc/rc.d/init.d/odccm:33
+#: /etc/rc.d/init.d/oddjobd:54 /etc/rc.d/init.d/proftpd:60
+#: /etc/rc.d/init.d/sendmail:111 /etc/rc.d/init.d/sigul_bridge:23
+#: /etc/rc.d/init.d/sigul_server:24 /etc/rc.d/init.d/smartd:62
+#: /etc/rc.d/init.d/ssbd:40 /etc/rc.d/init.d/thebridge:38
+#: /etc/rc.d/init.d/vblade:51 /etc/rc.d/init.d/vncserver:72
+#: /etc/rc.d/init.d/vsftpd:57 /etc/rc.d/init.d/xfs:76
+msgid "Shutting down $prog: "
+msgstr "$prog બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/acpid:79
+msgid "Reloading acpi daemon:"
+msgstr "acpi ડિમન પુનઃલાવી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/cyrus-imapd:87
+msgid "$BASENAME importing databases"
+msgstr "$BASENAME ડેટાબેઝો આયાત કરી રહ્યું છે"
+
+#: /etc/rc.d/init.d/greylistd:20
+msgid "Starting greylistd: "
+msgstr "greylistd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/NetworkManager:68
+msgid "Stopping NetworkManager daemon: "
+msgstr "નેટવર્ક વ્યવસ્થાપક ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/capi:79 /etc/rc.d/init.d/fb-server:76
+#: /etc/rc.d/init.d/greylistd:69 /etc/rc.d/init.d/isdn:281
+#: /etc/rc.d/init.d/isnsd:74 /etc/rc.d/init.d/tgtd:86
+#: /etc/rc.d/init.d/watchdog:84
+msgid "Usage: $0 {start|stop|restart|status|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|restart|status|condrestart}"
+
+#: /etc/rc.d/init.d/smokeping:33
+msgid "Starting smokeping: "
+msgstr "smokeping શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/mldonkey:40
+msgid "Stopping Mldonkey (mlnet): "
+msgstr "Mldonkey (mlnet) ને શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/puppet:36
+msgid "Starting puppet: "
+msgstr "puppet શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cyphesis:37
+msgid "PostgreSQL server is not running."
+msgstr "PostgreSQL સર્વર ચાલી રહ્યુ નથી."
+
+#: /etc/rc.d/init.d/halt:60
+msgid "Sending all processes the TERM signal..."
+msgstr "બધી પ્રક્રિયાઓને TERM સંકેત મોકલી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/auditd:112
+msgid "Rotating logs: "
+msgstr "લોગ ફેરવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/clamd-wrapper:10
+msgid "*** the clamav-server can be configured"
+msgstr "*** clamav-server રૂપરેખાંકિત કરી શકાય છે"
+
+#: /etc/rc.d/init.d/restorecond:41
+msgid "Starting restorecond: "
+msgstr "restorecond શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/xenstored:43
+msgid "Starting xenstored daemon: "
+msgstr "xenstored ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/gvrpcd:63
+msgid "Starting ${ifprog}: "
+msgstr "${ifprog} શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/sqlgrey:25
+msgid "Shutting down SQLgrey: "
+msgstr "SQLgrey ને બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/vprocunhide:53
+msgid "/proc entries are not fixed"
+msgstr "/proc પ્રવેશો ચોક્કસ થયા નથી"
+
+#: /etc/rc.d/init.d/ipmi:229 /etc/rc.d/init.d/ipmi:235
+msgid "Starting ipmi_watchdog driver: "
+msgstr "ipmi_watchdog ડ્રાઈવર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ktune:106
+msgid "Applying ktune sysctl settings:"
+msgstr "ktune sysctl સુયોજનો ને લાગુ પાડી રહ્યા છે:"
+
+#: /etc/rc.d/init.d/libvirt-qpid:46 /etc/rc.d/init.d/libvirtd:69
+#: /etc/rc.d/init.d/matahari:30
+msgid "Stopping $SERVICE daemon: "
+msgstr "$SERVICE ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/named:135
+msgid "Starting named: "
+msgstr "named શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/nfs:134
+msgid "Shutting down NFS daemon: "
+msgstr "NFS ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:114
+msgid "Unmounting NCP filesystems: "
+msgstr "NCP ફાઈલ સિસ્ટમનું માઉન્ટ દૂર કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/codeanalyst:323
+msgid ""
+"Usage: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+"reload}"
+msgstr ""
+"વપરાશ: $0 {start|stop|restart|status|condrestart|try-restart|reload|force-"
+"reload}"
+
+#: /etc/rc.d/init.d/tclhttpd:46
+msgid "$base (pid $pid) is running..."
+msgstr "$base (pid $pid) એ ચાલી રહ્યું છે..."
+
+#: /etc/rc.d/init.d/postfix:84
+msgid "Shutting down postfix: "
+msgstr "postfix બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/innd:99
+msgid "Reloading INN Service: "
+msgstr "INN સેવા ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/condor:49
+msgid "Stopping Condor daemons: "
+msgstr "Condor ડિમનો અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/arptables_jf:106
+msgid "Flushing all chains:"
+msgstr "બધી સાંકળો બંધ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/mysqld:58
+msgid "Initializing MySQL database: "
+msgstr "MySQL ડેટાબેઝનો પ્રારંભ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ip6tables:179
+msgid "${IP6TABLES}: ${_IPV} is disabled."
+msgstr "${IP6TABLES}: ${_IPV} નિષ્ક્રિય છે."
+
+#: /etc/rc.d/init.d/incrond:21
+msgid "Starting incrond: "
+msgstr "incrond શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/capi:26
+msgid "Starting capi4linux:"
+msgstr "capi4linux શરૂ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/aiccu:117 /etc/rc.d/init.d/exim:124
+#: /etc/rc.d/init.d/nmb:110 /etc/rc.d/init.d/smb:110
+#: /etc/rc.d/init.d/winbind:98
+msgid "Usage: $0 {start|stop|restart|reload|status|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|restart|reload|status|condrestart}"
+
+#: /etc/rc.d/init.d/halt:23
+msgid "Stopping disk encryption for $dst"
+msgstr "$dst માટે ડિસ્ક એનક્રિપ્શન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rfcomm:32
+msgid "Shutting down rfcomm: "
+msgstr "rfcomm બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:131
+msgid "Detaching loopback device $dev: "
+msgstr "લુપબેક ઉપકરણ $dev છોડી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/spamass-milter:109
+msgid "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|try-restart|force-reload|status}"
+
+#: /etc/sysconfig/network-scripts/ifup-ipx:7
+msgid "usage: $0 <net-device>"
+msgstr "વપરાશ: $0 <net-device>"
+
+#: /etc/rc.d/init.d/greylistd:35
+msgid "Shutting down greylistd: "
+msgstr "greylistd બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/openscadad:47
+msgid "Stopping OpenSCADA daemon: "
+msgstr "OpenSCADA ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/perlbal:29
+msgid "Stopping Perlbal: "
+msgstr "Perlbal અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/bluetooth:40 /etc/rc.d/init.d/dkms_autoinstaller:206
+#: /etc/rc.d/init.d/firstboot:78 /etc/rc.d/init.d/xguest:57
+msgid "Usage: $0 {start|stop}"
+msgstr "વપરાશ: $0 {start|stop}"
+
+#: /etc/rc.d/init.d/dansguardian:28 /etc/rc.d/init.d/ebtables:42
+#: /etc/rc.d/init.d/mon:26 /etc/rc.d/init.d/partimaged:36
+msgid "Starting $desc ($prog): "
+msgstr "$desc ($prog) શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/shorewall:50 /etc/rc.d/init.d/shorewall-lite:50
+#: /etc/rc.d/init.d/shorewall6:50 /etc/rc.d/init.d/shorewall6-lite:50
+msgid "Stopping Shorewall: "
+msgstr "Shorewall અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/iptables:131
+msgid "${IPTABLES}: Setting chains to policy $policy: "
+msgstr "${IPTABLES}: પોલીસિ $policy માં સાંકળો સુયોજીત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/fsniper:49 /etc/rc.d/init.d/radvd:69
+msgid "Reloading $PROG: "
+msgstr "$PROG પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/microcode_ctl:40
+msgid "$0: CPU microcode data file not present ($DATAFILE)"
+msgstr "$0: CPU માઈક્રોકોડ માહિતી ફાઈલ હાજર નથી ($DATAFILE)"
+
+#: /etc/sysconfig/network-scripts/ifup:81
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr "PHYSDEV એ ઉપકરણ ${DEVICE} માટે સુયોજિત થવું જોઈએ"
+
+#: /etc/rc.d/init.d/condor:200
+msgid "$0: error: $prog is not running"
+msgstr "$0: ભૂલ: $prog ચાલી નથી રહ્યુ"
+
+#: /etc/rc.d/init.d/systemtap:66
+msgid "\t-y \t\t: answer yes for all questions."
+msgstr "\t-y \t\t: બધા પ્રશ્ર્નો માટે જવાબ હા."
+
+#: /etc/rc.d/init.d/puppet:75
+msgid "Generate configuration puppet: "
+msgstr "puppet રુપરેખાંકન ઉત્પન્ન કરો: "
+
+#: /etc/rc.d/init.d/ctdb:231
+msgid "Checking for ctdbd service: "
+msgstr "ctdbd સેવા ચકાસી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ulogd:77
+msgid "restarting $prog..."
+msgstr "$prog પુનઃશરૂ કરી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/psacct:22
+msgid "Starting process accounting: "
+msgstr "પ્રક્રિયા ખાતકરણ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ypxfrd:22
+msgid "Starting YP map server: "
+msgstr "YP map સર્વર શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ulogd:53
+msgid "$prog is already stopped."
+msgstr "$prog એ પહેલાથી જ અટકાવાયેલ છે."
+
+#: /etc/rc.d/init.d/monotone:205 /etc/rc.d/init.d/monotone:206
+msgid "database check"
+msgstr "ડેટાબેઝને ચકાસો"
+
+#: /etc/rc.d/init.d/vdr:81
+msgid "Restarting Video Disk Recorder ($prog): "
+msgstr "વીડિયો ડિસ્ક રેકોર્ડર પુન:શરૂ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/cfenvd:27
+msgid "Starting GNU cfengine environmental history daemon: "
+msgstr "GNU cfengine પર્યાવરણીય ઈતિહાસ ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/glacier2router:71 /etc/rc.d/init.d/icegridnode:72
+#: /etc/rc.d/init.d/icegridregistry:72
+msgid "Shutting down $progbase: "
+msgstr "$progbase બંધ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-ippp:374
+#: /etc/sysconfig/network-scripts/ifup-isdn:374
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+"ચેતવણી: ipppd (kernel 2.4.x અને નીચે) એ એનકેપ્સુલેશન 'syncppp' ની મદદથી IPv6 ને આધાર "
+"આપતું નથી"
+
+#: /etc/rc.d/init.d/gpm:58
+msgid "(no mouse is configured)"
+msgstr "(કોઈ માઉસ રુપરેખાંકિત નથી)"
+
+#: /etc/rc.d/rc.sysinit:84
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr "*** પુનઃલેબલીંગ લાંબો સમય લઈ શક્યું હોત, ફાઈલ પર આધાર રાખીને"
+
+#: /etc/rc.d/init.d/honeyd:46
+msgid "Starting $prog2: "
+msgstr "$prog2 શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pgpool:120
+msgid "Sending switchover request to $NAME "
+msgstr "$NAME ને બદલો અરજી મોકલી રહ્યા છીએ "
+
+#: /etc/rc.d/init.d/gkrellmd:70 /etc/rc.d/init.d/gpsd:85
+#: /etc/rc.d/init.d/hddtemp:79 /etc/rc.d/init.d/vdr:96
+msgid "Service $prog does not support the reload action: "
+msgstr "સેવા $prog પુનઃલાવો ક્રિયાને આધાર આપતી નથી: "
+
+#: /etc/rc.d/init.d/ypbind:34
+msgid "Turning on allow_ypbind SELinux boolean"
+msgstr "allow_ypbind SELinux બુલિયન ચાલુ કરી રહ્યા છીએ"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:142
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr "pppd એ ${DEVNAME} માટે ${MODEMPORT} પર  ${LINESPEED} જગ્યાએ શરુ કરવામાં આવ્યું"
+
+#: /etc/rc.d/init.d/dcbd:246
+msgid "Usage: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+msgstr "વપરાશ: $0 {start|stop|status|try-restart|restart|force-reload|reload}"
+
+#: /etc/rc.d/init.d/apmd:59
+msgid "Shutting down APM daemon: "
+msgstr "APM ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/athcool:68 /etc/rc.d/init.d/crossfire:98
+#: /etc/rc.d/init.d/ctrlproxy:108 /etc/rc.d/init.d/ddclient:77
+#: /etc/rc.d/init.d/distccd:108 /etc/rc.d/init.d/flow-capture:109
+#: /etc/rc.d/init.d/gnokii-smsd:73 /etc/rc.d/init.d/haproxy:107
+#: /etc/rc.d/init.d/icecc-scheduler:110 /etc/rc.d/init.d/iceccd:126
+#: /etc/rc.d/init.d/liquidwar-server:93 /etc/rc.d/init.d/lirc:131
+#: /etc/rc.d/init.d/named:279 /etc/rc.d/init.d/nessusd:86
+#: /etc/rc.d/init.d/openct:85 /etc/rc.d/init.d/pathfinderd:105
+#: /etc/rc.d/init.d/pcscd:82 /etc/rc.d/init.d/plague-builder:98
+#: /etc/rc.d/init.d/plague-server:99 /etc/rc.d/init.d/rinetd:81
+#: /etc/rc.d/init.d/sgemaster:386 /etc/rc.d/init.d/tetrinetx:100
+#: /etc/rc.d/init.d/wesnothd:104 /etc/rc.d/init.d/wpa_supplicant:87
+#: /etc/rc.d/init.d/xpilot-ng-server:100
+msgid "Usage: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|try-restart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/systemtap:65
+msgid "\t-R \t\t: recursively dependency checking"
+msgstr "\t-R \t\t: પુનરાવર્તિત આધારને ચકાસી રહ્યા છે"
+
+#: /etc/rc.d/init.d/avahi-daemon:35
+msgid "Starting Avahi daemon... "
+msgstr "Avahi ડિમન શરૂ કરી રહ્યા છીએ... "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:651
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr "આપેલ સરનામું '$addr' એ માન્ય IPv4 નથી (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/cyrus-imapd:105
+msgid "Shutting down $BASENAME: "
+msgstr "$BASENAME બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pound:29
+msgid "Stopping Pound: "
+msgstr "Pound અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:120
+msgid "Configured NFS mountpoints: "
+msgstr "રુપરેખાંકિત કરેલ NFS માઉન્ટ પોઈન્ટ: "
+
+#: /etc/rc.d/init.d/pound:21
+msgid "Starting Pound: "
+msgstr "Pound શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:107
+msgid "Unmounting pipe file systems: "
+msgstr "પાઈપ ફાઈલ સિસ્ટમોનું માઉન્ટ દૂર કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc:40
+msgid "Entering interactive startup"
+msgstr "પૂછપરછ શરુઆતમાં પ્રવેશી રહ્યા છીએ"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:823
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr "ખોવાયેલ પરિમાણ 'IPv4-tunnel સરનામું' (દલીલ ૨)"
+
+#: /etc/rc.d/init.d/mcstrans:108
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|rotate}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|condrestart|reload|rotate}"
+
+#: /etc/rc.d/init.d/xfs:143
+msgid "Usage: $prog {start|stop|status|restart|reload|condrestart}"
+msgstr "વપરાશ: $prog {start|stop|status|restart|reload|condrestart}"
+
+#: /etc/rc.d/init.d/icecc-scheduler:32
+msgid "Starting distributed compiler scheduler: "
+msgstr "વિતરિત કમ્પાઈલ નિશ્ચાયક શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ktune:200
+msgid "Current elevator settings:"
+msgstr "હાલનાં એલિવેટર સુયોજનો:"
+
+#: /etc/rc.d/init.d/systemtap:160
+msgid "parse error"
+msgstr "પદચ્છેદન ભૂલ"
+
+#: /etc/rc.d/init.d/microcode_ctl:58
+msgid "$0: $DEVICE not a character device?"
+msgstr "$0: શું $DEVICE એ character ઉપકરણ નથી?"
+
+#: /etc/rc.d/init.d/modclusterd:99 /etc/rc.d/init.d/ricci:179
+msgid "Starting $ID: "
+msgstr "$ID શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:340
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr "$FILE માં ભૂલ છે: IPADDR_START અને IPADDR_END સંમત નથી"
+
+#: /etc/rc.d/init.d/nfs:207
+msgid "Usage: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+msgstr "વપરાશ: nfs {start|stop|status|restart|reload|condrestart|condstop}"
+
+#: /etc/rc.d/init.d/restorecond:85
+msgid "Usage: $0 {start|stop|restart|reload|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|restart|reload|condrestart}"
+
+#: /etc/rc.d/init.d/netfs:148
+msgid "Active network block devices: "
+msgstr "સક્રિય નેટવર્ક બ્લોક ઉપકરણો: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1151
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr "આપેલ IPv6 મૂળભૂત ઉપકરણ '$device' અસ્તિત્વમાં નથી અથવા ઉપર નથી"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:59
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr "adsl-start અસ્તિત્વમાં નથી અથવા તે ${DEVICE} માટે ચલાવી શકાય તેવી નથી"
+
+#: /etc/rc.d/init.d/isdn:189
+msgid "Shutting down $prog"
+msgstr "$prog બંધ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/rsyslog:37 /etc/rc.d/init.d/sysklogd:40
+msgid "Starting system logger: "
+msgstr "સિસ્ટમ લોગર શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tofmipd:88
+msgid "Usage: $progname {start|stop|restart|condrestart|status}"
+msgstr "વપરાશ: $progname {start|stop|restart|condrestart|status}"
+
+#: /etc/rc.d/init.d/pkcsslotd:50
+msgid "Shutting down pkcsslotd:"
+msgstr "pkcsslotd બંધ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/cachefilesd:82
+msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|condstart|condrestart|status}"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:259
+#: /etc/sysconfig/network-scripts/ifup-aliases:270
+msgid "error in ifcfg-${parent_device}: files"
+msgstr "ifcfg-${parent_device}: ફાઈલોમાં ભૂલ છે"
+
+#: /etc/rc.d/init.d/honeyd:94
+msgid "Reloading $prog2: "
+msgstr "$prog૨ ફરીથી લોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/chronyd:158
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+"reload|cyclelogs|online|offline|command}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+"reload|cyclelogs|online|offline|command}"
+
+#: /etc/rc.d/init.d/netconsole:100
+msgid "Disabling netconsole"
+msgstr "netconsole નિષ્ક્રિય કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/httpd:76
+msgid "not reloading due to configuration syntax error"
+msgstr "રૂપરેખાંકન વાક્યરચના ભૂલને કારણે પાછું લાવતાં નથી"
+
+#: /etc/rc.d/init.d/vblade:29
+msgid "$4 (e$2.$3@$1) [pid $pid]"
+msgstr "$4 (e$2.$3@$1) [pid $pid]"
+
+#: /etc/rc.d/init.d/auditd:120
+msgid "Resuming logging: "
+msgstr "લોગ કરવાનું ફરી કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:556
+msgid "Failed to stop \"$s\". "
+msgstr "\"$s\" ને બંધ કરવાનું નિષ્ફળ. "
+
+#: /etc/rc.d/init.d/network:262
+msgid "Shutting down loopback interface: "
+msgstr "લુપબેક ઈન્ટરફેસ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/icecast:22
+msgid "Starting icecast streaming daemon: "
+msgstr "icecast સ્ટ્રીમીંગ ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/certmaster:91
+msgid "Stopping certmaster daemon: "
+msgstr "certmaster ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/gkrellmd:41
+msgid "Stopping GNU Krell Monitors server ($prog): "
+msgstr "GNU Krell મોનીટરો સર્વર ($prog) અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/wine:78
+msgid "Usage: $prog {start|stop|status|restart|try-restart}"
+msgstr "વપરાશ: $prog {start|stop|status|restart|try-restart}"
+
+#: /etc/rc.d/rc.sysinit:85
+msgid "*** system size and speed of hard drives."
+msgstr "*** હાર્ડ ડ્રાઈવો માટે સિસ્ટમ માપ અને ઝડપ."
+
+#: /etc/rc.d/init.d/sysklogd:44
+msgid "Starting kernel logger: "
+msgstr "કર્નલ લોગર શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/util-vserver:77
+msgid "Killing all running contexts"
+msgstr "બધા ચાલી રહેલ સંદર્ભો મારી રહ્યા છીએ"
+
+#: /etc/event.d/rc1:27 /etc/event.d/rc1.rpmnew:27
+msgid "Telling INIT to go to single user mode."
+msgstr "INIT ને એક વપરાશકર્તા સ્થિતિમાં જવા માટે કહી રહ્યા છીએ."
+
+#: /etc/rc.d/init.d/sagator:39
+msgid "Starting $name: "
+msgstr "$name શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:507 /etc/rc.d/init.d/systemtap:547
+msgid "Failed to sort dependency"
+msgstr "આધારને ક્રમમાં કરવાનું નિષ્ફળ"
+
+#: /etc/sysconfig/network-scripts/ifup:30
+#: /etc/sysconfig/network-scripts/ifup:38
+msgid "Usage: ifup <device name>"
+msgstr "વપરાશ: ifup <device name>"
+
+#: /etc/rc.d/init.d/bcfg2:118
+msgid "1"
+msgstr "૧"
+
+#: /etc/rc.d/init.d/ebtables:141
+msgid "Usage $0 {start|stop|restart|condrestart|save|status}"
+msgstr "વપરાશ $0 {start|stop|restart|condrestart|save|status}"
+
+#: /etc/rc.d/init.d/pcscd:47
+msgid "Starting PC/SC smart card daemon ($prog): "
+msgstr "PC/SC સ્માર્ટ કાર્ડ ડિમન શરૂ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/ip6tables:351
+msgid "Usage: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+msgstr "વપરાશ: ${IP6TABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#: /etc/rc.d/init.d/mongrel_cluster:73
+msgid "Stopping $prog for $file: "
+msgstr "$file માટે $prog ને અટકાવી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/ipa_kpasswd:46 /etc/rc.d/init.d/ipa_webgui:42
+msgid "Shutting down $NAME: "
+msgstr "$NAME બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/radvd:39
+msgid "Configuration file /etc/radvd.conf missing"
+msgstr "રૂપરેખાંકન ફાઇલ /etc/radvd.conf ગુમ થયેલ છે"
+
+#: /etc/rc.d/init.d/functions:126
+msgid "Unmounting loopback filesystems (retry):"
+msgstr "લુપબેક ફાઈલ સિસ્ટમનું માઉન્ટ દૂર કરી રહ્યા છીએ (ફરીથી પ્રયત્ન કરો):"
+
+#: /etc/sysconfig/network-scripts/ifdown:15
+#: /etc/sysconfig/network-scripts/ifdown:22
+msgid "usage: ifdown <device name>"
+msgstr "વપરાશ: ifdown <device name>"
+
+#: /etc/rc.d/init.d/smokeping:40
+msgid "Stopping smokeping: "
+msgstr "smokeping બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ctdb:143
+msgid "CTDB is already running"
+msgstr "CTDB એ પહેલેથી જ ચાલી રહ્યુ છે"
+
+#: /etc/rc.d/init.d/i8k:26
+msgid "Loading $module kernel module: "
+msgstr "$module કર્નલ મોડ્યુલને લાવી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/openvpn:112
+msgid "Starting openvpn: "
+msgstr "openvpn શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postfix:96
+msgid "$prog reload"
+msgstr "$prog ફરીથી લાવો"
+
+#: /etc/rc.d/init.d/mogilefsd:28 /etc/rc.d/init.d/mogstored:28
+msgid "Stopping MogileFS tracker daemon: "
+msgstr "MogileFS ટ્રેકર ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/unbound:66
+msgid "Starting unbound: "
+msgstr "unbound શરુ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:69
+msgid "Tap support not available: tunctl not found"
+msgstr "Tap આધાર ઉપલ્બધ નથી: tunctl મળ્યુ નથી"
+
+#: /etc/rc.d/init.d/ypbind:70
+msgid "Starting NIS service: "
+msgstr "NIS સેવા શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:515
+msgid "Failed to run \"$s\". ($ret)"
+msgstr "\"$s\". ($ret) ચલાવવાનું નિષ્ફળ"
+
+#: /etc/rc.d/init.d/dropbear:36 /etc/rc.d/init.d/dropbear:39
+#: /etc/rc.d/init.d/sshd:77 /etc/rc.d/init.d/sshd:80
+msgid "RSA key generation"
+msgstr "RSA કી બનાવવાનું"
+
+#: /etc/rc.d/init.d/pure-ftpd:81
+msgid "Usage: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+msgstr "વપરાશ: pure-ftpd {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/xenner:100
+msgid "Stopping xenner daemons"
+msgstr "xenner ડિમનો અટકાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/halt:98
+msgid "Turning off quotas: "
+msgstr "ક્વોટા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/nginx:92
+msgid "Graceful shutdown of old $prog: "
+msgstr "જૂના $prog ને યોગ્ય રીતે બંધ કરો: "
+
+#: /etc/rc.d/init.d/iptables:183
+msgid "${IPTABLES}: Applying firewall rules: "
+msgstr "${IPTABLES}: ફાયરવોલ નિયમો લાગુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/named:137
+msgid "named: already running"
+msgstr "named: પહેલાથી જ ચાલી રહ્યું છે"
+
+#: /etc/rc.d/init.d/netfs:39
+msgid "Mounting NFS filesystems: "
+msgstr "NFS ફાઈલ સિસ્ટમ માઉન્ટ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/NetworkManager:51
+msgid "Starting NetworkManager daemon: "
+msgstr "નેટવર્ક વ્યવસ્થાપક ડીમન શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:68
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr "*** ચેતવણી -- SELinux ${SELINUXTYPE} નીતિ પુનઃલેબલ જરૂરી છે. "
+
+#: /etc/rc.d/init.d/fb-server:42
+msgid "Stopping Frozen Bubble server(s): "
+msgstr "જામી ગયેલ બબલ સર્વર(ઓ) અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rebootmgr:11 /etc/rc.d/init.d/util-vserver:10
+#: /etc/rc.d/init.d/vprocunhide:10 /etc/rc.d/init.d/vservers-legacy:8
+msgid ""
+"Can not find util-vserver installation (the file '$UTIL_VSERVER_VARS' would "
+"be expected); aborting..."
+msgstr ""
+"util-vserver સ્થાપન શોધી શકતા નથી (ફાઈલ '$UTIL_VSERVER_VARS' ઈચ્છિત છે); અડધેથી "
+"બંધ કરી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/puppet:107
+msgid ""
+"Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+"genconfig}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|reload|force-reload|condrestart|once|"
+"genconfig}"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:296
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr "IPv6to4 પૂર્વગ ગણતરી કરતાં ભૂલ ઉદ્દભવી હતી"
+
+#: /etc/rc.d/init.d/arptables_jf:186 /etc/rc.d/init.d/arptables_jf:187
+msgid "Saving current rules to $ARPTABLES_CONFIG"
+msgstr "વર્તમાન નિયમો $ARPTABLES_CONFIG માં સંગ્રહી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/ktune:192
+msgid "Current ktune sysctl settings:"
+msgstr "હાલનાં ktune sysctl સુયોજનો:"
+
+#: /etc/rc.d/init.d/tgtd:42
+msgid "Stopping SCSI target daemon: "
+msgstr "SCSI લક્ષ્ય ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/named:245
+msgid "$named reload"
+msgstr "$named પુન:લોડ"
+
+#: /etc/rc.d/init.d/maradns-zoneserver:69
+msgid "Starting all MaraDNS-Zoneserver processes: "
+msgstr "બધી MaraDNS-Zoneserver પ્રક્રિયાઓને શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc:42
+msgid "Entering non-interactive startup"
+msgstr "બિન-પૂછપરછ શરુઆતમાં પ્રવેશી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/network:87
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr "કોઈ 802.1Q VLAN આધાર કર્નલમાં ઉપ્લબ્ધ નથી."
+
+#: /etc/rc.d/init.d/snake-server:32
+msgid "Starting snake-server:"
+msgstr "snake-server શરૂ કરી રહ્યા છીએ:"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:67
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr "વપરાશ: ifup-aliases <net-device> [<parent-config>]\n"
+
+#: /etc/rc.d/init.d/xenconsoled:83
+msgid "Reloading xenconsoled daemon: "
+msgstr "xenconsoled ડિમન પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/bttrack:33
+msgid "Starting BitTorrent tracker: "
+msgstr "BitTorrent ટ્રેકર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:150
+msgid "ERROR: [ipv6_log] Cannot log to channel '$channel'"
+msgstr "ભૂલ: [ipv6_log] માધ્યમ '$channel' માં લોગ કરી શકતા નથી"
+
+#: /etc/rc.d/init.d/abrt:52
+msgid "Stopping abrt daemon: "
+msgstr "abrt ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/kadmin:69 /etc/rc.d/init.d/krb5kdc:54
+msgid "Reopening $prog log file: "
+msgstr "$prog લોગ ફાઈલ ફરીથી ખોલી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/iptables:351
+msgid "Usage: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+msgstr "વપરાશ: ${IPTABLES} {start|stop|restart|condrestart|status|panic|save}"
+
+#: /etc/rc.d/init.d/atop:47
+msgid "Reloading atop daemon configuration: "
+msgstr "atop ડિમન રુપરેખાંકન ફરીથી લોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/callweaver:22
+msgid "Stopping CallWeaver: "
+msgstr "CallWeaver અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/nmb:66 /etc/rc.d/init.d/smb:66 /etc/rc.d/init.d/winbind:57
+msgid "Reloading smb.conf file: "
+msgstr "smb.conf ફાઈલ ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/capi:36
+msgid "Stopping capi4linux:"
+msgstr "capi4linux અટકાવી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/ups:79
+msgid "Shutting down upsdrvctl: "
+msgstr "upsdrvctl બંધ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-tunnel:49
+msgid "Invalid tunnel type $TYPE"
+msgstr "અયોગ્ય ટનલ પ્રકાર $TYPE"
+
+#: /etc/rc.d/init.d/zabbix-agent:30
+msgid "Starting ZABBIX agent: "
+msgstr "ZABBIX એજન્ટને શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:145
+msgid "$message"
+msgstr "$message"
+
+#: /etc/rc.d/init.d/innd:82
+msgid "Stopping INNFeed service: "
+msgstr "INNFeed સેવા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:48
+#: /etc/sysconfig/network-scripts/ifup-ib:42
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr "ઉપકરણ ${DEVICE} પાસે ઈચ્છા કરતાં વધારે વિવિધ MAC સરનામાઓ છે, અવગણી રહ્યા છીએ."
+
+#: /etc/rc.d/init.d/psacct:56
+msgid "Process accounting is enabled."
+msgstr "પ્રક્રિયા ગણતરી કરવાનું સક્રિય કરેલ છે."
+
+#: /etc/sysconfig/network-scripts/ifup-eth:205
+#: /etc/sysconfig/network-scripts/ifup-ib:167
+msgid "Determining IP information for ${DEVICE}..."
+msgstr "${DEVICE} માટે IP જાણકારી નક્કી કરી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/pgbouncer:85 /etc/rc.d/init.d/pgpool:105
+#: /etc/rc.d/init.d/postgresql:197 /etc/rc.d/init.d/sepostgresql:99
+msgid "Stopping ${NAME} service: "
+msgstr "${NAME} સેવા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:73
+msgid "Moving"
+msgstr "ખસેડી રહ્યા છે"
+
+#: /etc/rc.d/init.d/cyrus-imapd:89
+msgid ""
+"$BASENAME error importing databases, check ${CONFIGDIRECTORY}/rpm/db_import."
+"log"
+msgstr "$BASENAME ભૂલ ડેટાબેઝો આયાત કરવામાં, ${CONFIGDIRECTORY}/rpm/db_import.log ચકાસો"
+
+#: /etc/rc.d/init.d/xenconsoled:58
+msgid "Starting xenconsoled daemon: "
+msgstr "xenconsoled ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/avahi-daemon:43 /etc/rc.d/init.d/avahi-daemon:45
+#: /etc/rc.d/init.d/avahi-dnsconfd:40 /etc/rc.d/init.d/avahi-dnsconfd:42
+#: /etc/rc.d/init.d/avahi-dnsconfd:62 /etc/rc.d/init.d/functions:266
+#: /etc/rc.d/init.d/greylistd:28
+msgid "$base startup"
+msgstr "$base શરુઆત"
+
+#: /etc/rc.d/init.d/sshd:58 /etc/rc.d/init.d/sshd:61
+msgid "RSA1 key generation"
+msgstr "RSA1 કી બનાવવાનું"
+
+#: /etc/rc.d/init.d/iptables:179
+msgid "${IPTABLES}: ${_IPV} is disabled."
+msgstr "${IPTABLES}: ${_IPV} નિષ્ક્રિય છે."
+
+#: /etc/rc.d/init.d/systemtap:630
+msgid "failed to clean cache $s.ko"
+msgstr "કેશ $s.ko ને સાફ કરવાનું નિષ્ફળ"
+
+#: /etc/rc.d/init.d/cyphesis:90
+msgid "Starting cyphesis: "
+msgstr "cyphesis શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/isdn:246
+msgid "$0: Link is down"
+msgstr "$0: કડી નીચે છે"
+
+#: /etc/rc.d/init.d/psacct:58
+msgid "Process accounting is disabled."
+msgstr "પ્રક્રિયાની ગણતરી કરવાનું નિષ્ક્રિય કરેલ છે."
+
+#: /etc/rc.d/init.d/ratbox-services:79
+msgid "Usage: $0 {start|stop|restart|condrestart|reload|rehash|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|condrestart|reload|rehash|status}"
+
+#: /etc/rc.d/init.d/xend:43
+msgid "Stopping xend daemon: "
+msgstr "xend ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ejabberd:31
+msgid "Starting ejabberd: "
+msgstr "ejabberd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup:37
+msgid "$0: configuration for ${1} not found."
+msgstr "$0: ${1} માટે રુપરેખાંકન મળ્યું નથી."
+
+#: /etc/rc.d/init.d/syslog-ng:54
+msgid "Starting syslog-ng: "
+msgstr "syslog-ng શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/auditd:104 /etc/rc.d/init.d/mcstrans:72
+#: /etc/rc.d/init.d/sec:53 /etc/rc.d/init.d/xinetd:96
+msgid "Reloading configuration: "
+msgstr "રુપરેખાંકન ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/codasrv:27 /etc/rc.d/init.d/codasrv:28
+msgid "found CRASH file, srv not started"
+msgstr "ભંગાણ ફાઇલ શોધાઇ, srv શરૂ થયેલ નથી"
+
+#: /etc/rc.d/init.d/clement:68
+msgid "Preparing $PROG certificate: "
+msgstr "$PROG પ્રમાણપત્રને તૈયાર કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/netfs:124
+msgid "Configured CIFS mountpoints: "
+msgstr "રુપરેખાંકિત કરેલ CIFS માઉન્ટ પોઈન્ટ: "
+
+#: /etc/rc.d/init.d/innd:40
+msgid "Please run makehistory and/or makedbz before starting innd."
+msgstr "મહેરબાની કરીને innd ચલાવવા પહેલા makehistory અને/અથવા makedbz ચલાવો."
+
+#: /etc/rc.d/rc.sysinit:683
+msgid "Enabling local filesystem quotas: "
+msgstr "સ્થાનિક ફાઈલ સિસ્ટમ ક્વોટા સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:144
+msgid "Active NCP mountpoints: "
+msgstr "સક્રિય NCP માઉન્ટ પોઈન્ટ: "
+
+#: /etc/rc.d/init.d/openscadad:90
+msgid "Usage: $0 {start|stop|restart|condstop|condrestart|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|condstop|condrestart|status}"
+
+#: /etc/rc.d/init.d/exim:87
+msgid "Shutting down exim: "
+msgstr "exim બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/condor:169
+msgid "$0: error: program not installed"
+msgstr "$0: ભૂલ: પ્રક્રિયા સ્થાપિત થયેલ નથી"
+
+#: /etc/rc.d/init.d/iptables:220
+msgid "${IPTABLES}: Unloading modules: "
+msgstr "${IPTABLES}: મોડ્યુલો અનલોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pdns-recursor:29
+msgid "Stopping pdns-recursor: "
+msgstr "pdns-recursor અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ypbind:64 /etc/rc.d/init.d/ypbind:65
+msgid "domain not found"
+msgstr "ડોમેઈન મળ્યું નહિં"
+
+#: /etc/rc.d/init.d/qpidd:74
+msgid "$0: reload not supported"
+msgstr "$0: પુનઃલાવવાનું આધારભૂત નથી"
+
+#: /etc/rc.d/init.d/named:191
+msgid "Stopping named: "
+msgstr "named અટકાવાયેલ: "
+
+#: /etc/rc.d/init.d/atd:50 /etc/rc.d/init.d/chunkd:47 /etc/rc.d/init.d/cld:48
+#: /etc/rc.d/init.d/crond:60 /etc/rc.d/init.d/dropbear:82
+#: /etc/rc.d/init.d/globus-rls-server:41 /etc/rc.d/init.d/iscsi:74
+#: /etc/rc.d/init.d/iscsi:79 /etc/rc.d/init.d/speech-dispatcherd:32
+#: /etc/rc.d/init.d/sshd:141 /etc/rc.d/init.d/tabled:48
+#: /etc/rc.d/init.d/tcsd:105
+msgid "Stopping $prog"
+msgstr "$prog બંધ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/ez-ipupdate:50
+msgid "Starting $prog for $ez_name: "
+msgstr "$prog ને $ez_name માટે શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:537
+msgid "yY"
+msgstr "yY"
+
+#: /etc/rc.d/init.d/puppet:53
+msgid "Restarting puppet: "
+msgstr "puppet પુનઃશરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/qemu:54
+msgid "Unregistering binary handler for qemu applications"
+msgstr "qemu કાર્યક્રમો માટે બાઈનરી નિયંત્રકોને રજીસ્ટર કરી રહ્યા નથી"
+
+#: /etc/rc.d/init.d/avahi-daemon:88
+msgid "Avahi daemon is not running"
+msgstr "Avahi ડિમન ચાલી રહ્યું નથી"
+
+#: /etc/rc.d/init.d/nfs:138
+msgid "Shutting down NFS quotas: "
+msgstr "NFS ક્વોટા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:188 /etc/rc.d/init.d/functions:224
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr "$0: વપરાશ: daemon [+/-nicelevel] {program}"
+
+#: /etc/rc.d/init.d/functions:425
+msgid "${base} dead but subsys locked"
+msgstr "${base} મૃત છે પરંતુ subsys ને તાળું મરાયેલ છે"
+
+#: /etc/rc.d/init.d/zabbix-agent:70 /etc/rc.d/init.d/zabbix-proxy:76
+#: /etc/rc.d/init.d/zabbix-server:75
+msgid "Service ${0##*/} does not support the reload action: "
+msgstr "સેવા ${0##*/} પુન:લાવવા ની ક્રિયાને આધાર આપતુ નથી: "
+
+#: /etc/rc.d/init.d/ibmasm:21 /etc/rc.d/init.d/mcstrans:46
+#: /etc/rc.d/init.d/watchdog:28
+msgid "$prog: already running"
+msgstr "$prog: પહેલાથી જ ચાલી રહ્યો છે"
+
+#: /etc/rc.d/init.d/rstatd:37
+msgid "Starting rstat services: "
+msgstr "rstat સેવાઓ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/lcdproc:99
+msgid "Reloading ${prog} config file: "
+msgstr "${prog} રૂપરેખાંકન ફાઇલને પુન:લાવી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/atd:108 /etc/rc.d/init.d/auth2:92
+#: /etc/rc.d/init.d/autogroup:111 /etc/rc.d/init.d/autohome:109
+#: /etc/rc.d/init.d/beanstalkd:106 /etc/rc.d/init.d/boa:107
+#: /etc/rc.d/init.d/boinc-client:188 /etc/rc.d/init.d/bro:184
+#: /etc/rc.d/init.d/chunkd:105 /etc/rc.d/init.d/clamav-milter:90
+#: /etc/rc.d/init.d/cld:106 /etc/rc.d/init.d/coda-client:86
+#: /etc/rc.d/init.d/codasrv:93 /etc/rc.d/init.d/collectl:98
+#: /etc/rc.d/init.d/couchdb:104 /etc/rc.d/init.d/crond:126
+#: /etc/rc.d/init.d/fcron_watch_config:99 /etc/rc.d/init.d/fsniper:94
+#: /etc/rc.d/init.d/glusterfsd:103 /etc/rc.d/init.d/gmediaserver:121
+#: /etc/rc.d/init.d/imapproxy:101 /etc/rc.d/init.d/keepalived:106
+#: /etc/rc.d/init.d/kojid:81 /etc/rc.d/init.d/kojira:81
+#: /etc/rc.d/init.d/lighttpd:110 /etc/rc.d/init.d/miredo-client:115
+#: /etc/rc.d/init.d/miredo-server:117 /etc/rc.d/init.d/mrepo:94
+#: /etc/rc.d/init.d/noip:102 /etc/rc.d/init.d/npcd:100
+#: /etc/rc.d/init.d/nuauth:133 /etc/rc.d/init.d/nufw:129
+#: /etc/rc.d/init.d/nxtvepgd:101 /etc/rc.d/init.d/oidentd:107
+#: /etc/rc.d/init.d/poker-bot:102 /etc/rc.d/init.d/poker-server:105
+#: /etc/rc.d/init.d/postgrey:109 /etc/rc.d/init.d/saslauthd:106
+#: /etc/rc.d/init.d/searchd:102 /etc/rc.d/init.d/sigul_bridge:67
+#: /etc/rc.d/init.d/sigul_server:68 /etc/rc.d/init.d/spampd:105
+#: /etc/rc.d/init.d/speech-dispatcherd:90 /etc/rc.d/init.d/sssd:116
+#: /etc/rc.d/init.d/tabled:106 /etc/rc.d/init.d/thttpd:103
+#: /etc/rc.d/init.d/tinyproxy:102 /etc/rc.d/init.d/trytond:113
+#: /etc/rc.d/init.d/tuned:98 /etc/rc.d/init.d/unbound:130
+#: /etc/rc.d/init.d/update:127 /etc/rc.d/init.d/vtund:107
+#: /etc/rc.d/init.d/xrdp:140 /etc/rc.d/init.d/zfs-fuse:197
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+"reload}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-"
+"reload}"
+
+#: /etc/rc.d/init.d/openais:20
+msgid "Starting OpenAIS ($prog): "
+msgstr "OpenAIS ($prog) શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/unbound:49
+msgid "Generating unbound control key and certificate: "
+msgstr "unbound નિયંત્રણ કી અને પ્રમાણપત્રને ઉત્પન્ન કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/vncserver:61
+msgid "vncserver startup"
+msgstr "vncserver શરુઆત"
+
+#: /etc/sysconfig/network-scripts/init.ipv6-global:180
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr "વપરાશ: $0 {start|stop|reload|restart|showsysctl}"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:128
+msgid "Missing config file $PARENTCONFIG."
+msgstr "રુપરેખા ફાઈલ $PARENTCONFIG ખોવાયેલ છે."
+
+#: /etc/rc.d/init.d/ircd:74 /etc/rc.d/init.d/ushare:76
+msgid "Usage: $prog {start|stop|restart|condrestart|reload|status"
+msgstr "વપરાશ: $prog {start|stop|restart|condrestart|reload|status"
+
+#: /etc/rc.d/init.d/innd:62
+msgid "Stopping INND service (the hard way): "
+msgstr "INND સેવા અટકાવી રહ્યા છીએ (સખત માર્ગ): "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1094
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr "આપેલ IPv6 મૂળભૂત ગેટવે '$address' એ યોગ્ય બંધારણમાં નથી"
+
+#: /etc/rc.d/init.d/tclhttpd:57
+msgid "$base dead but subsys locked"
+msgstr "$base મૃત છે પરંતુ subsys તાળું મરાયેલ છે"
+
+#: /etc/sysconfig/network-scripts/ifup-sit:71
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr "ઉપકરણ '$DEVICE' એ પહેલાથી જ ઉપર છે, મહેરબાની કરીને પહેલા બંધ કરો"
+
+#: /etc/rc.d/init.d/argus:38
+msgid "Shutting down argus: "
+msgstr "argus બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cgred:87
+msgid "Stopping CGroup Rules Engine Daemon..."
+msgstr "CGroup Rules Engine ડિમનને અટકાવી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/haldaemon:35
+msgid "Stopping HAL daemon: "
+msgstr "HAL ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/asterisk:80
+msgid "Starting asterisk: "
+msgstr "asterisk શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:70
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr "*** સમસ્યાઓ. તમને શેલમાં મૂકી રહ્યા છીએ; સિસ્ટમ રીબુટ થશે"
+
+#: /etc/rc.d/init.d/arptables_jf:59
+msgid "Starting arptables_jf"
+msgstr "arptables_jf શરૂ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/rpcgssd:54
+msgid "Starting RPC gssd: "
+msgstr "RPC gssd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/nfs:188
+msgid "reload"
+msgstr "ફરીથી લાવો"
+
+#: /etc/rc.d/init.d/mldonkey:32
+msgid "Starting Mldonkey (mlnet): "
+msgstr "Mldonkey (mlnet) શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:57 /etc/rc.d/rc.sysinit:375
+msgid "Setting up Logical Volume Management:"
+msgstr "લોજિકલ વોલ્યુમ વ્યવસ્થા સુયોજિત કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/uuidd:41
+msgid "Stopping uuidd: "
+msgstr "uuidd અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ladvd:47
+msgid "Starting ladvd: "
+msgstr "ladvd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup:115
+#: /etc/sysconfig/network-scripts/ifup:116
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr "ભૂલ: vlan ${VID} ને ${DEVICE} તરીકે dev ${PHYSDEV} પર ઉમેરી શક્યા નહિં"
+
+#: /etc/rc.d/init.d/rpcidmapd:53
+msgid "Starting RPC idmapd: "
+msgstr "RPC idmapd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/wine:24
+msgid "Binary handler for Windows applications already registered"
+msgstr "વિન્ડોઝ કાર્યક્રમો માટેના બાઈનરી નિયંત્રકો પહેલાથી જ રજીસ્ટર થયેલ છે"
+
+#: /etc/rc.d/init.d/systemtap:578
+msgid "$s$pid is running..."
+msgstr "$s$pid એ ચાલી રહ્યું છે..."
+
+#: /etc/rc.d/init.d/privoxy:72
+msgid "Starting $PRIVOXY_PRG: "
+msgstr "$PRIVOXY_PRG શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/vprocunhide:23
+msgid "Fixing /proc entries visibility"
+msgstr "/proc entries visibility"
+
+#: /etc/rc.d/init.d/innd:89
+msgid "Stopping INN actived service: "
+msgstr "INN સક્રિયકૃત સેવા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ipmi:445
+msgid "Stopping all ${MODULE_NAME} drivers: "
+msgstr "બધા ${MODULE_NAME} ડ્રાઈવરો અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ktune:110
+msgid "$file: "
+msgstr "$file: "
+
+#: /etc/rc.d/init.d/tor:88
+msgid "Usage: $0 {start|stop|force-reload|reload|try-restart|status}"
+msgstr "વપરાશ: $0 {start|stop|force-reload|reload|try-restart|status}"
+
+#: /etc/rc.d/init.d/ktune:19
+msgid "$0: /etc/sysconfig/ktune does not exist."
+msgstr "$0: /etc/sysconfig/ktune અસ્તિત્વ ધરાવતુ નથી."
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:187
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr "$FILE માં ભૂલ છે: $devseen માં ઉપકરણ $parent_device:$DEVNUM ને પહેલાથી જ જોયેલ છે "
+
+#: /etc/rc.d/init.d/sysklogd:51
+msgid "Shutting down kernel logger: "
+msgstr "કર્નલ લોગર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tor:67
+msgid "program is not running"
+msgstr "કાર્યક્રમ ચાલતો નથી"
+
+#: /etc/rc.d/rc.sysinit:142
+msgid "Key file for $dst not found, skipping"
+msgstr "$dst માટે કી ફાઈલ મળી નહિં, રદ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/ups:52
+msgid "Starting UPS monitor (master): "
+msgstr "UPS મોનિટર શરુ કરી રહ્યા છીએ (મુખ્ય): "
+
+#: /etc/rc.d/init.d/btseed:47
+msgid "Shutting down BitTorrent seed client: "
+msgstr "BitTorrent seed ક્લાઈન્ટ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/xend:59
+msgid "Reloading xend daemon: "
+msgstr "xend ડિમન પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:35
+msgid "Halting system..."
+msgstr "સિસ્ટમ બંધ કરી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/avahi-daemon:62
+msgid "Reloading Avahi daemon... "
+msgstr "Avahi ડિમન પુનઃલાવી રહ્યા છીએ... "
+
+#: /etc/rc.d/init.d/iptables:31
+msgid "${IPTABLES}: /sbin/$IPTABLES does not exist."
+msgstr "${IPTABLES}: /sbin/$IPTABLES અસ્તિત્વમાં નથી."
+
+#: /etc/rc.d/init.d/lirc:65
+msgid "Starting infrared remote control daemon ($prog): "
+msgstr "ઈન્ફ્રારેડ દૂરસ્થ નિયંત્રણ ડિમન શરૂ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/condor:212
+msgid "$prog status is unknown"
+msgstr "$prog પરિસ્થિતિ અજ્ઞાત છે"
+
+#: /etc/rc.d/init.d/ip6tables:291
+msgid "${IP6TABLES}: Firewall is not configured. "
+msgstr "${IP6TABLES}: ફાયરવોલ રૂપરેખાંકિત નથી. "
+
+#: /etc/rc.d/init.d/canna:89 /etc/rc.d/init.d/condor:224
+#: /etc/rc.d/init.d/dhcp6r:89 /etc/rc.d/init.d/dhcp6s:101
+#: /etc/rc.d/init.d/fnfxd:67 /etc/rc.d/init.d/odccm:63
+#: /etc/rc.d/init.d/rbldnsd:191 /etc/rc.d/init.d/ups:136
+msgid "Usage: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|try-restart|reload|force-reload|status}"
+
+#: /etc/rc.d/init.d/smolt:68
+msgid "Monthly smolt check-in is disabled."
+msgstr "માસિક smolt ચકાસણી નિષ્ક્રિય કરવામાં આવેલ છે."
+
+#: /etc/rc.d/init.d/systemtap:64
+msgid "\t-r kernelrelease: specify kernel release version"
+msgstr "\t-r kernelrelease: કર્નલ પ્રકાશન આવૃત્તિને સ્પષ્ટ કરો"
+
+#: /etc/rc.d/init.d/postfix:116
+msgid "$prog check"
+msgstr "$prog ચકાસણી"
+
+#: /etc/rc.d/init.d/corosync:56 /etc/rc.d/init.d/dictd:94
+#: /etc/rc.d/init.d/openais:57
+msgid ""
+"Usage: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+msgstr ""
+"વપરાશ: $0 {start|stop|restart|try-restart|condrestart|reload|force-reload|"
+"status}"
+
+#: /etc/rc.d/init.d/tclhttpd:37
+msgid "Usage: status {program}"
+msgstr "વપરાશ: status {program}"
+
+#: /etc/rc.d/init.d/amd:94
+msgid "Reloading $prog:"
+msgstr "$prog ફરીથી લાવી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/ypbind:80
+msgid "Binding NIS service: "
+msgstr "NIS સેવા બાંધી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pyicq-t:12
+msgid "Starting ICQ transport: "
+msgstr "ICQ પરિવહન શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/kdump:391
+msgid "Usage: $0 {start|stop|status|restart|propagate}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|propagate}"
+
+#: /etc/rc.d/init.d/multipathd:78
+msgid "Stopping $prog daemon: "
+msgstr "$prog ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ypbind:142
+msgid "Reloading NIS service: "
+msgstr "NIS સેવા ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:283
+msgid "Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr "6to4 અને RADVD IPv6 ને આગળ ધપાવવાનું મોટે ભાગે સક્રિય કરેલ છે, પરંતુ તે નથી"
+
+#: /etc/rc.d/init.d/libvirt-qpid:38 /etc/rc.d/init.d/libvirtd:59
+#: /etc/rc.d/init.d/matahari:22
+msgid "Starting $SERVICE daemon: "
+msgstr "$SERVICE ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/amd:65
+msgid "amd shutdown"
+msgstr "amd બંધ કરો"
+
+#: /etc/rc.d/init.d/blktapctrl:48
+msgid "Stoping xen blktapctrl daemon: "
+msgstr "xen blktapctrl ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rusersd:53
+msgid "Stopping rusers services: "
+msgstr "rusers સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/glacier2router:46 /etc/rc.d/init.d/glacier2router:49
+#: /etc/rc.d/init.d/icegridnode:47 /etc/rc.d/init.d/icegridnode:50
+#: /etc/rc.d/init.d/icegridregistry:47 /etc/rc.d/init.d/icegridregistry:50
+msgid "Starting $progbase: "
+msgstr "$progbase શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/moodle:39
+msgid "Disabling Moodle cron job: "
+msgstr "Moodle cron job નિષ્ક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/dund:26
+msgid "Starting dund: "
+msgstr "dund શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/vtund:59
+msgid "Reloading config for $prog: "
+msgstr "$prog માટે config ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/messagebus:36
+msgid "Starting system message bus: "
+msgstr "સિસ્ટમ સંદેશા bus શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ladvd:57
+msgid "Shutting down ladvd: "
+msgstr "ladvd બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/drbdlinksclean:72
+msgid "Usage: drbdlinksclean {start|stop|status|restart|force-reload}"
+msgstr "વપરાશ: drbdlinksclean {start|stop|status|restart|force-reload}"
+
+#: /etc/rc.d/init.d/privoxy:87
+msgid "Stopping $PRIVOXY_PRG: "
+msgstr "$PRIVOXY_PRG બંધ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:843
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+"ટનલ ઉપકરણ '$device' પર આપેલ દૂરસ્થ સરનામું '$addressipv4tunnel' એ પહેલાથી જ ઉપકરણ "
+"'$devnew' પર રુપરેખાંકિત છે"
+
+#: /etc/rc.d/init.d/iceccd:32
+msgid "Starting distributed compiler daemon: "
+msgstr "વિતરિત કમ્પાઈલર ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/openscadad:33
+msgid "Starting OpenSCADA daemon: "
+msgstr "OpenSCADA ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/clement:183
+msgid "Stopping $PROG:"
+msgstr "$PROG અટકાવી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/supervisord:30
+msgid "Stopping supervisord: "
+msgstr "supervisord અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/squid:174
+msgid "Usage: $0 {start|stop|status|reload|restart|condrestart|probe}"
+msgstr "વપરાશ: $0 {start|stop|status|reload|restart|condrestart|probe}"
+
+#: /etc/rc.d/init.d/zvbid:23
+msgid "Starting vbi proxy daemon: "
+msgstr "vbi પ્રોક્સી ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifdown-sit:40
+#: /etc/sysconfig/network-scripts/ifup-sit:58
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+"ઉપકરણ '$DEVICE' નો અંહિ આધાર નથી, IPV6_AUTOTUNNEL સુયોજનો વાપરો અને (IPv6) "
+"નેટવર્કીંગ ફરીથી શરુ કરો"
+
+#: /etc/rc.d/init.d/yum-cron:22
+msgid "Enabling nightly yum update: "
+msgstr "રાત્રિય yum update સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/apt:75 /etc/rc.d/init.d/denyhosts:173
+#: /etc/rc.d/init.d/incrond:58 /etc/rc.d/init.d/memcached:83
+#: /etc/rc.d/init.d/mogilefsd:57 /etc/rc.d/init.d/mogstored:57
+#: /etc/rc.d/init.d/pdns-recursor:58 /etc/rc.d/init.d/perlbal:58
+#: /etc/rc.d/init.d/pound:58 /etc/rc.d/init.d/rwalld:90
+#: /etc/rc.d/init.d/rwhod:90 /etc/rc.d/init.d/smolt:73
+#: /etc/rc.d/init.d/supervisord:59 /etc/rc.d/init.d/uuidd:70
+#: /etc/rc.d/init.d/yum-cron:65 /etc/rc.d/init.d/yum-updatesd:71
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/postfix:94
+msgid "Reloading postfix: "
+msgstr "postfix પાછું લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/autofs:137
+msgid "Reloading maps"
+msgstr "નકશાઓ પુનઃલાવી રહ્યા છીએ"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:596
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr "ખોવાયેલ પરિમાણ 'IPv4 સરનામું' (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/zabbix-agent:40
+msgid "Shutting down ZABBIX agent: "
+msgstr "ZABBIX એજન્ટને બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/openct:34
+msgid "Initializing OpenCT smart card terminals: "
+msgstr "OpenCT સ્માર્ટ કાર્ડ ટર્મિનલોનો આરંભ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/hddtemp:36
+msgid "Unconfigured: $prog, see /etc/sysconfig/hddtemp: "
+msgstr "બિનરૂપરેખાંકિત: $prog, see /etc/sysconfig/hddtemp: "
+
+#: /etc/rc.d/init.d/netplugd:30
+msgid "Starting network plug daemon: "
+msgstr "નેટવર્ક પ્લગ ડીમન શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/iptables:246
+msgid "${IPTABLES}: Saving firewall rules to $IPTABLES_DATA: "
+msgstr "${IPTABLES}: $IPTABLES_DATA માં ફાયરવોલ નિયમો સંગ્રહી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/network:288
+msgid "Currently active devices:"
+msgstr "વર્તમાનમાં સક્રિય ઉપકરણો:"
+
+#: /etc/rc.d/init.d/network:248
+msgid "Shutting down interface $i: "
+msgstr "ઈન્ટરફેસ $i બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/iceccd:66
+msgid "Stopping distributed compiler daemon: "
+msgstr "વિતરિત કમ્પાઈલર ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/condor:40
+msgid "Starting Condor daemons: "
+msgstr "Condor ડિમનો શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/util-vserver:99
+msgid "Path to vshelper has been set"
+msgstr "vshelper નો પાથ સુયોજીત થઈ ગયેલ છે"
+
+#: /etc/rc.d/init.d/oddjobd:102
+msgid "Usage: $0 {start|stop|restart|condrestart|reload|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|condrestart|reload|status}"
+
+#: /etc/rc.d/init.d/sec:85
+msgid "Usage: $0 {start|stop|reload|restart|dump|status}"
+msgstr "વપરાશ: $0 {start|stop|reload|restart|dump|status}"
+
+#: /etc/rc.d/init.d/wesnothd:65
+msgid "Stopping Wesnoth game server: "
+msgstr "Wesnoth game સર્વર અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/xenstored:57
+msgid "Stopping xenstored daemon: "
+msgstr "xenstored ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rpcsvcgssd:96
+msgid "Shutting down RPC svcgssd: "
+msgstr "RPC svcgssd બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/smartd:81
+msgid "Checking SMART devices now: "
+msgstr "હમણાં SMART ઉપકરણો ચકાસી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:216
+msgid "Importing packets to monotone database: "
+msgstr "monotone ડેટાબેઝમાં પેકેટોને આયાત કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/tinyerp-server:86
+msgid "$prog is running..."
+msgstr "$prog એ ચાલી રહ્યું છે..."
+
+#: /etc/sysconfig/network-scripts/ifup-ippp:55
+#: /etc/sysconfig/network-scripts/ifup-isdn:55
+msgid "$*"
+msgstr "$*"
+
+#: /etc/rc.d/init.d/puppetmaster:56
+msgid "Manifest does not exist: $PUPPETMASTER_MANIFEST"
+msgstr "Manifest અસ્તિત્વમાં નથી: $PUPPETMASTER_MANIFEST"
+
+#: /etc/rc.d/init.d/mldonkey:64
+msgid "Mldonkey (mlnet) is stopped"
+msgstr "Mldonkey (mlnet) એ બંધ થયેલ છે"
+
+#: /etc/rc.d/init.d/bgpd:34 /etc/rc.d/init.d/cachefilesd:43
+#: /etc/rc.d/init.d/fsniper:28 /etc/rc.d/init.d/ospf6d:33
+#: /etc/rc.d/init.d/ospfd:33 /etc/rc.d/init.d/radvd:46
+#: /etc/rc.d/init.d/remotetrx:26 /etc/rc.d/init.d/ripd:33
+#: /etc/rc.d/init.d/ripngd:33 /etc/rc.d/init.d/svxlink:26
+#: /etc/rc.d/init.d/xttpd:27 /etc/rc.d/init.d/zebra:30
+msgid "Starting $PROG: "
+msgstr "$PROG શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/dc_client:74 /etc/rc.d/init.d/dc_server:70
+#: /etc/rc.d/init.d/openser:62 /etc/rc.d/init.d/rtpproxy:67
+#: /etc/rc.d/init.d/sems:67 /etc/rc.d/init.d/ser:93
+msgid "Usage: $prog {start|stop|restart|condrestart|status|help}"
+msgstr "વપરાશ: $prog {start|stop|restart|condrestart|status|help}"
+
+#: /etc/rc.d/init.d/icecast:30
+msgid "Shutting down icecast streaming daemon: "
+msgstr "icecast સ્ટ્રીમીંગ ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/wine:47
+msgid "Wine binary format handlers are registered."
+msgstr "Wine બાઈનરી બંધારણ નિયંત્રકો રજીસ્ટર થયેલ છે."
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:344
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr "$FILE માં ભૂલ છે: IPADDR_START એ IPADDR_END ના કરતાં મોટું છે"
+
+#: /etc/rc.d/init.d/netfs:86 /etc/rc.d/rc.sysinit:604
+msgid "(Repair filesystem)"
+msgstr "(ફાઈલ સિસ્ટમ સુધારો)"
+
+#: /etc/rc.d/init.d/httpd:77
+msgid "not reloading $httpd due to configuration syntax error"
+msgstr "રૂપરેખાંકન વાક્યરચના ભૂલને કારણે $httpd ને પાછું લાવી શકતા નથી"
+
+#: /etc/rc.d/init.d/netbsd-iscsi:57 /etc/rc.d/init.d/nighthttpd:49
+msgid "Stopping $SERVICE:"
+msgstr "$SERVICE અટકાવી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/lirc:71
+msgid "Starting infrared remote control mouse daemon ($prog2): "
+msgstr "ઈન્ફ્રારેડ દૂરસ્થ નિયંત્રણ માઉસ ડિમન શરૂ કરી રહ્યા છીએ ($prog2): "
+
+#: /etc/rc.d/init.d/ypserv:30
+msgid "Setting NIS domain name $NISDOMAIN: "
+msgstr "NIS ડોમેઈન નામ $NISDOMAIN સુયોજિત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/fb-server:25
+msgid "Starting Frozen Bubble server(s): "
+msgstr "જામી ગયેલ બબલ સર્વર(ઓ) શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/and:36
+msgid "Starting auto nice daemon:"
+msgstr "auto nice ડિમન શરૂ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/monotone:200
+msgid "Checking database format in"
+msgstr "ડેટાબેઝ બંધારણમાં ચકાસી રહ્યા છે"
+
+#: /etc/rc.d/init.d/cyrus-imapd:82
+msgid "Importing $BASENAME databases: "
+msgstr "$BASENAME ડેટાબેઝોની આયાત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/imapproxy:43
+msgid "Shutting down up-imapproxy daemon: "
+msgstr "imapproxyd ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/i8k:73
+msgid "Module $module isn't loaded."
+msgstr "મોડ્યુલ $module લવાયેલ નથી."
+
+#: /etc/rc.d/init.d/tcsd:88
+msgid "Loading drivers"
+msgstr "ડ્રાઇવરો લોડ કરી રહ્યા છે"
+
+#: /etc/rc.d/init.d/sshd:222
+msgid ""
+"Usage: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+"status}"
+msgstr ""
+"વપરાશ: $0 {start|stop|restart|reload|force-reload|condrestart|try-restart|"
+"status}"
+
+#: /etc/rc.d/init.d/systemtap:62
+msgid "Options:"
+msgstr "વિકલ્પો:"
+
+#: /etc/rc.d/init.d/monotone:219 /etc/rc.d/init.d/monotone:220
+msgid "packet import"
+msgstr "પેકેટ ને આયાત કરો"
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:85
+msgid "Avahi DNS daemon is not running"
+msgstr "Avahi DNS ડિમન ચાલી રહ્યું નથી"
+
+#: /etc/rc.d/init.d/cyphesis:106
+msgid "Populating cyphesis world: "
+msgstr "cyphesis દુનિયાને પ્રચલિત કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/monotone:156
+msgid "To lose old key remove file"
+msgstr "જૂની કીને ખોવા માટે ફાઇલને દૂર કરો"
+
+#: /etc/rc.d/init.d/tor:65
+msgid "program is dead and /var/run pid file exists"
+msgstr "કાર્યક્રમ મૃત છે અને /var/run pid ફાઈલ અસ્તિત્વમાં છે"
+
+#: /etc/rc.d/init.d/iscsid:65 /etc/rc.d/init.d/iscsid:66
+msgid "Not stopping $prog: iscsi sessions still active"
+msgstr "$prog: iscsi સત્રો હજુ સક્રિય છે તેને બંધ કરી રહ્યા નથી"
+
+#: /etc/rc.d/init.d/clamd-wrapper:9
+msgid "*** Please see /usr/share/doc/clamav-server-*/README how"
+msgstr "*** મહેરબાની કરીને આ જુઓ /usr/share/doc/clamav-server-*/README how"
+
+#: /etc/rc.d/init.d/systemtap:63
+msgid "\t-c configfile\t: specify config file"
+msgstr "\t-c configfile\t: રૂપરેખાંકન ફાઇલને સ્પષ્ટ કરો"
+
+#: /etc/rc.d/init.d/btseed:34
+msgid "Starting BitTorrent seed client: "
+msgstr "BitTorrent seed client શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pand:37
+msgid "Shutting down pand: "
+msgstr "pand બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rsyslog:96
+msgid "Usage: $0 {start|stop|restart|reload|force-reload|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/ajaxterm:71 /etc/rc.d/init.d/qemu:98
+msgid "Usage: $prog {start|stop|status|restart|condrestart}"
+msgstr "વપરાશ: $prog {start|stop|status|restart|condrestart}"
+
+#: /etc/rc.d/init.d/i8k:98 /etc/rc.d/init.d/kannel:118
+#: /etc/rc.d/init.d/olpc-configure:330
+msgid "Usage: $0 {start|stop|restart|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|status}"
+
+#: /etc/rc.d/init.d/innd:55
+msgid "Stopping INND service (gently): "
+msgstr "INND સેવા અટકાવી રહ્યા છીએ (નમ્રતાથી): "
+
+#: /etc/rc.d/init.d/rpcidmapd:82
+msgid "Stopping RPC idmapd: "
+msgstr "RPC idmapd અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ldap:128 /etc/rc.d/init.d/ldap:134
+msgid "$file is not readable by \"$user\""
+msgstr "$file એ \"$user\" દ્વારા વાંચી શકાય તેવી નથી"
+
+#: /etc/rc.d/init.d/icecc-scheduler:50
+msgid "Stopping distributed compiler scheduler: "
+msgstr "વિતરિત કમ્પાઈલર નિશ્ચાયક અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/avahi-daemon:55 /etc/rc.d/init.d/avahi-dnsconfd:52
+#: /etc/rc.d/init.d/functions:318 /etc/rc.d/init.d/functions:334
+#: /etc/rc.d/init.d/tclhttpd:116 /etc/rc.d/init.d/tclhttpd:127
+msgid "$base shutdown"
+msgstr "$base બંધ કરો"
+
+#: /etc/rc.d/init.d/honeyd:70
+msgid "Stopping $prog2: "
+msgstr "$prog2 બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postgresql:163
+msgid "An old version of the database format was found."
+msgstr "ડેટાબેઝ બંધારણની જૂની આવૃત્તિ મળી હતી."
+
+#: /etc/rc.d/init.d/nginx:98
+msgid "Something bad happened, manual intervention required, maybe restart?"
+msgstr "કંઇક ખરાબ બન્યુ છે, મેન્યુઅલ દખલ કરવાની જરૂરિયાત છે, પુન:શરૂ કરવાની જરૂર પડી શકે છે?"
+
+#: /etc/rc.d/init.d/gearmand:76 /etc/rc.d/init.d/ngircd:74
+msgid "Usage: $prog {start|stop|restart|reload|condrestart|status|help}"
+msgstr "વપરાશ: $prog {start|stop|restart|reload|condrestart|status|help}"
+
+#: /etc/rc.d/init.d/netconsole:112
+msgid "netconsole module not loaded"
+msgstr "netconsole મોડ્યુલ લવાયેલ નથી"
+
+#: /etc/rc.d/init.d/qpidd:66
+msgid "Stopping Qpid AMQP daemon: "
+msgstr "Qpid AMQP ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:113
+msgid "ERROR    "
+msgstr "ભૂલ    "
+
+#: /etc/rc.d/init.d/ip6tables:31
+msgid "${IP6TABLES}: /sbin/$IP6TABLES does not exist."
+msgstr "${IP6TABLES}: /sbin/$IP6TABLES અસ્તિત્વમાં નથી."
+
+#: /etc/rc.d/init.d/nfslock:142
+msgid "Usage: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|probe|condrestart|condstop}"
+
+#: /etc/rc.d/init.d/mt-daapd:19
+msgid "Starting DAAP server: "
+msgstr "DAAP સર્વર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/mogilefsd:20 /etc/rc.d/init.d/mogstored:20
+msgid "Starting MogileFS tracker daemon: "
+msgstr "MogileFS ટ્રેકર ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1212
+msgid "No reason given for sending trigger to radvd"
+msgstr "radvd ને ટ્રીગર મોકલવા માટે કોઈ કારણ આપેલ નથી"
+
+#: /etc/rc.d/init.d/apt:70
+msgid "Nightly apt update is disabled."
+msgstr "રાત્રિ apt સુધારો નિષ્ક્રિય કરાયેલ છે."
+
+#: /etc/rc.d/init.d/openct:44
+msgid "Stopping OpenCT smart card terminals: "
+msgstr "OpenCT સ્માર્ટ કાર્ડ ટર્મિનલો અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/funcd:77
+msgid "Starting func daemon: "
+msgstr "func ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/arptables_jf:90
+msgid "Applying arptables firewall rules: "
+msgstr "arptables ફાયરવોલ નિયમો લાગુ પાડી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/freenx-server:82
+msgid "Usage: $prog {start|stop|restart}"
+msgstr "વપરાશ: $prog {start|stop|restart}"
+
+#: /etc/sysconfig/network-scripts/ifdown-tunnel:36
+#: /etc/sysconfig/network-scripts/ifup-tunnel:56
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr "ઉપકરણ '$DEVICE' માન્ય GRE ઉપકરણ નામ તરીકે આધારભૂત નથી."
+
+#: /etc/rc.d/init.d/microcode_ctl:96
+msgid "Usage: $0 {start|stop|restart}"
+msgstr "વપરાશ: $0 {start|stop|restart}"
+
+#: /etc/rc.d/init.d/cyrus-imapd:111
+msgid "Exporting $BASENAME databases: "
+msgstr "$BASENAME ડેટાબેઝોની નિકાસ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rwhod:39
+msgid "Starting rwho services: "
+msgstr "rwho સેવાઓ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/acpid:60
+msgid "Stopping acpi daemon: "
+msgstr "acpi ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:123
+msgid "Unmounting loopback filesystems: "
+msgstr "લુપબેક ફાઈલ સિસ્ટમો માઉન્ટ દૂર કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ipmi:548
+msgid "          stop-all|status-all}"
+msgstr "          stop-all|status-all}"
+
+#: /etc/rc.d/init.d/ip6tables:98
+msgid "${IP6TABLES}: Flushing firewall rules: "
+msgstr "${IP6TABLES}: ફાયરવોલ નિયમો ફ્લશ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1108
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+"આપેલ IPv6 મૂળભૂત ગેટવે '$address' એ સ્થાનિક કડી છે, પરંતુ કોઈ મર્યાદા નથી અથવા ગેટવે "
+"ઉપકરણ સ્પષ્ટ કરેલ છે"
+
+#: /etc/rc.d/init.d/util-vserver:64
+msgid "Loading default device map"
+msgstr "મૂળભૂત ઉપકરણ મેપ લાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/condor:209
+msgid "$prog dead but pid file exists"
+msgstr "$prog મૃત થયેલ છે પરંતુ pid ફાઈલ અસ્તિત્વમાં છે"
+
+#: /etc/rc.d/init.d/tclhttpd:60
+msgid "$base is stopped"
+msgstr "$base અટકાવાયેલ છે"
+
+#: /etc/rc.d/init.d/dund:36
+msgid "Shutting down dund: "
+msgstr "dund ને બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/shorewall:66 /etc/rc.d/init.d/shorewall-lite:66
+#: /etc/rc.d/init.d/shorewall6:66 /etc/rc.d/init.d/shorewall6-lite:66
+msgid "Restarting Shorewall: "
+msgstr "Shorewall પુનઃશરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/gpm:91
+msgid "Shutting down console mouse services: "
+msgstr "કન્સોલ માઉસ સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/util-vserver:102
+msgid "Path to vshelper has not been set"
+msgstr "vshelper નો પાથ સુયોજીત થયેલ નથી"
+
+#: /etc/rc.d/init.d/ser2net:37
+msgid "Reloading ser2net: "
+msgstr "ser2net પુનઃલોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tog-pegasus:80
+msgid "Shutting down CIM server: "
+msgstr "CIM સર્વર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/gkrellmd:28
+msgid "Starting GNU Krell Monitors server ($prog): "
+msgstr "GNU Krell મોનીટરો સર્વર શરૂ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/nfslock:94
+msgid "Stopping NFS statd: "
+msgstr "NFS statd બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:159
+msgid "Generating RSA key for server $MONOTONE_KEYID"
+msgstr "સર્વર $MONOTONE_KEYID માટે RSA કીને ઉત્પન્ન કરી રહ્યા છે"
+
+#: /etc/rc.d/init.d/spamass-milter:53
+msgid "Starting ${desc} (${prog}): "
+msgstr "${desc} (${prog}) શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tog-pegasus:97
+msgid "CIM server ($pid) is running"
+msgstr "CIM સર્વર ($pid) ચાલી રહ્યું છે"
+
+#: /etc/rc.d/init.d/cobblerd:66
+msgid "Stopping cobbler daemon: "
+msgstr "cobbler ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:178
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr "ઉપકરણ 'tun6to4' ('$DEVICE' માંથી) એ પહેલાથી જ ઉપકરણ છે, પ્રથમ બંધ કરો"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1100
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+"આપેલ IPv6 મૂળભૂત ગેટવે '$address' પાસે મર્યાદા '$device_scope' વ્યાખ્યાયિત કરેલ છે, આપેલ "
+"મૂળભૂત ગેટવે ઉપકરણ '$device' વપરાશે નહિં"
+
+#: /etc/rc.d/init.d/crossfire:31
+msgid "Starting Crossfire game server: "
+msgstr "Crossfire રમત સર્વર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/zabbix-server:45
+msgid "Shutting down ZABBIX server: "
+msgstr "ZABBIX સર્વર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/wine:37
+msgid "Unregistering binary handler for Windows applications: "
+msgstr "Windows કાર્યક્રમો માટે બાઈનરી નિયંત્રકોનું રજીસ્ટ્રેશન દૂર કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/telescoped:38
+msgid "Shutting down telescope daemon: "
+msgstr "telescope ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:214
+msgid "$dst: LUKS requires non-random key, skipping"
+msgstr "$dst: LUKS માટે બિન-રેન્ડમ કી જરૂરી છે, રદ કરી રહ્યા છીએ"
+
+#: /usr/sbin/sys-unconfig:6
+msgid "Usage: sys-unconfig"
+msgstr "વપરાશ: sys-unconfig"
+
+#: /etc/rc.d/init.d/smolt:65
+msgid "Monthly smolt check-in is enabled."
+msgstr "માસિક smolt ચકાસણીઓ સક્રિય કરાયેલ છે."
+
+#: /etc/ppp/ip-up.ipv6to4:87 /etc/sysconfig/network-scripts/ifup-ipv6:205
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr "આપેલ IPv4 સરનામું '$ipv4addr' એ ઉમદા રીતે વાપરી શકાય એમ નથી"
+
+#: /etc/rc.d/init.d/monotone:192 /etc/rc.d/init.d/monotone:193
+msgid "move passphrase file"
+msgstr "પાસફ્રેઝ ફાઇલને ખસેડો"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:863
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr "ટનલ ઉપકરણ '$device' લાવી રહ્યા છીએ કામ કરો નહિં"
+
+#: /etc/rc.d/init.d/mongrel_cluster:48
+msgid "Starting $prog for $file: "
+msgstr "$file માટે $prog શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/sgemaster:298
+msgid "Starting sge_shadowd: "
+msgstr "sge_shadowd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:138
+msgid "Initializing database"
+msgstr "ડેટાબેઝનો પ્રારંભ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/aiccu:75 /etc/rc.d/init.d/nmb:52 /etc/rc.d/init.d/smb:52
+#: /etc/rc.d/init.d/winbind:43
+msgid "Shutting down $KIND services: "
+msgstr "$KIND સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ocspd:64
+msgid "Shutting down ${prog}: "
+msgstr "${prog} બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rarpd:91
+msgid "Usage: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|restart|condrestart|reload|status|force-reload}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:181
+msgid "Kernel is not compiled with IPv6 support"
+msgstr "કર્નલ IPv6 ના આધાર સાથે કમ્પાઈલ થયેલ નથી"
+
+#: /etc/rc.d/init.d/fsniper:36 /etc/rc.d/init.d/radvd:53
+#: /etc/rc.d/init.d/xttpd:56
+msgid "Stopping $PROG: "
+msgstr "$PROG અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/arptables_jf:127
+msgid "Resetting built-in chains to the default ACCEPT policy:"
+msgstr "મૂળભૂત ACCEPT નિતીની સાથે આંતરિક સાંકળો ફરીથી સુયોજિત કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/systemtap:579
+msgid "$s is stopped"
+msgstr "$s અટકાવાયેલ છે"
+
+#: /etc/rc.d/init.d/vdr:63
+msgid "Stopping Video Disk Recorder ($prog): "
+msgstr "વીડિયો ડિસ્ક રેકોર્ડર અટકાવી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/functions:535
+msgid "Start service $1 (Y)es/(N)o/(C)ontinue? [Y] "
+msgstr "સેવા શરુ કરવી છે $1 (Y)હા/(N)ના/(C)ચાલુ રાખવી છે? [Y] "
+
+#: /etc/rc.d/init.d/radiusd:56
+msgid "Reloading RADIUS server: "
+msgstr "RADIUS સર્વર ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ulogd:39
+msgid "$prog is already running."
+msgstr "$prog એ પહેલાથી જ ચાલી રહ્યું છે."
+
+#: /etc/rc.d/init.d/bttrack:47
+msgid "Shutting down BitTorrent tracker: "
+msgstr "BitTorrent ટ્રેકર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:574
+msgid "Checking filesystems"
+msgstr "ફાઈલ સિસ્ટમની ચકાસણી કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/netconsole:91
+msgid "Initializing netconsole"
+msgstr "netconsole આરંભ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/functions:276
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr "વપરાશ: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+
+#: /etc/rc.d/init.d/nsd:47
+msgid "Starting nsd:"
+msgstr "nsd શરુ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/zabbix-proxy:46
+msgid "Shutting down ZABBIX proxy: "
+msgstr "ZABBIX પ્રોક્સીને બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/multipathd:65
+msgid "Starting $prog daemon: "
+msgstr "$prog ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:963
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr "બિનઆધારભૂત પસંદગી '$selection' સ્પષ્ટ કરેલ છે (દલીલ ૨)"
+
+#: /etc/rc.d/init.d/radiusd:37
+msgid "Starting RADIUS server: "
+msgstr "RADIUS સર્વર શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:83 /etc/rc.d/rc.sysinit:601
+msgid "*** Dropping you to a shell; the system will reboot"
+msgstr "*** તમારા માટે શેલ છોડી રહ્યા છીએ; સિસ્ટમ ફરીથી બુટ થશે"
+
+#: /etc/rc.d/init.d/supervisord:22
+msgid "Starting supervisord: "
+msgstr "supervisord શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/condor:211 /etc/rc.d/init.d/tinyerp-server:88
+#: /etc/rc.d/init.d/tinyerp-server:91
+msgid "$prog is stopped"
+msgstr "$prog એ અટકાવાયેલ છે"
+
+#: /etc/rc.d/init.d/httpd:115
+msgid ""
+"Usage: $prog {start|stop|restart|condrestart|reload|status|fullstatus|"
+"graceful|help|configtest}"
+msgstr ""
+"વપરાશ: $prog {start|stop|restart|condrestart|reload|status|fullstatus|"
+"graceful|help|configtest}"
+
+#: /etc/rc.d/init.d/pgbouncer:44 /etc/rc.d/init.d/pgpool:84
+#: /etc/rc.d/init.d/postgresql:127 /etc/rc.d/init.d/sepostgresql:46
+msgid "Starting ${NAME} service: "
+msgstr "${NAME} સેવા શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/maradns:86
+msgid "Stopping MaraDNS: "
+msgstr "MaraDNS અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:187
+msgid "$dst: no value for size option, skipping"
+msgstr "$dst: માપ વિકલ્પ માટે કોઈ કિંમત નથી, રદ કરી રહ્યા છીએ"
+
+#: /etc/ppp/ip-down.ipv6to4:35 /etc/ppp/ip-up.ipv6to4:41
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr "દલીલ ૧ ખાલી છે પરંતુ તે ઈન્ટરફેસ નામ સમાવતી હોવી જોઈએ - IPv6to4 આરંભ અવગણો"
+
+#: /etc/rc.d/init.d/vdr:43
+msgid "Use \"scandvb -o vdr\" from the dvb-apps package to create one."
+msgstr "\"scandvb -o vdr\" ને dvb-apps પેકેજમાંથી એક બનાવવા માટે વાપરો."
+
+#: /etc/rc.d/init.d/ktune:169
+msgid "Reverting to ${KERNEL_ELEVATOR} elevator: "
+msgstr "${KERNEL_ELEVATOR} એલિવેટર પાછુ આવી રહ્યુ છે: "
+
+#: /etc/rc.d/init.d/netfs:140
+msgid "Active CIFS mountpoints: "
+msgstr "સક્રિય CIFS માઉન્ટ પોઈન્ટો: "
+
+#: /etc/rc.d/init.d/dropbear:51 /etc/rc.d/init.d/dropbear:54
+msgid "DSS key generation"
+msgstr "DSS કી બનાવટ"
+
+#: /etc/rc.d/init.d/nscd:59 /etc/rc.d/init.d/nscd:61
+msgid "$prog shutdown"
+msgstr "$prog બંધ કરો"
+
+#: /etc/rc.d/init.d/sshd:70
+msgid "Generating SSH2 RSA host key: "
+msgstr "SSH2 RSA યજમાન કી બનાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:269
+#: /etc/sysconfig/network-scripts/ifup-ib:235
+msgid "Error adding address ${IPADDR} for ${DEVICE}."
+msgstr "${DEVICE} માટે સરનામું ${IPADDR} બનાવવામાં ભૂલ."
+
+#: /etc/rc.d/init.d/ipmi:245
+msgid "Stopping ipmi_watchdog driver: "
+msgstr "ipmi_watchdog ડ્રાઈવર અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/innd:43
+msgid "Starting INND system: "
+msgstr "INND સિસ્ટમ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rbldnsd:143
+msgid "is stopped"
+msgstr "અટકી ગયેલ છે"
+
+#: /etc/rc.d/rc.sysinit:51
+msgid "*** Warning -- SELinux is active"
+msgstr "*** ચેતવણી -- SELinux સક્રિય છે"
+
+#: /etc/rc.d/init.d/arptables_jf:159 /etc/rc.d/init.d/ip6tables:303
+#: /etc/rc.d/init.d/iptables:303
+msgid "Table: $table"
+msgstr "કોષ્ટક: $table"
+
+#: /etc/rc.d/init.d/util-vserver:57
+msgid "Creating required directories"
+msgstr "જરૂરી ડિરેક્ટરીઓ બનાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:59
+msgid "Reloading Avahi DNS daemon... "
+msgstr "Avahi DNS ડિમન પુનઃલાવી રહ્યા છીએ... "
+
+#: /etc/rc.d/init.d/ctdb:140
+msgid "Starting ctdbd service: "
+msgstr "ctdbd સેવાને શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/apt:67
+msgid "Nightly apt update is enabled."
+msgstr "રાત્રિ apt સુધારો સક્રિય કરેલ છે."
+
+#: /etc/rc.d/init.d/cfenvd:35
+msgid "Stopping GNU cfengine environmental history daemon: "
+msgstr "GNU cfengine પર્યાવરણીય ઈતિહાસ ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postgresql:237 /etc/rc.d/init.d/sepostgresql:151
+msgid "Initializing database: "
+msgstr "ડેટાબેઝનો પ્રારંભ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/abrt:39
+msgid "Starting abrt daemon: "
+msgstr "abrt ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/nginx:86
+msgid "Staring new master $prog: "
+msgstr "નવુ માસ્ટર $prog શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cyphesis:49
+msgid "Creating PostgreSQL account: "
+msgstr "PostgreSQL ખાતાને બનાવી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/mongrel_cluster:136
+msgid ""
+"Usage: $prog {start|stop|status|reload|restart|condrestart|force-reload|try-"
+"restart} [<configfile.{yml|conf}>]"
+msgstr ""
+"વપરાશ: $prog {start|stop|status|reload|restart|condrestart|force-reload|try-"
+"restart} [<configfile.{yml|conf}>]"
+
+#: /etc/rc.d/init.d/nfs:185 /etc/rc.d/init.d/nfslock:125
+msgid "restart"
+msgstr "ફરીથી શરુ કરો"
+
+#: /etc/rc.d/init.d/exim:77
+msgid "Starting exim: "
+msgstr "exim શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/network:85
+msgid "Setting 802.1Q VLAN parameters: "
+msgstr "802.1Q VLAN પરિમાણો સુયોજિત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pgpool:186
+msgid ""
+"Usage: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+"force-reload}"
+msgstr ""
+"વપરાશ: $0 {start|stop|switch|status|restart|condrestart|condstop|reload|"
+"force-reload}"
+
+#: /etc/rc.d/init.d/systemtap:580
+msgid "$s is dead, but another script is running."
+msgstr "$s એ મરેલ છે, પરંતુ બીજી સ્ક્રિપ્ટ એ ચાલી રહ્યુ છે."
+
+#: /etc/sysconfig/network-scripts/ifup-eth:264
+#: /etc/sysconfig/network-scripts/ifup-ib:230
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr "ભૂલ, અમુક બીજા યજમાનો પહેલાથી જ સરનામું ${IPADDR} વાપરી રહ્યા છે."
+
+#: /etc/rc.d/init.d/nfs:154 /etc/rc.d/init.d/nfs:156
+msgid "Shutting down NFS services: "
+msgstr "NFS સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:119
+msgid "Stopping monotone server: "
+msgstr "monotone સર્વર અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:128
+msgid "Configured NCP mountpoints: "
+msgstr "રુપરેખાંકિત NCP માઉન્ટ પોઈન્ટ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:497
+msgid "Cannot delete IPv6 address '$address' on dev '$device'"
+msgstr "IPv6 સરનામું '$address' ને ઉપકરણ '$device' પરથી કાઢી શકતા નથી"
+
+#: /etc/rc.d/init.d/ups:39
+msgid "Starting UPS driver controller: "
+msgstr "UPS ડ્રાઈવર નિયંત્રક શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/puppetmaster:88
+msgid "Generate configuration puppetmaster: "
+msgstr "puppetmaster રૂપરેખાંકન ઉત્પન્ન કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifdown-eth:42
+#: /etc/sysconfig/network-scripts/ifdown-eth:48
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+"ઉપકરણ ${DEVICE} ને MAC સરનામું ${FOUNDMACADDR} છે, રૂપરેખાંકિત સરનામા ${HWADDR} ની "
+"જગ્યાએ. અવગણી રહ્યા છીએ."
+
+#: /etc/rc.d/init.d/functions:447
+msgid "FAILED"
+msgstr "નિષ્ફળ"
+
+#: /etc/rc.d/rc.sysinit:180
+msgid "$dst: no value for cipher option, skipping"
+msgstr "$dst: સાયફર વિકલ્પ માટે કોઈ કિંમત નથી, રદ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/avahi-daemon:52
+msgid "Shutting down Avahi daemon: "
+msgstr "Avahi ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/aiccu:65 /etc/rc.d/init.d/nmb:41 /etc/rc.d/init.d/smb:41
+#: /etc/rc.d/init.d/winbind:32
+msgid "Starting $KIND services: "
+msgstr "$KIND સેવાઓ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:172
+msgid "error in $FILE: invalid alias number"
+msgstr "$FILE માં ભૂલ: અયોગ્ય ઉપનામ નંબર"
+
+#: /etc/rc.d/init.d/cyrus-imapd:118
+msgid ""
+"$BASENAME error exporting databases, check ${CONFIGDIRECTORY}/rpm/db_export."
+"log"
+msgstr ""
+"$BASENAME ભૂલ ડેટાબેઝોની નિકાસ કરી રહ્યા છીએ, ${CONFIGDIRECTORY}/rpm/db_export."
+"log ચકાસો"
+
+#: /etc/rc.d/init.d/tor:64
+msgid "$prog is running"
+msgstr "$prog ચાલી રહ્યો છે"
+
+#: /etc/rc.d/init.d/vblade:35
+msgid "Starting up $prog: "
+msgstr "$prog શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/libvirt-qpid:63 /etc/rc.d/init.d/libvirtd:87
+#: /etc/rc.d/init.d/matahari:47
+msgid "Reloading $SERVICE configuration: "
+msgstr "$SERVICE રૂપરેખાંકન પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/iptables:98
+msgid "${IPTABLES}: Flushing firewall rules: "
+msgstr "${IPTABLES}: ફાયરવોલ નિયમો ફ્લશ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/amtu:87 /etc/rc.d/init.d/certmaster:124
+#: /etc/rc.d/init.d/cgred:135 /etc/rc.d/init.d/cobblerd:109
+#: /etc/rc.d/init.d/funcd:127 /etc/rc.d/init.d/libvirt-qpid:87
+#: /etc/rc.d/init.d/libvirtd:111 /etc/rc.d/init.d/matahari:71
+#: /etc/rc.d/init.d/messagebus:89 /etc/rc.d/init.d/multipathd:121
+#: /etc/rc.d/init.d/mydns:71 /etc/rc.d/init.d/nslcd:69
+#: /etc/rc.d/init.d/preload:108 /etc/rc.d/init.d/smsd:88
+#: /etc/rc.d/init.d/snmpd:111 /etc/rc.d/init.d/snmptrapd:100
+#: /etc/rc.d/init.d/xinetd:146
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|condrestart|reload}"
+
+#: /etc/rc.d/init.d/clamd-wrapper:8
+msgid "*** $0 can not be called in this way"
+msgstr "*** $0 એ આ રીતે બોલાવી શકાતું નથી"
+
+#: /etc/rc.d/init.d/netconsole:109
+msgid "netconsole module loaded"
+msgstr "netconsole મોડ્યુલ લવાઈ ગયું"
+
+#: /etc/rc.d/init.d/denyhosts:93
+msgid "Denyhosts already running."
+msgstr "Denyhosts એ પહેલાથી જ ચાલી રહ્યું છે."
+
+#: /etc/rc.d/init.d/tor:69
+msgid "status $rc of $prog"
+msgstr "$prog ની પરિસ્થિતિ $rc"
+
+#: /etc/rc.d/init.d/gadget:56
+msgid "Stoping Gadget daemon: "
+msgstr "Gadget ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/ppp/ip-up.ipv6to4:138 /etc/sysconfig/network-scripts/ifup-ipv6:247
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr "ચેતવણી: ઈન્ટરફેસ 'tun6to4' ને 'IPV6_DEFAULTGW' નો આધાર નથી, અવગણાયેલ છે"
+
+#: /etc/sysconfig/network-scripts/ifup-eth:81
+#: /etc/sysconfig/network-scripts/ifup-ib:54
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr "ઉપકરણ ${DEVICE} અસ્તિત્વમાં હોય એમ લાગતું નથી, પ્રારંભ કરવામાં વિલંબ છે."
+
+#: /etc/rc.d/init.d/moodle:32
+msgid "Enabling Moodle cron job: "
+msgstr "Moodle cron job સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cyrus-imapd:94
+msgid "Starting $BASENAME: "
+msgstr "$BASENAME શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/NetworkManager:57
+msgid "Waiting for network..."
+msgstr "નેટવર્ક માટે રાહ જોઇ રહ્યા છે..."
+
+#: /etc/rc.d/init.d/network:272
+msgid "Disabling IPv4 automatic defragmentation: "
+msgstr "IPv4 આપોઆપ ડિફ્રેગ્મેન્ટેશન નિષ્ક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/xttpd:29
+msgid "$DAEMON is not set."
+msgstr "$DAEMON સુયોજિત નથી."
+
+#: /etc/rc.d/init.d/pkcsslotd:24
+msgid "Starting pkcsslotd: "
+msgstr "pkcsslotd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/network:69
+msgid "Bringing up loopback interface: "
+msgstr "લુપબેક ઈન્ટરફેસ લાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:242
+msgid "Unknown error"
+msgstr "અજ્ઞાત ભૂલ"
+
+#: /etc/rc.d/init.d/puppetmaster:41
+msgid "Starting puppetmaster: "
+msgstr "puppetmaster શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rbldnsd:136
+msgid "dead but pid file exists"
+msgstr "મૃત થયેલ છે પરંતુ pid ફાઈલ અસ્તિત્વમાં છે"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:122
+msgid "INFO     "
+msgstr "જાણકારી     "
+
+#: /etc/rc.d/init.d/lirc:108
+msgid "Reloading infrared remote control daemon ($prog): "
+msgstr "ઈન્ફ્રારેડ દૂરસ્થ નિયંત્રણ ડિમન ($prog) પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:188
+msgid "Moving old server passphrase file to new location: "
+msgstr "નવા સ્થાનમાં જૂની સર્વર પાસફ્રઝ ફાઇલને ખસેડી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/fail2ban:44
+msgid "Stopping fail2ban: "
+msgstr "fail2ban અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ip6tables:220
+msgid "${IP6TABLES}: Unloading modules: "
+msgstr "${IP6TABLES}: મોડ્યુલો અનલોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rbldnsd:140
+msgid "dead but subsys locked"
+msgstr "મૃત થયેલ છે પરંતુ subsys ને તાળું મરાયેલ છે"
+
+#: /etc/rc.d/init.d/postfix:104
+msgid "$prog abort"
+msgstr "$prog અડધેથી બંધ કરો"
+
+#: /etc/rc.d/init.d/nfs:131
+msgid "Shutting down NFS mountd: "
+msgstr "NFS mountd બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:149
+msgid "On the next boot fsck will be forced."
+msgstr "પછીના બુટ વખતે fsck પર દબાણ કરાશે."
+
+#: /etc/rc.d/init.d/smolt:37
+msgid "Disabling monthly Smolt update: "
+msgstr "માસિક Smolt સુધારો નિષ્ક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:469
+msgid "WARNING"
+msgstr "ચેતવણી"
+
+#: /etc/rc.d/init.d/denyhosts:80
+msgid "denyhosts cron service is disabled."
+msgstr "denyhosts cron સેવા નિષ્ક્રિય કરવામાં આવેલ છે."
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1057
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr "આપેલ IPv6 MTU '$ipv6_mtu' એ મર્યાદાની બહાર છે"
+
+#: /etc/rc.d/init.d/coda-client:79 /etc/rc.d/init.d/codasrv:79
+msgid "$1 not available"
+msgstr "$1 ઉપલબ્ધ નથી"
+
+#: /etc/rc.d/init.d/sendmail:104
+msgid "Shutting down sm-client: "
+msgstr "sm-client બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/certmaster:74
+msgid "Starting certmaster daemon: "
+msgstr "certmaster ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/gnokii-smsd:45
+msgid "Stopping Gnokii SMS daemon ($prog): "
+msgstr "Gnokii SMS ડિમન અટકાવી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/amavisd:35
+msgid "Starting ${prog_base}:"
+msgstr "${prog_base} શરૂ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/openhpi-subagent:70
+msgid "Starting up HPI SNMP sub-agent daemon: "
+msgstr "HPI SNMP ઉપ-એજન્ટ ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ctdb:272
+msgid "Usage: $0 {start|stop|restart|status|cron|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|restart|status|cron|condrestart}"
+
+#: /etc/rc.d/init.d/wine:26
+msgid "Registering binary handler for Windows applications: "
+msgstr "Windows કાર્યક્રમો માટે બાઈનરી નિયંત્રક રજીસ્ટર કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pand:27
+msgid "Starting pand: "
+msgstr "pand શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/gnokii-smsd:36
+msgid "Starting Gnokii SMS daemon ($prog): "
+msgstr "Gnokii SMS ડિમન શરૂ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/gadget:47
+msgid "Starting Gadget daemon: "
+msgstr "Gadget ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cyrus-imapd:178
+msgid ""
+"Usage: $BASENAME {start|stop|restart|reload|condrestart|status|quickstart|"
+"quickstop}"
+msgstr ""
+"વપરાશ: $BASENAME {start|stop|restart|reload|condrestart|status|quickstart|"
+"quickstop}"
+
+#: /etc/rc.d/init.d/functions:436
+msgid "  OK  "
+msgstr "  બરાબર  "
+
+#: /etc/rc.d/init.d/network:285
+msgid "Configured devices:"
+msgstr "રુપરેખાંકિત ઉપકરણો:"
+
+#: /etc/rc.d/init.d/innd:67
+msgid "Stopping INND service (PID not found, the hard way): "
+msgstr "INND સેવા અટકાવી રહ્યા છીએ (PID મળ્યુ નથી, સખત માર્ગ): "
+
+#: /etc/rc.d/init.d/radiusd:45
+msgid "Stopping RADIUS server: "
+msgstr "RADIUS સર્વર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/preload:67
+msgid "Stopping preload daemon: "
+msgstr "preload ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifdown:33
+#: /etc/sysconfig/network-scripts/ifup:49
+msgid "Users cannot control this device."
+msgstr "વપરાશકર્તાઓ આ ઉપકરણને નિયંત્રિત કરી શકતા નથી."
+
+#: /etc/rc.d/init.d/rdisc:32
+msgid "Starting router discovery: "
+msgstr "રાઉટર શોધખોળ શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:95
+msgid "Mounting other filesystems: "
+msgstr "બીજી ફાઈલ સિસ્ટમ માઉન્ટ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/microcode_ctl:37
+msgid "Applying Intel CPU microcode update: "
+msgstr "Intel CPU માઈક્રોકોડ સુધારો લાગુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/qemu:68
+msgid "qemu binary format handlers are registered."
+msgstr "qemu બાઈનરી બંધારણ નિયંત્રકો રજીસ્ટર થયેલ છે."
+
+#: /etc/rc.d/init.d/dansguardian:51 /etc/rc.d/init.d/mon:49
+#: /etc/rc.d/init.d/partimaged:59
+msgid "Reloading $desc ($prog): "
+msgstr "$desc ($prog) પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/smartd:119
+msgid "Usage: $0 {start|stop|reload|force-reload|report|restart|try-restart|status}"
+msgstr "વપરાશ: $0 {start|stop|reload|force-reload|report|restart|try-restart|status}"
+
+#: /etc/rc.d/init.d/auditd:163
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|rotate|resume}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|condrestart|reload|rotate|resume}"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:192
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr "$FILE માં ભૂલ છે: ઉપકરણ અથવા ipaddr સ્પષ્ટ કરેલ નથી"
+
+#: /etc/rc.d/init.d/ktune:117
+msgid "Applying sysctl settings from $SYSCTL_POST: "
+msgstr "$SYSCTL_POST માંથી sysctl સુયોજનોને લાગુ પાડી રહ્યા છે: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:691
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:748
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:787
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr "આપેલ ઉપકરણ '$device' એ આધારભૂત નથી (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/functions:367
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr "વપરાશ: pidofproc [-p pidfile] {program}"
+
+#: /etc/rc.d/init.d/ntpdate:85
+msgid "Usage: $0 {start|stop|status|restart|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|force-reload}"
+
+#: /etc/rc.d/init.d/xend:34
+msgid "Starting xend daemon: "
+msgstr "xend ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/irda:35
+msgid "irattach shutdown"
+msgstr "irattach બંધ કરો"
+
+#: /etc/rc.d/init.d/nfslock:89
+msgid "Stopping NFS locking: "
+msgstr "NFS ને તાળુ લગાવવાનું બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ip6tables:277
+msgid "${IP6TABLES}: Firewall is not running."
+msgstr "${IP6TABLES}: ફાયરવોલ ચાલતો નથી."
+
+#: /etc/rc.d/init.d/canna:54
+msgid "Restarting $prog: "
+msgstr "$prog પુનઃશરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rstatd:87 /etc/rc.d/init.d/rusersd:88
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/wpa_supplicant:38
+msgid "Starting $prog: $conf, $INTERFACES, $DRIVERS"
+msgstr "$prog શરૂ કરી રહ્યા છીએ: $conf, $INTERFACES, $DRIVERS"
+
+#: /etc/rc.d/init.d/zabbix-proxy:36
+msgid "Starting ZABBIX proxy: "
+msgstr "ZABBIX પ્રોક્સીને શરૂ કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/hddtemp:49
+msgid "Stopping hard disk temperature monitor daemon ($prog): "
+msgstr "હાર્ડ ડિસ્ક તાપમાન મોનીટર ડિમન અટકાવી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/irda:28
+msgid "irattach startup"
+msgstr "irattach શરૂ કરો"
+
+#: /etc/rc.d/init.d/ocspd:40 /etc/rc.d/init.d/ucarp:41
+msgid "Starting ${prog}: "
+msgstr "${prog} શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/dcbd:160
+msgid "Starting $DCBD: "
+msgstr "$DCBD ને શરૂ કરી રહ્યા છે: "
+
+#: /etc/rc.d/rc.sysinit:53
+msgid "*** Run 'setenforce 1' to reenable."
+msgstr "*** પુનઃસક્રિય કરવા માટે 'setenforce 1' ચલાવો."
+
+#: /etc/rc.d/init.d/kadmin:50
+msgid "Error. This appears to be a slave server, found kpropd.acl"
+msgstr "ભૂલ. આ સ્લેવ સર્વર હોય એવું લાગે છે, kpropd.acl મળી"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:306
+msgid "6to4 configuration is not valid"
+msgstr "6to4 રુપરેખાંકન એ માન્ય નથી"
+
+#: /etc/rc.d/init.d/ibmasm:61
+msgid "Stopping ibmasm: "
+msgstr "ibmasm અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ipmi:295 /etc/rc.d/init.d/ipmi:301
+msgid "Starting ipmi_poweroff driver: "
+msgstr "ipmi_poweroff ડ્રાઈવર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ez-ipupdate:63
+msgid "Shutting down $prog for $ez_name: "
+msgstr "$prog ને $ez_name માટે બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/arptables_jf:99
+msgid "Configuration file /etc/sysconfig/arptables missing"
+msgstr "રૂપરેખાંકન ફાઈલ /etc/sysconfig/arptables ગુમ થયેલ છે"
+
+#: /etc/rc.d/init.d/systemtap:495
+msgid "Failed to make stat directory ($STAT_PATH)"
+msgstr "stat ડિરેક્ટરી ($STAT_PATH) ને બનાવવામાં નિષ્ફળ"
+
+#: /etc/rc.d/init.d/bandwidthd:44
+msgid "Shuting down Bandwidthd network traffic monitor: "
+msgstr "Bandwidthd નેટવર્ક ટ્રાફિક મોનિટર ને બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/clement:84
+msgid "Preparing $PROG config: "
+msgstr "$PROG રૂપરેખાંકનને તૈયાર કરી રહ્યા છે: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:116
+msgid "WARN     "
+msgstr "ચેતવો     "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:239
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+"'યજમાન સુધીનો કોઈ માર્ગ નથી' માર્ગ '$networkipv6' ગેટવે '$gatewayipv6' દ્વારા "
+"ઉપકરણ '$device' મારફતે ઉમેરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/cyphesis:77
+msgid "Loading database with rules: "
+msgstr "નિયમો સાથે ડેટાબેઝને લોડ કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/vncserver:80 /etc/rc.d/init.d/vncserver:81
+msgid "vncserver shutdown"
+msgstr "vncserver બંધ કરો"
+
+#: /etc/rc.d/init.d/xenconsoled:67
+msgid "Stopping xenconsoled daemon: "
+msgstr "xenconsoled ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:132
+msgid "Configured network block devices: "
+msgstr "રૂપરેખાંકિત નેટવર્ક બ્લોક ઉપકરણો: "
+
+#: /etc/rc.d/init.d/dovecot:97
+msgid ""
+"Usage: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+"status}"
+msgstr ""
+"વપરાશ: $0 {condrestart|try-restart|start|stop|restart|reload|force-reload|"
+"status}"
+
+#: /etc/rc.d/init.d/cyphesis:161
+msgid "Usage: $0 (start|stop|restart|condrestart|status)"
+msgstr "વપરાશ: $0 (start|stop|restart|condrestart|status)"
+
+#: /etc/rc.d/init.d/iptables:285
+msgid "${IPTABLES}: Firewall modules are not loaded."
+msgstr "${IPTABLES}: ફાયરવોલ મોડ્યુલો લવાયેલ નથી."
+
+#: /etc/rc.d/init.d/denyhosts:87
+msgid "Starting denyhosts: "
+msgstr "denyhosts શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:539
+msgid "cC"
+msgstr "cC"
+
+#: /etc/rc.d/init.d/systemtap:607
+msgid "$prog compiled "
+msgstr "$prog એ કમ્પાઇલ થયેલ છે "
+
+#: /etc/rc.d/init.d/vncserver:121
+msgid "Usage: $0 {start|stop|restart|try-restart|status|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|restart|try-restart|status|force-reload}"
+
+#: /etc/rc.d/rc.sysinit:401
+msgid "*** Dropping you to a shell; the system will continue"
+msgstr "*** તમને શેલમાં છોડી રહ્યા છીએ; સિસ્ટમ ચાલુ રહેશે"
+
+#: /etc/rc.d/init.d/sgemaster:323
+msgid "Stopping $master_prog: "
+msgstr "$master_prog અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:108
+msgid "Unmounting pipe file systems (retry): "
+msgstr "પાઈપ ફાઈલ સિસ્ટમોનું માઉન્ટ દૂર કરી રહ્યા છીએ (ફરીથી પ્રયત્ન કરો): "
+
+#: /etc/rc.d/init.d/cyrus-imapd:133
+msgid "Reloading cyrus.conf file: "
+msgstr "cyrus.conf ફાઈલ પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/unbound:76
+msgid "Stopping unbound: "
+msgstr "unbound અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:614
+msgid "Cleaning up systemtap scripts: "
+msgstr "સિસ્ટમટેપ સ્ક્રિપ્ટોને સાફ કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/systemtap:500 /etc/rc.d/init.d/systemtap:591
+msgid "Failed to make cache directory ($CACHE_PATH)"
+msgstr "કેશ ડિરેક્ટરી ($CACHE_PATH) બનાવવામાં નિષ્ફળ"
+
+#: /etc/rc.d/init.d/mongrel_cluster:118
+msgid "Restarting $prog for $file: "
+msgstr "$file માટે $prog ને પુન:શરૂ કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/autofs:127 /etc/rc.d/init.d/autofs:133
+msgid "$prog not running"
+msgstr "$prog ચાલી રહ્યું નથી"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:77
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr "/etc/sysconfig/network-scripts/chat-${DEVNAME} એ ${DEVICE} માટે અસ્તિત્વમાં નથી"
+
+#: /etc/rc.d/init.d/arptables_jf:76
+msgid "Clearing all current rules and user defined chains:"
+msgstr "બધા વર્તમાન નિયમો અને વપરાશકર્તા દ્વારા વ્યાખ્યાયિત સાંકળો સાફ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/yppasswdd:49
+msgid "Stopping YP passwd service: "
+msgstr "YP પાસવર્ડ સેવા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postfix:156
+msgid "Usage: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|restart|reload|abort|flush|check|status|condrestart}"
+
+#: /etc/rc.d/init.d/udev-post:32
+msgid "Adding udev persistent rules"
+msgstr "udev હયાત નિયમો ઉમેરી રહ્યા છીએ"
+
+#: /etc/sysconfig/network-scripts/ifup-eth:219
+#: /etc/sysconfig/network-scripts/ifup-ib:181
+msgid " failed."
+msgstr " નિષ્ફળ."
+
+#: /etc/rc.d/init.d/monotone:145 /etc/rc.d/init.d/monotone:146
+msgid "database initialization"
+msgstr "ડેટાબેઝનો પ્રારંભ"
+
+#: /etc/rc.d/init.d/sec:66
+msgid "Dumping state in /tmp/sec.dump: "
+msgstr "/tmp/sec.dump માં ડમ્પીંગ પરિસ્થિતિ: "
+
+#: /etc/rc.d/init.d/nfs:87
+msgid "Starting NFS quotas: "
+msgstr "NFS ક્વોટા શરુ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:685
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr "ખોવાયેલ પરિમાણ 'ઉમદા IPv4 સરનામું' (દલીલ ૨)"
+
+#: /etc/rc.d/init.d/microcode_ctl:67
+msgid "$0: kernel does not have CPU microcode device support"
+msgstr "$0: કર્નલ પાસે CPU માઈક્રોકોડ ઉપકરણ આધાર નથી"
+
+#: /etc/rc.d/init.d/sepostgresql:138
+msgid "Reloading ${NAME} service: "
+msgstr "${NAME} સેવા પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:82 /etc/rc.d/rc.sysinit:600
+msgid "*** An error occurred during the file system check."
+msgstr "*** ફાઈલ સિસ્ટમને ચકાસતા પહેલા ભૂલ ઉદ્દભવી હતી."
+
+#: /etc/rc.d/init.d/pdns-recursor:21
+msgid "Starting pdns-recursor: "
+msgstr "pdns-recursor શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/arptables_jf:165
+msgid "Changing target policies to DROP: "
+msgstr "DROP ની લક્ષ્ય નિતીઓ બદલી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/udev-post:56
+msgid "Generating udev makedev cache file"
+msgstr "udev makedev કેશ ફાઇલ ઉત્પન્ન કરી રહ્યા છે"
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:85
+msgid "Avahi DNS daemon is running"
+msgstr "Avahi DNS ડિમન ચાલી રહ્યું છે"
+
+#: /etc/sysconfig/network-scripts/ifup-eth:56
+msgid "Bridge support not available: brctl not found"
+msgstr "બ્રિજનો આધાર ઉપ્લબ્ધ નથી: brctl મળ્યું નથી"
+
+#: /etc/rc.d/init.d/functions:393
+msgid "Usage: status [-p pidfile] {program}"
+msgstr "વપરાશ: status [-p pidfile] {program}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:636
+msgid "Missing parameter 'address' (arg 1)"
+msgstr "ખોવાયેલ પરિમાણ 'સરનામું' (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/amavisd:60
+msgid "Reloading ${prog_base}:"
+msgstr "${prog_base} પુનઃલાવી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/condor:65
+msgid "Reloading Condor daemons: "
+msgstr "Condor ડિમનો પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/codeanalyst:179
+msgid "Check Oprofile filesystem group/permission... "
+msgstr "Oprofile ફાઇલસિસ્ટમ જૂથ/પરવાનગી ને ચકાસો... "
+
+#: /etc/rc.d/init.d/dropbear:48
+msgid "Generating dropbear DSS host key: "
+msgstr "dropbear DSS યજમાન કી બનાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:82
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr "નવી ${PEERCONF} રુપરેખા ફાઈલ સુયોજિત કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/proftpd:90
+msgid "Re-reading $prog configuration: "
+msgstr "$prog રૂપરેખાંકન પુનઃવાંચી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:412
+msgid "Dependency loop detected on $s"
+msgstr "$s પર શોધાયેલ આધાર લુપ"
+
+#: /etc/rc.d/rc.sysinit:228
+#, c-format
+msgid "%s is password protected"
+msgstr "%s એ સુરક્ષિત થયેલ પાસવર્ડ છે"
+
+#: /etc/rc.d/rc.sysinit:139
+msgid "INSECURE OWNER FOR $key"
+msgstr "INSECURE OWNER FOR $key"
+
+#: /etc/sysconfig/network-scripts/ifup-eth:207
+#: /etc/sysconfig/network-scripts/ifup-ib:169
+msgid " failed; no link present.  Check cable?"
+msgstr " નિષ્ફળ; કોઈ કડી હાજર નથી.  કેબલ ચકાસવુ છે?"
+
+#: /etc/rc.d/init.d/isdn:149 /etc/rc.d/init.d/isdn:151
+msgid "Loading Firmware"
+msgstr "Firmware લાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/liquidwar-server:32
+msgid "Starting liquidwar game server: "
+msgstr "liquidwar રમત સર્વર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/and:44
+msgid "Shutting down auto nice daemon:"
+msgstr "auto nice ડિમન બંધ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/util-vserver:74
+msgid "Stopping all running guests"
+msgstr "બધા ચાલી રહેલ મહેમાનો અટકાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/dropbear:33
+msgid "Generating dropbear RSA host key: "
+msgstr "dropbear RSA યજમાન કી બનાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:117
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr ""
+"ઉમદા IPv6 ને આગળ ધપાવવાનું રુપરેખાંકનમાં નિષ્ક્રિય કરેલ છે, પરંતુ વર્તમાનમાં કર્નલમાં નિષ્ક્રિય "
+"કરેલ નથી"
+
+#: /etc/rc.d/init.d/crond:78 /etc/rc.d/init.d/sshd:161
+msgid "Reloading $prog"
+msgstr "$prog ફરીથી લાવી રહ્યા છીએ"
+
+#: /etc/rc.d/rc.sysinit:400
+msgid "*** Warning -- the system did not shut down cleanly. "
+msgstr "*** ચેતવણી -- સિસ્ટમ સ્વચ્છ રીતે બંધ થઈ નહિં. "
+
+#: /etc/rc.d/init.d/ebtables:61
+msgid "Stopping $desc ($prog): "
+msgstr "$desc ($prog) અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:62
+msgid "Sending all processes the KILL signal..."
+msgstr "બધી પ્રક્રિયાઓને KILL સંકેત મોકલી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/functions:325 /etc/rc.d/init.d/tclhttpd:123
+msgid "$base $killlevel"
+msgstr "$base $killlevel"
+
+#: /etc/sysconfig/network-scripts/ifdown-routes:5
+#: /etc/sysconfig/network-scripts/ifup-routes:5
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr "વપરાશ: ifup-routes <net-device> [<nickname>]"
+
+#: /etc/rc.d/init.d/opensm:107
+msgid "Rescanning IB Subnet:"
+msgstr "IB સબનેટ ને પુન:સ્કેન કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/arptables_jf:182
+msgid "Saving current rules to $ARPTABLES_CONFIG: "
+msgstr "વર્તમાન નિયમો $ARPTABLES_CONFIG માં સંગ્રહી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:35
+msgid "Starting Avahi DNS daemon... "
+msgstr "Avahi DNS ડિમન શરૂ કરી રહ્યા છીએ... "
+
+#: /etc/rc.d/init.d/aprsd:78 /etc/rc.d/init.d/cpuspeed:334
+#: /etc/rc.d/init.d/cwdaemon:75 /etc/rc.d/init.d/dansguardian:80
+#: /etc/rc.d/init.d/glacier2router:105 /etc/rc.d/init.d/globus-rls-server:76
+#: /etc/rc.d/init.d/icegridnode:106 /etc/rc.d/init.d/icegridregistry:106
+#: /etc/rc.d/init.d/iprdump:90 /etc/rc.d/init.d/iprinit:88
+#: /etc/rc.d/init.d/iprupdate:89 /etc/rc.d/init.d/ktune:240
+#: /etc/rc.d/init.d/mt-daapd:52 /etc/rc.d/init.d/netlabel:114
+#: /etc/rc.d/init.d/pads:84 /etc/rc.d/init.d/prelude-correlator:81
+#: /etc/rc.d/init.d/prelude-manager:66 /etc/rc.d/init.d/psad:120
+#: /etc/rc.d/init.d/qpidd:99 /etc/rc.d/init.d/remotetrx:72
+#: /etc/rc.d/init.d/roundup:78 /etc/rc.d/init.d/sendmail:157
+#: /etc/rc.d/init.d/ssbd:73 /etc/rc.d/init.d/svxlink:72
+#: /etc/rc.d/init.d/telescoped:70 /etc/rc.d/init.d/thebridge:71
+#: /etc/rc.d/init.d/trackpad:59 /etc/rc.d/init.d/ucarp:151
+#: /etc/rc.d/init.d/upnpd:89 /etc/rc.d/init.d/vsftpd:90
+msgid "Usage: $0 {start|stop|restart|condrestart|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|condrestart|status}"
+
+#: /etc/rc.d/init.d/ypxfrd:31
+msgid "Stopping YP map server: "
+msgstr "YP map સર્વર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/bandwidthd:34
+msgid "Starting Bandwidthd network traffic monitor: "
+msgstr "Bandwidthd નેટવર્ક ટ્રાફિક મોનિટરને શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/portreserve:84
+msgid "Usage: $prog {start|stop|restart|condrestart|status}"
+msgstr "વપરાશ: $prog {start|stop|restart|condrestart|status}"
+
+#: /etc/rc.d/init.d/tor:68
+msgid "program or service status is unknown"
+msgstr "કાર્યક્રમ અથવા સેવા પરિસ્થિતિ અજ્ઞાત છે"
+
+#: /etc/rc.d/init.d/ktune:188
+msgid "ktune stettings are not applied."
+msgstr "ktune સુયોજનો લાગુ પાડેલ નથી."
+
+#: /etc/rc.d/init.d/kadmin:45
+msgid "Error. Default principal database does not exist."
+msgstr "ભૂલ. મૂળભૂત નિયમ ડેટાબેઝ અસ્તિત્વમાં નથી."
+
+#: /etc/rc.d/init.d/ntpdate:47
+msgid "$prog: Synchronizing with time server: "
+msgstr "$prog: સમય સર્વર સાથે સુમેળ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ohmd:39
+msgid "Starting Open Hardware Manager: "
+msgstr "Open Hardware Manager ને શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/denyhosts:98
+msgid "Stray lockfile present; removing it."
+msgstr "સ્ટેલ તાળા ફાઈલો માં  હાજર હશે; તેને દૂર કરી રહ્યા છે."
+
+#: /etc/rc.d/init.d/ldap:115
+msgid "$file is not owned by \"$user\""
+msgstr "$file એ \"$user\" ની માલિકીની છે"
+
+#: /etc/rc.d/init.d/vsftpd:43
+msgid "Starting $prog for $site: "
+msgstr "$prog ને $site માટે શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/flumotion:66
+msgid "Starting $type $name: "
+msgstr "$type $name શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/pgpool:144
+msgid "Reloading ${NAME}"
+msgstr "${NAME} પુનઃલાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/vdr:53
+msgid "Starting Video Disk Recorder ($prog): "
+msgstr "વીડિયો ડિસ્ક રેકોર્ડર શરૂ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/functions:428
+msgid "${base} is stopped"
+msgstr "${base} એ બંધ થયેલ છે"
+
+#: /etc/rc.d/init.d/systemtap:558
+msgid "$prog stopping "
+msgstr "$prog અટકાવી રહ્યા છે "
+
+#: /etc/rc.d/init.d/tetrinetx:34
+msgid "Starting $display_name: "
+msgstr "$display_name શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/puppetmaster:66
+msgid "Stopping puppetmaster: "
+msgstr "puppetmaster અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/perlbal:21
+msgid "Starting Perlbal: "
+msgstr "Perlbal શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/sshd:96 /etc/rc.d/init.d/sshd:99
+msgid "DSA key generation"
+msgstr "DSA કી બનાવવાનું"
+
+#: /etc/rc.d/init.d/pgbouncer:161
+msgid ""
+"Usage: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+"condrestart|condstop}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|pause|continue|reload|force-reload|"
+"condrestart|condstop}"
+
+#: /etc/rc.d/init.d/blktapctrl:39
+msgid "Starting xen blktapctrl daemon: "
+msgstr "xen blktapctrl ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/wesnothd:43
+msgid "Starting Wesnoth game server: "
+msgstr "Wesnoth game સર્વર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postfix:85
+msgid "$prog stop"
+msgstr "$prog અટકાવો"
+
+#: /etc/rc.d/init.d/ypserv:44
+msgid "Stopping YP server services: "
+msgstr "YP સર્વર સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:155
+msgid "Server key already installed"
+msgstr "સર્વર કી એ પહેલેથી સ્થાપિત થયેલ છે"
+
+#: /etc/rc.d/init.d/bluetooth:18
+msgid "Enabling Bluetooth devices:"
+msgstr "Bluetooth ઉપકરણોને સક્રિય કરી રહ્યા છે:"
+
+#: /etc/rc.d/init.d/netconsole:82
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr "netconsole: $SYSLOGADDR નું MAC સરનામું ઉકેલી શકતા નથી"
+
+#: /etc/rc.d/init.d/halt:147
+msgid "On the next boot fsck will be skipped."
+msgstr "પછીના બુટ વખતે fsck ને અવગણવામાં આવે છે."
+
+#: /etc/rc.d/init.d/systemtap:67
+msgid "\tscript(s)\t: specify systemtap scripts"
+msgstr "\tscript(s)\t: systemtap સ્ક્રિપ્ટોને સ્પષ્ટ કરો"
+
+#: /etc/rc.d/rc.sysinit:798
+msgid "Enabling local swap partitions: "
+msgstr "સ્થાનિક સ્વેપ પાર્ટીશનો સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-eth:239
+#: /etc/sysconfig/network-scripts/ifup-ib:206
+msgid "Failed to bring up ${DEVICE}."
+msgstr "${DEVICE} ને લાવવામાં નિષ્ફળ."
+
+#: /etc/rc.d/init.d/xenner:57
+msgid "Starting xenner daemons"
+msgstr "xenner ડિમનો શરૂ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/halt:69
+msgid "Saving mixer settings"
+msgstr "મિક્સરના સુયોજનો સંગ્રહી રહ્યા છીએ"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:319
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr "ટનલ ઉપકરણ 'sit0' ને સક્રિય કરવાનું કામ કરતું નહોતું"
+
+#: /etc/rc.d/init.d/rfcomm:22
+msgid "Starting rfcomm: "
+msgstr "rfcomm શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/udev-post:91
+msgid "Usage: $0 {start|stop|reload}"
+msgstr "વપરાશ: $0 {start|stop|reload}"
+
+#: /etc/rc.d/init.d/condor:58
+msgid "Warning: $prog may not have exited, start/restart may fail"
+msgstr "ચેતવણી: $prog એ બહાર નીકળી શકતુ નથી, શરૂ કરો/પુન:શરૂ કરો એ નિષ્ફળ થઇ શકે છે"
+
+#: /etc/rc.d/rc.sysinit:279
+msgid "\t\tPress 'I' to enter interactive startup."
+msgstr "\t\tઈન્ટરેક્ટીવ શરુઆત માટે 'I' દબાવો."
+
+#: /etc/rc.d/init.d/clement:189 /etc/rc.d/init.d/clement:192
+msgid "clement stop"
+msgstr "clement બંધ"
+
+#: /etc/rc.d/init.d/sshd:89
+msgid "Generating SSH2 DSA host key: "
+msgstr "SSH2 DSA યજમાન કી બનાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup:88
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr "કોઈ 802.1Q VLAN નો આધાર કર્નલમાં ઉપકરણ ${DEVICE} માટે ઉપ્લબ્ધ નથી"
+
+#: /etc/rc.d/init.d/tetrinetx:43
+msgid "Stopping $display_name: "
+msgstr "$display_name અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/codeanalyst:171
+msgid "Check Oprofile driver loaded ... "
+msgstr "લોડ થયેલ Oprofile ડ્રાઇવરને ચકાસો ... "
+
+#: /etc/rc.d/rc.sysinit:742
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr "યજમાનનામ ${HOSTNAME} ફરીથી સુયોજિત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:60
+msgid "Checking network-attached filesystems"
+msgstr "નેટવર્ક-જોડાયેલ ફાઈલસિસ્ટમો ચકાસી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/rpcgssd:98
+msgid "Stopping RPC gssd: "
+msgstr "RPC gssd અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:473
+msgid "Missing parameter 'IPv6 address' (arg 2)"
+msgstr "ખોવાયેલ પરિમાણ 'IPv6 સરનામું' (દલીલ ૨)"
+
+#: /etc/rc.d/init.d/xpilot-ng-server:31
+msgid "Starting Xpilot game server: "
+msgstr "Xpilot રમત સર્વર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/argus:29
+msgid "Starting argus: "
+msgstr "argus શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/mailman:154
+msgid "Usage: $prog {start|stop|restart|force-reload|condrestart|status}"
+msgstr "વપરાશ: $prog {start|stop|restart|force-reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/moodle:75
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|reload|force-reload|try-restart}"
+
+#: /etc/rc.d/init.d/tclhttpd:69
+msgid "Usage: killproc {program} [signal]"
+msgstr "વપરાશ: killproc {program} [signal]"
+
+#: /etc/rc.d/rc.sysinit:338
+msgid "Setting hostname ${HOSTNAME}: "
+msgstr "યજમાનનામ ${HOSTNAME} સુયોજિત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/yppasswdd:40
+msgid "Starting YP passwd service: "
+msgstr "YP પાસવર્ડ સેવા શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/modclusterd:153
+msgid "Usage: $0 {start|stop|reload|restart|status}"
+msgstr "વપરાશ: $0 {start|stop|reload|restart|status}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:30
+msgid "ERROR: [ipv6_log] Missing 'message' (arg 1)"
+msgstr "ભૂલ: [ipv6_log] ખોવાયેલ 'સંદેશો' (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/clement:102
+msgid "freshclam daemon NOT up and running (please check this)"
+msgstr "freshclam ડિમન ઉપર અને ચાલી રહ્યુ નથી (મહેરબાની કરીને આ ચકાસો)"
+
+#: /etc/rc.d/init.d/cyrus-imapd:77
+msgid "$BASENAME already running."
+msgstr "$BASENAME પહેલાથી જ ચાલી રહ્યું છે."
+
+#: /etc/rc.d/init.d/condor:210
+msgid "$prog dead but subsys locked"
+msgstr "$prog મૃત થયેલ છે પરંતુ subsys ને તાળું મરાયેલ છે"
+
+#: /etc/rc.d/init.d/halt:75
+msgid "Saving random seed: "
+msgstr "રેન્ડમ સીડ સંગ્રહી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/isdn:122 /etc/rc.d/init.d/isdn:125
+msgid "Loading ISDN modules"
+msgstr "ISDN મોડ્યુલો લાવી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/ldap:230
+msgid "Usage: $0 {start|stop|restart|status|condrestart|configtest}"
+msgstr "વપરાશ: $0 {start|stop|restart|status|condrestart|configtest}"
+
+#: /etc/rc.d/init.d/microcode_ctl:55
+msgid "$0: microcode device $DEVICE doesn't exist?"
+msgstr "$0: શું microcode ઉપકરણ $DEVICE અસ્તિત્વમાં નથી?"
+
+#: /etc/rc.d/init.d/ctdb:204
+msgid "killing ctdbd "
+msgstr "ctdbd ને મારી રહ્યા છે "
+
+#: /etc/rc.d/init.d/uuidd:33
+msgid "Starting uuidd: "
+msgstr "uuidd શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:672 /etc/rc.d/rc.sysinit:674
+msgid "Mounting local filesystems: "
+msgstr "સ્થાનિક ફાઈલ સિસ્ટમો માઉન્ટ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:177 /etc/rc.d/init.d/monotone:179
+msgid "key generation"
+msgstr "કી બનાવવાનું"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:214
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:269
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr "પરિમાણ ખોવાયેલ છે 'IPv6-gateway' (દલીલ ૨)"
+
+#: /etc/rc.d/init.d/milter-regex:85
+msgid "Usage: $0 {start|stop|force-reload|restart|try-restart|status}"
+msgstr "વપરાશ: $0 {start|stop|force-reload|restart|try-restart|status}"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:101
+#: /etc/sysconfig/network-scripts/ifup-ipv6:118
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr "મહેરબાની કરીને નેટવર્કને '/sbin/service network restart' સાથે ફરીથી શરુ કરો"
+
+#: /etc/rc.d/init.d/systemtap:61
+msgid "Usage: $prog {start|stop|restart|status|compile|cleanup} [option]"
+msgstr "વપરાશ: $prog {start|stop|restart|status|compile|cleanup} [option]"
+
+#: /etc/rc.d/init.d/cyphesis:65
+msgid "Creating PostgreSQL database: "
+msgstr "PostgreSQL ડેટાબેઝને બનાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ucarp:31
+msgid "common address redundancy protocol daemon"
+msgstr "સામાન્ય સરનામા રીડન્ડન્સી પ્રોટોકોલ ડિમન"
+
+#: /etc/rc.d/init.d/clement:72
+msgid "certs generation"
+msgstr "certs બનાવવાનું"
+
+#: /etc/rc.d/init.d/netfs:84 /etc/rc.d/rc.sysinit:71 /etc/rc.d/rc.sysinit:402
+#: /etc/rc.d/rc.sysinit:602
+msgid "*** when you leave the shell."
+msgstr "*** જ્યારે તમે શેલ છોડો."
+
+#: /etc/rc.d/init.d/openhpid:242
+msgid "Usage: $0 {start|stop|restart|condrestart|try-restart|status|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|restart|condrestart|try-restart|status|force-reload}"
+
+#: /etc/rc.d/init.d/sendmail:69
+msgid "Starting sm-client: "
+msgstr "sm-client શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ipa_kpasswd:36 /etc/rc.d/init.d/ipa_webgui:32
+msgid "Starting $NAME: "
+msgstr "$NAME શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/monotone:87
+msgid "Pre-0.26 monotone database must be migrated by hand: "
+msgstr "Pre-0.26 monotone ડેટાબેઝ એ હાથ દ્દારા ખસેડેલ હોવુ જ જોઇએ: "
+
+#: /etc/rc.d/init.d/iptables:197
+msgid "${IPTABLES}: Loading additional modules: "
+msgstr "${IPTABLES}: વધારાના મોડ્યુલો લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/openhpi-subagent:78
+msgid "Shutting down HPI SNMP sub-agent daemon: "
+msgstr "HPI SNMP ઉપ-એજન્ટ ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/scanbuttond:84
+msgid "Usage: $prog {start|stop|restart|status|condrestart}"
+msgstr "વપરાશ: $prog {start|stop|restart|status|condrestart}"
+
+#: /etc/rc.d/init.d/syslog-ng:48
+msgid "Checking Configuration: "
+msgstr "રૂપરેખાંકનને ચકાસી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/sqlgrey:15
+msgid "Starting SQLgrey: "
+msgstr "SQLgrey શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/oddjobd:85
+msgid "Reloading $prog configuration: "
+msgstr "$prog રૂપરેખાંકન પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:41
+msgid "Mounting CIFS filesystems: "
+msgstr "CIFS ફાઈલ સિસ્ટમો માઉન્ટ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/exim:38
+msgid "Generating exim certificate: "
+msgstr "exim પ્રમાણપત્રને ઉત્પન્ન કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/bootparamd:78 /etc/rc.d/init.d/clamd-wrapper:88
+#: /etc/rc.d/init.d/collectd:60 /etc/rc.d/init.d/dhcp-fwd:73
+#: /etc/rc.d/init.d/dund:66 /etc/rc.d/init.d/ip-sentinel:77
+#: /etc/rc.d/init.d/irqbalance:89 /etc/rc.d/init.d/ladvd:87
+#: /etc/rc.d/init.d/maradns:115 /etc/rc.d/init.d/maradns-zoneserver:109
+#: /etc/rc.d/init.d/nscd:104 /etc/rc.d/init.d/pand:69
+#: /etc/rc.d/init.d/radiusd:76 /etc/rc.d/init.d/radvd:82
+#: /etc/rc.d/init.d/rfcomm:61 /etc/rc.d/init.d/rpcbind:88
+#: /etc/rc.d/init.d/snake-server:67 /etc/rc.d/init.d/yppasswdd:80
+#: /etc/rc.d/init.d/ypserv:75 /etc/rc.d/init.d/ypxfrd:62
+msgid "Usage: $0 {start|stop|status|restart|reload|condrestart}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|reload|condrestart}"
+
+#: /etc/rc.d/init.d/rusersd:40
+msgid "Starting rusers services: "
+msgstr "rusers સેવાઓ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:588
+msgid "Compiling systemtap scripts: "
+msgstr "systemtap સ્ક્રિપ્ટો કમ્પાઇલ કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/netfs:136
+msgid "Active NFS mountpoints: "
+msgstr "સક્રિય NFS માઉન્ટ પોઈન્ટ: "
+
+#: /etc/rc.d/init.d/nfs:95
+msgid "Starting NFS daemon: "
+msgstr "NFS ડિમન શરુ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:647
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr "આપેલ સરનામું '$addr' એ ઉમદા IPv4 નથી (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/telescoped:29
+msgid "Starting telescope daemon: "
+msgstr "telescope ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/sge_execd:130
+msgid ""
+"Usage: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+"reload}"
+msgstr ""
+"વપરાશ: $0 {start|stop|softstop|status|restart|try-restart|reload|force-"
+"reload}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:959
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr "ખોવાયેલ પરિમાણ 'પસંદગી' (દલીલ ૨)"
+
+#: /etc/ppp/ip-up.ipv6to4:91 /etc/sysconfig/network-scripts/ifup-ipv6:218
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr "IPv6to4 રુપરેખાંકનને આધારભૂત ઈન્ટરફેસ અથવા બીજા સ્પષ્ટ કરેલને સંબંધિત IPv4 સરનામાની જરુર છે"
+
+#: /etc/rc.d/init.d/apt:39
+msgid "Disabling nightly apt update: "
+msgstr "રાત્રિ apt સુધારો નિષ્ક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ospf6d:63 /etc/rc.d/init.d/ospfd:63
+msgid "Usage: $PROG {start|stop|restart|reload|condrestart|status}"
+msgstr "વપરાશ: $PROG {start|stop|restart|reload|condrestart|status}"
+
+#: /etc/rc.d/init.d/nfs:84
+msgid "Starting NFS services: "
+msgstr "NFS સેવાઓ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/nsd:106
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|stats|notify|reload|rebuild|"
+"running|update}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|condrestart|stats|notify|reload|rebuild|"
+"running|update}"
+
+#: /etc/rc.d/init.d/xpilot-ng-server:57
+msgid "Stopping Xpilot game server: "
+msgstr "Xpilot રમત સર્વર અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/haldaemon:27
+msgid "Starting HAL daemon: "
+msgstr "HAL ડિમન શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:69
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr "*** /etc/selinux/config સૂચવે છે કે તમારે જાતે લેબલીંગ ચોક્કસ કરવાની જરૂર છે"
+
+#: /etc/rc.d/init.d/tgtd:25
+msgid "Starting SCSI target daemon: "
+msgstr "SCSI લક્ષ્ય ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/systemtap:489
+msgid "No scripts exist."
+msgstr "સ્ક્રિપ્ટોનું અસ્તિત્વ નથી."
+
+#: /etc/rc.d/init.d/vprocunhide:50
+msgid "/proc entries were fixed"
+msgstr "/proc પ્રવેશો ચોક્કસ થયેલ હતા"
+
+#: /etc/rc.d/init.d/postgresql:295 /etc/rc.d/init.d/sepostgresql:208
+msgid ""
+"Usage: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+"reload|initdb}"
+msgstr ""
+"વપરાશ: $0 {start|stop|status|restart|condrestart|condstop|reload|force-"
+"reload|initdb}"
+
+#: /etc/rc.d/init.d/halt:52 /etc/rc.d/init.d/killall:10
+#: /etc/rc.d/init.d/stinit:18
+msgid "Usage: $0 {start}"
+msgstr "વપરાશ: $0 {start}"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:856
+msgid "Tunnel device '$device' creation didn't work"
+msgstr "ટનલ ઉપકરણ '$device' બનાવવાનું કામ કરતું નથી"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:350
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr "ખોવાયેલ પરિમાણ 'IPv6-સરનામું' (દલીલ ૨)"
+
+#: /etc/rc.d/rc.sysinit:75 /etc/rc.d/rc.sysinit:586 /etc/rc.d/rc.sysinit:609
+msgid "Unmounting file systems"
+msgstr "ફાઈલ સિસ્ટમો માઉન્ટ દૂર કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/ntpdate:43
+msgid "NTP server not specified in $ntpstep or $ntpconf"
+msgstr "NTP સર્વર $ntpstep અથવા $ntpconf માં સ્પષ્ટ થયેલ નથી"
+
+#: /etc/rc.d/init.d/portreserve:54
+msgid "(not starting, no services registered)"
+msgstr "(શરુ નથી કરી રહ્યા, સેવાઓ રજીસ્ટર થયેલ નથી): "
+
+#: /etc/rc.d/init.d/bgpd:41 /etc/rc.d/init.d/cachefilesd:60
+#: /etc/rc.d/init.d/ospf6d:40 /etc/rc.d/init.d/ospfd:40
+#: /etc/rc.d/init.d/remotetrx:38 /etc/rc.d/init.d/ripd:40
+#: /etc/rc.d/init.d/ripngd:40 /etc/rc.d/init.d/svxlink:38
+#: /etc/rc.d/init.d/zebra:40
+msgid "Shutting down $PROG: "
+msgstr "$PROG બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netlabel:71
+msgid "Netlabel is stopped."
+msgstr "Netlabel અટકાવાયેલ છે."
+
+#: /sbin/service:64
+msgid "${SERVICE}: unrecognized service"
+msgstr "${SERVICE}: અપરિચિત સેવા"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:364
+msgid "Device '$device' doesn't exist"
+msgstr "ઉપકરણ '$device' અસ્તિત્વમાં નથી"
+
+#: /etc/rc.d/init.d/flumotion:99
+msgid "Stopping $type $name: "
+msgstr "$type $name અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postgresql:165
+msgid "See $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist for more information."
+msgstr "વધુ જાણકારી માટે $SYSDOCDIR/postgresql-$PGVERSION/README.rpm-dist જુઓ."
+
+#: /etc/rc.d/init.d/netbsd-iscsi:45 /etc/rc.d/init.d/nighthttpd:41
+msgid "Starting $SERVICE: "
+msgstr "$SERVICE શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/zfs-fuse:88
+msgid "Mounting zfs partitions: "
+msgstr "zfs પાર્ટીશનોને માઉન્ટ કરી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/network:143 /etc/rc.d/init.d/network:155
+msgid "Bringing up interface $i: "
+msgstr "ઈન્ટરફેસ $i લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:135
+msgid "INSECURE MODE FOR $key"
+msgstr "INSECURE MODE FOR $key"
+
+#: /etc/rc.d/init.d/clamd-wrapper:67
+msgid "Loading new virus-database: "
+msgstr "નવો વાયરસ-ડેટાબેઝ લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cyphesis:124
+msgid "Shutting down cyphesis: "
+msgstr "cyphesis બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/crossfire:56
+msgid "Stopping Crossfire game server: "
+msgstr "Crossfire રમત સર્વર અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:391
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr "IPv6 સરનામું '$address' ને ઉપકરણ '$device' પર ઉમેરી શકતા નથી"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:345
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:408
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:437
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:468
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:565
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:680
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:742
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:776
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:818
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:896
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:954
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1007
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1046
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1174
+msgid "Missing parameter 'device' (arg 1)"
+msgstr "ખોવાયેલ પરિમાણ 'ઉપકરણ' (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/psacct:36
+msgid "Shutting down process accounting: "
+msgstr "પ્રક્રિયાની ગણતરી બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/honeyd:120 /etc/rc.d/init.d/icecast:54
+#: /etc/rc.d/init.d/psacct:69 /etc/rc.d/init.d/rdisc:87
+#: /etc/rc.d/init.d/ulogd:95
+msgid "Usage: $0 {start|stop|status|restart|reload}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|reload}"
+
+#: /etc/rc.d/init.d/privoxy:66
+msgid "Can't find $PRIVOXY_CONF, exit."
+msgstr "$PRIVOXY_CONF શોધી શકતા નથી, બહાર નીકળો."
+
+#: /etc/rc.d/init.d/ajaxterm:42 /etc/rc.d/init.d/boa:60
+#: /etc/rc.d/init.d/clamd-wrapper:64 /etc/rc.d/init.d/crond:74
+#: /etc/rc.d/init.d/cups:102 /etc/rc.d/init.d/cups:108
+#: /etc/rc.d/init.d/dbmail-imapd:51 /etc/rc.d/init.d/dbmail-lmtpd:52
+#: /etc/rc.d/init.d/dbmail-pop3d:52 /etc/rc.d/init.d/dbmail-timsieved:53
+#: /etc/rc.d/init.d/dovecot:62 /etc/rc.d/init.d/haproxy:75
+#: /etc/rc.d/init.d/honeyd:91 /etc/rc.d/init.d/httpd:73
+#: /etc/rc.d/init.d/ircd:42 /etc/rc.d/init.d/keepalived:59
+#: /etc/rc.d/init.d/lighttpd:63 /etc/rc.d/init.d/mailgraph:57
+#: /etc/rc.d/init.d/monit:52 /etc/rc.d/init.d/nginx:59
+#: /etc/rc.d/init.d/ngircd:42 /etc/rc.d/init.d/nscd:95
+#: /etc/rc.d/init.d/ntop:57 /etc/rc.d/init.d/postgrey:62
+#: /etc/rc.d/init.d/pure-ftpd:60 /etc/rc.d/init.d/ratbox-services:47
+#: /etc/rc.d/init.d/rbldnsd:116 /etc/rc.d/init.d/rinetd:49
+#: /etc/rc.d/init.d/rtpproxy:38 /etc/rc.d/init.d/scanbuttond:58
+#: /etc/rc.d/init.d/sendmail:88 /etc/rc.d/init.d/ser:53
+#: /etc/rc.d/init.d/smsd:50 /etc/rc.d/init.d/snmpd:68
+#: /etc/rc.d/init.d/sshd:157 /etc/rc.d/init.d/sssd:58 /etc/rc.d/init.d/tor:56
+#: /etc/rc.d/init.d/ulogd:60 /etc/rc.d/init.d/ushare:44
+#: /etc/rc.d/init.d/xfs:90
+msgid "Reloading $prog: "
+msgstr "$prog ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cobblerd:52
+msgid "Starting cobbler daemon: "
+msgstr "cobbler ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1258
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr "આપેલ pidfile '$pidfile' અસ્તિત્વમાં નથી, radvd ને ટ્રીગર મોકલી શકતા નથી"
+
+#: /etc/sysconfig/network-scripts/ifup-ippp:376
+#: /etc/sysconfig/network-scripts/ifup-isdn:376
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr "ચેતવણી: 'rawip' ની મદદથી કડી IPv6 ને આધાર આપતી નથી એનકેપ્સુલેશન"
+
+#: /etc/rc.d/init.d/halt:39
+msgid "Please stand by while rebooting the system..."
+msgstr "મહેરબાની કરીને જ્યારે સિસ્ટમ ફરીથી બુટ થઈ રહી હોય ત્યારે તેને અટકાવો..."
+
+#: /etc/rc.d/init.d/avahi-dnsconfd:49
+msgid "Shutting down Avahi DNS daemon: "
+msgstr "Avahi DNS ડિમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/syslog-ng:68
+msgid "Stopping syslog-ng: "
+msgstr "syslog-ng બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/mt-daapd:27
+msgid "Shutting down DAAP server: "
+msgstr "DAAP સર્વર બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/openct:66
+msgid "Waiting for reader attach/detach events..."
+msgstr "વાંચક જોડો/તોડો ઘટનાઓ માટે રાહ જુઓ..."
+
+#: /etc/rc.d/init.d/apmd:100
+msgid "Usage: apmd {start|stop|status|restart|reload|force-reload|condrestart}"
+msgstr "વપરાશ: apmd {start|stop|status|restart|reload|force-reload|condrestart}"
+
+#: /etc/rc.d/init.d/postfix:110
+msgid "$prog flush"
+msgstr "$prog ફ્લશ"
+
+#: /etc/rc.d/init.d/avahi-daemon:65
+msgid "$base reload"
+msgstr "$base પુનઃલાવો"
+
+#: /etc/rc.d/init.d/amavisd-snmp:23
+msgid "Shutting down amavisd-snmp-subagent: "
+msgstr "amavisd-snmp-subagent બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tog-pegasus:67
+msgid "Starting up CIM server: "
+msgstr "CIM સર્વર શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/callweaver:15
+msgid "Starting CallWeaver: "
+msgstr "CallWeaver શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rstatd:51
+msgid "Stopping rstat services: "
+msgstr "rstat સેવાઓ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:458
+msgid "PASSED"
+msgstr "PASSED"
+
+#: /etc/rc.d/init.d/cyphesis:31
+msgid "Could not check for running PostgreSQL database."
+msgstr "PostgreSQL ડેટાબેઝ ચલાવવા માટે ચકાસી શક્યા નહિં."
+
+#: /etc/rc.d/init.d/freenx-server:66 /etc/rc.d/init.d/xfs:103
+msgid "Restarting $prog:"
+msgstr "$prog ને ફરીથી શરુ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/liquidwar-server:54
+msgid "Stopping liquidwar game server: "
+msgstr "liquidwar રમત સર્વર અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cyphesis:43
+msgid "Cannot find user $CYPHESISUSER to run cyphesis service."
+msgstr "cyphesis સેવા ચલાવવા માટે વપરાશકર્તા $CYPHESISUSER શોધી શકતા નથી."
+
+#: /etc/rc.d/init.d/ipmi:311
+msgid "Stopping ipmi_poweroff driver: "
+msgstr "ipmi_poweroff ડ્રાઈવર અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/qemu:71
+msgid "qemu binary format handlers are not registered."
+msgstr "qemu બાઈનરી બંધારણ નિયંત્રકો રજીસ્ટર થયેલ નથી."
+
+#: /etc/rc.d/init.d/sshd:51
+msgid "Generating SSH1 RSA host key: "
+msgstr "SSH1 RSA યજમાન કી બનાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/cherokee:35
+msgid "$NAME: already running"
+msgstr "$NAME:  પહેલાથી જ ચાલી રહ્યું છે"
+
+#: /etc/rc.d/init.d/ocspd:75
+msgid "Reloading CRLs: "
+msgstr "CRLs પુનઃલોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ipmi:545
+msgid "Usage: $0 {start|stop|status|restart|condrestart|try-restart"
+msgstr "વપરાશ: $0 {start|stop|status|restart|condrestart|try-restart"
+
+#: /etc/rc.d/init.d/maradns:77 /etc/rc.d/init.d/maradns-zoneserver:71
+msgid "$rcfile "
+msgstr "$rcfile "
+
+#: /etc/rc.d/init.d/arpwatch:80 /etc/rc.d/init.d/gkrellmd:74
+#: /etc/rc.d/init.d/gpsd:89 /etc/rc.d/init.d/hddtemp:83
+#: /etc/rc.d/init.d/ntpd:86 /etc/rc.d/init.d/vdr:106
+#: /etc/rc.d/init.d/vdradmind:66 /etc/rc.d/init.d/zabbix-agent:74
+#: /etc/rc.d/init.d/zabbix-proxy:80 /etc/rc.d/init.d/zabbix-server:79
+msgid "Usage: $0 {start|stop|status|restart|try-restart|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|try-restart|force-reload}"
+
+#: /etc/rc.d/init.d/ldap:156
+msgid "stale lock files may be present in $directory"
+msgstr "સ્ટેલ તાળા ફાઈલો $directory માં કદાચ હાજર હશે"
+
+#: /etc/rc.d/init.d/ip6tables:197
+msgid "${IP6TABLES}: Loading additional modules: "
+msgstr "${IP6TABLES}: વધારાના મોડ્યુલો લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/halt:87
+msgid "Turning off swap: "
+msgstr "સ્વેપ બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/privoxy:65
+msgid "Can't find $PRIVOXY_BIN, exit."
+msgstr "$PRIVOXY_BIN શોધી શકતા નથી, બહાર નીકળો."
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1217
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr "radvd ને ટ્રીગર મોકલવા માટે બિનઆધારભૂત કારણ '$reason'"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:93
+msgid "ERROR: [ipv6_log] Loglevel isn't valid '$level' (arg 2)"
+msgstr "ભૂલ: [ipv6_log] લોગનું સ્તર '$level' માન્ય નથી (દલીલ ૨)"
+
+#: /etc/sysconfig/network-scripts/ifup-aliases:182
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr "$FILE માં ભૂલ છે: ipaddr $IPADDR ને $ipseen માં પહેલાથી જોયેલી છે"
+
+#: /etc/rc.d/init.d/ipmi:546
+msgid "          start-watchdog|stop-watchdog|status-watchdog"
+msgstr "          start-watchdog|stop-watchdog|status-watchdog"
+
+#: /etc/rc.d/init.d/amavisd:41
+msgid "Shutting down ${prog_base}:"
+msgstr "${prog_base} બંધ કરો:"
+
+#: /etc/rc.d/init.d/innd:75
+msgid "Stopping INNWatch service: "
+msgstr "INNWatch સેવા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1284
+msgid "radvd not (properly) installed, triggering failed"
+msgstr "radvd એ (યોગ્ય રીતે) સ્થાપિત નથી, ફેરબદલી નિષ્ફળ"
+
+#: /etc/rc.d/init.d/asterisk:99
+msgid "Stopping asterisk: "
+msgstr "asterisk અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1051
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr "ખોવાયેલ પરિમાણ 'IPv6 MTU' (દલીલ ૨)"
+
+#: /etc/rc.d/init.d/blktapctrl:82 /etc/rc.d/init.d/xenstored:90
+msgid "Usage: $0 {start|stop|status}"
+msgstr "વપરાશ: $0 {start|stop|status}"
+
+#: /etc/rc.d/init.d/ypserv:35
+msgid "Starting YP server services: "
+msgstr "YP સર્વર સેવાઓ શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/kadmin:101
+msgid "Usage: $0 {start|stop|status|condrestart|reload|restart}"
+msgstr "વપરાશ: $0 {start|stop|status|condrestart|reload|restart}"
+
+#: /etc/rc.d/init.d/chronyd:72
+msgid "Generating chrony command key: "
+msgstr "chrony આદેશ કી બનાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/dcbd:241
+msgid "Reloading $DCBD is not supported: "
+msgstr "$DCBD પુનઃલાવવાનું આધારભૂત નથી: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1148
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr "આપેલ IPv6 મૂળભૂત ઉપકરણ '$device' ને બાહ્ય nexthop ની જરુર છે"
+
+#: /etc/rc.d/rc.sysinit:679
+msgid "Checking local filesystem quotas: "
+msgstr "સ્થાનિક ફાઈલ સિસ્ટમ ક્વોટા ચકાસી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/nfslock:67
+msgid "Starting NFS statd: "
+msgstr "NFS statd શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/sgemaster:282
+msgid "Starting $master_prog: "
+msgstr "$master_prog શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/xttpd:36
+msgid "PORT environment is not set."
+msgstr "PORT પર્યાવરણ સુયોજિત નથી."
+
+#: /etc/rc.d/init.d/innd:59 /etc/rc.d/init.d/innd:61
+msgid "innd shutdown"
+msgstr "innd બંધ કરો"
+
+#: /etc/rc.d/init.d/corosync:29
+msgid "Stopping Corosync Cluster Engine ($prog): "
+msgstr "Corosync Cluster Engine ($prog) અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:48
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr "pppd અસ્તિત્વમાં નથી અથવા ${DEVICE} માટે ચલાવી શકાય એમ નથી"
+
+#: /etc/rc.d/init.d/denyhosts:77
+msgid "denyhosts cron service is enabled."
+msgstr "denyhosts cron સેવા સક્રિયકૃત છે."
+
+#: /etc/rc.d/init.d/pgpool:139
+msgid "Reloading ${NAME}: "
+msgstr "${NAME} પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/exim:112
+msgid "Reloading exim:"
+msgstr "exim પુનઃલાવી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/functions:419
+msgid "${base} dead but pid file exists"
+msgstr "${base} મૃત થયેલ છે પરંતુ pid ફાઈલ અસ્તિત્વમાં છે"
+
+#: /etc/rc.d/init.d/sendmail:49
+msgid "Package sendmail-cf is required to update configuration."
+msgstr "પેકેજ sendmail-cf એ રૂપરેખાંકનને સુધારવા માટે જરૂરી છે."
+
+#: /etc/rc.d/init.d/restorecond:52
+msgid "Shutting down restorecond: "
+msgstr "restorecond બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tor:66
+msgid "program is dead and /var/lock lock file exists"
+msgstr "કાર્યક્રમ મૃત છે અને /var/lock તાળા ફાઈલ અસ્તિત્વમાં છે"
+
+#: /etc/rc.d/init.d/mysqld:157 /etc/rc.d/init.d/ndb_mgmd:112
+#: /etc/rc.d/init.d/ndbd:107
+msgid "Usage: $0 {start|stop|status|condrestart|restart}"
+msgstr "વપરાશ: $0 {start|stop|status|condrestart|restart}"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:46
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr "ifup-ppp એ ${DEVICE} માટે અસ્તિત્વમાં છે"
+
+#: /etc/rc.d/init.d/cups:125 /etc/rc.d/init.d/dbmail-imapd:85
+#: /etc/rc.d/init.d/dbmail-lmtpd:86 /etc/rc.d/init.d/dbmail-pop3d:86
+#: /etc/rc.d/init.d/dbmail-timsieved:87 /etc/rc.d/init.d/mailgraph:91
+#: /etc/rc.d/init.d/ntop:90 /etc/rc.d/init.d/ris-linuxd:102
+#: /etc/rc.d/init.d/sip-redirect:73
+msgid "Usage: $prog {start|stop|restart|condrestart|reload|status}"
+msgstr "વપરાશ: $prog {start|stop|restart|condrestart|reload|status}"
+
+#: /etc/rc.d/init.d/ip6tables:246
+msgid "${IP6TABLES}: Saving firewall rules to $IP6TABLES_DATA: "
+msgstr "${IP6TABLES}: ફાયરવોલ નિયમો $IP6TABLES_DATA માં સંગ્રહી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rbldnsd:132
+msgid "($pid) is running..."
+msgstr "($pid) એ ચાલી રહ્યું છે..."
+
+#: /etc/rc.d/init.d/smartd:72
+msgid "Reloading $prog daemon configuration: "
+msgstr "$prog ડિમન રુપરેખાંકન ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/LCDd:99
+msgid "Reloading ${prog} conig file: "
+msgstr "${prog} રૂપરેખાંકન પુનઃલાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/qpidd:52
+msgid "Starting Qpid AMQP daemon: "
+msgstr "Qpid AMQP ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tofmipd:48
+msgid "Starting $progname: "
+msgstr "$progname શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/moodle:70
+msgid "Moodle cron job is disabled."
+msgstr "Moodle cron job નિષ્ક્રિય છે."
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:209
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:264
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr "ખોવાયેલ પરિમાણ 'IPv6-નેટવર્ક' (દલીલ ૧)"
+
+#: /etc/rc.d/init.d/wine:50
+msgid "Wine binary format handlers are not registered."
+msgstr "Wine બાઈનરી બંધારણ નિયંત્રકો રજીસ્ટર થયેલ નથી."
+
+#: /etc/rc.d/init.d/nfs:180 /etc/rc.d/init.d/nfslock:121
+msgid "start"
+msgstr "શરુ કરો"
+
+#: /etc/rc.d/init.d/NetworkManager:46
+msgid "Setting network parameters... "
+msgstr "નેટવર્ક પરિમાણો સુયોજિત કરી રહ્યા છીએ... "
+
+#: /etc/rc.d/init.d/yum-updateonboot:68
+msgid "Updating RPMS in group $group: "
+msgstr "RPMS ને જૂથ $group માં સુધારી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/ifup:132
+msgid "WARNING: vconfig not able to disable REORDER_HDR on ${DEVICE}"
+msgstr "ચેતવણી: vconfig એ REORDER_HDR ને ${DEVICE} ઉપર નિષ્ક્રિય કરવા સમર્થ નથી"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:147
+msgid "Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr "IPv6 ખાનગી પદ્ધતિ '$IPV6_PRIVACY' સક્રિય કરી શકતા નથી, કર્નલ દ્વારા આધારભૂત નથી"
+
+#: /etc/rc.d/init.d/spamass-milter:69
+msgid "Shutting down ${desc} (${prog}): "
+msgstr "${desc} (${prog}) બંધ કરી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:781
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr "ખોવાયેલ પરિમાણ 'સ્થાનિક IPv4 સરનામું' (દલીલ ૨)"
+
+#: /etc/ppp/ip-up.ipv6to4:186
+msgid "Error occured while calculating the IPv6to4 prefix"
+msgstr "IPv6to4 પૂર્વગની ગણતરી કરતી વખતે ભૂલ ઉદ્ભવી"
+
+#: /etc/rc.d/init.d/iscsi:56 /etc/rc.d/init.d/iscsi:61
+#: /etc/rc.d/init.d/isdn:178 /etc/rc.d/init.d/isdn:181
+#: /etc/rc.d/init.d/speech-dispatcherd:23
+msgid "Starting $prog"
+msgstr "$prog શરુ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/lirc:89
+msgid "Stopping infrared remote control daemon ($prog): "
+msgstr "ઈન્ફ્રારેડ દૂરસ્થ નિયંત્રણ ડિમન અટકાવી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/gkrellmd:33
+msgid "Unconfigured: $prog, /etc/gkrellmd.conf not found"
+msgstr "અરૂપરેખાંકિત: $prog, /etc/gkrellmd.conf મળી નહિં"
+
+#: /etc/rc.d/init.d/denyhosts:108
+msgid "Stopping denyhosts: "
+msgstr "denyhosts અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/condor:173
+msgid "$0: error: insufficient privileges"
+msgstr "$0: ભૂલ: અપૂરતા હકો"
+
+#: /etc/rc.d/rc.sysinit:790
+msgid "Enabling /etc/fstab swaps: "
+msgstr "/etc/fstab સ્વેપો સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:52
+msgid "*** Disabling security enforcement for system recovery."
+msgstr "*** સુરક્ષા પુનઃપ્રાપ્તિ માટે સુરક્ષા દબાણો નિષ્ક્રિય કરી રહ્યા છીએ."
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:75
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr "ifup-ppp એ ${DEVNAME} માટે અસ્તિત્વમાં છે"
+
+#: /etc/rc.d/init.d/network:267
+msgid "Disabling IPv4 packet forwarding: "
+msgstr "IPv4 પેકેટને આગળ ધપાવવાનું નિષ્ક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/autofs:175
+msgid ""
+"Usage: $0 {start|forcestart|stop|status|restart|orcerestart|reload|"
+"condrestart}"
+msgstr ""
+"વપરાશ: $0 {start|forcestart|stop|status|restart|orcerestart|reload|"
+"condrestart}"
+
+#: /etc/rc.d/init.d/tofmipd:56
+msgid "Stopping $progname: "
+msgstr "$progname અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netplugd:38
+msgid "Shutting down network plug daemon: "
+msgstr "નેટવર્ક પ્લગ ડીમન બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postfix:71
+msgid "Starting postfix: "
+msgstr "postfix શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/zvbid:32
+msgid "Stopping vbi proxy daemon: "
+msgstr "vbi પ્રોક્સી ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/apmd:49
+msgid "Starting up APM daemon: "
+msgstr "APM ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/isdn:138
+msgid "Unloading ISDN modules"
+msgstr "ISDN મોડ્યુલો લાવી રહ્યા નથી"
+
+#: /etc/rc.d/rc.sysinit:194
+msgid "$dst: no value for hash option, skipping"
+msgstr "$dst: હેશ વિકલ્પ માટે કોઈ કિંમત નથી, રદ કરી રહ્યા છીએ"
+
+#: /etc/sysconfig/network-scripts/ifup-ipv6:100
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr ""
+"ઉમદા IPv6 ને આગળ ધપાવવાનું એ રુપરેખાંકનમાં સક્રિય કરેલું છે, પરંતુ તે વર્તમાનમાં કર્નલમાં સક્રિય "
+"કરેલ નથી"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:140
+msgid ""
+"ERROR: [ipv6_log] Syslog is chosen, but binary 'logger' doesn't exist or "
+"isn't executable"
+msgstr ""
+"ભૂલ: [ipv6_log] Syslog પસંદ થયેલ છે, પરંતુ બાઈનરી 'logger' અસ્તિત્વમાં નથી અથવા ચલાવી "
+"શકાય તેવી નથી"
+
+#: /etc/rc.d/init.d/flumotion:166
+msgid "Usage: $service {start|stop|restart|list|status|clean}"
+msgstr "વપરાશ: $service {start|stop|restart|list|status|clean}"
+
+#: /etc/rc.d/init.d/imapproxy:34
+msgid "Starting up-imapproxy daemon: "
+msgstr "imapproxy ોક્સી ડિમન શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/abrt:97 /etc/rc.d/init.d/acpid:111
+#: /etc/rc.d/init.d/cfenvd:74 /etc/rc.d/init.d/cfexecd:71
+#: /etc/rc.d/init.d/cfservd:74 /etc/rc.d/init.d/gpm:131
+#: /etc/rc.d/init.d/xenconsoled:116 /etc/rc.d/init.d/xend:92
+msgid "Usage: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+msgstr "વપરાશ: $0 {start|stop|status|restart|condrestart|reload|force-reload}"
+
+#: /etc/rc.d/init.d/sagator:58
+msgid "Stopping $name: "
+msgstr "$name અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/zabbix-server:35
+msgid "Starting ZABBIX server: "
+msgstr "ZABBIX સર્વર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ktune:139
+msgid "Applying ${ELEVATOR} elevator: "
+msgstr "${ELEVATOR} એલિવેટર ને લાગુ પાડી રહ્યા છે: "
+
+#: /etc/rc.d/init.d/amavisd-snmp:15
+msgid "Starting amavisd-snmp-subagent: "
+msgstr "amavisd-snmp-subagent શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/tog-pegasus:100
+msgid "CIM server is not running"
+msgstr "CIM સર્વર ચાલી રહ્યું નથી"
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:370
+msgid "Device '$device' enabling didn't work"
+msgstr "ઉપકરણ '$device' સક્રિય કરવાનું કામ આપતું નથી"
+
+#: /etc/rc.d/init.d/puppet:45
+msgid "Stopping puppet: "
+msgstr "puppet અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/functions:543
+msgid "nN"
+msgstr "nN"
+
+#: /etc/rc.d/init.d/ipmi:547
+msgid "          start-powercontrol|stop-powercontrol|status-powercontrol"
+msgstr "          start-powercontrol|stop-powercontrol|status-powercontrol"
+
+#: /etc/rc.d/init.d/fail2ban:27
+msgid "Starting fail2ban: "
+msgstr "fail2ban શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postgresql:164
+msgid "You need to upgrade the data format before using PostgreSQL."
+msgstr "તમારે PostgreSQL વાપરતા પહેલાં માહિતી બંધારણ સુધારવાની જરૂર છે."
+
+#: /etc/rc.d/init.d/audio-entropyd:27
+msgid "Starting Audio Entropy daemon... "
+msgstr "ઓડિયો એન્ટ્રોપી ડિમન શરૂ કરી રહ્યા છીએ... "
+
+#: /etc/rc.d/rc.sysinit:638
+msgid "Remounting root filesystem in read-write mode: "
+msgstr "વાંચો-લખો સ્થિતિમાં રુટ ફાઈલ સિસ્ટમને ફરીથી માઉન્ટ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/postfix:74
+msgid "$prog start"
+msgstr "$prog શરૂ કરો"
+
+#: /etc/rc.d/init.d/coda-client:47
+msgid "Unmounting $mountpoint:"
+msgstr "$mountpoint અનમાઉન્ટ કરી રહ્યા છે:"
+
+#: /etc/rc.d/init.d/yum-cron:57
+msgid "Nightly yum update is enabled."
+msgstr "રાત્રિય yum update સક્રિયકૃત છે."
+
+#: /etc/rc.d/init.d/halt:77 /etc/rc.d/init.d/ntpdate:55
+msgid "Syncing hardware clock to system time"
+msgstr "હાર્ડવેર ઘડિયાળનો સિસ્ટમ સમય સાથે સુમેળ કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/sshd:111
+msgid "Configuration file or keys are invalid"
+msgstr "રુપરેખાંકન ફાઈલ અથવા કી અયોગ્ય છે"
+
+#: /etc/rc.d/init.d/openhpid:169
+msgid "Checking for $prog daemon: "
+msgstr "$prog ડિમન માટે ચકાસી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:125
+msgid "NOTICE   "
+msgstr "સૂચન   "
+
+#: /etc/rc.d/init.d/ktune:125
+msgid "Reverting to saved sysctl settings: "
+msgstr "સંગ્રહ થયેલ sysctl સુયોજનોમાં પાછુ આવી રહ્યુ છે: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:110
+msgid "DEBUG    "
+msgstr "ભૂલ શોધો    "
+
+#: /etc/rc.d/init.d/bandwidthd:72 /etc/rc.d/init.d/clvmd:168
+#: /etc/rc.d/init.d/gfs:144 /etc/rc.d/init.d/gfs2:144
+#: /etc/rc.d/init.d/netbsd-iscsi:95 /etc/rc.d/init.d/netfs:164
+#: /etc/rc.d/init.d/network:297 /etc/rc.d/init.d/nighthttpd:86
+#: /etc/rc.d/init.d/yum-updateonboot:96
+msgid "Usage: $0 {start|stop|restart|reload|status}"
+msgstr "વપરાશ: $0 {start|stop|restart|reload|status}"
+
+#: /etc/rc.d/init.d/monotone:101
+msgid "Starting monotone server: "
+msgstr "monotone સર્વર શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/avahi-daemon:88
+msgid "Avahi daemon is running"
+msgstr "Avahi ડિમન ચાલી રહ્યું છે"
+
+#: /etc/rc.d/init.d/acpid:47
+msgid "Starting acpi daemon: "
+msgstr "acpi ડિમન શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/hddtemp:39
+msgid "Starting hard disk temperature monitor daemon ($prog): "
+msgstr "હાર્ડ ડિસ્ક તાપમાન મોનીટર ડિમન શરૂ કરી રહ્યા છીએ ($prog): "
+
+#: /etc/rc.d/init.d/ip6tables:131
+msgid "${IP6TABLES}: Setting chains to policy $policy: "
+msgstr "${IP6TABLES}: પોલીસિ $policy માં સાંકળો સુયોજીત કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/dcbd:166
+msgid "Shutting down $DCBD: "
+msgstr "$DCBD બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/rc.sysinit:78 /etc/rc.d/rc.sysinit:91 /etc/rc.d/rc.sysinit:589
+#: /etc/rc.d/rc.sysinit:612
+msgid "Automatic reboot in progress."
+msgstr "આપોઆપ રીબુટ થવાનું પ્રગતિમાં છે."
+
+#: /etc/rc.d/init.d/ypbind:46
+msgid "Turning off allow_ypbind SELinux boolean"
+msgstr "allow_ypbind SELinux બુલિયન બંધ કરી રહ્યા છીએ"
+
+#: /etc/sysconfig/network-scripts/ifup-ppp:45
+msgid "pppd does not exist or is not executable"
+msgstr "pppd અસ્તિત્વમાં નથી અથવા ચલાવી શકાય એમ નથી"
+
+#: /etc/rc.d/init.d/functions:519
+msgid "$STRING"
+msgstr "$STRING"
+
+#: /etc/rc.d/init.d/ip6tables:285
+msgid "${IP6TABLES}: Firewall modules are not loaded."
+msgstr "${IP6TABLES}: ફાયરવોલ મોડ્યુલો લવાયેલ નથી."
+
+#: /etc/rc.d/init.d/gvrpcd:90
+msgid "Stopping ${ifprog}: "
+msgstr "${ifprog} બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/apt:32
+msgid "Enabling nightly apt update: "
+msgstr "રાત્રિ apt સુધારો સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ctdb:184
+msgid "Shutting down ctdbd service: "
+msgstr "ctdbd સેવા બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/clement:87
+msgid "conf addition"
+msgstr "conf વધારાનું"
+
+#: /etc/rc.d/init.d/cgred:122
+msgid "Reloading rules configuration..."
+msgstr "રૂપરેખાંકન નિયમો પુન:લોડ કરી રહ્યા છીએ..."
+
+#: /etc/rc.d/init.d/sendmail:93
+msgid "reloading sm-client: "
+msgstr "sm-client ફરીથી લાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/qemu:31
+msgid "Registering binary handler for qemu applications"
+msgstr "qemu કાર્યક્રમો માટે બાઈનરી નિયંત્રક રજીસ્ટર કરી રહ્યા છીએ"
+
+#: /etc/rc.d/init.d/nsd:61
+msgid "Stopping nsd: "
+msgstr "nsd અટકાવી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:152
+msgid "/proc filesystem unavailable"
+msgstr "/proc ફાઈલ સિસ્ટમ ઉપ્લબ્ધ નથી"
+
+#: /etc/rc.d/init.d/nfs:119
+msgid "Starting NFS mountd: "
+msgstr "NFS mountd શરુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/vdr:42
+msgid "Error: no valid $cfg found."
+msgstr "ભૂલ: કોઈ માન્ય $cfg મળ્યું નહિં."
+
+#: /etc/rc.d/init.d/functions:409 /etc/rc.d/init.d/functions:415
+msgid "${base} (pid $pid) is running..."
+msgstr "${base} (pid $pid) એ ચાલી રહ્યું છે..."
+
+#: /etc/rc.d/init.d/denyhosts:53
+msgid "Enabling denyhosts cron service: "
+msgstr "denyhosts cron સેવા સક્રિય કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/clement:172
+msgid "Starting $PROG:"
+msgstr "$PROG શરૂ કરી રહ્યા છીએ:"
+
+#: /etc/rc.d/init.d/funcd:94
+msgid "Stopping func daemon: "
+msgstr "func ડિમન અટકાવી રહ્યા છીએ: "
+
+#: /etc/sysconfig/network-scripts/network-functions-ipv6:1267
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr "Pidfile '$pidfile' એ ખાલી છે, radvd ને ટ્રીગર મોકલી શકતા નથી"
+
+#: /etc/rc.d/init.d/smokeping:51
+msgid "Reloading smokeping: "
+msgstr "smokeping પુનઃલોડ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/rpcgssd:126 /etc/rc.d/init.d/rpcidmapd:110
+#: /etc/rc.d/init.d/rpcsvcgssd:124
+msgid "Usage: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+msgstr "વપરાશ: $0 {start|stop|restart|condstart|condrestart|status|condstop}"
+
+#: /etc/rc.d/init.d/moodle:67
+msgid "Moodle cron job is enabled."
+msgstr "Moodle cron job સક્રિય કરેલ છે."
+
+#: /etc/rc.d/init.d/yum-updatesd:34
+msgid "Starting yum-updatesd: "
+msgstr "yum-updatesd શરૂ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ip6tables:183
+msgid "${IP6TABLES}: Applying firewall rules: "
+msgstr "${IP6TABLES}: ફાયરવોલ નિયમો લાગુ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/netfs:42
+msgid "Mounting NCP filesystems: "
+msgstr "NCP ફાઈલ સિસ્ટમ માઉન્ટ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/ajaxterm:35 /etc/rc.d/init.d/amd:45
+#: /etc/rc.d/init.d/arpwatch:47 /etc/rc.d/init.d/atd:45
+#: /etc/rc.d/init.d/athcool:28 /etc/rc.d/init.d/atop:29
+#: /etc/rc.d/init.d/auditd:81 /etc/rc.d/init.d/auth2:35
+#: /etc/rc.d/init.d/autofs:102 /etc/rc.d/init.d/autogroup:54
+#: /etc/rc.d/init.d/autohome:52 /etc/rc.d/init.d/beanstalkd:47
+#: /etc/rc.d/init.d/boa:46 /etc/rc.d/init.d/boinc-client:147
+#: /etc/rc.d/init.d/bootparamd:47 /etc/rc.d/init.d/bro:127
+#: /etc/rc.d/init.d/cfexecd:31 /etc/rc.d/init.d/cfservd:35
+#: /etc/rc.d/init.d/chronyd:93 /etc/rc.d/init.d/chunkd:42
+#: /etc/rc.d/init.d/clamav-milter:32 /etc/rc.d/init.d/clamd-wrapper:54
+#: /etc/rc.d/init.d/cld:43 /etc/rc.d/init.d/coda-client:42
+#: /etc/rc.d/init.d/codasrv:38 /etc/rc.d/init.d/collectd:35
+#: /etc/rc.d/init.d/collectl:41 /etc/rc.d/init.d/couchdb:46
+#: /etc/rc.d/init.d/cpuspeed:125 /etc/rc.d/init.d/crond:55
+#: /etc/rc.d/init.d/ctrlproxy:50 /etc/rc.d/init.d/cups:75
+#: /etc/rc.d/init.d/dbmail-imapd:44 /etc/rc.d/init.d/dbmail-lmtpd:45
+#: /etc/rc.d/init.d/dbmail-pop3d:45 /etc/rc.d/init.d/dbmail-timsieved:46
+#: /etc/rc.d/init.d/dc_client:41 /etc/rc.d/init.d/dc_server:37
+#: /etc/rc.d/init.d/ddclient:39 /etc/rc.d/init.d/dhcp-fwd:49
+#: /etc/rc.d/init.d/distccd:51 /etc/rc.d/init.d/dovecot:54
+#: /etc/rc.d/init.d/dropbear:78 /etc/rc.d/init.d/fcron_watch_config:41
+#: /etc/rc.d/init.d/flow-capture:52 /etc/rc.d/init.d/freenx-server:57
+#: /etc/rc.d/init.d/freenx-server:59 /etc/rc.d/init.d/fyre-cluster:39
+#: /etc/rc.d/init.d/gearmand:46 /etc/rc.d/init.d/globus-rls-server:37
+#: /etc/rc.d/init.d/glusterfsd:46 /etc/rc.d/init.d/gmediaserver:69
+#: /etc/rc.d/init.d/gpsd:53 /etc/rc.d/init.d/haproxy:50
+#: /etc/rc.d/init.d/honeyd:61 /etc/rc.d/init.d/httpd:66
+#: /etc/rc.d/init.d/i8k:60 /etc/rc.d/init.d/ip-sentinel:51
+#: /etc/rc.d/init.d/ircd:34 /etc/rc.d/init.d/irqbalance:58
+#: /etc/rc.d/init.d/iscsi:68 /etc/rc.d/init.d/iscsid:71
+#: /etc/rc.d/init.d/jetty:90 /etc/rc.d/init.d/kadmin:62
+#: /etc/rc.d/init.d/keepalived:45 /etc/rc.d/init.d/kojid:50
+#: /etc/rc.d/init.d/kojira:50 /etc/rc.d/init.d/kprop:44
+#: /etc/rc.d/init.d/krb5kdc:47 /etc/rc.d/init.d/ldap:192
+#: /etc/rc.d/init.d/lighttpd:49 /etc/rc.d/init.d/mailgraph:50
+#: /etc/rc.d/init.d/mcstrans:63 /etc/rc.d/init.d/memcached:49
+#: /etc/rc.d/init.d/milter-greylist:40 /etc/rc.d/init.d/milter-regex:44
+#: /etc/rc.d/init.d/miredo-client:56 /etc/rc.d/init.d/miredo-server:58
+#: /etc/rc.d/init.d/mrepo:36 /etc/rc.d/init.d/mydns:33
+#: /etc/rc.d/init.d/mysql-proxy:45 /etc/rc.d/init.d/mysqld:114
+#: /etc/rc.d/init.d/mysqld:118 /etc/rc.d/init.d/mysqld:121
+#: /etc/rc.d/init.d/mysqld:125 /etc/rc.d/init.d/ndb_mgmd:74
+#: /etc/rc.d/init.d/ndb_mgmd:76 /etc/rc.d/init.d/ndb_mgmd:80
+#: /etc/rc.d/init.d/ndbd:69 /etc/rc.d/init.d/ndbd:71 /etc/rc.d/init.d/ndbd:75
+#: /etc/rc.d/init.d/ndo2db:56 /etc/rc.d/init.d/nessusd:47
+#: /etc/rc.d/init.d/nginx:43 /etc/rc.d/init.d/ngircd:34
+#: /etc/rc.d/init.d/noip:44 /etc/rc.d/init.d/npcd:43 /etc/rc.d/init.d/nscd:50
+#: /etc/rc.d/init.d/nslcd:38 /etc/rc.d/init.d/ntop:50
+#: /etc/rc.d/init.d/nuauth:74 /etc/rc.d/init.d/nufw:71
+#: /etc/rc.d/init.d/nxtvepgd:43 /etc/rc.d/init.d/oidentd:50
+#: /etc/rc.d/init.d/openhpid:138 /etc/rc.d/init.d/openhpid:150
+#: /etc/rc.d/init.d/openser:32 /etc/rc.d/init.d/pads:53
+#: /etc/rc.d/init.d/pathfinderd:47 /etc/rc.d/init.d/plague-builder:41
+#: /etc/rc.d/init.d/plague-server:42 /etc/rc.d/init.d/poker-bot:45
+#: /etc/rc.d/init.d/poker-server:48 /etc/rc.d/init.d/portreserve:60
+#: /etc/rc.d/init.d/postgrey:48 /etc/rc.d/init.d/prelude-correlator:50
+#: /etc/rc.d/init.d/prelude-manager:32 /etc/rc.d/init.d/psad:81
+#: /etc/rc.d/init.d/pure-ftpd:40 /etc/rc.d/init.d/racoon:30
+#: /etc/rc.d/init.d/rarpd:52 /etc/rc.d/init.d/ratbox-services:38
+#: /etc/rc.d/init.d/rbldnsd:96 /etc/rc.d/init.d/rinetd:34
+#: /etc/rc.d/init.d/ris-linuxd:57 /etc/rc.d/init.d/roundup:37
+#: /etc/rc.d/init.d/rpcbind:55 /etc/rc.d/init.d/rtpproxy:30
+#: /etc/rc.d/init.d/rwalld:52 /etc/rc.d/init.d/saslauthd:49
+#: /etc/rc.d/init.d/scanbuttond:45 /etc/rc.d/init.d/searchd:43
+#: /etc/rc.d/init.d/sec:44 /etc/rc.d/init.d/sems:32
+#: /etc/rc.d/init.d/sensord:44 /etc/rc.d/init.d/ser:45
+#: /etc/rc.d/init.d/sge_execd:62 /etc/rc.d/init.d/sgemaster:315
+#: /etc/rc.d/init.d/sip-redirect:40 /etc/rc.d/init.d/smsd:36
+#: /etc/rc.d/init.d/snmpd:54 /etc/rc.d/init.d/snmptrapd:51
+#: /etc/rc.d/init.d/spamassassin:51 /etc/rc.d/init.d/spampd:48
+#: /etc/rc.d/init.d/squid:100 /etc/rc.d/init.d/squidGuard:94
+#: /etc/rc.d/init.d/sshd:137 /etc/rc.d/init.d/sssd:49
+#: /etc/rc.d/init.d/systemtap:542 /etc/rc.d/init.d/tabled:43
+#: /etc/rc.d/init.d/tclhttpd:151 /etc/rc.d/init.d/tcsd:101
+#: /etc/rc.d/init.d/thttpd:45 /etc/rc.d/init.d/tinyerp-server:57
+#: /etc/rc.d/init.d/tinyproxy:45 /etc/rc.d/init.d/tor:45
+#: /etc/rc.d/init.d/trytond:57 /etc/rc.d/init.d/tuned:42
+#: /etc/rc.d/init.d/ucarp:110 /etc/rc.d/init.d/ulogd:48
+#: /etc/rc.d/init.d/update:50 /etc/rc.d/init.d/update:57
+#: /etc/rc.d/init.d/upnpd:46 /etc/rc.d/init.d/ups:74
+#: /etc/rc.d/init.d/ushare:36 /etc/rc.d/init.d/vdradmind:36
+#: /etc/rc.d/init.d/vtund:45 /etc/rc.d/init.d/wpa_supplicant:47
+#: /etc/rc.d/init.d/xinetd:83 /etc/rc.d/init.d/xrdp:45
+#: /etc/rc.d/init.d/xrdp:69 /etc/rc.d/init.d/zfs-fuse:142
+#: /etc/rc.d/init.d/zoneminder:58
+msgid "Stopping $prog: "
+msgstr "$prog બંધ કરી રહ્યા છીએ: "
+
+#: /etc/rc.d/init.d/audio-entropyd:34
+msgid "Shutting down Audio Entropy daemon: "
+msgstr "ઓડિયો એન્ટ્રોપી ડિમન બંધ કરી રહ્યા છીએ: "
+

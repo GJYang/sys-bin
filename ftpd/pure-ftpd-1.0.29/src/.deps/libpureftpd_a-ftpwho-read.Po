@@ -1,0 +1,3 @@
+libpureftpd_a-ftpwho-read.o: ftpwho-read.c ../config.h
+
+../config.h:

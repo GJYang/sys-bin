@@ -1,0 +1,3 @@
+libpureftpd_a-quotas.o: quotas.c ../config.h
+
+../config.h:

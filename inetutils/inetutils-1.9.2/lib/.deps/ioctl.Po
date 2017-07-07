@@ -1,0 +1,59 @@
+ioctl.o: ioctl.c \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h \
+ ../config.h ../confpaths.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h sys/ioctl.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/ioctl.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/ioctls.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm/ioctls.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm/ioctl.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm-generic/ioctl.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/ioctl-types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/ttydefaults.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdarg.h
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h:
+
+../config.h:
+
+../confpaths.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h:
+
+sys/ioctl.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/ioctl.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/ioctls.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm/ioctls.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm/ioctl.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm-generic/ioctl.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/ioctl-types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/ttydefaults.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdarg.h:

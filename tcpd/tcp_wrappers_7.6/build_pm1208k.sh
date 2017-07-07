@@ -1,0 +1,3 @@
+CROSS_COMPILE=mips-linux-gnu-
+
+make REAL_DAEMON_DIR=/usr/sbin linux CC="${CROSS_COMPILE}gcc -EL" AR=${CROSS_COMPILE}ar AS="${CROSS_COMPILE}as -EL" RANLIB="${CROSS_COMPILE}ranlib -EL" LD="${CROSS_COMPILE}ld -EL" STRIP=${CROSS_COMPILE}strip

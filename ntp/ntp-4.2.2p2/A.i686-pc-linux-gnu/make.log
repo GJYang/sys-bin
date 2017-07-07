@@ -1,0 +1,10 @@
+configure: WARNING: If you wanted to set the --build type, don't use --host.
+    If a cross compiler is detected then cross compile mode will be used.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+configure: error: source directory already configured; run "make distclean" there first
+./build: line 86: ./config.status: No such file or directory
+make: *** No targets specified and no makefile found.  Stop.

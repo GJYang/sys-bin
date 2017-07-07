@@ -1,0 +1,7 @@
+# one_time_build_env
+# 2017. 04. 20. (목) 16:14:44 KST
+TOPDIR=/home/gjyang/sys-bin
+TMN=HI3536
+tmn=hi3536
+OUTDIR=/home/gjyang/sys-bin/out/HI3536/sys-bin
+CROSS_HOST=arm-hisiv400-linux

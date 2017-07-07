@@ -1,0 +1,12 @@
+version.o: version.c \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h \
+ config.h custom.h
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h:
+
+config.h:
+
+custom.h:

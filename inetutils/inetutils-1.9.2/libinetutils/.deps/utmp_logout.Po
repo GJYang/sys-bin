@@ -1,0 +1,110 @@
+utmp_logout.o: utmp_logout.c \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h \
+ ../config.h ../confpaths.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h \
+ ../lib/sys/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/typesizes.h \
+ ../lib/time.h /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/time.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stddef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/endian.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/endian.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap-16.h \
+ ../lib/sys/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigset.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/time.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/sysmacros.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/pthreadtypes.h \
+ ../lib/sys/time.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/time.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/timex.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/xlocale.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/utmpx.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/utmpx.h \
+ ../lib/string.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/string.h
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h:
+
+../config.h:
+
+../confpaths.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h:
+
+../lib/sys/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/typesizes.h:
+
+../lib/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/time.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stddef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/endian.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/endian.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap-16.h:
+
+../lib/sys/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigset.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/sysmacros.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/pthreadtypes.h:
+
+../lib/sys/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/timex.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/xlocale.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/utmpx.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/utmpx.h:
+
+../lib/string.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/string.h:

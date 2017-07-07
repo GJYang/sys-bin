@@ -1,0 +1,3 @@
+libpureftpd_a-altlog.o: altlog.c ../config.h
+
+../config.h:

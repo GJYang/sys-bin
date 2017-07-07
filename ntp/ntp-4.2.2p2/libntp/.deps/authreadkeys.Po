@@ -1,0 +1,271 @@
+authreadkeys.o: authreadkeys.c \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/types.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/typesizes.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/libio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/_G_config.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/wchar.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdarg.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stdio_lim.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sys_errlist.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stdio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/ctype.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/endian.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/endian.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap-16.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h \
+ ../include/ntp_fp.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/types.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/time.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/select.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/select.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sigset.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/time.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/sysmacros.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/pthreadtypes.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/socket.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/uio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/uio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/socket.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/socket_type.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sockaddr.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm/socket.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm/sockios.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/netinet/in.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdint.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdint.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/in.h \
+ ../include/ntp_rfc2553.h ../config.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/netdb.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/rpc/netdb.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/netdb.h \
+ ../include/ntp_types.h ../include/ntp_machine.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/time.h \
+ ../include/ntp_proto.h ../include/ntp.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/math.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/huge_val.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/huge_valf.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/huge_vall.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/inf.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/nan.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/mathdef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/mathcalls.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/mathinline.h \
+ ../include/ntp_random.h ../include/ntp_types.h ../include/isc/boolean.h \
+ ../include/ntp_syslog.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/syslog.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/syslog.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/syslog-path.h \
+ ../include/ntp_stdlib.h ../include/ntp_string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/memory.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/string2.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdlib.h \
+ ../include/l_stdlib.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitflags.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitstatus.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/alloca.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/termios.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/termios.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/ttydefaults.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/errno.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/errno.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/linux/errno.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm/errno.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm-generic/errno.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm-generic/errno-base.h
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/types.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/typesizes.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/libio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/_G_config.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/wchar.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdarg.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stdio_lim.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sys_errlist.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stdio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/ctype.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/endian.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/endian.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap-16.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h:
+
+../include/ntp_fp.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/types.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/time.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/select.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/select.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sigset.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/time.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/sysmacros.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/pthreadtypes.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/socket.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/uio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/uio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/socket.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/socket_type.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sockaddr.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm/socket.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm/sockios.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/netinet/in.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdint.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdint.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/in.h:
+
+../include/ntp_rfc2553.h:
+
+../config.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/netdb.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/rpc/netdb.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/netdb.h:
+
+../include/ntp_types.h:
+
+../include/ntp_machine.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/time.h:
+
+../include/ntp_proto.h:
+
+../include/ntp.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/math.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/huge_val.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/huge_valf.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/huge_vall.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/inf.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/nan.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/mathdef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/mathcalls.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/mathinline.h:
+
+../include/ntp_random.h:
+
+../include/ntp_types.h:
+
+../include/isc/boolean.h:
+
+../include/ntp_syslog.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/syslog.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/syslog.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/syslog-path.h:
+
+../include/ntp_stdlib.h:
+
+../include/ntp_string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/memory.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/string2.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdlib.h:
+
+../include/l_stdlib.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitflags.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitstatus.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/alloca.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/termios.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/termios.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/ttydefaults.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/errno.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/errno.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/linux/errno.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm/errno.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm-generic/errno.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/asm-generic/errno-base.h:

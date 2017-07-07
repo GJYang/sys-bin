@@ -1,0 +1,53 @@
+--- sys-utils/ipcutils.c	2015-05-07 18:42:01.052375225 +0900
++++ sys-utils/ipcutils.c.patch	2016-04-22 13:22:24.316104676 +0900
+@@ -99,6 +99,7 @@
+ {
+ 	FILE *f;
+ 	int i = 0, maxid;
++	int j;
+ 	struct shm_data *p;
+ 	struct shmid_ds dummy;
+ 
+@@ -158,7 +159,7 @@
+ shm_fallback:
+ 	maxid = shmctl(0, SHM_INFO, &dummy);
+ 
+-	for (int j = 0; j <= maxid; j++) {
++	for (j = 0; j <= maxid; j++) {
+ 		int shmid;
+ 		struct shmid_ds shmseg;
+ 		struct ipc_perm *ipcp = &shmseg.shm_perm;
+@@ -243,6 +244,7 @@
+ {
+ 	FILE *f;
+ 	int i = 0, maxid;
++	int j;
+ 	struct sem_data *p;
+ 	struct seminfo dummy;
+ 	union semun arg;
+@@ -298,7 +300,7 @@
+ 	arg.array = (ushort *) (void *)&dummy;
+ 	maxid = semctl(0, 0, SEM_INFO, arg);
+ 
+-	for (int j = 0; j <= maxid; j++) {
++	for (j = 0; j <= maxid; j++) {
+ 		int semid;
+ 		struct semid_ds semseg;
+ 		struct ipc_perm *ipcp = &semseg.sem_perm;
+@@ -351,6 +353,7 @@
+ {
+ 	FILE *f;
+ 	int i = 0, maxid;
++	int j;
+ 	struct msg_data *p;
+ 	struct msqid_ds dummy;
+ 	struct msqid_ds msgseg;
+@@ -410,7 +413,7 @@
+ msg_fallback:
+ 	maxid = msgctl(0, MSG_INFO, &dummy);
+ 
+-	for (int j = 0; j <= maxid; j++) {
++	for (j = 0; j <= maxid; j++) {
+ 		int msgid;
+ 		struct ipc_perm *ipcp = &msgseg.msg_perm;
+ 

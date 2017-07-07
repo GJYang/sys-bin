@@ -1,0 +1,16 @@
+--- udev-164/libtool	2015-09-30 13:33:09.787191135 +0900
++++ udev-164/libtool	2015-09-30 13:32:57.198190302 +0900
+@@ -301,11 +301,11 @@
+ old_archive_from_expsyms_cmds=""
+ 
+ # Commands used to build a shared archive.
+-archive_cmds="\$CC -shared \$libobjs \$deplibs \$compiler_flags \${wl}-soname \$wl\$soname -o \$lib"
++archive_cmds="\$CC -EL -shared \$libobjs \$deplibs \$compiler_flags \${wl}-soname \$wl\$soname -o \$lib"
+ archive_expsym_cmds="echo \\\"{ global:\\\" > \$output_objdir/\$libname.ver~
+ 	    cat \$export_symbols | sed -e \\\"s/\\\\(.*\\\\)/\\\\1;/\\\" >> \$output_objdir/\$libname.ver~
+ 	    echo \\\"local: *; };\\\" >> \$output_objdir/\$libname.ver~
+-	    \$CC -shared \$libobjs \$deplibs \$compiler_flags \${wl}-soname \$wl\$soname \${wl}-version-script \${wl}\$output_objdir/\$libname.ver -o \$lib"
++	    \$CC -EL -shared \$libobjs \$deplibs \$compiler_flags \${wl}-soname \$wl\$soname \${wl}-version-script \${wl}\$output_objdir/\$libname.ver -o \$lib"
+ 
+ # Commands used to build a loadable module if different from building
+ # a shared archive.

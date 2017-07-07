@@ -1,0 +1,215 @@
+r/fat/clstdup.lo: r/fat/clstdup.c \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h \
+ ../../lib/config.h ../../lib/string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h \
+ r/fat/fat.h ../../include/parted/parted.h \
+ ../../include/parted/constraint.h ../../include/parted/device.h \
+ ../../include/parted/natmath.h ../../include/parted/disk.h \
+ ../../include/parted/filesys.h ../../include/parted/geom.h \
+ ../../include/parted/timer.h ../../lib/time.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/time.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/time.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/types.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/typesizes.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/timex.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdbool.h \
+ ../../include/parted/exception.h ../../include/parted/unit.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdarg.h \
+ ../../lib/stdio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/libio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/_G_config.h \
+ ../../lib/wchar.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/wchar.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stdio_lim.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sys_errlist.h \
+ ../../lib/sys/types.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/types.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/endian.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/endian.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap-16.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/select.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/select.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sigset.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/sysmacros.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/pthreadtypes.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdint.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdint.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h \
+ ../../lib/stdlib.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdlib.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitflags.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitstatus.h \
+ ../../lib/alloca.h ../../include/parted/endian.h \
+ ../../include/parted/debug.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/libintl.h \
+ ../../lib/sys/stat.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/stat.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stat.h \
+ ../../lib/fcntl.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/fcntl.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/fcntl.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/uio.h \
+ r/fat/table.h r/fat/bootsector.h r/fat/context.h r/fat/count.h \
+ r/fat/fatio.h r/fat/traverse.h r/fat/calc.h r/fat/clstdup.h
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h:
+
+../../lib/config.h:
+
+../../lib/string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h:
+
+r/fat/fat.h:
+
+../../include/parted/parted.h:
+
+../../include/parted/constraint.h:
+
+../../include/parted/device.h:
+
+../../include/parted/natmath.h:
+
+../../include/parted/disk.h:
+
+../../include/parted/filesys.h:
+
+../../include/parted/geom.h:
+
+../../include/parted/timer.h:
+
+../../lib/time.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/time.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/time.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/types.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/typesizes.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/timex.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdbool.h:
+
+../../include/parted/exception.h:
+
+../../include/parted/unit.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdarg.h:
+
+../../lib/stdio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/libio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/_G_config.h:
+
+../../lib/wchar.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/wchar.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stdio_lim.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sys_errlist.h:
+
+../../lib/sys/types.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/types.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/endian.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/endian.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap-16.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/select.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/select.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sigset.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/sysmacros.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/pthreadtypes.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdint.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdint.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h:
+
+../../lib/stdlib.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdlib.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitflags.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/waitstatus.h:
+
+../../lib/alloca.h:
+
+../../include/parted/endian.h:
+
+../../include/parted/debug.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/libintl.h:
+
+../../lib/sys/stat.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/stat.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/stat.h:
+
+../../lib/fcntl.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/fcntl.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/fcntl.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/uio.h:
+
+r/fat/table.h:
+
+r/fat/bootsector.h:
+
+r/fat/context.h:
+
+r/fat/count.h:
+
+r/fat/fatio.h:
+
+r/fat/traverse.h:
+
+r/fat/calc.h:
+
+r/fat/clstdup.h:

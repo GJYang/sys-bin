@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#pushd pure-ftpd-1.0.29 > /dev/null
+./configure --host=arm--hisiv400-linux- \
+ --without-standalone \ 
+ --with-minimal \ 
+ --with-language=korean
+
+make 
+#popd >/dev/null

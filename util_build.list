@@ -1,0 +1,17 @@
+busybox
+util-linux
+sysvinit
+bash
+dhcpcd
+lzo
+zlib
+mtd-utils
+ntp
+ncurses
+popt
+procps
+initscripts
+iptables
+ftpd
+tree
+udev

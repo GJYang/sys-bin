@@ -1,0 +1,34 @@
+# linux
+CPPFLAGS+=	-DHAVE_CONFIG_H
+SYSCONFDIR=	/etc
+SBINDIR=	/sbin
+LIBDIR=		/lib
+LIBEXECDIR=	/libexec
+DBDIR=		/var/db
+RUNDIR=		/var/run
+LIBDIR=		/lib
+MANDIR=		/usr/share/man
+CPPFLAGS+=	-DNDEBUG
+DHCPCD_SRCS+=	dhcpcd-embedded.c
+CPPFLAGS+=	-D_GNU_SOURCE
+CPPFLAGS+=	-D_FILE_OFFSET_BITS=64
+CPPFLAGS+=	-D_LARGEFILE_SOURCE
+CPPFLAGS+=	-D_LARGEFILE64_SOURCE
+DHCPCD_SRCS+=	if-linux.c
+CPPFLAGS+=	-DINET
+DHCPCD_SRCS+=	arp.c dhcp.c ipv4.c ipv4ll.c
+CPPFLAGS+=	-DINET6
+DHCPCD_SRCS+=	ipv6.c ipv6nd.c dhcp6.c
+CC=	/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc
+DHCPCD_SRCS+=	if-linux-wext.c
+COMPAT_SRCS+=	compat/arc4random.c
+COMPAT_SRCS+=	compat/arc4random_uniform.c
+COMPAT_SRCS+=	compat/closefrom.c
+COMPAT_SRCS+=	compat/strtoi.c
+COMPAT_SRCS+=	compat/posix_spawn.c
+MD5_SRC=	crypt/md5.c
+SHA256_SRC=	crypt/sha256.c
+SERVICEEXISTS=	
+SERVICECMD=	
+SERVICESTATUS=	
+HOOKSCRIPTS=	50-ntp.conf 50-yp.conf

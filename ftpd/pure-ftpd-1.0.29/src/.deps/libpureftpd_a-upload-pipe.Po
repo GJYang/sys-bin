@@ -1,0 +1,3 @@
+libpureftpd_a-upload-pipe.o: upload-pipe.c ../config.h
+
+../config.h:

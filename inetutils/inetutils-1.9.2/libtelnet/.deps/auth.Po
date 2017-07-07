@@ -1,0 +1,18 @@
+auth.o: auth.c \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h \
+ ../config.h ../confpaths.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h \
+ ../lib/unused-parameter.h
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h:
+
+../config.h:
+
+../confpaths.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h:
+
+../lib/unused-parameter.h:

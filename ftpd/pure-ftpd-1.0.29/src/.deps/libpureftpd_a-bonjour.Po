@@ -1,0 +1,3 @@
+libpureftpd_a-bonjour.o: bonjour.c ../config.h
+
+../config.h:

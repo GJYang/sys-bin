@@ -1,0 +1,3 @@
+libpureftpd_a-diraliases.o: diraliases.c ../config.h
+
+../config.h:

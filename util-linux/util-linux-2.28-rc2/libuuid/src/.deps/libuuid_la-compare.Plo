@@ -1,0 +1,105 @@
+libuuid/src/libuuid_la-compare.lo: libuuid/src/compare.c \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ config.h libuuid/src/uuidP.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/inttypes.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdint.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdint.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stddef.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ libuuid/src/uuid.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/time.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/timex.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/string2.h \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdlib.h
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+config.h:
+
+libuuid/src/uuidP.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/inttypes.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stdint.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdint.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1/include/stddef.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+libuuid/src/uuid.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/sys/time.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/timex.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/xlocale.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/string.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/bits/string2.h:
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdlib.h:

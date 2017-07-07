@@ -1,0 +1,11 @@
+--- Makefile	Mon Sep  7 14:30:21 2015
++++ Makefile	Mon Sep  7 14:30:23 2015
+@@ -11968,7 +11968,7 @@
+ uninstall-hook-libfdisk:
+ 	rm -f $(DESTDIR)$(libdir)/libfdisk.so*
+ install-exec-hook-wall::
+-	chgrp tty $(DESTDIR)$(usrbin_execdir)/wall
++	sudo chgrp tty $(DESTDIR)$(usrbin_execdir)/wall
+ 	chmod g+s $(DESTDIR)$(usrbin_execdir)/wall
+ 
+ #install-exec-hook-write::

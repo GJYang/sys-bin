@@ -1,0 +1,3 @@
+libpureftpd_a-log_pam.o: log_pam.c ../config.h
+
+../config.h:

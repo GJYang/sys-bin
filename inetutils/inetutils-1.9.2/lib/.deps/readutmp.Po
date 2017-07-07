@@ -1,0 +1,225 @@
+readutmp.o: readutmp.c \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h \
+ ../config.h ../confpaths.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h readutmp.h \
+ sys/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/typesizes.h \
+ time.h /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/time.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stddef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/endian.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/endian.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap-16.h \
+ sys/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigset.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/time.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/sysmacros.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/pthreadtypes.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/utmp.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/utmp.h sys/time.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/time.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/utmpx.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/utmpx.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/errno.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/errno.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/linux/errno.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm/errno.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm-generic/errno-base.h \
+ stdio.h /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdio.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/libio.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/_G_config.h wchar.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/wchar.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdarg.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stdio_lim.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sys_errlist.h \
+ sys/stat.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/timex.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/xlocale.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/stat.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stat.h signal.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/signal.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/signum.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/siginfo.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigaction.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigcontext.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigstack.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/ucontext.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigthread.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdbool.h \
+ string.h /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/string.h \
+ stdlib.h /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdlib.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/waitflags.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/waitstatus.h \
+ alloca.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stdlib-float.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdint.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdint.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wchar.h xalloc.h \
+ xalloc-oversized.h
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h:
+
+../config.h:
+
+../confpaths.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h:
+
+readutmp.h:
+
+sys/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/typesizes.h:
+
+time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/time.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stddef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/endian.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/endian.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap-16.h:
+
+sys/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigset.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/sysmacros.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/utmp.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/utmp.h:
+
+sys/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/utmpx.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/utmpx.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/errno.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/errno.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/linux/errno.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm/errno.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/asm-generic/errno-base.h:
+
+stdio.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdio.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/libio.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/_G_config.h:
+
+wchar.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/wchar.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdarg.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stdio_lim.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sys_errlist.h:
+
+sys/stat.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/timex.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/xlocale.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/stat.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stat.h:
+
+signal.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/signal.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/signum.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/siginfo.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigaction.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigcontext.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigstack.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/ucontext.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigthread.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdbool.h:
+
+string.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/string.h:
+
+stdlib.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdlib.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/waitflags.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/waitstatus.h:
+
+alloca.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stdlib-float.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdint.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdint.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wchar.h:
+
+xalloc.h:
+
+xalloc-oversized.h:

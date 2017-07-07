@@ -1,0 +1,11 @@
+--- busybox-1.23.2/Makefile.org	2015-09-10 09:16:43.231286545 +0900
++++ busybox-1.23.2/Makefile	2015-09-10 09:15:15.988287445 +0900
+@@ -289,7 +289,7 @@
+ # Make variables (CC, etc...)
+ 
+ AS		= $(CROSS_COMPILE)as
+-CC		= $(CROSS_COMPILE)gcc
++CC		= $(CROSS_COMPILE)gcc -EL
+ LD		= $(CC) -nostdlib
+ CPP		= $(CC) -E
+ AR		= $(CROSS_COMPILE)ar

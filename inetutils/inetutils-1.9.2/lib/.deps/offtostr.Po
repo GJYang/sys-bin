@@ -1,0 +1,129 @@
+offtostr.o: offtostr.c \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h \
+ anytostr.c ../config.h ../confpaths.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h inttostr.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdint.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdint.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wchar.h \
+ sys/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/types.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/typesizes.h \
+ time.h /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/time.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stddef.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/endian.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/endian.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap-16.h \
+ sys/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/select.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigset.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/time.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/sysmacros.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/pthreadtypes.h \
+ intprops.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include-fixed/el/limits.h \
+ /opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include-fixed/el/syslimits.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/limits.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/posix1_lim.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/local_lim.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/linux/limits.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/posix2_lim.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/xopen_lim.h \
+ /opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stdio_lim.h
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdc-predef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/predefs.h:
+
+anytostr.c:
+
+../config.h:
+
+../confpaths.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/paths.h:
+
+inttostr.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stdint.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/stdint.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/features.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sgidefs.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/gnu/stubs-o32_hard.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/wchar.h:
+
+sys/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/types.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/typesizes.h:
+
+time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/time.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include/stddef.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/endian.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/endian.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/byteswap-16.h:
+
+sys/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/select.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/sigset.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/time.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/sys/sysmacros.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/pthreadtypes.h:
+
+intprops.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include-fixed/el/limits.h:
+
+/opt/mips-2014.05/lib/gcc/mips-linux-gnu/4.8.3/include-fixed/el/syslimits.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/limits.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/posix1_lim.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/local_lim.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/linux/limits.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/posix2_lim.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/xopen_lim.h:
+
+/opt/mips-2014.05/mips-linux-gnu/libc/usr/include/bits/stdio_lim.h:

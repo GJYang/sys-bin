@@ -1,0 +1,2818 @@
+--------------------
+./configure --shared --prefix=/usr
+Tue Sep  8 16:44:13 KST 2015
+=== ztest9732.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest9732.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest9732.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest9732.c
+
+Checking for shared library support...
+=== ztest9732.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest9732.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest9732.so ztest9732.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest9732.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9732.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest9732.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9732 ztest9732.c
+Checking for strerror... Yes.
+
+=== ztest9732.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9732.c
+Checking for unistd.h... Yes.
+
+=== ztest9732.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9732.c
+Checking for stdarg.h... Yes.
+
+=== ztest9732.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9732.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest9732.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9732 ztest9732.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest9732.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9732.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest9732.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9732.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Tue Sep  8 16:59:23 KST 2015
+=== ztest25472.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest25472.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest25472.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest25472.c
+
+Checking for shared library support...
+=== ztest25472.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest25472.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest25472.so ztest25472.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest25472.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25472.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest25472.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest25472 ztest25472.c
+Checking for strerror... Yes.
+
+=== ztest25472.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25472.c
+Checking for unistd.h... Yes.
+
+=== ztest25472.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25472.c
+Checking for stdarg.h... Yes.
+
+=== ztest25472.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25472.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest25472.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest25472 ztest25472.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest25472.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25472.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest25472.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25472.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Tue Sep  8 18:08:27 KST 2015
+=== ztest15049.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest15049.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest15049.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest15049.c
+
+Checking for shared library support...
+=== ztest15049.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest15049.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest15049.so ztest15049.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest15049.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest15049.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest15049.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest15049 ztest15049.c
+Checking for strerror... Yes.
+
+=== ztest15049.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest15049.c
+Checking for unistd.h... Yes.
+
+=== ztest15049.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest15049.c
+Checking for stdarg.h... Yes.
+
+=== ztest15049.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest15049.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest15049.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest15049 ztest15049.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest15049.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest15049.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest15049.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest15049.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep  9 14:05:22 KST 2015
+=== ztest12283.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest12283.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest12283.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest12283.c
+
+Checking for shared library support...
+=== ztest12283.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest12283.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest12283.so ztest12283.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest12283.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12283.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest12283.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest12283 ztest12283.c
+Checking for strerror... Yes.
+
+=== ztest12283.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12283.c
+Checking for unistd.h... Yes.
+
+=== ztest12283.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12283.c
+Checking for stdarg.h... Yes.
+
+=== ztest12283.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12283.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest12283.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest12283 ztest12283.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest12283.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12283.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest12283.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12283.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Thu Sep 10 14:34:38 KST 2015
+=== ztest18045.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest18045.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest18045.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest18045.c
+
+Checking for shared library support...
+=== ztest18045.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest18045.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest18045.so ztest18045.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest18045.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest18045.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest18045.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest18045 ztest18045.c
+Checking for strerror... Yes.
+
+=== ztest18045.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest18045.c
+Checking for unistd.h... Yes.
+
+=== ztest18045.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest18045.c
+Checking for stdarg.h... Yes.
+
+=== ztest18045.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest18045.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest18045.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest18045 ztest18045.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest18045.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest18045.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest18045.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest18045.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Thu Sep 10 15:53:25 KST 2015
+=== ztest1362.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest1362.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest1362.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest1362.c
+
+Checking for shared library support...
+=== ztest1362.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest1362.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest1362.so ztest1362.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest1362.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest1362.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest1362.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest1362 ztest1362.c
+Checking for strerror... Yes.
+
+=== ztest1362.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest1362.c
+Checking for unistd.h... Yes.
+
+=== ztest1362.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest1362.c
+Checking for stdarg.h... Yes.
+
+=== ztest1362.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest1362.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest1362.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest1362 ztest1362.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest1362.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest1362.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest1362.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest1362.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Mon Sep 14 13:51:45 KST 2015
+=== ztest25629.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest25629.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest25629.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest25629.c
+
+Checking for shared library support...
+=== ztest25629.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest25629.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest25629.so ztest25629.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest25629.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25629.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest25629.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest25629 ztest25629.c
+Checking for strerror... Yes.
+
+=== ztest25629.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25629.c
+Checking for unistd.h... Yes.
+
+=== ztest25629.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25629.c
+Checking for stdarg.h... Yes.
+
+=== ztest25629.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25629.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest25629.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest25629 ztest25629.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest25629.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25629.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest25629.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25629.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Thu Sep 24 17:57:18 KST 2015
+=== ztest22080.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest22080.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest22080.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest22080.c
+
+Checking for shared library support...
+=== ztest22080.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest22080.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest22080.so ztest22080.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest22080.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22080.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest22080.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest22080 ztest22080.c
+Checking for strerror... Yes.
+
+=== ztest22080.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22080.c
+Checking for unistd.h... Yes.
+
+=== ztest22080.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22080.c
+Checking for stdarg.h... Yes.
+
+=== ztest22080.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22080.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest22080.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest22080 ztest22080.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest22080.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22080.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest22080.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22080.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 09:22:48 KST 2015
+=== ztest19146.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest19146.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest19146.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest19146.c
+
+Checking for shared library support...
+=== ztest19146.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest19146.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest19146.so ztest19146.o
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 09:26:24 KST 2015
+=== ztest9260.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest9260.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest9260.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest9260.c
+
+Checking for shared library support...
+=== ztest9260.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest9260.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest9260.so ztest9260.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest9260.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9260.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest9260.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9260 ztest9260.c
+Checking for strerror... Yes.
+
+=== ztest9260.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9260.c
+Checking for unistd.h... Yes.
+
+=== ztest9260.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9260.c
+Checking for stdarg.h... Yes.
+
+=== ztest9260.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9260.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest9260.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9260 ztest9260.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest9260.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9260.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest9260.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9260.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 13:47:14 KST 2015
+=== ztest10375.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest10375.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest10375.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest10375.c
+
+Checking for shared library support...
+=== ztest10375.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest10375.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest10375.so ztest10375.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest10375.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest10375.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest10375.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest10375 ztest10375.c
+Checking for strerror... Yes.
+
+=== ztest10375.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest10375.c
+Checking for unistd.h... Yes.
+
+=== ztest10375.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest10375.c
+Checking for stdarg.h... Yes.
+
+=== ztest10375.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest10375.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest10375.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest10375 ztest10375.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest10375.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest10375.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest10375.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest10375.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 13:51:39 KST 2015
+=== ztest25404.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest25404.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest25404.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest25404.c
+
+Checking for shared library support...
+=== ztest25404.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest25404.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest25404.so ztest25404.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest25404.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25404.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest25404.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest25404 ztest25404.c
+Checking for strerror... Yes.
+
+=== ztest25404.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25404.c
+Checking for unistd.h... Yes.
+
+=== ztest25404.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25404.c
+Checking for stdarg.h... Yes.
+
+=== ztest25404.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25404.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest25404.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest25404 ztest25404.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest25404.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25404.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest25404.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest25404.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 13:54:15 KST 2015
+=== ztest29566.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest29566.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest29566.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest29566.c
+
+Checking for shared library support...
+=== ztest29566.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest29566.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest29566.so ztest29566.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest29566.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest29566.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest29566.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest29566 ztest29566.c
+Checking for strerror... Yes.
+
+=== ztest29566.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest29566.c
+Checking for unistd.h... Yes.
+
+=== ztest29566.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest29566.c
+Checking for stdarg.h... Yes.
+
+=== ztest29566.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest29566.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest29566.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest29566 ztest29566.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest29566.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest29566.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest29566.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest29566.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 14:04:26 KST 2015
+=== ztest5278.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest5278.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest5278.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest5278.c
+
+Checking for shared library support...
+=== ztest5278.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest5278.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest5278.so ztest5278.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest5278.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest5278.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest5278.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest5278 ztest5278.c
+Checking for strerror... Yes.
+
+=== ztest5278.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest5278.c
+Checking for unistd.h... Yes.
+
+=== ztest5278.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest5278.c
+Checking for stdarg.h... Yes.
+
+=== ztest5278.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest5278.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest5278.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest5278 ztest5278.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest5278.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest5278.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest5278.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest5278.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 14:09:38 KST 2015
+=== ztest20623.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest20623.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest20623.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest20623.c
+
+Checking for shared library support...
+=== ztest20623.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest20623.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest20623.so ztest20623.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest20623.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest20623.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest20623.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest20623 ztest20623.c
+Checking for strerror... Yes.
+
+=== ztest20623.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest20623.c
+Checking for unistd.h... Yes.
+
+=== ztest20623.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest20623.c
+Checking for stdarg.h... Yes.
+
+=== ztest20623.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest20623.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest20623.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest20623 ztest20623.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest20623.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest20623.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest20623.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest20623.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Wed Sep 30 14:21:46 KST 2015
+=== ztest12718.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -c ztest12718.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest12718.c ===
+int foo() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 ztest12718.c
+
+Checking for shared library support...
+=== ztest12718.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+mips-linux-gnu-gcc -EL -w -c -O3 -fPIC ztest12718.c
+mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest12718.so ztest12718.o
+Building shared library libz.so.1.2.8 with mips-linux-gnu-gcc -EL.
+
+=== ztest12718.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12718.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest12718.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest12718 ztest12718.c
+Checking for strerror... Yes.
+
+=== ztest12718.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12718.c
+Checking for unistd.h... Yes.
+
+=== ztest12718.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12718.c
+Checking for stdarg.h... Yes.
+
+=== ztest12718.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12718.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest12718.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -O3 -D_LARGEFILE64_SOURCE=1 -o ztest12718 ztest12718.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest12718.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12718.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest12718.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+mips-linux-gnu-gcc -EL -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12718.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = mips-linux-gnu-ar
+ARFLAGS = rc
+CC = mips-linux-gnu-gcc -EL
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = mips-linux-gnu-gcc -EL -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = mips-linux-gnu-gcc -EL -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Thu Oct  1 14:49:04 KST 2015
+=== ztest21130.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-hisiv400-linux-gcc -c ztest21130.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest21130.c ===
+int foo() { return 0; }
+===
+arm-hisiv400-linux-gcc -c -O3 ztest21130.c
+
+Checking for shared library support...
+=== ztest21130.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-hisiv400-linux-gcc -w -c -O3 -fPIC ztest21130.c
+arm-hisiv400-linux-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest21130.so ztest21130.o
+Building shared library libz.so.1.2.8 with arm-hisiv400-linux-gcc.
+
+=== ztest21130.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest21130.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest21130.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+arm-hisiv400-linux-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest21130 ztest21130.c
+Checking for strerror... Yes.
+
+=== ztest21130.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest21130.c
+Checking for unistd.h... Yes.
+
+=== ztest21130.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest21130.c
+Checking for stdarg.h... Yes.
+
+=== ztest21130.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest21130.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest21130.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-hisiv400-linux-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest21130 ztest21130.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest21130.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest21130.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest21130.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest21130.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = arm-hisiv400-linux-ar
+ARFLAGS = rc
+CC = arm-hisiv400-linux-gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = arm-hisiv400-linux-gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = arm-hisiv400-linux-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Tue Oct 13 14:36:24 KST 2015
+=== ztest9101.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-hisiv400-linux-gcc -c ztest9101.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest9101.c ===
+int foo() { return 0; }
+===
+arm-hisiv400-linux-gcc -c -O3 ztest9101.c
+
+Checking for shared library support...
+=== ztest9101.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-hisiv400-linux-gcc -w -c -O3 -fPIC ztest9101.c
+arm-hisiv400-linux-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest9101.so ztest9101.o
+Building shared library libz.so.1.2.8 with arm-hisiv400-linux-gcc.
+
+=== ztest9101.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9101.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest9101.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+arm-hisiv400-linux-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9101 ztest9101.c
+Checking for strerror... Yes.
+
+=== ztest9101.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9101.c
+Checking for unistd.h... Yes.
+
+=== ztest9101.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9101.c
+Checking for stdarg.h... Yes.
+
+=== ztest9101.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9101.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest9101.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-hisiv400-linux-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest9101 ztest9101.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest9101.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9101.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest9101.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+arm-hisiv400-linux-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest9101.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = arm-hisiv400-linux-ar
+ARFLAGS = rc
+CC = arm-hisiv400-linux-gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = arm-hisiv400-linux-gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = arm-hisiv400-linux-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = mips-linux-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Thu Dec 10 15:37:22 KST 2015
+=== ztest22173.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-none-linux-gnueabi-gcc -c ztest22173.c
+./configure: line 165: arm-none-linux-gnueabi-gcc: command not found
+... using arm-none-linux-gnueabi-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest22173.c ===
+int foo() { return 0; }
+===
+arm-none-linux-gnueabi-gcc -c -O ztest22173.c
+./configure: line 343: arm-none-linux-gnueabi-gcc: command not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --shared --prefix=/usr
+Thu Dec 10 15:37:54 KST 2015
+=== ztest22216.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-none-linux-gnueabi-gcc -c ztest22216.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest22216.c ===
+int foo() { return 0; }
+===
+arm-none-linux-gnueabi-gcc -c -O3 ztest22216.c
+
+Checking for shared library support...
+=== ztest22216.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-none-linux-gnueabi-gcc -w -c -O3 -fPIC ztest22216.c
+arm-none-linux-gnueabi-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest22216.so ztest22216.o
+Building shared library libz.so.1.2.8 with arm-none-linux-gnueabi-gcc.
+
+=== ztest22216.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22216.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest22216.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+arm-none-linux-gnueabi-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest22216 ztest22216.c
+Checking for strerror... Yes.
+
+=== ztest22216.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22216.c
+Checking for unistd.h... Yes.
+
+=== ztest22216.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22216.c
+Checking for stdarg.h... Yes.
+
+=== ztest22216.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22216.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest22216.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-none-linux-gnueabi-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest22216 ztest22216.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest22216.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22216.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest22216.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+arm-none-linux-gnueabi-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest22216.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = arm-none-linux-gnueabi-ar
+ARFLAGS = rc
+CC = arm-none-linux-gnueabi-gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = arm-none-linux-gnueabi-gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = arm-none-linux-gnueabi-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = arm-none-linux-gnueabi-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.8
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.8
+Z_U4 =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+

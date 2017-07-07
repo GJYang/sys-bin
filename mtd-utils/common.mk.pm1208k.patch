@@ -1,0 +1,27 @@
+--- common.mk	2015-09-25 10:06:49.595092383 +0900
++++ common.mk	2015-09-25 10:07:49.954092413 +0900
+@@ -1,3 +1,15 @@
++CROSS=mips-linux-gnu-
++
++OUTDIR=/home/gjyang/pm1208k/sys-bin
++ZLIBCPPFLAGS=-I$(OUTDIR)/zlib/usr/include
++ZLIBLDFLAGS=-L$(OUTDIR)/zlib/usr/lib
++
++LZOCPPFLAGS=-I$(OUTDIR)/lzo/usr/include
++LZOLDFLAGS=-L$(OUTDIR)/lzo/usr/lib
++
++CFLAGS=-I/home/gjyang/pm1208k/sys-bin/util-linux/usr/include
++LDFLAGS=-L/home/gjyang/pm1208k/sys-bin/util-linux/usr/lib
++
+ CC := $(CROSS)gcc
+ AR := $(CROSS)ar
+ RANLIB := $(CROSS)ranlib
+@@ -7,7 +19,7 @@
+ try-run = $(shell set -e; ($(1)) >/dev/null 2>&1 && echo "$(2)" || echo "$(3)")
+ cc-option = $(call try-run, $(CC) $(1) -c -xc /dev/null -o /dev/null,$(1),$(2))
+ 
+-CFLAGS ?= -O2 -g
++CFLAGS ?= -O2 -g -DWITHOUT_XATTR=1
+ WFLAGS := -Wall \
+ 	$(call cc-option,-Wextra) \
+ 	$(call cc-option,-Wwrite-strings) \

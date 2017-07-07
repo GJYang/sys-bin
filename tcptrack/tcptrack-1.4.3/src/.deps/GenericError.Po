@@ -1,0 +1,234 @@
+GenericError.o: GenericError.cc \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/cassert \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/assert.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/string \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/c++config.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/os_defines.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/cpu_defines.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stringfwd.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/memoryfwd.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/char_traits.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_algobase.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/functexcept.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/exception_defines.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/cpp_type_traits.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/type_traits.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/numeric_traits.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_pair.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/move.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/concept_check.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_iterator_base_types.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_iterator_base_funcs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/debug/debug.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_iterator.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/postypes.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/cwchar \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/wchar.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdio.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdarg.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/allocator.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/c++allocator.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/new_allocator.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/new \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/exception \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/atomic_lockfree_defines.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/localefwd.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/c++locale.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/clocale \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/locale.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/locale.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/iosfwd \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/cctype \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/ctype.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/types.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/typesizes.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/endian.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/endian.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap-16.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/ostream_insert.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/cxxabi_forced.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_function.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/backward/binders.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/range_access.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/basic_string.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/atomicity.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/gthr.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/gthr-default.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/pthread.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sched.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/time.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sched.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/time.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/timex.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/pthreadtypes.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/setjmp.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/atomic_word.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/basic_string.tcc \
+ GenericError.h AppError.h
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/cassert:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/assert.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/string:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/c++config.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/os_defines.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/cpu_defines.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stringfwd.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/memoryfwd.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/char_traits.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_algobase.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/functexcept.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/exception_defines.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/cpp_type_traits.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/type_traits.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/numeric_traits.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_pair.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/move.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/concept_check.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_iterator_base_types.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_iterator_base_funcs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/debug/debug.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_iterator.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/postypes.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/cwchar:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/wchar.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdio.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdarg.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stddef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/xlocale.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/allocator.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/c++allocator.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/new_allocator.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/new:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/exception:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/atomic_lockfree_defines.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/localefwd.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/c++locale.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/clocale:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/locale.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/locale.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/iosfwd:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/cctype:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/ctype.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/types.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/typesizes.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/endian.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/endian.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/byteswap-16.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/ostream_insert.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/cxxabi_forced.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/stl_function.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/backward/binders.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/range_access.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/basic_string.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/ext/atomicity.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/gthr.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/gthr-default.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/pthread.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sched.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/time.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/sched.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/time.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/timex.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/pthreadtypes.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/setjmp.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/arm-hisiv400-linux-gnueabi/bits/atomic_word.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/arm-hisiv400-linux-gnueabi/include/c++/4.8.3/bits/basic_string.tcc:
+
+GenericError.h:
+
+AppError.h:

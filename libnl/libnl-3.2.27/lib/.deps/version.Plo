@@ -1,0 +1,7 @@
+version.lo: version.c \
+ /opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ ../include/netlink/version.h
+
+/opt/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+../include/netlink/version.h:

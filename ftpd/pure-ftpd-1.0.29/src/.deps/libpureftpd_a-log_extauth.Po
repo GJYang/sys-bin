@@ -1,0 +1,3 @@
+libpureftpd_a-log_extauth.o: log_extauth.c ../config.h
+
+../config.h:

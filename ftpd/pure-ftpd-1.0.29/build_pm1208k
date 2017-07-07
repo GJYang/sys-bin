@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#pushd pure-ftpd-1.0.29 > /dev/null
+./configure --host=mips-linux-gnu CFLAGS=-EL LDFLAGS=-EL \
+ --without-standalone \ 
+ --with-minimal \ 
+ --with-language=korean
+
+#popd >/dev/null

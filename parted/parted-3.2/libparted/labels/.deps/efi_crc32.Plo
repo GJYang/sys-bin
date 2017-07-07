@@ -1,0 +1,34 @@
+efi_crc32.lo: efi_crc32.c \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h \
+ ../../lib/config.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdint.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdint.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h \
+ /opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdc-predef.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/predefs.h:
+
+../../lib/config.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/lib/gcc/arm-hisiv400-linux-gnueabi/4.8.3/include/stdint.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/stdint.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/features.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/sys/cdefs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wordsize.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/gnu/stubs-soft.h:
+
+/opt/hisi-linux/x86-arm/arm-hisiv400-linux/target/usr/include/bits/wchar.h:

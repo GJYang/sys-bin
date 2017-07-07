@@ -1,0 +1,3 @@
+libpureftpd_a-tls.o: tls.c ../config.h
+
+../config.h:

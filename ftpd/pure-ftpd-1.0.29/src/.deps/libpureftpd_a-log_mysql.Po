@@ -1,0 +1,3 @@
+libpureftpd_a-log_mysql.o: log_mysql.c ../config.h
+
+../config.h:
